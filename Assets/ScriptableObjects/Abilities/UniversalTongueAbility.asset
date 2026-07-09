@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d81a6b6404a92954b869903b7cb8a87c, type: 3}
+  m_Name: UniversalTongueAbility
+  m_EditorClassIdentifier: 
+  AbilityName: Universal Tongue
+  InputActionName: Player/Universal
+  Icon: {fileID: 0}
+  Flavor: 0
+  SwingAbility: {fileID: 11400000, guid: fdf2c0b70b98de545a43ce2de63bc02e, type: 2}
+  GrapplingAbility: {fileID: 11400000, guid: 5f1206bed886c0a4694a6e29b9b55d6e, type: 2}

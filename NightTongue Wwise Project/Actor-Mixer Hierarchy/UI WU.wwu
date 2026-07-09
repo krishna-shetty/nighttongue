@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1AADB50E-8107-4E8F-B438-374265749A6D}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="UI WU" ID="{1AADB50E-8107-4E8F-B438-374265749A6D}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="UI Buttons" ID="{BAA5A2C0-0DAE-4592-88EE-C473A7EB7EF0}" ShortID="752362447">
+					<PropertyList>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX Bus" ID="{0330366B-F850-4965-BDFE-D46169F493ED}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="UI_click" ID="{9830F29F-4FC6-4AB3-99D8-F474E69EF6F9}" ShortID="232813982">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI_click" ID="{AC7EEBCD-F4FD-4B58-A065-E3DAD9200831}">
+									<Language>SFX</Language>
+									<AudioFile>UI_click.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="958574105"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI_click" ID="{AC7EEBCD-F4FD-4B58-A065-E3DAD9200831}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="UI_hover" ID="{6B1BBB4F-135F-46CF-837D-E05906BB8F77}" ShortID="333597847">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI_hover" ID="{F3CA6AA2-C173-4FB4-A6A2-5055A84A3B1C}">
+									<Language>SFX</Language>
+									<AudioFile>UI_hover.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="477827456"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI_hover" ID="{F3CA6AA2-C173-4FB4-A6A2-5055A84A3B1C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="UI_unhover" ID="{D4990B39-E194-458A-B85B-C8CFD3ACE84B}" ShortID="78103642">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI_unhover" ID="{F2D63AEE-A36F-420A-A8B2-2E79D3A11CD1}">
+									<Language>SFX</Language>
+									<AudioFile>UI_unhover.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="212733085"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI_unhover" ID="{F2D63AEE-A36F-420A-A8B2-2E79D3A11CD1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="UI_tap" ID="{6BA3647B-AB61-40B9-A18B-EC6116752745}" ShortID="180185043">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI_tap" ID="{09379627-A11E-46C2-8133-DC0389E18706}">
+									<Language>SFX</Language>
+									<AudioFile>UI_tap.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="543989087"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI_tap" ID="{09379627-A11E-46C2-8133-DC0389E18706}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+				<Sound Name="SFX_bar_drink_hover" ID="{6D7591C7-4D63-4764-82AA-B40F977B4E65}" ShortID="1012695595">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX Bus" ID="{0330366B-F850-4965-BDFE-D46169F493ED}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_bar_drink_hover" ID="{B8FC0011-6B5F-4D43-A2DE-F62B34B2B5F2}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_bar_drink_hover.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="404232577"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_bar_drink_hover" ID="{B8FC0011-6B5F-4D43-A2DE-F62B34B2B5F2}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="AMB_bar_drink_click" ID="{852559F1-67B2-412C-A893-5B1276271D5E}" ShortID="915823990">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX Bus" ID="{0330366B-F850-4965-BDFE-D46169F493ED}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="AMB_bar_drink_click" ID="{800B717D-BF80-4A84-9506-BA567E888D22}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.35906715100038"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="1.07720145300114"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="0.87425045460962"/>
+								<Property Name="TrimEnd" Type="Real64" Value="2.29490747831831"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>AMB_bar_drink_click.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="711325325"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="AMB_bar_drink_click" ID="{800B717D-BF80-4A84-9506-BA567E888D22}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

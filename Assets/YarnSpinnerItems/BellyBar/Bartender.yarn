@@ -1,0 +1,67 @@
+﻿title: Bartender
+---
+
+<<declare $firstConvoWBartenderDone = false>>
+
+<<if !$firstConvoWBartenderDone>>
+    <<set $firstConvoWBartenderDone = true>>
+    <<jump firstBartender>>
+<<else>>
+    <<jump repeatBartender>>
+<<endif>>
+
+===
+title: firstBartender
+---
+
+    Bartender: You look like you could use a drink, kid.
+
+    Tami: For so long there was still a hint of flavor, but today...
+    
+    Tami: she took bite after bite and there was nothing.
+
+    Bartender: Seems like the whole body's been off these days.
+
+    Tami: What am I supposed to do now, move out like Appendix did?
+
+    Bartender: Well, If there's one thing I've learned working here, 
+    
+    Bartender: it's that this whole place is connected.
+    
+    Bartender: Even when the mind suppresses something, the body doesn't.
+
+    Bartender: Here, take a look at the menu. See what you can find.
+    
+    <<set $firstConvoWBartenderDone = false>>
+===
+title: secondBartender
+---
+
+    Bartender: Any luck?
+
+    Tami: At her grandmother's teahouse, cooking made her so..happy. 
+    
+    Tami: She lit up like I haven't seen her do in years.
+
+    Tami: Any chance you have a mooncake recipe floating around back there?
+
+    Bartender: Let me check.
+
+    Bartender: Looks like no one's touched this in ages.
+
+    Tami: You think this can bring her taste back?
+
+    Bartender: Only one way to find out.
+===
+title: thirdBartender
+---
+
+    Bartender: She's waking up! You need to get back!
+
+===
+title: repeatBartender
+---
+
+    Bartender: What are you waiting for then? She won't be asleep forever!
+
+===

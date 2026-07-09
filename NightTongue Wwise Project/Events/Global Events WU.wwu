@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3115CB29-B8F6-4B86-99AD-24FC8E657B04}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Global Events WU" ID="{3115CB29-B8F6-4B86-99AD-24FC8E657B04}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{74BD8F94-8C0D-4FF4-8EC0-376DA164371D}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Damage WU" ID="{74BD8F94-8C0D-4FF4-8EC0-376DA164371D}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="6"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Tami" ID="{1F684937-E51B-4DCC-9F95-C2F18832C8B1}" ShortID="490610378">
+					<ChildrenList>
+						<ActorMixer Name="SFX_tami_fall_acid" ID="{38D23C32-D197-4FA6-BFEB-A7921A2513A4}" ShortID="337565861">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="AttenuationDistanceScaling" Type="Real32" Value="2"/>
+								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="13"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Default Attenuation" ID="{FF599457-E076-4EC3-A589-630ADC95215C}" WorkUnitID="{95295B8B-2EA3-4674-8D7B-1A97F380DCD1}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Combat" ID="{A1E5709A-706D-4100-9C70-84D80AE1C278}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+								<Reference Name="UserAuxSend3">
+									<ObjectRef Name="Teahouse_INT_Reverb" ID="{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_tami_fall_acid" ID="{29E341BE-F1E6-480A-9371-20E04A5BE2E8}" ShortID="931130917">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX Bus" ID="{0330366B-F850-4965-BDFE-D46169F493ED}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_tami_fall_acid" ID="{0C374CD2-DCB2-48E7-A171-D30496D387F3}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.708618108292072"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.31275029558307"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SFX_tami_fall_acid.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="725244182"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_tami_fall_acid" ID="{0C374CD2-DCB2-48E7-A171-D30496D387F3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_tami_fall_water" ID="{040C01CE-7673-452D-9192-3EF2E58CB8B1}" ShortID="630005930">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX Bus" ID="{0330366B-F850-4965-BDFE-D46169F493ED}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_tami_fall_water" ID="{50894CFF-9153-45A5-B662-6FE4E3C9DB17}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_tami_fall_water.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="299055625"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_tami_fall_water" ID="{50894CFF-9153-45A5-B662-6FE4E3C9DB17}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<StateInfo>
+								<StatePropertyList>
+									<Property Name="Highpass"/>
+									<Property Name="Lowpass"/>
+									<Property Name="MakeUpGain"/>
+									<Property Name="Pitch"/>
+									<Property Name="UserAuxSendVolume3"/>
+									<Property Name="Volume"/>
+								</StatePropertyList>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="SceneSwitch" ID="{668FC4B0-1BC0-4728-AC69-7C3B82B73853}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Teahouse_INT" ID="{AFDCACEA-CCC3-4096-97C1-7C1B5CCB2B96}"/>
+										<CustomState Name="" ID="{2CA4D496-069C-4646-A013-7FAD346A6443}" ShortID="670788210">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="15"/>
+												<Property Name="UserAuxSendVolume3" Type="Real64" Value="14"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Boss" ID="{F806CE04-C0BB-40D5-94F0-E0466EC695B0}"/>
+										<CustomState Name="" ID="{97A31CAA-226D-454C-8CF6-9E3B385FC99C}" ShortID="528060336"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Cutscene" ID="{58741484-806C-424C-90E7-B561ABFEBE6C}"/>
+										<CustomState Name="" ID="{2F3F5924-C561-4859-8167-0EED9C27A5CE}" ShortID="351048935"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Teahouse_EXT" ID="{42F3D9A6-CEA9-4928-9F93-3B5F39F8B30C}"/>
+										<CustomState Name="" ID="{33E267AB-B9A8-4A0D-9178-E65D931E028C}" ShortID="559680981"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="BellyBar" ID="{0E933AFD-9E4C-4A95-A95F-DA9E2109BBC0}"/>
+										<CustomState Name="" ID="{9FB5D613-4F63-4DAB-8366-B1A447F16101}" ShortID="632734052"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Credits" ID="{42E0EA2F-E80A-4B58-BD2C-0F04143A1CDD}"/>
+										<CustomState Name="" ID="{C66CC4D5-CBD7-430A-89F1-1FFB6EAE181E}" ShortID="935480282"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="MainMenu" ID="{E3A91F98-A27F-4C64-9D40-387A4564EC72}"/>
+										<CustomState Name="" ID="{075490A3-7A9D-44FC-BFCA-37C18704A4F8}" ShortID="990930770"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="None" ID="{CCC415A5-C82A-4F86-AD75-B4A1E1CECFA6}"/>
+										<CustomState Name="" ID="{93C6AED8-3354-4E67-A875-DF51FC38B229}" ShortID="165195723"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</ActorMixer>
+						<RandomSequenceContainer Name="SFX_tami_damage" ID="{12ED2445-504F-433D-AC62-B1DCD96C35B2}" ShortID="112189371">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Combat" ID="{A1E5709A-706D-4100-9C70-84D80AE1C278}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_tami_damage_01" ID="{F8AB9BAC-862E-4E1A-AACE-2C96A992132D}" ShortID="143155255">
+									<PropertyList>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>14</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_tami_damage_01" ID="{29B3C407-E1E2-498E-A4CD-DEBBFD2AC0EC}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_tami_damage_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="383920120"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_tami_damage_01" ID="{29B3C407-E1E2-498E-A4CD-DEBBFD2AC0EC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_tami_damage_02" ID="{975247C6-C742-4B54-A595-7444A5103232}" ShortID="481044155">
+									<PropertyList>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>11</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_tami_damage_02" ID="{1591F8B1-14F8-4C00-9D1A-C97AD22EB66B}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_tami_damage_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="167115619"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_tami_damage_02" ID="{1591F8B1-14F8-4C00-9D1A-C97AD22EB66B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_tami_damage_03" ID="{03BB6551-EFED-4461-BBB2-599CB95CBB6D}" ShortID="55984229">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>8</Value>
+											</ValueList>
+										</Property>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>16</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_tami_damage_03" ID="{8EF44782-675C-416F-A5E4-CC3E62F65608}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_tami_damage_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="390777594"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_tami_damage_03" ID="{8EF44782-675C-416F-A5E4-CC3E62F65608}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="SFX_burn" ID="{EA32664D-1881-4E28-A7C1-45C7B405D98E}" ShortID="324133869">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="AttenuationDistanceScaling" Type="Real32" Value="2"/>
+								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="13"/>
+								<Property Name="UserAuxSendVolume3" Type="Real64">
+									<ValueList>
+										<Value>-96</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Default Attenuation" ID="{FF599457-E076-4EC3-A589-630ADC95215C}" WorkUnitID="{95295B8B-2EA3-4674-8D7B-1A97F380DCD1}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Combat" ID="{A1E5709A-706D-4100-9C70-84D80AE1C278}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+								<Reference Name="UserAuxSend3">
+									<ObjectRef Name="Teahouse_INT_Reverb" ID="{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_burn" ID="{486CBA88-0CEE-4B75-B0A8-469E4DF54A54}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_burn.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="977119962"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StatePropertyList>
+									<Property Name="Highpass"/>
+									<Property Name="Lowpass"/>
+									<Property Name="MakeUpGain"/>
+									<Property Name="Pitch"/>
+									<Property Name="UserAuxSendVolume3"/>
+									<Property Name="Volume"/>
+								</StatePropertyList>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="SceneSwitch" ID="{668FC4B0-1BC0-4728-AC69-7C3B82B73853}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Teahouse_INT" ID="{AFDCACEA-CCC3-4096-97C1-7C1B5CCB2B96}"/>
+										<CustomState Name="" ID="{90F361A5-D9BF-4644-B0A9-D4795DBFE7C8}" ShortID="1029840744">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="30"/>
+												<Property Name="UserAuxSendVolume3" Type="Real64" Value="90"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Boss" ID="{F806CE04-C0BB-40D5-94F0-E0466EC695B0}"/>
+										<CustomState Name="" ID="{8B4CBFF5-F169-40D2-9F2B-D28BFFE6BCCF}" ShortID="658511274"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Cutscene" ID="{58741484-806C-424C-90E7-B561ABFEBE6C}"/>
+										<CustomState Name="" ID="{23446A9C-2289-48DC-9716-9FDB1F40AA9E}" ShortID="525484488"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Teahouse_EXT" ID="{42F3D9A6-CEA9-4928-9F93-3B5F39F8B30C}"/>
+										<CustomState Name="" ID="{B72825AD-EDA8-4746-BBD5-69B96D001DBC}" ShortID="533917018"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="BellyBar" ID="{0E933AFD-9E4C-4A95-A95F-DA9E2109BBC0}"/>
+										<CustomState Name="" ID="{063C471C-5A9F-485E-A861-D462218A8175}" ShortID="39847729"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Credits" ID="{42E0EA2F-E80A-4B58-BD2C-0F04143A1CDD}"/>
+										<CustomState Name="" ID="{6FB4DE9E-F75F-4748-8FEF-B93C86951118}" ShortID="732509355"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="MainMenu" ID="{E3A91F98-A27F-4C64-9D40-387A4564EC72}"/>
+										<CustomState Name="" ID="{9EEBC1C8-1456-49E9-8A27-0757A7F0C695}" ShortID="929028129"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="None" ID="{CCC415A5-C82A-4F86-AD75-B4A1E1CECFA6}"/>
+										<CustomState Name="" ID="{AEE974DE-A577-4E23-8260-1F8077E7F0D0}" ShortID="908693571"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_burn" ID="{486CBA88-0CEE-4B75-B0A8-469E4DF54A54}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Goomba" ID="{73D9DD3D-A275-452E-B80C-02FFC3482D77}" ShortID="67683748">
+					<ChildrenList>
+						<Sound Name="SFX_goomba_attack" ID="{560320E1-B054-4F89-8578-08227C4A419B}" ShortID="224018485">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="AttenuationDistanceScaling" Type="Real32" Value="2"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="10"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Default Attenuation" ID="{FF599457-E076-4EC3-A589-630ADC95215C}" WorkUnitID="{95295B8B-2EA3-4674-8D7B-1A97F380DCD1}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Combat" ID="{A1E5709A-706D-4100-9C70-84D80AE1C278}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_goomba_attack" ID="{22BB56AB-F7D3-4EE5-91D6-26D7F8C4D8E5}">
+									<Language>SFX</Language>
+									<AudioFile>SFX_goomba_attack.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="663179529"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_goomba_attack" ID="{22BB56AB-F7D3-4EE5-91D6-26D7F8C4D8E5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_goomba_damage" ID="{FE16461E-E83C-4C26-91EE-C8D4C94408A5}" ShortID="465589924">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="AttenuationDistanceScaling" Type="Real32" Value="2"/>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>19</Value>
+									</ValueList>
+								</Property>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>14</Value>
+									</ValueList>
+								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="10"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Default Attenuation" ID="{FF599457-E076-4EC3-A589-630ADC95215C}" WorkUnitID="{95295B8B-2EA3-4674-8D7B-1A97F380DCD1}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Combat" ID="{A1E5709A-706D-4100-9C70-84D80AE1C278}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_goomba_damage" ID="{94AA3452-18AB-47EB-BE2A-2B0590756A57}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.104031249880791"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.388383333365122"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>SFX_goomba_damage.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="880440434"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{66418CE4-0D01-49A0-97CA-8F448E94E2B2}"/>
+							</PositioningInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_goomba_damage" ID="{94AA3452-18AB-47EB-BE2A-2B0590756A57}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Boss" ID="{AC90B2B2-0D95-46E0-94E8-1FFA2BB05657}" ShortID="403629756">
+					<ChildrenList>
+						<ActorMixer Name="Boss Mixer" ID="{B2DCAE1C-F1A0-41E8-B548-D3EE152AE34C}" ShortID="798605">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="AttenuationDistanceScaling" Type="Real32" Value="4"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="20"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Default Attenuation" ID="{FF599457-E076-4EC3-A589-630ADC95215C}" WorkUnitID="{95295B8B-2EA3-4674-8D7B-1A97F380DCD1}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Combat" ID="{A1E5709A-706D-4100-9C70-84D80AE1C278}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Heart_Reverb" ID="{9B58766C-D008-49F6-B8B1-CDFF11EA9602}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_boss_puff" ID="{D622052A-D36B-475D-AFDF-D6AC3875A7D0}" ShortID="259968531">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_boss_puff" ID="{1D50DD06-DA87-4062-A97F-94CD8E46451C}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_boss_puff.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1018123111"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_boss_puff" ID="{1D50DD06-DA87-4062-A97F-94CD8E46451C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="SFX_boss_attack" ID="{DD1BCD8F-63B3-48D8-8154-7B7898DA3F40}" ShortID="367227286">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_boss_attack_01" ID="{C1570438-9570-40FC-A548-DD2C12E82FAB}" ShortID="485237639">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="20"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-13</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Default Attenuation" ID="{FF599457-E076-4EC3-A589-630ADC95215C}" WorkUnitID="{95295B8B-2EA3-4674-8D7B-1A97F380DCD1}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Combat" ID="{A1E5709A-706D-4100-9C70-84D80AE1C278}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Heart_Reverb" ID="{9B58766C-D008-49F6-B8B1-CDFF11EA9602}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_boss_attack_01" ID="{EB2ABE76-75CC-49DA-8701-D22C079E5EB0}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_boss_attack_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="608321178"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_boss_attack_01" ID="{EB2ABE76-75CC-49DA-8701-D22C079E5EB0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SFX_boss_attack_02" ID="{B3C82ADF-9A7A-49F0-AFE1-72708A6E5F82}" ShortID="910784259">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="20"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-13</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Default Attenuation" ID="{FF599457-E076-4EC3-A589-630ADC95215C}" WorkUnitID="{95295B8B-2EA3-4674-8D7B-1A97F380DCD1}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Combat" ID="{A1E5709A-706D-4100-9C70-84D80AE1C278}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Heart_Reverb" ID="{9B58766C-D008-49F6-B8B1-CDFF11EA9602}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_boss_attack_02" ID="{E60253A3-D9DD-4E55-BABF-043BABC28014}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_boss_attack_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="274633021"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_boss_attack_02" ID="{E60253A3-D9DD-4E55-BABF-043BABC28014}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

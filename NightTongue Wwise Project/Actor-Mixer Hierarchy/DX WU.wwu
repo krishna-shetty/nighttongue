@@ -1,0 +1,2877 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{385C55D0-3149-4830-AD17-BC896386264C}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="DX WU" ID="{385C55D0-3149-4830-AD17-BC896386264C}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="22"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="DX_tami" ID="{C5BC073F-85BF-47FB-8F40-191993A60940}" ShortID="992950488">
+					<PropertyList>
+						<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{A3F1F978-26BA-4741-B648-F4B3EEC1C71D}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="100"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-96</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="DX Bus" ID="{7312B2D3-C826-482F-8F23-854B2A1CEA29}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="BellyBar_Reverb" ID="{D05B4065-7A01-419D-AC28-11F72A9787B0}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="dx_tami_a" ID="{69D4C7EB-F832-4D65-9C15-C1FD4274FC56}" ShortID="111069355">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_tami_a" ID="{C28F0370-FAED-42A6-BFA4-B6FB5BC6C226}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.25"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.201233183856502"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_tami_a.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="770300209"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_tami_a" ID="{C28F0370-FAED-42A6-BFA4-B6FB5BC6C226}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_tami_b" ID="{BCF4F19E-0B94-4373-B602-DAEE4790AAB6}" ShortID="306923141">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_tami_b" ID="{4972D603-0E5A-4F86-925E-850A75C245EE}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.137148514851485"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.135519801980198"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_tami_b.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="344474662"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_tami_b" ID="{4972D603-0E5A-4F86-925E-850A75C245EE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_tami_c" ID="{DB59C771-BD0D-4E5E-A13F-5F4A8ADDDFAC}" ShortID="79638127">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_tami_c" ID="{54D74534-4581-405C-9B1D-1E489FE3B9C9}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0969257425742575"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.140470297029703"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_tami_c.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="662991372"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_tami_c" ID="{54D74534-4581-405C-9B1D-1E489FE3B9C9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_tami_d" ID="{DD71A0AD-7E62-4076-94F8-DEB11D3946BE}" ShortID="586610027">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_tami_d" ID="{6B17E628-EFED-46CC-9A0D-F0C72F99906E}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.135242574257426"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.146658415841584"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.186262376237624"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_tami_d.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="990982219"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_tami_d" ID="{6B17E628-EFED-46CC-9A0D-F0C72F99906E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_tami_e" ID="{BA742B9B-5B32-45B1-82BB-3CC6A4CB0228}" ShortID="340175267">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_tami_e" ID="{8415BE78-C149-44C4-9328-188F961D93E5}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.25"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.18329596412556"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_tami_e.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="554781607"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_tami_e" ID="{8415BE78-C149-44C4-9328-188F961D93E5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_tami_f" ID="{B2ABEA67-3683-4605-8871-DDEA0FC07EE5}" ShortID="784837538">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_tami_f" ID="{2DC92B72-D215-43A6-B79A-926ECEF1DDE2}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.145"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.158415841584158"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_tami_f.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="456583565"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_tami_f" ID="{2DC92B72-D215-43A6-B79A-926ECEF1DDE2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_tami_g" ID="{9F939C8E-30BE-4FD5-806C-B67BFBB1E834}" ShortID="7034960">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_tami_g" ID="{07D2B02D-5185-4280-9F7A-47C0AE496455}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.155519801980198"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.139851485148515"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_tami_g.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1030602842"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_tami_g" ID="{07D2B02D-5185-4280-9F7A-47C0AE496455}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_tami_h" ID="{3FEE6CFC-EAFA-47DF-9ECB-E0FEE13174E3}" ShortID="1053784005">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_tami_h" ID="{F4B21DAF-DD6E-4E7C-B735-A7AC44806CFA}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.151188118811881"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.122524752475248"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_tami_h.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="106406905"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_tami_h" ID="{F4B21DAF-DD6E-4E7C-B735-A7AC44806CFA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_tami_i" ID="{A19515D3-80D1-4A76-9725-F578E085D7BB}" ShortID="803255602">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_tami_i" ID="{7F0466AA-43B5-4510-B2CE-E24FC8FC8684}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.25"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.158632286995515"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_tami_i.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="713774480"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_tami_i" ID="{7F0466AA-43B5-4510-B2CE-E24FC8FC8684}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_tami_j" ID="{117C74D5-FD9C-4C07-8DC6-701E62CC82BA}" ShortID="478736571">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_tami_j" ID="{004BB815-0A80-4FDC-B733-EE139CF3296E}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.177178217821782"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.146039603960396"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_tami_j.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="239098230"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_tami_j" ID="{004BB815-0A80-4FDC-B733-EE139CF3296E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_tami_k" ID="{4EFBE1B9-741B-46D1-816E-D49BFE5FB27F}" ShortID="263580406">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_tami_k" ID="{3216AFEC-A09F-46E9-BFAA-E663B3A91122}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.177178217821782"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.155940594059406"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0464108910891089"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_tami_k.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1027740293"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_tami_k" ID="{3216AFEC-A09F-46E9-BFAA-E663B3A91122}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_tami_l" ID="{87AA5849-4674-4A7D-B6E6-1A9EB5DC17BC}" ShortID="462784440">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_tami_l" ID="{73ED4EA3-1BBD-4399-A39F-DC3B8D09E5B8}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.185222772277228"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.201732673267327"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_tami_l.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="625965357"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_tami_l" ID="{73ED4EA3-1BBD-4399-A39F-DC3B8D09E5B8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_tami_m" ID="{82A4793B-C7FA-4BC1-9167-FA269AB629BE}" ShortID="973746010">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>130</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_tami_m" ID="{F87FA227-4633-48D5-8277-1DDFF9B0D10F}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.119009900990099"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.140470297029703"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_tami_m.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="469422738"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_tami_m" ID="{F87FA227-4633-48D5-8277-1DDFF9B0D10F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_tami_n" ID="{9E665105-B44F-498E-9DD4-45855927FF1D}" ShortID="922807831">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>230</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_tami_n" ID="{E809851A-8B01-4245-8377-C836AA750DF5}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.119009900990099"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.137995049504951"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_tami_n.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="910540747"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_tami_n" ID="{E809851A-8B01-4245-8377-C836AA750DF5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_tami_o" ID="{71E6B98B-5726-4D62-BEFD-960B0F238B10}" ShortID="699510665">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_tami_o" ID="{474E058C-E11E-46C6-88E5-45E738EEEB81}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.25"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.15134529147982"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_tami_o.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="67682474"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_tami_o" ID="{474E058C-E11E-46C6-88E5-45E738EEEB81}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_tami_p" ID="{FFFC3D1E-02F9-4710-8306-A30AD4A3E998}" ShortID="855358088">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_tami_p" ID="{5A71C051-9DF3-40FB-B08D-5BA8DFF06F6C}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0812623762376238"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.136757425742574"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0129950495049505"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_tami_p.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="161214462"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_tami_p" ID="{5A71C051-9DF3-40FB-B08D-5BA8DFF06F6C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_tami_q" ID="{5EDE12D9-38D1-482D-802C-1EBE58BC9E4B}" ShortID="992550903">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_tami_q" ID="{E4B612C2-B30E-4745-BADF-39429EBD9B71}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.123767326732673"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.159653465346535"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_tami_q.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="917741124"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_tami_q" ID="{E4B612C2-B30E-4745-BADF-39429EBD9B71}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_tami_r" ID="{932F4759-FE33-47A2-B2AC-02944A0401FE}" ShortID="412918321">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_tami_r" ID="{639AA65D-85FC-4475-BB56-90252BA880E1}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0977821782178218"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.136757425742574"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_tami_r.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="516440497"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_tami_r" ID="{639AA65D-85FC-4475-BB56-90252BA880E1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_tami_s" ID="{90BC3D66-16E1-4B8B-9074-7AC60C2F7A91}" ShortID="855186315">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>24</Value>
+									</ValueList>
+								</Property>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_tami_s" ID="{39D4525A-4B81-4A2F-BDD3-E4CAF9406FC0}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.109495049504951"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.120049504950495"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_tami_s.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="440976626"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_tami_s" ID="{39D4525A-4B81-4A2F-BDD3-E4CAF9406FC0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_tami_t" ID="{C40EF6D4-39A4-4466-BD7A-4C9D880852C7}" ShortID="611756910">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>28</Value>
+									</ValueList>
+								</Property>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_tami_t" ID="{8EA013F6-616E-483E-B82E-F6D0660940D8}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.085450495049505"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.16769801980198"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.19740099009901"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_tami_t.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1069220616"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_tami_t" ID="{8EA013F6-616E-483E-B82E-F6D0660940D8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_tami_u" ID="{138D0418-4410-41FC-A932-F4E50691AF9E}" ShortID="507261085">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_tami_u" ID="{5CA0DF81-B9DF-44D4-BEEB-BDB314167A45}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.25"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.150385161834569"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_tami_u.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="713642632"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_tami_u" ID="{5CA0DF81-B9DF-44D4-BEEB-BDB314167A45}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_tami_v" ID="{0B78DFA3-0520-42B8-A91B-00CA5E51E46D}" ShortID="1010943011">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_tami_v" ID="{79079FB0-ABFA-463A-93D2-473A78629C61}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.113014851485149"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.126237623762376"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_tami_v.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="35858086"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_tami_v" ID="{79079FB0-ABFA-463A-93D2-473A78629C61}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_tami_w" ID="{A2F218C1-1D52-4ED3-BA38-A5DAD3146BE7}" ShortID="474176209">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_tami_w" ID="{B33C44DA-9D83-414A-B16E-216127C3034E}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.106589108910891"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.129331683168317"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_tami_w.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="908885052"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_tami_w" ID="{B33C44DA-9D83-414A-B16E-216127C3034E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_tami_x" ID="{9C035A41-DC9F-46FB-B230-6FC276499F09}" ShortID="758622480">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_tami_x" ID="{C6A2AD56-4C53-42CF-8B85-5DB7242DF608}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.12919801980198"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.155321782178218"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_tami_x.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="289207894"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_tami_x" ID="{C6A2AD56-4C53-42CF-8B85-5DB7242DF608}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_tami_y" ID="{333B2E7D-2C9C-4A01-841F-E6E99D7588E2}" ShortID="279573444">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_tami_y" ID="{9868D344-A343-4FC6-983D-A3A6D9BA047C}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.13700495049505"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.148514851485149"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_tami_y.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="88610057"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_tami_y" ID="{9868D344-A343-4FC6-983D-A3A6D9BA047C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_tami_z" ID="{6BB0D6B3-B739-4A69-A5DB-A9247E786A18}" ShortID="446795618">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_tami_z" ID="{2C6E2910-09E5-43C4-841F-983B50F49758}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.150331683168317"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.173886138613861"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_tami_z.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="760136657"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_tami_z" ID="{2C6E2910-09E5-43C4-841F-983B50F49758}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<StateInfo>
+						<StatePropertyList>
+							<Property Name="Highpass"/>
+							<Property Name="Lowpass"/>
+							<Property Name="MakeUpGain"/>
+							<Property Name="Pitch"/>
+							<Property Name="UserAuxSendVolume0"/>
+							<Property Name="Volume"/>
+						</StatePropertyList>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="SceneSwitch" ID="{668FC4B0-1BC0-4728-AC69-7C3B82B73853}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Teahouse_INT" ID="{AFDCACEA-CCC3-4096-97C1-7C1B5CCB2B96}"/>
+								<CustomState Name="" ID="{1D8FE3FA-16A8-4A57-87FB-464F4A244693}" ShortID="631425564"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Boss" ID="{F806CE04-C0BB-40D5-94F0-E0466EC695B0}"/>
+								<CustomState Name="" ID="{559AA8C7-911F-4E16-87DB-EA811805B2FC}" ShortID="10075571"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Cutscene" ID="{58741484-806C-424C-90E7-B561ABFEBE6C}"/>
+								<CustomState Name="" ID="{E175FD98-61C7-4B50-BDC5-A6874FE1F48F}" ShortID="610112635"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Teahouse_EXT" ID="{42F3D9A6-CEA9-4928-9F93-3B5F39F8B30C}"/>
+								<CustomState Name="" ID="{2E557B58-4666-401F-8A7C-9E5D57260F03}" ShortID="851249309"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="BellyBar" ID="{0E933AFD-9E4C-4A95-A95F-DA9E2109BBC0}"/>
+								<CustomState Name="" ID="{852E705B-2E3B-4CE7-9216-5A78FBA8207B}" ShortID="762629440">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume0" Type="Real64" Value="88"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Credits" ID="{42E0EA2F-E80A-4B58-BD2C-0F04143A1CDD}"/>
+								<CustomState Name="" ID="{2B92DCD5-BD57-4DF4-9194-76527B4AECA2}" ShortID="73666034"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="MainMenu" ID="{E3A91F98-A27F-4C64-9D40-387A4564EC72}"/>
+								<CustomState Name="" ID="{B5932974-9E63-4023-8E08-4566B5A53A61}" ShortID="650736681"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="None" ID="{CCC415A5-C82A-4F86-AD75-B4A1E1CECFA6}"/>
+								<CustomState Name="" ID="{D55A8689-184E-47B9-A0EA-E771168475B4}" ShortID="570412900"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{C2551AE3-1B5F-4E51-A364-4FB23E5BF434}" ShortID="591925615">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Time Stretch (Custom)" ID="{0CEEC4E3-0D7C-4FE9-8F7C-00A5F23A0D11}" ShortID="84869189" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+														<PropertyList>
+															<Property Name="QualityEnable" Type="int16" Value="1"/>
+															<Property Name="TimeStretch" Type="Real32" Value="50"/>
+															<Property Name="TimeStretchRandom" Type="Real32" Value="10"/>
+															<Property Name="WindowSize" Type="int32" Value="1024"/>
+														</PropertyList>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+										<StateInfo>
+											<CustomStateList>
+												<CustomState>
+													<StateRef Name="Teahouse_INT" ID="{AFDCACEA-CCC3-4096-97C1-7C1B5CCB2B96}"/>
+													<CustomState Name="" ID="{339C6837-D928-4342-90B5-EF97356827A3}" ShortID="707013878"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="Boss" ID="{F806CE04-C0BB-40D5-94F0-E0466EC695B0}"/>
+													<CustomState Name="" ID="{D638C963-F469-4BD2-9A52-E10FEBF524FA}" ShortID="630986090"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="Cutscene" ID="{58741484-806C-424C-90E7-B561ABFEBE6C}"/>
+													<CustomState Name="" ID="{13F72A74-A3DD-4DC9-B5E2-0C75A92300FC}" ShortID="1020307507"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="Teahouse_EXT" ID="{42F3D9A6-CEA9-4928-9F93-3B5F39F8B30C}"/>
+													<CustomState Name="" ID="{FB7407AB-1031-44B8-8618-5036F5DBBCDF}" ShortID="897202053"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="BellyBar" ID="{0E933AFD-9E4C-4A95-A95F-DA9E2109BBC0}"/>
+													<CustomState Name="" ID="{3DD0999E-7A6B-467B-A719-032733E2CD9F}" ShortID="668337915"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="Credits" ID="{42E0EA2F-E80A-4B58-BD2C-0F04143A1CDD}"/>
+													<CustomState Name="" ID="{2954A8D0-CEBD-4413-86A8-C14A19FC261E}" ShortID="65852104"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="MainMenu" ID="{E3A91F98-A27F-4C64-9D40-387A4564EC72}"/>
+													<CustomState Name="" ID="{26AD862D-3BE7-4137-9B4F-0CCD04EFFC58}" ShortID="382787250"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="None" ID="{CCC415A5-C82A-4F86-AD75-B4A1E1CECFA6}"/>
+													<CustomState Name="" ID="{2F1FF380-A6FF-450A-BB4C-58C73F7E3620}" ShortID="1035116813"/>
+												</CustomState>
+											</CustomStateList>
+										</StateInfo>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{641EA817-62E2-4713-9352-2B6A2D42C0AF}" ShortID="723156199">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Pitch"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<Custom>
+													<ModulatorLfo Name="Modulator LFO (Custom)" ID="{C37004D1-C9FC-45B2-BBBF-D366842C8389}" ShortID="372734337">
+														<PropertyList>
+															<Property Name="LfoFrequency" Type="Real64" Value="2.7">
+																<ModifierList>
+																	<ModifierInfo>
+																		<Modifier Name="" ID="{AC59FB1D-481E-4834-898D-61114C9E1554}">
+																			<PropertyList>
+																				<Property Name="Enabled" Type="bool" Value="True"/>
+																				<Property Name="Max" Type="Real64" Value="1"/>
+																				<Property Name="Min" Type="Real64" Value="-1"/>
+																			</PropertyList>
+																		</Modifier>
+																	</ModifierInfo>
+																</ModifierList>
+															</Property>
+															<Property Name="LfoSmoothing" Type="Real64" Value="56"/>
+															<Property Name="LfoWaveform" Type="int32" Value="5"/>
+															<Property Name="ModulatorScope" Type="int32" Value="2"/>
+														</PropertyList>
+													</ModulatorLfo>
+												</Custom>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{9D203AE6-45A9-45EC-AF4D-2893F08F8BDA}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-123</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>537</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</ActorMixer>
+				<ActorMixer Name="DX_bartender" ID="{C80B331B-FD67-43EB-9221-3F5BFC108846}" ShortID="207879109">
+					<PropertyList>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+						<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{7754850E-46F9-43D7-9CC1-9279F07F5C7F}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="250"/>
+											<Property Name="Min" Type="Real64" Value="-250"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+						<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="DX Bus" ID="{7312B2D3-C826-482F-8F23-854B2A1CEA29}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="BellyBar_Reverb" ID="{D05B4065-7A01-419D-AC28-11F72A9787B0}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="dx_bartender_a" ID="{4AA09056-0F30-40EC-8109-AD67FA296762}" ShortID="515650506">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_bartender_a" ID="{E85F1FB4-6144-4B32-A6E3-70A9E433FDAD}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.104164540165357"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.120668316831683"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_bartender_a.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1005311946"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_bartender_a" ID="{E85F1FB4-6144-4B32-A6E3-70A9E433FDAD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_bartender_b" ID="{9D72421D-AEE0-4EFC-BF61-01E200E22E25}" ShortID="599790246">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_bartender_b" ID="{E3C06B94-EDE6-4EB4-8573-5A7175FB4271}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.104251119147261"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.141707920792079"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_bartender_b.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="517191733"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_bartender_b" ID="{E3C06B94-EDE6-4EB4-8573-5A7175FB4271}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_bartender_c" ID="{95489555-0FCD-4F0C-B877-910C2353E5D2}" ShortID="288351546">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_bartender_c" ID="{D39D7198-51FE-4140-9A36-896BD3C821A9}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0562034296213126"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.149752475247525"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_bartender_c.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="415644435"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_bartender_c" ID="{D39D7198-51FE-4140-9A36-896BD3C821A9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_bartender_d" ID="{D8359D02-93F3-41DC-BB4B-004C770000A6}" ShortID="407352263">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_bartender_d" ID="{20B3C3A0-721F-4562-ABD7-F4AB8449B962}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0704051167266947"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.13490099009901"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_bartender_d.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="918184788"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_bartender_d" ID="{20B3C3A0-721F-4562-ABD7-F4AB8449B962}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_bartender_e" ID="{F2889D06-62B8-49E5-A14C-7E039B7F4CCD}" ShortID="290817087">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_bartender_e" ID="{D538E1E9-F100-44B1-8CBD-9D9E2CC73520}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0898853876551131"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.136138613861386"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_bartender_e.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="174046898"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_bartender_e" ID="{D538E1E9-F100-44B1-8CBD-9D9E2CC73520}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_bartender_f" ID="{4883C1BF-3E3C-44EB-BF8D-B3210E674F29}" ShortID="462093513">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_bartender_f" ID="{57CFF5F1-DACE-4DA3-A2B6-819FFC2AB9C6}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0311137520232141"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.109529702970297"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_bartender_f.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1054735823"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_bartender_f" ID="{57CFF5F1-DACE-4DA3-A2B6-819FFC2AB9C6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_bartender_g" ID="{79EF971E-FCBD-4E5A-816D-112F456538F0}" ShortID="1073449189">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_bartender_g" ID="{B5C904A4-9A24-4D8C-930C-E2DB7D058949}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0772120474197641"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.129950495049505"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_bartender_g.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="2856194"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_bartender_g" ID="{B5C904A4-9A24-4D8C-930C-E2DB7D058949}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_bartender_h" ID="{1F436F80-4582-4E8B-84B7-955A70CEE56A}" ShortID="234675124">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_bartender_h" ID="{E11BFB42-B187-48E5-9F2C-475789C78DBF}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0902535761676315"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.107054455445545"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.208539603960396"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_bartender_h.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="168828278"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_bartender_h" ID="{E11BFB42-B187-48E5-9F2C-475789C78DBF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_bartender_i" ID="{85B82431-1D90-4B85-824A-1CD87DDD5634}" ShortID="381373316">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_bartender_i" ID="{33E9B56B-EB53-4F46-A875-448059CFD4A6}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0875277052742093"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.113861386138614"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_bartender_i.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="963401328"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_bartender_i" ID="{33E9B56B-EB53-4F46-A875-448059CFD4A6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_bartender_j" ID="{C15D360A-AE5D-4C02-86C8-64AA9D0A4700}" ShortID="667058887">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_bartender_j" ID="{9368E57A-85BD-4C6B-9400-9E10C821AA2D}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0967788973300865"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.111386138613861"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_bartender_j.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="430159898"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_bartender_j" ID="{9368E57A-85BD-4C6B-9400-9E10C821AA2D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_bartender_k" ID="{92D6F491-A7D0-49E9-B7D2-D99F43C3D7F7}" ShortID="361433741">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_bartender_k" ID="{CC28905A-27B5-4230-9104-ECED023B48E5}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.126317823240351"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.152846534653465"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_bartender_k.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="750536681"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_bartender_k" ID="{CC28905A-27B5-4230-9104-ECED023B48E5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_bartender_l" ID="{BBD9D37C-25FF-4DD2-A08F-DB295A7385D9}" ShortID="719107651">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_bartender_l" ID="{DE787A57-A306-4285-8B83-5EBA7118C41D}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.110377265635253"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.118193069306931"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_bartender_l.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="28799827"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_bartender_l" ID="{DE787A57-A306-4285-8B83-5EBA7118C41D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_bartender_m" ID="{762B05FE-4D37-41D6-A93E-7F88BB10B697}" ShortID="770517205">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_bartender_m" ID="{045891E9-3972-4B8E-A246-21342E897869}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0986198398926785"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.14789603960396"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_bartender_m.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1048130153"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_bartender_m" ID="{045891E9-3972-4B8E-A246-21342E897869}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_bartender_n" ID="{4D3B17EE-9B20-4077-843B-584D650C5A95}" ShortID="232977093">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_bartender_n" ID="{F23F617F-6726-42F1-8439-43102B99D4E9}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.107054455445545"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.113861386138614"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.232673267326733"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_bartender_n.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="88937665"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_bartender_n" ID="{F23F617F-6726-42F1-8439-43102B99D4E9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_bartender_o" ID="{6E012BC9-5F2C-4DB8-9B1D-348DC6655618}" ShortID="316366868">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_bartender_o" ID="{A24F7C40-A48F-4EF3-B4E2-82453F5DF097}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0991055935490457"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.11509900990099"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_bartender_o.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="68387722"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_bartender_o" ID="{A24F7C40-A48F-4EF3-B4E2-82453F5DF097}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_bartender_p" ID="{894E25DC-CCD7-43E4-85EF-23972D97F995}" ShortID="263040000">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_bartender_p" ID="{7987DF96-38E8-4FCB-A664-1D1934B936B9}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.12139831435279"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.116955445544554"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_bartender_p.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="110180796"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_bartender_p" ID="{7987DF96-38E8-4FCB-A664-1D1934B936B9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_bartender_q" ID="{6B147D51-5C63-46FE-88EB-581D163DB254}" ShortID="585814208">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_bartender_q" ID="{BC06A84E-FAD1-4806-807C-84CB16ACF39E}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.084136543256682"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.129331683168317"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_bartender_q.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="337893874"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_bartender_q" ID="{BC06A84E-FAD1-4806-807C-84CB16ACF39E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_bartender_r" ID="{DCF5973A-176A-4A0D-B8FF-5852AE1484BD}" ShortID="869113356">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_bartender_r" ID="{579282F6-E799-4EBF-B84F-09CB1C99BCF4}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0798914390702694"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.155321782178218"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_bartender_r.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="60400236"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_bartender_r" ID="{579282F6-E799-4EBF-B84F-09CB1C99BCF4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_bartender_s" ID="{70E82241-1533-4A11-A556-57E96D877598}" ShortID="645305072">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_bartender_s" ID="{E9A59745-F6BE-48E7-9757-01E1B9C4CFA1}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0767818865833564"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.133044554455446"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_bartender_s.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="59627563"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_bartender_s" ID="{E9A59745-F6BE-48E7-9757-01E1B9C4CFA1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_bartender_t" ID="{34AFF8E4-D2A4-4F20-A4CC-1D815B9AB29B}" ShortID="170700675">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_bartender_t" ID="{7D8BF1BD-EF83-4BCA-89CE-7F5B8ECC780E}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0693160442701119"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.13490099009901"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_bartender_t.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1036505123"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_bartender_t" ID="{7D8BF1BD-EF83-4BCA-89CE-7F5B8ECC780E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_bartender_u" ID="{3205B7DE-B840-471F-8AA4-584CB49079FA}" ShortID="412444067">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_bartender_u" ID="{385EFA23-5810-4FA5-BEC5-24FBC6A392EB}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0589447935957072"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.13490099009901"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_bartender_u.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="550547379"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_bartender_u" ID="{385EFA23-5810-4FA5-BEC5-24FBC6A392EB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_bartender_v" ID="{A84FA77A-03C0-42B3-8DFF-0FB4F925EB88}" ShortID="225274215">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_bartender_v" ID="{66D3FDBB-6272-45CE-85A4-4814A971DF54}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.120804109129617"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.11509900990099"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_bartender_v.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="18695543"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_bartender_v" ID="{66D3FDBB-6272-45CE-85A4-4814A971DF54}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_bartender_w" ID="{4AE580E4-AE35-49C1-9441-53C20918C673}" ShortID="390843475">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_bartender_w" ID="{08E29A9E-8F2A-427D-804B-472CD3A23F07}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0983847096049811"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.126856435643564"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_bartender_w.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="222560456"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_bartender_w" ID="{08E29A9E-8F2A-427D-804B-472CD3A23F07}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_bartender_x" ID="{405DC53F-0E3A-4EAA-82CF-17A9FD5ABE0A}" ShortID="902524192">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_bartender_x" ID="{FFFE8A37-BD66-4812-B586-9772FE570B4E}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.09017611076277"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.100247524752475"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_bartender_x.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1063904366"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_bartender_x" ID="{FFFE8A37-BD66-4812-B586-9772FE570B4E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_bartender_y" ID="{42B1F6C0-3329-4E69-AEAD-1227AB1CB810}" ShortID="862213481">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_bartender_y" ID="{B5B65774-6A34-4CCF-A61E-0CBAF4585AFE}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.125513094387495"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.122524752475248"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_bartender_y.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="955246791"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_bartender_y" ID="{B5B65774-6A34-4CCF-A61E-0CBAF4585AFE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_bartender_z" ID="{8138774E-E08A-4460-9911-ED7945E28EDA}" ShortID="729336375">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_bartender_z" ID="{E4C368B2-C005-4FFF-98AF-F2A408B6B690}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0845384520042579"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.103341584158416"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_bartender_z.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="785031987"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_bartender_z" ID="{E4C368B2-C005-4FFF-98AF-F2A408B6B690}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{7B27E9BC-C1AB-4B2D-9927-5423BBF2ED75}" ShortID="698361553">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Time Stretch (Custom)" ID="{5C6522ED-0A77-47FC-968E-FAFAB5650502}" ShortID="1002363062" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+														<PropertyList>
+															<Property Name="QualityEnable" Type="int16" Value="1"/>
+															<Property Name="TimeStretch" Type="Real32" Value="45"/>
+															<Property Name="TimeStretchRandom" Type="Real32" Value="10"/>
+															<Property Name="WindowSize" Type="int32" Value="1024"/>
+														</PropertyList>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{81D006CA-EDC3-45CC-A004-4D3F9B1D0569}" ShortID="626717090">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Pitch"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<Custom>
+													<ModulatorLfo Name="Modulator LFO (Custom)" ID="{D2CACF32-4289-4CD0-A1CC-1D49F15E42D0}" ShortID="277635220">
+														<PropertyList>
+															<Property Name="LfoFrequency" Type="Real64" Value="1.5">
+																<ModifierList>
+																	<ModifierInfo>
+																		<Modifier Name="" ID="{5A797D29-7FF6-47AB-AE69-B2A87222C569}">
+																			<PropertyList>
+																				<Property Name="Enabled" Type="bool" Value="True"/>
+																				<Property Name="Max" Type="Real64" Value="1"/>
+																				<Property Name="Min" Type="Real64" Value="-1"/>
+																			</PropertyList>
+																		</Modifier>
+																	</ModifierInfo>
+																</ModifierList>
+															</Property>
+															<Property Name="LfoSmoothing" Type="Real64" Value="56"/>
+															<Property Name="LfoWaveform" Type="int32" Value="5"/>
+															<Property Name="ModulatorScope" Type="int32" Value="2"/>
+														</PropertyList>
+													</ModulatorLfo>
+												</Custom>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{0FD45709-ADBC-4CA7-B084-1994AC63ED15}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-153</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>406</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</ActorMixer>
+				<ActorMixer Name="DX_alveolus" ID="{AC94B277-E333-4FC6-B816-8648BBD411A2}" ShortID="846314756">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-7</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="DX Bus" ID="{7312B2D3-C826-482F-8F23-854B2A1CEA29}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="dx_alveolus_a" ID="{D76B2E37-3758-4FF2-B534-711BD11C18AB}" ShortID="772297477">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_alveolus_a" ID="{F564B0A6-5739-4575-AC36-FB843AD2B592}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0996287128712872"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.118811881188119"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_alveolus_a.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="193896560"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_alveolus_a" ID="{F564B0A6-5739-4575-AC36-FB843AD2B592}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_alveolus_b" ID="{DAD0A317-E4FE-4E23-9608-4D0117A5C890}" ShortID="582540810">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_alveolus_b" ID="{2D531EC2-A9C0-4762-A477-C19AFA5C15BE}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.104579207920792"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.129059829059829"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_alveolus_b.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="717116099"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_alveolus_b" ID="{2D531EC2-A9C0-4762-A477-C19AFA5C15BE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_alveolus_c" ID="{E75677F1-2644-4F31-9E5B-93393E2895B2}" ShortID="536500862">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_alveolus_c" ID="{EE4A8200-67C9-40B6-9ACD-1ECF2FE64551}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0770880934247271"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0491833798764492"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.170048447152408"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_alveolus_c.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="291638591"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_alveolus_c" ID="{EE4A8200-67C9-40B6-9ACD-1ECF2FE64551}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_alveolus_d" ID="{1739436C-9A0C-41D0-9205-BBBD81655C96}" ShortID="949627834">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_alveolus_d" ID="{234172BD-A0C0-4EF9-92F2-C7FF551996DC}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0222190488279597"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0987909367859863"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.138787340272489"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_alveolus_d.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="902255624"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_alveolus_d" ID="{234172BD-A0C0-4EF9-92F2-C7FF551996DC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_alveolus_e" ID="{F66660C6-2B11-4C46-B7B8-28F3D8B6885A}" ShortID="760845664">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_alveolus_e" ID="{E525E600-639C-4D96-A92E-498EDD8BC4C3}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0931623931623931"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0726495726495727"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_alveolus_e.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="940680603"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_alveolus_e" ID="{E525E600-639C-4D96-A92E-498EDD8BC4C3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_alveolus_f" ID="{3CA58A34-30F6-4DE5-9385-4C1B1A976F71}" ShortID="849750449">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_alveolus_f" ID="{0849D2F0-D0E6-4936-8A0A-F9FF8209C42E}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0722497249724972"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0433168316831683"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.165015443852078"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_alveolus_f.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="948814787"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_alveolus_f" ID="{0849D2F0-D0E6-4936-8A0A-F9FF8209C42E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_alveolus_g" ID="{07CF4236-CB0C-4405-8E3D-6F806D9ABF89}" ShortID="895609062">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_alveolus_g" ID="{3AB0A03B-4A13-4FCC-96D4-B21DB41E70DC}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.00854700854700855"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0362909367859863"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.073986629432174"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_alveolus_g.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="291807790"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_alveolus_g" ID="{3AB0A03B-4A13-4FCC-96D4-B21DB41E70DC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_alveolus_h" ID="{674340AC-82D7-43AB-8385-338B6B63E185}" ShortID="59264243">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_alveolus_h" ID="{E150838E-3400-4792-B24D-2FD1C7261CB6}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0693026995007193"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0409336125920285"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.132478632478632"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_alveolus_h.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1049103362"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_alveolus_h" ID="{E150838E-3400-4792-B24D-2FD1C7261CB6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_alveolus_i" ID="{531C02CB-27CD-458D-8D95-92DB60AFE5C1}" ShortID="1044543346">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_alveolus_i" ID="{82A454E5-0C5F-4AB2-938F-997405F364FC}">
+									<Language>English(US)</Language>
+									<AudioFile>dx_alveolus_i.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="932470245"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_alveolus_i" ID="{82A454E5-0C5F-4AB2-938F-997405F364FC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_alveolus_j" ID="{0D9F6408-31B8-4C9C-9A10-4362B8FD7C77}" ShortID="559651398">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_alveolus_j" ID="{E223FA20-0517-4E72-B60F-85A0A58D322E}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0209401709401709"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0839119488871964"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.140482990606753"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_alveolus_j.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="907367624"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_alveolus_j" ID="{E223FA20-0517-4E72-B60F-85A0A58D322E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_alveolus_k" ID="{284F7B9F-BCCA-46DD-9CD6-AA278BFAF88D}" ShortID="329057959">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_alveolus_k" ID="{EE1016D6-6D68-46C3-9FF0-511169472E41}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.076000676990776"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.11754569687738"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_alveolus_k.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="486655394"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_alveolus_k" ID="{EE1016D6-6D68-46C3-9FF0-511169472E41}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_alveolus_l" ID="{37660B7C-AE46-4FE8-ADD0-7766E05BDDC4}" ShortID="302493883">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_alveolus_l" ID="{185FC722-654E-4F75-A298-699C52325C8E}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0908997630532284"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0682671151730558"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.188461538461538"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.113343065075738"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_alveolus_l.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="499939748"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_alveolus_l" ID="{185FC722-654E-4F75-A298-699C52325C8E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_alveolus_m" ID="{0FC9AE56-86FE-4E37-ACEB-C7DB47B2BFAC}" ShortID="67048447">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_alveolus_m" ID="{24BE841F-A7C8-45FA-AF60-2660B23FAB21}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0729954726241855"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0858128120504358"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.136669628501312"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_alveolus_m.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="473234517"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_alveolus_m" ID="{24BE841F-A7C8-45FA-AF60-2660B23FAB21}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_alveolus_n" ID="{A4CFC7BB-6F26-4803-9471-799C31ED7785}" ShortID="674682317">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_alveolus_n" ID="{5744994D-9772-4180-9723-9524E69FAF61}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0521367521367521"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0711633663366337"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.154820385884742"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_alveolus_n.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="216116997"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_alveolus_n" ID="{5744994D-9772-4180-9723-9524E69FAF61}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_alveolus_o" ID="{A55D5009-CC2D-4941-9EE8-4100FDC0FEEC}" ShortID="919304565">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_alveolus_o" ID="{D421BD95-C09B-4D1E-AD56-954FA2FDD79F}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0804455445544555"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.10519801980198"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_alveolus_o.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1067049488"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_alveolus_o" ID="{D421BD95-C09B-4D1E-AD56-954FA2FDD79F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_alveolus_p" ID="{D8DD1AFA-C41E-4F2A-839E-D1DF1DD89A27}" ShortID="816298440">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_alveolus_p" ID="{B8CAAAE6-4159-432B-8DAF-445018E3B483}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.04255415926208"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0917343657442667"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.165396251163578"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_alveolus_p.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="896037403"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_alveolus_p" ID="{B8CAAAE6-4159-432B-8DAF-445018E3B483}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_alveolus_q" ID="{D475C576-2A37-49DE-B886-DBA06A0EEE02}" ShortID="911346692">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_alveolus_q" ID="{49C2BE27-A729-428F-BF0E-CF7583C01CDD}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0562706270627063"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.154049251078954"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_alveolus_q.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="843369214"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_alveolus_q" ID="{49C2BE27-A729-428F-BF0E-CF7583C01CDD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_alveolus_r" ID="{BE060D71-4A75-498B-B3B1-CADCE71041DD}" ShortID="339453134">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_alveolus_r" ID="{C173E3EC-B6A9-49B4-BE63-4E79BEE79212}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.110940805619023"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0804455445544554"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0668877464669544"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_alveolus_r.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1042921825"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_alveolus_r" ID="{C173E3EC-B6A9-49B4-BE63-4E79BEE79212}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_alveolus_s" ID="{48759829-4CDA-49E9-B149-AB9F40B6B5F8}" ShortID="140634649">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_alveolus_s" ID="{209FA024-7AF2-4FE9-8877-87C4F8EEE483}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0502908944740628"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0517030549208767"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.142735042735043"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_alveolus_s.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="431626106"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_alveolus_s" ID="{209FA024-7AF2-4FE9-8877-87C4F8EEE483}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_alveolus_t" ID="{C7680451-4C7E-4535-B538-CBABB0B8EC5E}" ShortID="360961468">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_alveolus_t" ID="{A5EC9A65-B5AE-4FBF-9539-23E598085792}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0253882118981129"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.149389650503512"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.201834221883727"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_alveolus_t.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="654446881"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_alveolus_t" ID="{A5EC9A65-B5AE-4FBF-9539-23E598085792}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_alveolus_u" ID="{793FEC2D-1006-4EDA-BB37-3535D27134C3}" ShortID="683706040">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_alveolus_u" ID="{DC9A4F63-7B19-48B9-BD30-C731ABF79A3F}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.109529702970297"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.143564356435644"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_alveolus_u.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="166261619"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_alveolus_u" ID="{DC9A4F63-7B19-48B9-BD30-C731ABF79A3F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_alveolus_v" ID="{AD01BF2D-53C3-4A00-AB2F-D28D20B697B1}" ShortID="319806098">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_alveolus_v" ID="{F6F4C852-BD8F-4B4E-A286-DD6FDC7CEAF9}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0653750952018279"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.123987687230261"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_alveolus_v.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="768673171"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_alveolus_v" ID="{F6F4C852-BD8F-4B4E-A286-DD6FDC7CEAF9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_alveolus_w" ID="{9F77E615-72D0-4FF0-AE45-130051085C11}" ShortID="392059198">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_alveolus_w" ID="{9168A4BF-21F7-4A54-8C90-548F6F617754}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.134066387407972"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0953890581365829"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0853960396039604"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_alveolus_w.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="62975053"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_alveolus_w" ID="{9168A4BF-21F7-4A54-8C90-548F6F617754}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_alveolus_x" ID="{B5ADA8E7-AD1E-4CC5-8E93-ED8FBAECC414}" ShortID="480750684">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_alveolus_x" ID="{197095E1-9615-4F10-BBFD-578AE676A45B}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0970709570957096"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.115868029110603"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.127538715410003"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_alveolus_x.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="731773316"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_alveolus_x" ID="{197095E1-9615-4F10-BBFD-578AE676A45B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_alveolus_y" ID="{17697F20-1F16-4C42-AE89-BE59A45FC5A4}" ShortID="134614737">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_alveolus_y" ID="{B504FE08-8085-4DAF-942D-545ADA73610F}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.143334814250656"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.132914445290683"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_alveolus_y.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="826786002"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_alveolus_y" ID="{B504FE08-8085-4DAF-942D-545ADA73610F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dx_alveolus_z" ID="{9EA0EBFC-A4E5-4874-8D21-72FB4D923FE8}" ShortID="976135766">
+							<PropertyList>
+								<Property Name="IsVoice" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dx_alveolus_z" ID="{0238B443-4E68-42A9-86D0-A84D942ECC78}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.145071718710333"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.138220360497588"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>English(US)</Language>
+									<AudioFile>dx_alveolus_z.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="560746972"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="dx_alveolus_z" ID="{0238B443-4E68-42A9-86D0-A84D942ECC78}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{F632A4E6-1AF8-4B11-BF89-0D3FF6DDAE23}" ShortID="55207029">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Time Stretch (Custom)" ID="{BA7E565B-A570-4430-8B80-4F22C08FCAB7}" ShortID="992639600" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+														<PropertyList>
+															<Property Name="QualityEnable" Type="int16" Value="1"/>
+															<Property Name="TimeStretch" Type="Real32" Value="45"/>
+															<Property Name="TimeStretchRandom" Type="Real32" Value="10"/>
+															<Property Name="WindowSize" Type="int32" Value="1024"/>
+														</PropertyList>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{453DD30E-77E8-4AEC-87A1-DDF3877F8646}" ShortID="986242248">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Pitch"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<Custom>
+													<ModulatorLfo Name="Modulator LFO (Custom)" ID="{001A5411-0967-4551-A5B9-AA2BE6911624}" ShortID="1053686343">
+														<PropertyList>
+															<Property Name="LfoFrequency" Type="Real64">
+																<ModifierList>
+																	<ModifierInfo>
+																		<Modifier Name="" ID="{6D1891D2-46A9-457D-B4AE-9DD443F1B46C}">
+																			<PropertyList>
+																				<Property Name="Enabled" Type="bool" Value="True"/>
+																				<Property Name="Max" Type="Real64" Value="1"/>
+																				<Property Name="Min" Type="Real64" Value="-1"/>
+																			</PropertyList>
+																		</Modifier>
+																	</ModifierInfo>
+																</ModifierList>
+															</Property>
+															<Property Name="LfoSmoothing" Type="Real64" Value="56"/>
+															<Property Name="LfoWaveform" Type="int32" Value="5"/>
+															<Property Name="ModulatorScope" Type="int32" Value="2"/>
+														</PropertyList>
+													</ModulatorLfo>
+												</Custom>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{64E61E5A-3C97-4C52-A0CF-ECEC047C0009}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-612</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>438</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

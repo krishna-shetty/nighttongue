@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5818E737-B109-41B4-80F8-1F6DE11FD14F}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Item Pickups WU" ID="{5818E737-B109-41B4-80F8-1F6DE11FD14F}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="6"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Sound Name="SFX_pickup_sour" ID="{9B77709A-38D7-4BFF-A49E-A3EEA789C903}" ShortID="125057657">
+					<PropertyList>
+						<Property Name="MakeUpGain" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Tami Footsteps" ID="{73B5C515-CE78-4B80-BDD7-E5F23EB45B27}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_pickup_sour" ID="{22A7FE04-2E06-49D3-AD1C-EF8E802EE43B}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_pickup_sour.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="144495341"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_pickup_sour" ID="{22A7FE04-2E06-49D3-AD1C-EF8E802EE43B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_pickup_sweet" ID="{21F5FEBF-5B2A-4482-95F5-39587A1453E6}" ShortID="690253766">
+					<PropertyList>
+						<Property Name="MakeUpGain" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Tami Footsteps" ID="{73B5C515-CE78-4B80-BDD7-E5F23EB45B27}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_pickup_sweet" ID="{F344FAA5-78BC-47D0-8D11-A2D98B7DC6BD}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_pickup_sweet.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="580095087"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_pickup_sweet" ID="{F344FAA5-78BC-47D0-8D11-A2D98B7DC6BD}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_pickup_flour" ID="{0D548434-9945-4464-9BD9-288F6FD625A8}" ShortID="752246867">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="AttenuationDistanceScaling" Type="Real32" Value="2"/>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>23</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>42</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MakeUpGain" Type="Real64">
+							<ValueList>
+								<Value>25</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-20</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="10"/>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-14</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Default Attenuation" ID="{FF599457-E076-4EC3-A589-630ADC95215C}" WorkUnitID="{95295B8B-2EA3-4674-8D7B-1A97F380DCD1}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX Bus" ID="{0330366B-F850-4965-BDFE-D46169F493ED}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Heart_Reverb" ID="{9B58766C-D008-49F6-B8B1-CDFF11EA9602}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_pickup_flour" ID="{DDFAA6B2-9BEB-4F52-BC68-50CA8878CC10}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_pickup_flour.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1011321960"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_pickup_flour" ID="{DDFAA6B2-9BEB-4F52-BC68-50CA8878CC10}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_pickup_oil" ID="{6E6CEDDB-6A66-4146-8106-FDCDC0FEF687}" ShortID="910932412">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="AttenuationDistanceScaling" Type="Real32" Value="2"/>
+						<Property Name="MakeUpGain" Type="Real64">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="10"/>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Default Attenuation" ID="{FF599457-E076-4EC3-A589-630ADC95215C}" WorkUnitID="{95295B8B-2EA3-4674-8D7B-1A97F380DCD1}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX Bus" ID="{0330366B-F850-4965-BDFE-D46169F493ED}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Heart_Reverb" ID="{9B58766C-D008-49F6-B8B1-CDFF11EA9602}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_pickup_oil" ID="{4CDED182-7186-4939-B8EF-EEBB90A9C1A7}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_pickup_oil.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="488146446"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_pickup_oil" ID="{4CDED182-7186-4939-B8EF-EEBB90A9C1A7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_pickup_syrup" ID="{42ED0848-DF7C-4948-9827-298412E16CF1}" ShortID="23376953">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="AttenuationDistanceScaling" Type="Real32" Value="2"/>
+						<Property Name="MakeUpGain" Type="Real64">
+							<ValueList>
+								<Value>9</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="10"/>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Default Attenuation" ID="{FF599457-E076-4EC3-A589-630ADC95215C}" WorkUnitID="{95295B8B-2EA3-4674-8D7B-1A97F380DCD1}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX Bus" ID="{0330366B-F850-4965-BDFE-D46169F493ED}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Heart_Reverb" ID="{9B58766C-D008-49F6-B8B1-CDFF11EA9602}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_pickup_syrup" ID="{3AAA0FFD-D3BF-4652-A39D-107ED0749AA2}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_pickup_syrup.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="525298123"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_pickup_syrup" ID="{3AAA0FFD-D3BF-4652-A39D-107ED0749AA2}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_pickup_water" ID="{4C36FD2B-1F45-4994-89EC-CF73F131063C}" ShortID="591318547">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="AttenuationDistanceScaling" Type="Real32" Value="2"/>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="10"/>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Default Attenuation" ID="{FF599457-E076-4EC3-A589-630ADC95215C}" WorkUnitID="{95295B8B-2EA3-4674-8D7B-1A97F380DCD1}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX Bus" ID="{0330366B-F850-4965-BDFE-D46169F493ED}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Heart_Reverb" ID="{9B58766C-D008-49F6-B8B1-CDFF11EA9602}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_pickup_water" ID="{8417E8AE-A334-425A-9F6E-252324B7403E}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_pickup_water.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="322512191"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_pickup_water" ID="{8417E8AE-A334-425A-9F6E-252324B7403E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_drop_filling" ID="{429A960B-5E79-49D5-9BC1-A71EB15BB7DF}" ShortID="108372745">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="AttenuationDistanceScaling" Type="Real32" Value="2"/>
+						<Property Name="MakeUpGain" Type="Real64">
+							<ValueList>
+								<Value>4</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="10"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Default Attenuation" ID="{FF599457-E076-4EC3-A589-630ADC95215C}" WorkUnitID="{95295B8B-2EA3-4674-8D7B-1A97F380DCD1}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX Bus" ID="{0330366B-F850-4965-BDFE-D46169F493ED}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_drop_filling" ID="{9F2E1A09-6C93-4DCA-B35C-E7D077A4939B}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_drop_filling.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="525546835"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_drop_filling" ID="{9F2E1A09-6C93-4DCA-B35C-E7D077A4939B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_pickup_filling" ID="{8ECA70D1-E750-49A7-97DB-C8CDA3775F4E}" ShortID="78595698">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="AttenuationDistanceScaling" Type="Real32" Value="2"/>
+						<Property Name="MakeUpGain" Type="Real64">
+							<ValueList>
+								<Value>10</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="10"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Default Attenuation" ID="{FF599457-E076-4EC3-A589-630ADC95215C}" WorkUnitID="{95295B8B-2EA3-4674-8D7B-1A97F380DCD1}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX Bus" ID="{0330366B-F850-4965-BDFE-D46169F493ED}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_pickup_filling" ID="{66E1CADB-D7D7-4E18-B6A9-0E12FE413144}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_pickup_filling.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="468321885"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_pickup_filling" ID="{66E1CADB-D7D7-4E18-B6A9-0E12FE413144}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_drag_goop" ID="{EA113C18-3D85-4927-8382-77327C03D8C3}" ShortID="617366947">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="AttenuationDistanceScaling" Type="Real32" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="MakeUpGain" Type="Real64">
+							<ValueList>
+								<Value>15</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="15"/>
+						<Property Name="UserAuxSendVolume2" Type="Real64">
+							<ValueList>
+								<Value>-96</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Default Attenuation" ID="{FF599457-E076-4EC3-A589-630ADC95215C}" WorkUnitID="{95295B8B-2EA3-4674-8D7B-1A97F380DCD1}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX Bus" ID="{0330366B-F850-4965-BDFE-D46169F493ED}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+						<Reference Name="UserAuxSend2">
+							<ObjectRef Name="Teahouse_EXT_Reverb" ID="{49C18909-6732-4A62-B694-772F3D162753}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_drag_goop" ID="{60203990-5C98-4C76-AEFA-2C07D310FE02}">
+							<PropertyList>
+								<Property Name="CrossfadeDuration" Type="Real64" Value="1263.084"/>
+								<Property Name="LoopBegin" Type="Real64" Value="1.48076697957446"/>
+								<Property Name="LoopEnd" Type="Real64" Value="6.45489246240136"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="VolumeOffset" Type="Real64">
+									<ValueList>
+										<Value>6.5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>SFX_drag_goop.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="993681694"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<StateInfo>
+						<StatePropertyList>
+							<Property Name="Highpass"/>
+							<Property Name="Lowpass"/>
+							<Property Name="MakeUpGain"/>
+							<Property Name="Pitch"/>
+							<Property Name="UserAuxSendVolume0"/>
+							<Property Name="UserAuxSendVolume1"/>
+							<Property Name="UserAuxSendVolume2"/>
+							<Property Name="UserAuxSendVolume3"/>
+							<Property Name="Volume"/>
+						</StatePropertyList>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="SceneSwitch" ID="{668FC4B0-1BC0-4728-AC69-7C3B82B73853}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Teahouse_INT" ID="{AFDCACEA-CCC3-4096-97C1-7C1B5CCB2B96}"/>
+								<CustomState Name="" ID="{538DCF47-8354-4F18-8E18-F880472CAF22}" ShortID="645821963"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Boss" ID="{F806CE04-C0BB-40D5-94F0-E0466EC695B0}"/>
+								<CustomState Name="" ID="{1DB925FE-CDBB-4C2D-90F2-923F2FF5B58B}" ShortID="718505555"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Cutscene" ID="{58741484-806C-424C-90E7-B561ABFEBE6C}"/>
+								<CustomState Name="" ID="{E1E92A3D-0F3D-496F-AA1E-A031BD6722BB}" ShortID="538999531"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Teahouse_EXT" ID="{42F3D9A6-CEA9-4928-9F93-3B5F39F8B30C}"/>
+								<CustomState Name="" ID="{B2CECBF6-B923-4825-8F38-87D51881AE90}" ShortID="284844173">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16" Value="21"/>
+										<Property Name="UserAuxSendVolume2" Type="Real64" Value="90"/>
+										<Property Name="Volume" Type="Real64" Value="-8"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="BellyBar" ID="{0E933AFD-9E4C-4A95-A95F-DA9E2109BBC0}"/>
+								<CustomState Name="" ID="{7D28B195-CBA0-45B4-B0B4-51A0CB60BCA2}" ShortID="373118542"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Credits" ID="{42E0EA2F-E80A-4B58-BD2C-0F04143A1CDD}"/>
+								<CustomState Name="" ID="{8B0B53A6-C0A2-49E2-B370-E0B5D8B2E796}" ShortID="723939466"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="MainMenu" ID="{E3A91F98-A27F-4C64-9D40-387A4564EC72}"/>
+								<CustomState Name="" ID="{70866241-1FCA-4EE0-8469-28DEFD2A95F6}" ShortID="594407004"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="None" ID="{CCC415A5-C82A-4F86-AD75-B4A1E1CECFA6}"/>
+								<CustomState Name="" ID="{E8A1F66D-E17D-4D70-91F0-B6C93682E3EB}" ShortID="1041917932"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{71C90B8A-1A68-44DD-B539-B4BD48BD3B8F}" ShortID="487926713">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Meter (Custom)" ID="{244F3AC4-FA6F-4B17-8FDA-619C348FE802}" ShortID="752426852" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+														<PropertyList>
+															<Property Name="Hold" Type="Real32" Value="1"/>
+															<Property Name="ReleaseTime" Type="Real32" Value="0.5"/>
+														</PropertyList>
+														<PluginData>
+	<GameParameter Name="SC_Dragging" ID="{0F6E7B58-61F2-416A-874B-1B1FC7E05EA8}"/>
+</PluginData>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+										<StateInfo>
+											<CustomStateList>
+												<CustomState>
+													<StateRef Name="Teahouse_INT" ID="{AFDCACEA-CCC3-4096-97C1-7C1B5CCB2B96}"/>
+													<CustomState Name="" ID="{A596867F-FA1C-4054-B356-8C0B21545156}" ShortID="1021585829"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="Boss" ID="{F806CE04-C0BB-40D5-94F0-E0466EC695B0}"/>
+													<CustomState Name="" ID="{E37A475B-7E86-4DE6-B384-89BC7094138C}" ShortID="972703086"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="Cutscene" ID="{58741484-806C-424C-90E7-B561ABFEBE6C}"/>
+													<CustomState Name="" ID="{1C9C57FD-7955-4C15-9112-CE84D95022EF}" ShortID="523371449"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="Teahouse_EXT" ID="{42F3D9A6-CEA9-4928-9F93-3B5F39F8B30C}"/>
+													<CustomState Name="" ID="{D020236D-A243-4C62-9CA4-A95E9CEC8C4B}" ShortID="513520997"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="BellyBar" ID="{0E933AFD-9E4C-4A95-A95F-DA9E2109BBC0}"/>
+													<CustomState Name="" ID="{6294B53A-2E56-4166-86C8-CD7F6BA67023}" ShortID="107547228"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="Credits" ID="{42E0EA2F-E80A-4B58-BD2C-0F04143A1CDD}"/>
+													<CustomState Name="" ID="{17FC87CB-A5E1-45B8-826A-6948D927885F}" ShortID="1004328000"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="MainMenu" ID="{E3A91F98-A27F-4C64-9D40-387A4564EC72}"/>
+													<CustomState Name="" ID="{BA0F933D-4040-4EA6-8FAB-373A692D0453}" ShortID="159346075"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="None" ID="{CCC415A5-C82A-4F86-AD75-B4A1E1CECFA6}"/>
+													<CustomState Name="" ID="{A2EF6323-7DBF-49CF-A471-08F4B7E3CAAB}" ShortID="991496895"/>
+												</CustomState>
+											</CustomStateList>
+										</StateInfo>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{DBC13F5D-507F-4549-B469-D2486ABBD673}" ShortID="105364635">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Velocity_X" ID="{C7F03361-43F2-45A5-B7BE-371583FCA8D8}" WorkUnitID="{BBDCF0C5-3151-4AE8-BF07-38603B84D811}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{125D052A-4A95-4C8B-98EE-C45F5FFF91E0}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-25</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Exp3</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>-5</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Exp3</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log3</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>5</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Exp3</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>25</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_drag_goop" ID="{60203990-5C98-4C76-AEFA-2C07D310FE02}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_drop_goop" ID="{CAFD35D1-139F-43E5-A9E5-0DF6EDCB178E}" ShortID="182019335">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="AttenuationDistanceScaling" Type="Real32" Value="2"/>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="20"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Default Attenuation" ID="{FF599457-E076-4EC3-A589-630ADC95215C}" WorkUnitID="{95295B8B-2EA3-4674-8D7B-1A97F380DCD1}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX Bus" ID="{0330366B-F850-4965-BDFE-D46169F493ED}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_drop_goop" ID="{A43B0060-D684-4DE1-83A3-A38DD4667004}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_drop_goop.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="805559727"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_drop_goop" ID="{A43B0060-D684-4DE1-83A3-A38DD4667004}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_dough_drag" ID="{775AF151-2F0D-4B12-AA30-AB7566781D13}" ShortID="28790922">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="AttenuationDistanceScaling" Type="Real32" Value="2"/>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>24</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>41</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-430</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="10"/>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Default Attenuation" ID="{FF599457-E076-4EC3-A589-630ADC95215C}" WorkUnitID="{95295B8B-2EA3-4674-8D7B-1A97F380DCD1}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX Bus" ID="{0330366B-F850-4965-BDFE-D46169F493ED}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Heart_Reverb" ID="{9B58766C-D008-49F6-B8B1-CDFF11EA9602}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_dough_roll" ID="{2814141A-AC72-4307-B2A8-0782FE89CFC9}">
+							<PropertyList>
+								<Property Name="CrossfadeDuration" Type="Real64" Value="104.176"/>
+								<Property Name="CrossfadeShape" Type="int16" Value="4"/>
+								<Property Name="FadeInShape" Type="int16" Value="9"/>
+								<Property Name="FadeOutShape" Type="int16" Value="4"/>
+								<Property Name="LoopBegin" Type="Real64" Value="0.36815734182544"/>
+								<Property Name="LoopEnd" Type="Real64" Value="2.29424876782709"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>SFX_dough_roll.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="163524447"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="SceneSwitch" ID="{668FC4B0-1BC0-4728-AC69-7C3B82B73853}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Teahouse_INT" ID="{AFDCACEA-CCC3-4096-97C1-7C1B5CCB2B96}"/>
+								<CustomState Name="" ID="{1635DFA2-5AF9-47BF-8919-633D4542C524}" ShortID="517335390"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Boss" ID="{F806CE04-C0BB-40D5-94F0-E0466EC695B0}"/>
+								<CustomState Name="" ID="{19990C1F-C7AF-47F7-B110-0D6B669E759C}" ShortID="603369745"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Cutscene" ID="{58741484-806C-424C-90E7-B561ABFEBE6C}"/>
+								<CustomState Name="" ID="{C2E4AF80-3377-4D56-AE49-8EB8D1DEBE1B}" ShortID="78898289"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Teahouse_EXT" ID="{42F3D9A6-CEA9-4928-9F93-3B5F39F8B30C}"/>
+								<CustomState Name="" ID="{647EB5F9-3D07-4325-9FFD-5DE94225B7C6}" ShortID="757121067"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="BellyBar" ID="{0E933AFD-9E4C-4A95-A95F-DA9E2109BBC0}"/>
+								<CustomState Name="" ID="{0C9EFDC7-C584-4C0F-A965-E085A71C731B}" ShortID="919110971"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Credits" ID="{42E0EA2F-E80A-4B58-BD2C-0F04143A1CDD}"/>
+								<CustomState Name="" ID="{A2A6758B-39A1-4D54-815D-AFBF751FAC25}" ShortID="349583837"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="MainMenu" ID="{E3A91F98-A27F-4C64-9D40-387A4564EC72}"/>
+								<CustomState Name="" ID="{7DD961C0-288D-4526-B920-0A9406E9AB43}" ShortID="111222060"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="None" ID="{CCC415A5-C82A-4F86-AD75-B4A1E1CECFA6}"/>
+								<CustomState Name="" ID="{F3DE5033-9600-44DD-97E3-A6E8624F8DF9}" ShortID="584468908"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{305115C4-F852-4C24-B65E-ACAEA7E714D3}" ShortID="969406436">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Meter (Custom)" ID="{2464702C-D351-4342-92F1-65471CEA091E}" ShortID="18805950" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+														<PropertyList>
+															<Property Name="Hold" Type="Real32" Value="1"/>
+															<Property Name="ReleaseTime" Type="Real32" Value="0.5"/>
+														</PropertyList>
+														<PluginData>
+	<GameParameter Name="SC_Dragging" ID="{0F6E7B58-61F2-416A-874B-1B1FC7E05EA8}"/>
+</PluginData>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+										<StateInfo>
+											<CustomStateList>
+												<CustomState>
+													<StateRef Name="Teahouse_INT" ID="{AFDCACEA-CCC3-4096-97C1-7C1B5CCB2B96}"/>
+													<CustomState Name="" ID="{ED454622-CEB8-4E37-92E7-705E641131BA}" ShortID="84731072"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="Boss" ID="{F806CE04-C0BB-40D5-94F0-E0466EC695B0}"/>
+													<CustomState Name="" ID="{2B8475DF-76FD-4115-87A9-08C031A9475C}" ShortID="1056204014"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="Cutscene" ID="{58741484-806C-424C-90E7-B561ABFEBE6C}"/>
+													<CustomState Name="" ID="{1F745C52-F5F1-4CBA-AF42-B075F187F338}" ShortID="716870753"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="Teahouse_EXT" ID="{42F3D9A6-CEA9-4928-9F93-3B5F39F8B30C}"/>
+													<CustomState Name="" ID="{4C4C2E1A-8891-4C7B-A1B6-638BAFB6960F}" ShortID="444753949"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="BellyBar" ID="{0E933AFD-9E4C-4A95-A95F-DA9E2109BBC0}"/>
+													<CustomState Name="" ID="{6868FC14-B8E8-4926-82AA-12A69908B103}" ShortID="934759703"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="Credits" ID="{42E0EA2F-E80A-4B58-BD2C-0F04143A1CDD}"/>
+													<CustomState Name="" ID="{568E0507-9D96-4740-9784-600D6F98CBEB}" ShortID="973487336"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="MainMenu" ID="{E3A91F98-A27F-4C64-9D40-387A4564EC72}"/>
+													<CustomState Name="" ID="{CC4B32EE-A5B5-4211-81ED-B687E99576AC}" ShortID="316700476"/>
+												</CustomState>
+												<CustomState>
+													<StateRef Name="None" ID="{CCC415A5-C82A-4F86-AD75-B4A1E1CECFA6}"/>
+													<CustomState Name="" ID="{FA5F5800-1517-43B4-82D2-87EA2000DE4D}" ShortID="991267761"/>
+												</CustomState>
+											</CustomStateList>
+										</StateInfo>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{3249D57A-0466-4660-B459-694CE33C09E0}" ShortID="842520243">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="Velocity_X" ID="{C7F03361-43F2-45A5-B7BE-371583FCA8D8}" WorkUnitID="{BBDCF0C5-3151-4AE8-BF07-38603B84D811}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{12482CED-6279-4E12-8E1A-091DDAA47112}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-25</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Exp3</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>-5</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Exp3</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log3</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>5</XPos>
+																<YPos>0</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Exp3</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>25</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_dough_roll" ID="{2814141A-AC72-4307-B2A8-0782FE89CFC9}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_dough_roll" ID="{45201180-E546-4965-88AA-7CC5672F95D5}" ShortID="147435827">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="AttenuationDistanceScaling" Type="Real32" Value="2"/>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>68</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>43</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MakeUpGain" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="10"/>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Default Attenuation" ID="{FF599457-E076-4EC3-A589-630ADC95215C}" WorkUnitID="{95295B8B-2EA3-4674-8D7B-1A97F380DCD1}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX Bus" ID="{0330366B-F850-4965-BDFE-D46169F493ED}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Heart_Reverb" ID="{9B58766C-D008-49F6-B8B1-CDFF11EA9602}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_dough_roll" ID="{4599A75A-8C13-49DE-AD13-A3ECEB443D62}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="0.260403973486287"/>
+								<Property Name="LoopEnd" Type="Real64" Value="2.24935153101911"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>SFX_dough_roll.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="32346152"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_dough_roll" ID="{4599A75A-8C13-49DE-AD13-A3ECEB443D62}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="SFX_dough_land" ID="{62892D71-3C97-4FB2-BEB6-93B8140AC32F}" ShortID="746411374">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="10"/>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-16</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Default Attenuation" ID="{FF599457-E076-4EC3-A589-630ADC95215C}" WorkUnitID="{95295B8B-2EA3-4674-8D7B-1A97F380DCD1}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX Bus" ID="{0330366B-F850-4965-BDFE-D46169F493ED}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Heart_Reverb" ID="{9B58766C-D008-49F6-B8B1-CDFF11EA9602}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SFX_dough_land" ID="{6517BA96-AD34-4A26-8794-E8D5790B7E4D}">
+							<Language>SFX</Language>
+							<AudioFile>SFX_dough_land.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="816854192"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="SFX_dough_land" ID="{6517BA96-AD34-4A26-8794-E8D5790B7E4D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

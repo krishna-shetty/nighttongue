@@ -7,13 +7,7 @@ public class GrappleAbilitySO : AbilitySO
     public float DelayTime = 1f;
     public float Cooldown = 2f;
     public float OvershootHeight = 1f;
-
-    public override void Activate(GameObject user)
-    {
-        var grappleHandler = user.GetComponent<GrappleHandler>();
-        if (grappleHandler != null)
-        {
-            grappleHandler.ToggleGrapple(this);
-        }
-    }
+    public float OffsetHeight = 1f;
+    public float OffsetDistance = 1f;
+    public float MaxCheckAngle = 45f;
 }

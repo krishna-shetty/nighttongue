@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2798933884	Play_Wind_Blend_Container			\AMB Events WU\Teahouse\Play_Wind_Blend_Container	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1042517418	windIntensity			\Weather Parameters WU\windIntensity	
+

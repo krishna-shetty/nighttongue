@@ -5,8 +5,8 @@ public abstract class PlayerState : BaseState
 {
     protected PlayerController Context;
 
-    protected MoveActionSO ActiveMoveAction => MoveActionOverride ?? Context.MoveAction;
-    protected JumpActionSO ActiveJumpAction => JumpActionOverride ?? Context.JumpAction;
+    protected MoveActionSO ActiveMoveAction => MoveActionOverride ?? Context.CurrentMove;
+    protected JumpActionSO ActiveJumpAction => JumpActionOverride ?? Context.CurrentJump;
 
     protected virtual MoveActionSO MoveActionOverride => null;
     protected virtual JumpActionSO JumpActionOverride => null;
@@ -15,12 +15,14 @@ public abstract class PlayerState : BaseState
 
     public sealed override void EnterState()
     {
+        Context.OnActionProfileChanged += HandleProfileChanged;
         InitializeGravity();
         OnEnter();
     }
 
     public sealed override void ExitState()
     {
+        Context.OnActionProfileChanged -= HandleProfileChanged;
         OnExit();
     }
 
@@ -28,6 +30,11 @@ public abstract class PlayerState : BaseState
     protected abstract void OnExit();
     protected virtual void InitializeGravity()
     {
-        Gravity = Context.CalculateFastFallGravity(ActiveMoveAction, ActiveJumpAction);
+        Gravity = Context.GravityProfile.CalculateFastFallGravity(ActiveMoveAction, ActiveJumpAction);
+    }
+
+    private void HandleProfileChanged(MoveActionSO move, JumpActionSO jump)
+    {
+        InitializeGravity();
     }
 }

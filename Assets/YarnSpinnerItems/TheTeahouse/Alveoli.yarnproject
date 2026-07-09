@@ -1,0 +1,15 @@
+﻿{
+  "projectFileVersion": 3,
+  "sourceFiles": [
+    "Alveolus1.yarn",
+    "Alveolus2.yarn"
+  ],
+  "excludeFiles": [
+    "**/*~/*",
+    "./Samples/Yarn Spinner*/*"
+  ],
+  "localisation": {},
+  "baseLanguage": "en",
+  "compilerOptions": {},
+  "definitionsFiles": []
+}

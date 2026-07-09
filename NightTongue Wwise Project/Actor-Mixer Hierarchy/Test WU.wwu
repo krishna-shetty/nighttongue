@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2D77F124-E65A-46E2-8CED-AA073EEB29A6}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Test WU" ID="{2D77F124-E65A-46E2-8CED-AA073EEB29A6}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="27"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Sound Name="a440_4sec_0dBfs" ID="{10F15B2E-A446-4713-9240-9134425BAA0A}" ShortID="589375729">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="a440_4sec_0dBfs" ID="{6874CA17-FF79-4F38-BAF2-D0978EE2E222}">
+							<Language>SFX</Language>
+							<AudioFile>a440_4sec_0dBfs.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="7840480"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="a440_4sec_0dBfs" ID="{6874CA17-FF79-4F38-BAF2-D0978EE2E222}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

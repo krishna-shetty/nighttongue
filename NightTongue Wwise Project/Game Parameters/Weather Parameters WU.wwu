@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8E2A03B9-1A2F-4D05-AE69-3F57DDF984E9}" SchemaVersion="123">
+	<GameParameters>
+		<WorkUnit Name="Weather Parameters WU" ID="{8E2A03B9-1A2F-4D05-AE69-3F57DDF984E9}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="windIntensity" ID="{564D8447-E6D1-42B5-A57E-E1B5B56FC247}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="30"/>
+						<Property Name="Max" Type="Real64" Value="30"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="2"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="2"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

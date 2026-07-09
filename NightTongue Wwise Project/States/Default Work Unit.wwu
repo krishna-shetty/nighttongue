@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D352ADA4-7676-4067-BF4C-538C008C76A3}" SchemaVersion="123">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{D352ADA4-7676-4067-BF4C-538C008C76A3}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="SceneSwitch" ID="{668FC4B0-1BC0-4728-AC69-7C3B82B73853}">
+					<ChildrenList>
+						<State Name="None" ID="{CCC415A5-C82A-4F86-AD75-B4A1E1CECFA6}"/>
+						<State Name="BellyBar" ID="{0E933AFD-9E4C-4A95-A95F-DA9E2109BBC0}"/>
+						<State Name="Boss" ID="{F806CE04-C0BB-40D5-94F0-E0466EC695B0}"/>
+						<State Name="Cutscene" ID="{58741484-806C-424C-90E7-B561ABFEBE6C}"/>
+						<State Name="MainMenu" ID="{E3A91F98-A27F-4C64-9D40-387A4564EC72}"/>
+						<State Name="Teahouse_EXT" ID="{42F3D9A6-CEA9-4928-9F93-3B5F39F8B30C}"/>
+						<State Name="Teahouse_INT" ID="{AFDCACEA-CCC3-4096-97C1-7C1B5CCB2B96}"/>
+						<State Name="Credits" ID="{42E0EA2F-E80A-4B58-BD2C-0F04143A1CDD}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="AbilityState" ID="{E7CAE0D7-130D-4B0F-9D73-D972453724B3}">
+					<ChildrenList>
+						<State Name="None" ID="{F9646739-8EBC-43FA-9AE8-8806E3C04BF6}"/>
+						<State Name="Default" ID="{B1C0D2A1-AD55-4EE2-8E15-50E18E61707D}"/>
+						<State Name="Ball" ID="{B680800C-915A-4A09-9120-DFFDF43EB3CF}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

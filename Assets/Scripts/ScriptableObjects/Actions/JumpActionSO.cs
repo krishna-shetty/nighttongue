@@ -7,6 +7,9 @@ public class JumpActionSO: BaseActionSO
     public float MaxJumpLateralDistance = 10f;
     public float FastFallMultiplier = 3f;
 
+    [Range(0f, 1f)]
+    public float jumpCutoffMultiplier = 0.25f; // Multiplier for vertical velocity when jump is cut short
+
     private void OnEnable()
     {
         if (string.IsNullOrEmpty(ActionName))

@@ -6,8 +6,32 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/TutorialScene.unity
-    guid: 00732e75b0afc62479f804d7ad01a111
+    path: Assets/Scenes/0-1 MainMenu.unity
+    guid: eea5e8a28c860f54a843da37992c1c3c
+  - enabled: 1
+    path: Assets/Scenes/0-2 BellyBar.unity
+    guid: 6def4e6733ef0f5438a6df8ffe8091db
+  - enabled: 1
+    path: Assets/Scenes/1-1 TeahouseExterior.unity
+    guid: 530274ae51a52d341b5451cb0f8ac68f
+  - enabled: 1
+    path: Assets/Scenes/1-2 TeahouseInterior.unity
+    guid: cd0ff246004ae794bae59d91e755a525
+  - enabled: 1
+    path: Assets/Scenes/2-1 Heart.unity
+    guid: 4cfbd0666adb8904cbca127ff4117b78
+  - enabled: 0
+    path: Assets/Scenes/Archive/2-1 Heart - old.unity
+    guid: b76bce7cf15e3fd40bcf794cbad2b59d
+  - enabled: 0
+    path: Assets/Scenes/Archive/Alice_BossLevel.unity
+    guid: 953159247fa880a419dadd09be55d806
+  - enabled: 0
+    path: Assets/Scenes/Archive/Amanda_Puppet_Show.unity
+    guid: eb8d6b6e24287b44c82a329ef6ff1d0d
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: b429e8f965da9fd4599f5f16ee72829d
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: b6c6c0370ce23475b8c068068dabf8d0, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

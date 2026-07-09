@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "890596405",
+    "Type": "Event",
+    "GUID": "{ADF489A0-D347-451D-8F50-FB8B100791C1}",
+    "Language": "SFX",
+    "Hash": "{253C7E17-4A0D-11B1-3459-11067E0B8082}",
+    "ObjectPath": "Play_a440_4sec_0dBfs",
+    "ShortName": "Play_a440_4sec_0dBfs",
+    "Path": "Event/Play_a440_4sec_0dBfs.bnk",
+    "Media": [
+     {
+      "Id": "7840480",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "a440_4sec_0dBfs.wav",
+      "Path": "Media/7840480.wem",
+      "CachePath": "13/{13C74809-806C-C8F5-3732-B3E7FA255DF6}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "890596405",
+      "Name": "Play_a440_4sec_0dBfs",
+      "ObjectPath": "\\Events\\Test WU\\Test Events\\Play_a440_4sec_0dBfs",
+      "GUID": "{ADF489A0-D347-451D-8F50-FB8B100791C1}",
+      "DurationType": "OneShot",
+      "DurationMin": "4",
+      "DurationMax": "4",
+      "MediaRefs": [
+       {
+        "Id": "7840480"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{7C38C3AA-CFF7-FEFA-A6E0-26DAC05EA575}"
+ }
+}

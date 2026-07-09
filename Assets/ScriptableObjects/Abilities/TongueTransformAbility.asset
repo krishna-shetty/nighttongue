@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3950c3e538dcc6649a371fa9acf00e4b, type: 3}
+  m_Name: TongueTransformAbility
+  m_EditorClassIdentifier: 
+  AbilityName: Tongue Transform
+  InputActionName: Transform
+  Icon: {fileID: 0}
+  IsHoldAbility: 1
+  moveAction: {fileID: 11400000, guid: 4f505571d420aca48a710f3945de141b, type: 2}
+  jumpAction: {fileID: 11400000, guid: 4fd0e65e6f3a3a24894622d360f70b22, type: 2}
+  SlopeForceMultiplier: 1
+  MinSlopeAngle: 5
+  Cooldown: 1

@@ -1,21 +1,47 @@
 using UnityEngine;
 
+
+public enum UpdateType
+{
+    Game,
+    Fixed,
+}
+
 public abstract class StateMachine : MonoBehaviour
 {
+    protected UpdateType UpdateType;
     protected BaseState CurrentState;
     protected BaseState QueuedState = null;
     protected bool isTransitioningState = false;
+    
     private void Start()
     {
         CurrentState.EnterState();
     }
+    
+    private void Update()
+    {
+        if(UpdateType == UpdateType.Game)
+        {
+            CurrentState.UpdateState();
+            if (!isTransitioningState && QueuedState != null)
+            {
+                TransitionToState(QueuedState);
+                QueuedState = null;
+            }
+        }  
+    }
+
     private void FixedUpdate()
     {
-        CurrentState.FixedUpdateState();
-        if (!isTransitioningState && QueuedState != null)
+        if (UpdateType == UpdateType.Fixed)
         {
-            TransitionToState(QueuedState);
-            QueuedState = null;
+            CurrentState.FixedUpdateState();
+            if (!isTransitioningState && QueuedState != null)
+            {
+                TransitionToState(QueuedState);
+                QueuedState = null;
+            }
         }
     }
 

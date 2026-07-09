@@ -1,0 +1,3174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{104690AA-7EF5-4D8F-868F-17574466DB2A}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Teahouse AMB WU" ID="{104690AA-7EF5-4D8F-868F-17574466DB2A}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="18"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<BlendContainer Name="Teahouse Blend Container" ID="{934A3F62-879C-4FB5-85B9-384593247345}" ShortID="730228916">
+					<PropertyList>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-96</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UserAuxSendVolume1" Type="Real64">
+							<ValueList>
+								<Value>-96</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{45236F4F-56C3-4CBA-9DB7-EC839E982CEF}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="AMB Bus" ID="{3D3D36FB-65F8-4140-85E8-185CDB73577B}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Teahouse_EXT_Reverb" ID="{49C18909-6732-4A62-B694-772F3D162753}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+						<Reference Name="UserAuxSend1">
+							<ObjectRef Name="Teahouse_INT_Reverb" ID="{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="AMB_windCalm_layer" ID="{189BAF33-D4CF-42C2-AA60-D1D9D52ACA5B}" ShortID="926303476">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_windCalm_layer" ID="{41252A8B-6C4A-4577-97FD-09E451DC0F41}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="6072.889"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.894715921343331"/>
+										<Property Name="LoopBegin" Type="Real64" Value="9.89469006038038"/>
+										<Property Name="LoopEnd" Type="Real64" Value="136.635494754779"/>
+										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>AMB_windCalm_layer.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1059766060"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_windCalm_layer" ID="{41252A8B-6C4A-4577-97FD-09E451DC0F41}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="AMB_windGust_layer" ID="{C4F37DD4-BBBC-44FA-B3E9-13D8FE910734}" ShortID="988876110">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>24</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_windGust_layer" ID="{D4D44553-3F86-41AA-83AA-CBC9B14AF5D3}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="736.781"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.259801663205206"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.811880197516267"/>
+										<Property Name="LoopEnd" Type="Real64" Value="8.72790512638008"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="9.50053364730034"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>AMB_windGust_layer.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="573633617"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_windGust_layer" ID="{D4D44553-3F86-41AA-83AA-CBC9B14AF5D3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="AMB_breath_layer" ID="{732E51E3-B238-47CE-BFBA-29CBABB7782E}" ShortID="1045591606">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>33</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>15</Value>
+									</ValueList>
+								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_breath_layer" ID="{96FF48EF-A367-4685-938C-6C5F320C77EB}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="8746.678"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.825"/>
+										<Property Name="LoopBegin" Type="Real64" Value="13.6112751107123"/>
+										<Property Name="LoopEnd" Type="Real64" Value="37.3663125139655"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="7.09028399303267"/>
+										<Property Name="TrimEnd" Type="Real64" Value="43.0592412674954"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>AMB_breath_layer.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="320856549"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_breath_layer" ID="{96FF48EF-A367-4685-938C-6C5F320C77EB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Breath Cycle Sequence" ID="{3C4E9C6D-E385-4E48-8768-578ADCB90B81}" ShortID="1033615945">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-29</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Inhale Random" ID="{26FE6BAD-BA9C-4C9A-893B-71AC90FE4FCA}" ShortID="872039904">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{DC6E8126-4C24-4458-B3D9-E7746E1E3900}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="0.25"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="AMB_inhale_01" ID="{012E1C71-7E97-410F-A5F0-A71C237567C2}" ShortID="860936286">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_inhale_01" ID="{491D930B-8701-462E-915D-F387B1A75BCA}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_inhale_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="740782969"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_inhale_01" ID="{491D930B-8701-462E-915D-F387B1A75BCA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AMB_inhale_02" ID="{4CE29342-57E6-4A30-B9AB-BBA70B2C9E82}" ShortID="475874339">
+											<PropertyList>
+												<Property Name="MakeUpGain" Type="Real64">
+													<ValueList>
+														<Value>12</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_inhale_02" ID="{50C50ECA-394F-482A-85A9-5A1DAA5D91E7}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_inhale_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="495320957"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_inhale_02" ID="{50C50ECA-394F-482A-85A9-5A1DAA5D91E7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AMB_inhale_03" ID="{E8BDE7A6-326E-49C9-BC43-3AB0258D0666}" ShortID="566597480">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_inhale_03" ID="{B7D940BB-90CE-4BB1-AA8E-8CCE358FC368}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_inhale_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="83297476"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_inhale_03" ID="{B7D940BB-90CE-4BB1-AA8E-8CCE358FC368}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AMB_inhale_04" ID="{FAD7EEBF-5E58-49DD-8AB1-52AB3150C33E}" ShortID="891814431">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_inhale_04" ID="{2D14DBEE-BF13-437B-A1AE-C3A6B2F86F21}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_inhale_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="703113281"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_inhale_04" ID="{2D14DBEE-BF13-437B-A1AE-C3A6B2F86F21}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Exhale Random" ID="{CCE81BFB-4D89-4747-B1AD-15FC520ACAD5}" ShortID="253541546">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{5E0EA505-0176-4FC5-8775-A5E5B331E6F2}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="0.25"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="AMB_exhale_01" ID="{08BEDC49-216C-4D01-A226-AAD70494B5F0}" ShortID="830011897">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_exhale_01" ID="{050791C2-52C0-42B0-8BAA-301831F91087}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_exhale_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="293901214"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_exhale_01" ID="{050791C2-52C0-42B0-8BAA-301831F91087}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AMB_exhale_02" ID="{B9ABF654-3293-48AD-82FF-1905D483B406}" ShortID="687149539">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_exhale_02" ID="{05994B11-BE2F-4C7E-8B93-00907FDD456F}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_exhale_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="335030060"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_exhale_02" ID="{05994B11-BE2F-4C7E-8B93-00907FDD456F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AMB_exhale_03" ID="{E002906C-E53B-4B84-B093-2A5C9227AD18}" ShortID="336070905">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_exhale_03" ID="{2598B94D-C947-42F5-8AB1-7DB370859D1F}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_exhale_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="458149572"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_exhale_03" ID="{2598B94D-C947-42F5-8AB1-7DB370859D1F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AMB_exhale_04" ID="{BEF4123C-7A8C-4127-9C5A-5007DB2EBA3E}" ShortID="20683817">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_exhale_04" ID="{4B7324FE-27C7-4DF0-87A4-79DC550D5F6E}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_exhale_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="53737817"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_exhale_04" ID="{4B7324FE-27C7-4DF0-87A4-79DC550D5F6E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{5DCF5E3B-9676-4EF3-96D3-C4B94F69720B}" ShortID="784645013">
+												<ReferenceList>
+													<Reference Name="Effect">
+														<Custom>
+															<Effect Name="Meter (Custom)" ID="{4C406B5D-853D-4A48-B712-45FE5A513364}" ShortID="246609777" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+																<PropertyList>
+																	<Property Name="AttackTime" Type="Real32" Value="0.67"/>
+																	<Property Name="ReleaseTime" Type="Real32" Value="0.77"/>
+																</PropertyList>
+																<PluginData>
+	<GameParameter Name="SC_breathCycle" ID="{5FD9C158-B2B3-48ED-830D-B92C1F6AF067}"/>
+</PluginData>
+															</Effect>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{224F6289-937E-426A-894C-88CC814BECC5}" ShortID="620887389">
+												<ReferenceList>
+													<Reference Name="Effect">
+														<Custom>
+															<Effect Name="RoomVerb (Custom)" ID="{0C2D400C-D733-4400-AC71-E071C6B4E333}" ShortID="217381063" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																<PropertyList>
+																	<Property Name="DecayTime" Type="Real32" Value="3"/>
+																	<Property Name="DryLevel" Type="Real32" Value="-21.3"/>
+																	<Property Name="ERLevel" Type="Real32" Value="-96"/>
+																	<Property Name="HFDamping" Type="Real32" Value="3.85"/>
+																	<Property Name="PreDelay" Type="Real32" Value="125"/>
+																	<Property Name="ReverbLevel" Type="Real32" Value="0"/>
+																	<Property Name="RoomSize" Type="Real32" Value="100"/>
+																</PropertyList>
+															</Effect>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="Inhale Random" ID="{26FE6BAD-BA9C-4C9A-893B-71AC90FE4FCA}" WorkUnitID="{104690AA-7EF5-4D8F-868F-17574466DB2A}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="Exhale Random" ID="{CCE81BFB-4D89-4747-B1AD-15FC520ACAD5}" WorkUnitID="{104690AA-7EF5-4D8F-868F-17574466DB2A}"/>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+						<Sound Name="AMB_leaves" ID="{226CAB9B-02EF-4D34-B1EE-BA8C59498EE7}" ShortID="429527316">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_leaves" ID="{C5A37968-E5C2-4F40-AE56-ED75D6770C1B}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="2392.728"/>
+										<Property Name="LoopBegin" Type="Real64" Value="4.32937634619777"/>
+										<Property Name="LoopEnd" Type="Real64" Value="27.9903605896881"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>AMB_leaves.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="659369843"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{DA5A272C-6C59-4322-BBFF-FAE38B71AFEE}" ShortID="29040057">
+												<ReferenceList>
+													<Reference Name="Effect">
+														<Custom>
+															<Effect Name="RoomVerb (Custom)" ID="{25A42283-416D-4CC9-B87A-27E5F2E1F129}" ShortID="52379422" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																<PropertyList>
+																	<Property Name="Density" Type="Real32" Value="60"/>
+																	<Property Name="Diffusion" Type="Real32" Value="69"/>
+																	<Property Name="DryLevel" Type="Real32" Value="-20.3"/>
+																	<Property Name="ERLevel" Type="Real32" Value="0"/>
+																	<Property Name="ERPattern" Type="int32" Value="29"/>
+																	<Property Name="HFDamping" Type="Real32" Value="5.8"/>
+																	<Property Name="PreDelay" Type="Real32" Value="115"/>
+																	<Property Name="ReverbLevel" Type="Real32" Value="-96"/>
+																	<Property Name="RoomSize" Type="Real32" Value="100"/>
+																</PropertyList>
+															</Effect>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_leaves" ID="{C5A37968-E5C2-4F40-AE56-ED75D6770C1B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{8FEF0207-1B90-480D-BDF7-B6E43A43AE0D}"/>
+					</PositioningInfo>
+					<StateInfo>
+						<StatePropertyList>
+							<Property Name="Highpass"/>
+							<Property Name="Lowpass"/>
+							<Property Name="MakeUpGain"/>
+							<Property Name="Pitch"/>
+							<Property Name="UserAuxSendVolume0"/>
+							<Property Name="UserAuxSendVolume1"/>
+							<Property Name="Volume"/>
+						</StatePropertyList>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="SceneSwitch" ID="{668FC4B0-1BC0-4728-AC69-7C3B82B73853}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Teahouse_INT" ID="{AFDCACEA-CCC3-4096-97C1-7C1B5CCB2B96}"/>
+								<CustomState Name="" ID="{647F487A-0896-4214-9529-CB6E2C7BAB6E}" ShortID="476032912">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume1" Type="Real64" Value="96"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Boss" ID="{F806CE04-C0BB-40D5-94F0-E0466EC695B0}"/>
+								<CustomState Name="" ID="{271BAC9C-4D0F-474D-9BDD-577960D00927}" ShortID="1071052425"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Cutscene" ID="{58741484-806C-424C-90E7-B561ABFEBE6C}"/>
+								<CustomState Name="" ID="{AB4FE006-0770-4ADB-B915-AA904190D654}" ShortID="27875521"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Teahouse_EXT" ID="{42F3D9A6-CEA9-4928-9F93-3B5F39F8B30C}"/>
+								<CustomState Name="" ID="{D04A9873-FC2F-4F46-B56F-535C132EF4AE}" ShortID="154354722">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume0" Type="Real64" Value="96"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="BellyBar" ID="{0E933AFD-9E4C-4A95-A95F-DA9E2109BBC0}"/>
+								<CustomState Name="" ID="{30953C91-8C86-4B44-B356-F344237AA721}" ShortID="504820662"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Credits" ID="{42E0EA2F-E80A-4B58-BD2C-0F04143A1CDD}"/>
+								<CustomState Name="" ID="{9C2081BE-8518-426F-BF87-D2BE8506B3E6}" ShortID="929556021"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="MainMenu" ID="{E3A91F98-A27F-4C64-9D40-387A4564EC72}"/>
+								<CustomState Name="" ID="{0CB2E0F6-3773-410D-80C0-8EF7A81F6A75}" ShortID="718774364"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="None" ID="{CCC415A5-C82A-4F86-AD75-B4A1E1CECFA6}"/>
+								<CustomState Name="" ID="{0EE9D99B-51B8-42B5-9AC5-6378B2FFADFE}" ShortID="187325680"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{D2E919E8-75E0-4E54-9197-5117B99824D3}" ShortID="655929339">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="SC_windZone" ID="{D679832A-24A3-4B33-B168-E1D2F7EAE184}" WorkUnitID="{09AA0B54-5263-4C3D-B792-8594A0055D34}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{3D9B1383-4FD6-476D-8D06-AEF6A069DE18}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-48</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>-20.13158</XPos>
+																<YPos>-0.04247</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>-12.78948</XPos>
+																<YPos>-7.1623</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<BlendTrackList>
+						<BlendTrack Name="Calm Wind" ID="{ECE2B81A-5EBE-40FF-9F63-C8FDFDB2B93E}" ShortID="212008962">
+							<PropertyList>
+								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+							</PropertyList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{C10B57E5-B17F-4F36-B1DD-C5B885643E87}" ShortID="785766843">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="WindIntensity" ID="{1FDF9EF0-405A-4501-93AC-D360F28F6228}" WorkUnitID="{FDD19470-A549-40E2-9F39-B0B35533325A}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{10BA4E46-CD13-45D8-851D-CA84D8986B86}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-6.0206</YPos>
+																		<Flags>21</Flags>
+																		<SegmentShape>Log3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>0</YPos>
+																		<Flags>53</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="AMB_windCalm_layer" ID="{189BAF33-D4CF-42C2-AA60-D1D9D52ACA5B}"/>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+						<BlendTrack Name="Gust Wind" ID="{46DF09B9-EF88-4D7C-BE79-C2406FEB0AD9}" ShortID="933681186">
+							<PropertyList>
+								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+							</PropertyList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{5288B4DA-9D85-42CC-8003-5FA4C8DBFC3F}" ShortID="341006927">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="WindIntensity" ID="{1FDF9EF0-405A-4501-93AC-D360F28F6228}" WorkUnitID="{FDD19470-A549-40E2-9F39-B0B35533325A}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{16A56E54-2989-44C2-A7B9-1F6A8FC026DB}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-30</YPos>
+																		<Flags>21</Flags>
+																		<SegmentShape>Log3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>-24</YPos>
+																		<Flags>53</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="AMB_windGust_layer" ID="{C4F37DD4-BBBC-44FA-B3E9-13D8FE910734}"/>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+						<BlendTrack Name="Breath" ID="{537DB89B-5D19-4695-9035-2C6D7A371E9D}" ShortID="773775077">
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{805D61B1-AA7E-4B91-AFF6-2F7A8948E90B}" ShortID="517297783">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="SC_breathCycle" ID="{5FD9C158-B2B3-48ED-830D-B92C1F6AF067}" WorkUnitID="{09AA0B54-5263-4C3D-B792-8594A0055D34}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{83043702-7FC7-40CE-9F40-CBC0EC7B1CD1}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-48</XPos>
+																		<YPos>-37.673</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-22.445</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="AMB_breath_layer" ID="{732E51E3-B238-47CE-BFBA-29CBABB7782E}"/>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+						<BlendTrack Name="Breath Cycle" ID="{10D23C30-80A8-4776-BEE5-C69916FB4EDD}" ShortID="323098371">
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="Breath Cycle Sequence" ID="{3C4E9C6D-E385-4E48-8768-578ADCB90B81}"/>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+						<BlendTrack Name="Leaves" ID="{F95F308C-657B-45CF-9A79-198EB1856971}" ShortID="56454643">
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{3E76E9FB-B20D-4E98-8855-CA8A3DDA8895}" ShortID="573775749">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="WindIntensity" ID="{1FDF9EF0-405A-4501-93AC-D360F28F6228}" WorkUnitID="{FDD19470-A549-40E2-9F39-B0B35533325A}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{9CDB6CDC-587E-4A56-BEA0-AE258500F1CF}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-18.0618</YPos>
+																		<Flags>21</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>-3.79759</YPos>
+																		<Flags>53</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{8130838D-1295-46B0-9795-29EE2AA748B7}" ShortID="639986489">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="SC_breathCycle" ID="{5FD9C158-B2B3-48ED-830D-B92C1F6AF067}" WorkUnitID="{09AA0B54-5263-4C3D-B792-8594A0055D34}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{8F066F91-9476-48CB-A4FF-7867C62E73AB}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-48</XPos>
+																		<YPos>-12.0412</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-2.26079</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="AMB_leaves" ID="{226CAB9B-02EF-4D34-B1EE-BA8C59498EE7}"/>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+					</BlendTrackList>
+				</BlendContainer>
+				<BlendContainer Name="Teahouse INT Blend Container" ID="{5E891664-CD63-4151-8A5F-FDFC33F47355}" ShortID="894507450">
+					<PropertyList>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-96</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UserAuxSendVolume1" Type="Real64">
+							<ValueList>
+								<Value>-96</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{062D1ED3-302F-405D-979B-E311B3415062}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="AMB Bus" ID="{3D3D36FB-65F8-4140-85E8-185CDB73577B}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="Teahouse_EXT_Reverb" ID="{49C18909-6732-4A62-B694-772F3D162753}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+						<Reference Name="UserAuxSend1">
+							<ObjectRef Name="Teahouse_INT_Reverb" ID="{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="AMB_windGust_layer" ID="{9375EA23-4FB2-47BD-85B7-73BA70278AFD}" ShortID="237140017">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>61</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_windGust_layer" ID="{65E7A013-AEA2-4EAA-803A-4B81827EEB70}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="736.781"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.259801663205206"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.811880197516267"/>
+										<Property Name="LoopEnd" Type="Real64" Value="8.72790512638008"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="9.50053364730034"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>AMB_windGust_layer.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="573633617"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_windGust_layer" ID="{65E7A013-AEA2-4EAA-803A-4B81827EEB70}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Creaks" ID="{C4A357B8-F929-4A69-A027-54C7758B5D9F}" ShortID="906612703">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>3.5</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{6599CD31-5BC1-42DC-9C12-A7DE3F3646ED}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-500"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="7.5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{91FA3942-0A20-4C32-890A-346A1E2D4959}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="3"/>
+													<Property Name="Min" Type="Real64" Value="-3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Teahouse_EXT_Reverb" ID="{49C18909-6732-4A62-B694-772F3D162753}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+								<Reference Name="UserAuxSend1">
+									<ObjectRef Name="Teahouse_INT_Reverb" ID="{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="AMB_creak_01" ID="{60B9CFD7-8F9E-47CD-BED5-E4BBCF57407D}" ShortID="923001757">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>59</Value>
+											</ValueList>
+										</Property>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_creak_01" ID="{E21419AD-F01B-48B4-9205-A5C62A7B49AB}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_creak_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="743134834"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_creak_01" ID="{E21419AD-F01B-48B4-9205-A5C62A7B49AB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_creak_02" ID="{64107700-B3EE-4B2C-BA0B-3BEAB09DB5C5}" ShortID="613061171">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>60</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-940</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_creak_02" ID="{B192E7AE-0D2B-4C0F-BCC5-130BBE910487}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_creak_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="792762366"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_creak_02" ID="{B192E7AE-0D2B-4C0F-BCC5-130BBE910487}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_creak_03" ID="{13218B7A-C145-4FCD-9B1F-851A5BA5B213}" ShortID="1054590799">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>51</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-770</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_creak_03" ID="{373D40BD-4E3C-46F0-AD93-3F2F065CB135}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_creak_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="280856029"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_creak_03" ID="{373D40BD-4E3C-46F0-AD93-3F2F065CB135}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_creak_04" ID="{E3C8C236-E26E-4D57-ACD6-B0CD9D00AAF9}" ShortID="535958063">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>65</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-1000</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_creak_04" ID="{41466620-E824-4A13-BDAE-122C57D5F7EB}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_creak_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="282829293"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_creak_04" ID="{41466620-E824-4A13-BDAE-122C57D5F7EB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_creak_06" ID="{614FFB80-E7BE-40AB-B26D-A97089F5C3F7}" ShortID="172324558">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>56</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-440</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_creak_06" ID="{92D9F67E-9FC1-40E1-9D5A-FCF28241E9AC}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_creak_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="904482263"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_creak_06" ID="{92D9F67E-9FC1-40E1-9D5A-FCF28241E9AC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Droplets" ID="{F6577D87-8FAC-4F1B-B475-D540116FBF55}" ShortID="942666906">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>66</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>34</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{10C0247E-35FE-4AAB-BCD6-0BF4A4BD587C}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="300"/>
+													<Property Name="Min" Type="Real64" Value="-300"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{3EE7249A-7DDD-48C3-8EB3-B669BC8CEFA7}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.5"/>
+													<Property Name="Min" Type="Real64" Value="-0.5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-96</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UserAuxSendVolume1" Type="Real64">
+									<ValueList>
+										<Value>7</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Teahouse_EXT_Reverb" ID="{49C18909-6732-4A62-B694-772F3D162753}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+								<Reference Name="UserAuxSend1">
+									<ObjectRef Name="Teahouse_INT_Reverb" ID="{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="AMB_droplets_01" ID="{D188B8C0-087A-4CCB-8827-2C2D7727FF9C}" ShortID="395983426">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_droplets_01" ID="{00519A8A-CFAC-43CA-BA38-B2C070D65686}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_droplets_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="308667210"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_droplets_01" ID="{00519A8A-CFAC-43CA-BA38-B2C070D65686}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_droplets_02" ID="{B9312EEC-F11B-41DA-9378-F32A8D2D2D90}" ShortID="329252542">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_droplets_02" ID="{8019D187-4D73-4D85-AD85-3C2615210D66}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_droplets_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="217817385"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_droplets_02" ID="{8019D187-4D73-4D85-AD85-3C2615210D66}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_droplets_03" ID="{F2138D23-EACD-4121-A2E9-2F2B5E8852BF}" ShortID="87469424">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_droplets_03" ID="{39FC287D-0DE1-4D8C-9A63-6383F46C1F2A}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_droplets_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="124679784"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_droplets_03" ID="{39FC287D-0DE1-4D8C-9A63-6383F46C1F2A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_droplets_04" ID="{FBD6C545-92BE-4EA9-A3F5-1C0AFED91ECF}" ShortID="152013536">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_droplets_04" ID="{9FD396CF-DBE5-458B-90CE-90B975D3D948}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_droplets_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="497545974"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_droplets_04" ID="{9FD396CF-DBE5-458B-90CE-90B975D3D948}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_droplets_05" ID="{98F2D6B9-B61F-4221-B009-794772B105C4}" ShortID="157620158">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_droplets_05" ID="{B60B2968-3ADE-4B31-B15E-508B0480F5A6}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_droplets_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="896113011"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_droplets_05" ID="{B60B2968-3ADE-4B31-B15E-508B0480F5A6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_droplets_06" ID="{68A74E79-DDBB-40CF-A1C0-08F86386456C}" ShortID="569931795">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_droplets_06" ID="{3C51DC21-9DB7-455B-B22E-482453EE497D}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_droplets_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="948066983"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_droplets_06" ID="{3C51DC21-9DB7-455B-B22E-482453EE497D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_droplets_07" ID="{1123961F-CAE7-459D-BE43-41AF0DC0538A}" ShortID="32753">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_droplets_07" ID="{EB67DDF5-4AA4-4D7B-9687-596E401CC1FA}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_droplets_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="308696779"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_droplets_07" ID="{EB67DDF5-4AA4-4D7B-9687-596E401CC1FA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_droplets_08" ID="{12048326-DDDD-4691-99A2-75C8BD997DD3}" ShortID="575246091">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_droplets_08" ID="{4C333882-6EE0-484F-B98A-D1F5D521F5DD}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_droplets_08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="421295205"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_droplets_08" ID="{4C333882-6EE0-484F-B98A-D1F5D521F5DD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_droplets_09" ID="{E737FE16-A055-4E14-A00A-B7874694735B}" ShortID="596700598">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_droplets_09" ID="{5F36DD9E-6035-4731-8664-C73256B6B11D}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_droplets_09.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="871880140"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_droplets_09" ID="{5F36DD9E-6035-4731-8664-C73256B6B11D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_droplets_10" ID="{5420852B-4D4C-4CEA-9BCD-B83F14A3F0F2}" ShortID="1064256093">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_droplets_10" ID="{BA122734-FEB6-4EF1-AFA8-DBAF14262E2B}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_droplets_10.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="640943781"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_droplets_10" ID="{BA122734-FEB6-4EF1-AFA8-DBAF14262E2B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_droplets_11" ID="{868CAC23-0B90-4392-A0F6-C97DFF623E43}" ShortID="995192533">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_droplets_11" ID="{85A7C381-589F-46E9-B186-3230047EE769}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_droplets_11.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="309003248"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_droplets_11" ID="{85A7C381-589F-46E9-B186-3230047EE769}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Steam" ID="{565B9D34-3500-49D3-B07E-3540F4512C42}" ShortID="57231328">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>26</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>18</Value>
+									</ValueList>
+								</Property>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3.5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{9781DA89-19BB-4E7D-9251-D651D4FD3048}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="1"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-32</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Teahouse_EXT_Reverb" ID="{49C18909-6732-4A62-B694-772F3D162753}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+								<Reference Name="UserAuxSend1">
+									<ObjectRef Name="Teahouse_INT_Reverb" ID="{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Lo" ID="{7EEA87EE-2CD1-44B9-ACE0-BBC1D9E90497}" ShortID="538916737">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>28</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="AMB_steam_01" ID="{06E4F6A6-E09F-4E55-9849-AD258F9C8A8C}" ShortID="303204242">
+											<PropertyList>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UserAuxSendVolume1" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="AMB Bus" ID="{3D3D36FB-65F8-4140-85E8-185CDB73577B}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Teahouse_EXT_Reverb" ID="{49C18909-6732-4A62-B694-772F3D162753}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="Teahouse_INT_Reverb" ID="{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_steam_01" ID="{C84A1EC6-025F-4980-BF25-D01633F3FF9C}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_steam_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="200558124"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{94B26A5E-9A3C-41D7-8F30-7475F013119A}"/>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_steam_01" ID="{C84A1EC6-025F-4980-BF25-D01633F3FF9C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AMB_steam_02" ID="{18EB129E-9422-40F1-9535-0AF6B5447BB6}" ShortID="927648976">
+											<PropertyList>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UserAuxSendVolume1" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="AMB Bus" ID="{3D3D36FB-65F8-4140-85E8-185CDB73577B}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Teahouse_EXT_Reverb" ID="{49C18909-6732-4A62-B694-772F3D162753}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="Teahouse_INT_Reverb" ID="{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_steam_02" ID="{9151E974-2369-4DD8-A52C-3BEAA397CA0A}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_steam_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="751742056"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{BB8C3E88-5A21-4FDC-B12E-85419A9F220E}"/>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_steam_02" ID="{9151E974-2369-4DD8-A52C-3BEAA397CA0A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AMB_steam_03" ID="{596AF525-40A1-42A5-83DC-01A216DB0191}" ShortID="767601973">
+											<PropertyList>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UserAuxSendVolume1" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="AMB Bus" ID="{3D3D36FB-65F8-4140-85E8-185CDB73577B}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Teahouse_EXT_Reverb" ID="{49C18909-6732-4A62-B694-772F3D162753}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="Teahouse_INT_Reverb" ID="{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_steam_03" ID="{6330CEB9-7F5E-4FB3-85F1-705C6887A7EB}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_steam_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="138400981"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{466595CA-168A-43C0-A6BE-403DE7D08778}"/>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_steam_03" ID="{6330CEB9-7F5E-4FB3-85F1-705C6887A7EB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AMB_steam_04" ID="{0BA206D6-1D61-4F50-B510-71AAB8C5C80F}" ShortID="435212267">
+											<PropertyList>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UserAuxSendVolume1" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="AMB Bus" ID="{3D3D36FB-65F8-4140-85E8-185CDB73577B}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Teahouse_EXT_Reverb" ID="{49C18909-6732-4A62-B694-772F3D162753}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="Teahouse_INT_Reverb" ID="{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_steam_04" ID="{3701DA5E-0BE7-45AC-89B8-9D61C7510BD1}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_steam_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="645272364"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{B8A3724B-1750-47E9-9147-444E344B2ACD}"/>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_steam_04" ID="{3701DA5E-0BE7-45AC-89B8-9D61C7510BD1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AMB_steam_05" ID="{E75AEA72-7207-4B28-8315-94EB531B8BE1}" ShortID="180845523">
+											<PropertyList>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UserAuxSendVolume1" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="AMB Bus" ID="{3D3D36FB-65F8-4140-85E8-185CDB73577B}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Teahouse_EXT_Reverb" ID="{49C18909-6732-4A62-B694-772F3D162753}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="Teahouse_INT_Reverb" ID="{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_steam_05" ID="{4450084A-34E8-4FB7-9116-97A0AD13EFF6}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_steam_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="541025237"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{6CEF53B4-D04C-4455-BAC0-7730B6D50421}"/>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_steam_05" ID="{4450084A-34E8-4FB7-9116-97A0AD13EFF6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AMB_steam_06" ID="{2CA5D032-4AB0-45F7-AE15-635A72B63C6A}" ShortID="125086394">
+											<PropertyList>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UserAuxSendVolume1" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="AMB Bus" ID="{3D3D36FB-65F8-4140-85E8-185CDB73577B}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Teahouse_EXT_Reverb" ID="{49C18909-6732-4A62-B694-772F3D162753}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="Teahouse_INT_Reverb" ID="{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_steam_06" ID="{65973783-5855-4BF6-956C-0B57AE51A751}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_steam_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="123992718"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{C4AF7721-2144-46EC-86BC-A3F36D558F4B}"/>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_steam_06" ID="{65973783-5855-4BF6-956C-0B57AE51A751}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="LoMid" ID="{0B3C9FA3-023C-4DC0-82DF-37A52E254990}" ShortID="555148740">
+									<PropertyList>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>31</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="AMB_steam_07" ID="{ADB2BA43-FEE2-47C1-9EA9-DD890FF57E28}" ShortID="950613141">
+											<PropertyList>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UserAuxSendVolume1" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="AMB Bus" ID="{3D3D36FB-65F8-4140-85E8-185CDB73577B}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Teahouse_EXT_Reverb" ID="{49C18909-6732-4A62-B694-772F3D162753}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="Teahouse_INT_Reverb" ID="{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_steam_07" ID="{BBF071DD-DEA1-40E3-8AC8-0218765FC68D}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_steam_07.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="436846653"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{BB23C774-3343-47A6-8E4F-7BA55D11B0AD}"/>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_steam_07" ID="{BBF071DD-DEA1-40E3-8AC8-0218765FC68D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AMB_steam_08" ID="{42BC0FB8-4388-42AD-8C26-4F060BCA08CC}" ShortID="136296745">
+											<PropertyList>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UserAuxSendVolume1" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="AMB Bus" ID="{3D3D36FB-65F8-4140-85E8-185CDB73577B}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Teahouse_EXT_Reverb" ID="{49C18909-6732-4A62-B694-772F3D162753}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="Teahouse_INT_Reverb" ID="{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_steam_08" ID="{B5C6F2DA-8B09-4CB7-9537-921973FAC05E}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_steam_08.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="923650955"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{6F140AB4-BCA7-4C7F-8C31-1B0D3E666C8B}"/>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_steam_08" ID="{B5C6F2DA-8B09-4CB7-9537-921973FAC05E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AMB_steam_09" ID="{6E418B06-FFCF-49F7-96BA-A31E4B275E57}" ShortID="470403146">
+											<PropertyList>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UserAuxSendVolume1" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="AMB Bus" ID="{3D3D36FB-65F8-4140-85E8-185CDB73577B}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Teahouse_EXT_Reverb" ID="{49C18909-6732-4A62-B694-772F3D162753}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="Teahouse_INT_Reverb" ID="{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_steam_09" ID="{6010DA3F-7CBA-487C-8B21-1D463E4CB0A4}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_steam_09.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="601970072"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{EBD4527E-DC3F-45BD-B3CE-9C12F2D29CD4}"/>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_steam_09" ID="{6010DA3F-7CBA-487C-8B21-1D463E4CB0A4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AMB_steam_10" ID="{6DE69B1A-7E78-4386-B6DB-114EA654C366}" ShortID="138214535">
+											<PropertyList>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UserAuxSendVolume1" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="AMB Bus" ID="{3D3D36FB-65F8-4140-85E8-185CDB73577B}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Teahouse_EXT_Reverb" ID="{49C18909-6732-4A62-B694-772F3D162753}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="Teahouse_INT_Reverb" ID="{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_steam_10" ID="{64C2754B-4ABF-437E-8491-383F0405FF5B}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_steam_10.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="692429031"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{64B16321-9657-4A0C-B641-BF818683DC33}"/>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_steam_10" ID="{64C2754B-4ABF-437E-8491-383F0405FF5B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AMB_steam_11" ID="{95FCEE5D-BA1D-41DF-9CCA-BE3CBF729B84}" ShortID="175056531">
+											<PropertyList>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UserAuxSendVolume1" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="AMB Bus" ID="{3D3D36FB-65F8-4140-85E8-185CDB73577B}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Teahouse_EXT_Reverb" ID="{49C18909-6732-4A62-B694-772F3D162753}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="Teahouse_INT_Reverb" ID="{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_steam_11" ID="{9541D5D2-A05C-4D27-BCF1-8D88012B6FF7}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_steam_11.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="960375811"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{66011E4A-CEAF-40D2-81DE-7DABB121047F}"/>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_steam_11" ID="{9541D5D2-A05C-4D27-BCF1-8D88012B6FF7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Hi" ID="{CE19C7F2-F15C-4DDD-81C9-2EBBD2DB6201}" ShortID="585575459">
+									<PropertyList>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>60</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="AMB_steam_18" ID="{47EC3FFA-5304-4084-908A-90E72280E4EC}" ShortID="971803982">
+											<PropertyList>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UserAuxSendVolume1" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="AMB Bus" ID="{3D3D36FB-65F8-4140-85E8-185CDB73577B}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Teahouse_EXT_Reverb" ID="{49C18909-6732-4A62-B694-772F3D162753}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="Teahouse_INT_Reverb" ID="{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_steam_18" ID="{9E2C3B5B-59E2-47B8-BD39-B5DD6EFCAE82}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_steam_18.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="413279700"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{383C931D-2F40-4824-8131-4A58B54D7AFC}"/>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_steam_18" ID="{9E2C3B5B-59E2-47B8-BD39-B5DD6EFCAE82}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AMB_steam_19" ID="{F79E8B3D-A9D3-4B27-BA19-E4CB07B417F8}" ShortID="1036747740">
+											<PropertyList>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UserAuxSendVolume1" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="AMB Bus" ID="{3D3D36FB-65F8-4140-85E8-185CDB73577B}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Teahouse_EXT_Reverb" ID="{49C18909-6732-4A62-B694-772F3D162753}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="Teahouse_INT_Reverb" ID="{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_steam_19" ID="{19E9C93B-DF0F-4F80-9033-E68F63AE37F9}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_steam_19.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="408036862"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{E38346F1-BDCA-4AC9-B787-7AD998341884}"/>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_steam_19" ID="{19E9C93B-DF0F-4F80-9033-E68F63AE37F9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AMB_steam_20" ID="{EFA09F95-9017-4DC0-880E-BBB9AE420954}" ShortID="508253019">
+											<PropertyList>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UserAuxSendVolume1" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="AMB Bus" ID="{3D3D36FB-65F8-4140-85E8-185CDB73577B}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Teahouse_EXT_Reverb" ID="{49C18909-6732-4A62-B694-772F3D162753}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="Teahouse_INT_Reverb" ID="{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_steam_20" ID="{134DAFFE-911A-41EF-A2EA-A85ECE55C1A2}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_steam_20.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="535800237"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{A0CE187B-F877-4FDE-9EF0-DC7EE2566535}"/>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_steam_20" ID="{134DAFFE-911A-41EF-A2EA-A85ECE55C1A2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AMB_steam_21" ID="{F597AD17-E824-486A-9E1D-10B515F2D76E}" ShortID="988065006">
+											<PropertyList>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UserAuxSendVolume1" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="AMB Bus" ID="{3D3D36FB-65F8-4140-85E8-185CDB73577B}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Teahouse_EXT_Reverb" ID="{49C18909-6732-4A62-B694-772F3D162753}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="Teahouse_INT_Reverb" ID="{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_steam_21" ID="{8E3E0052-940C-4E5E-853A-0BB2298BB710}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_steam_21.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1057765782"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{6D7A23D0-FE0E-40AE-9A20-E411FB0B7BCA}"/>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_steam_21" ID="{8E3E0052-940C-4E5E-853A-0BB2298BB710}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AMB_steam_22" ID="{9613DC5D-E51A-4187-95CD-67A1CBE0C349}" ShortID="310912837">
+											<PropertyList>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UserAuxSendVolume1" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="AMB Bus" ID="{3D3D36FB-65F8-4140-85E8-185CDB73577B}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Teahouse_EXT_Reverb" ID="{49C18909-6732-4A62-B694-772F3D162753}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="Teahouse_INT_Reverb" ID="{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_steam_22" ID="{1292D853-58A1-4AD3-B1F1-34B23110E72F}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_steam_22.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="942768908"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{D2EC0265-0AAC-4210-A2E4-EF1B6AB0FC5A}"/>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_steam_22" ID="{1292D853-58A1-4AD3-B1F1-34B23110E72F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="HiMid" ID="{C1873F77-40A2-4354-93EC-39872657FA04}" ShortID="290335844">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="AMB_steam_12" ID="{CC43C655-178E-44F0-A7CD-6594C7725ACC}" ShortID="328670674">
+											<PropertyList>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UserAuxSendVolume1" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="AMB Bus" ID="{3D3D36FB-65F8-4140-85E8-185CDB73577B}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Teahouse_EXT_Reverb" ID="{49C18909-6732-4A62-B694-772F3D162753}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="Teahouse_INT_Reverb" ID="{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_steam_12" ID="{150E4ADC-4D0C-487B-B4AF-34AF2098CD4E}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_steam_12.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="483820354"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{68D96CA6-C278-47AE-9F4D-9B064E8FAEE5}"/>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_steam_12" ID="{150E4ADC-4D0C-487B-B4AF-34AF2098CD4E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AMB_steam_13" ID="{8C5654A2-08CF-439F-A8A7-114A3E940636}" ShortID="544263209">
+											<PropertyList>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UserAuxSendVolume1" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="AMB Bus" ID="{3D3D36FB-65F8-4140-85E8-185CDB73577B}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Teahouse_EXT_Reverb" ID="{49C18909-6732-4A62-B694-772F3D162753}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="Teahouse_INT_Reverb" ID="{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_steam_13" ID="{A3CD0E09-3591-4742-BECC-45BAA431BCE9}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_steam_13.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="248880637"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{17A80AEA-A434-48AE-8C3B-29769501853B}"/>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_steam_13" ID="{A3CD0E09-3591-4742-BECC-45BAA431BCE9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AMB_steam_14" ID="{806F270B-25C4-410D-B56F-B33F8B7E0E64}" ShortID="878541593">
+											<PropertyList>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UserAuxSendVolume1" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="AMB Bus" ID="{3D3D36FB-65F8-4140-85E8-185CDB73577B}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Teahouse_EXT_Reverb" ID="{49C18909-6732-4A62-B694-772F3D162753}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="Teahouse_INT_Reverb" ID="{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_steam_14" ID="{4DF68CF6-EEFB-4A72-BA73-07CF6D53672D}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_steam_14.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="979541979"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{23BB9CB0-9084-4FEE-8A21-A1FD6C4C664F}"/>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_steam_14" ID="{4DF68CF6-EEFB-4A72-BA73-07CF6D53672D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AMB_steam_15" ID="{C8C1A056-DD71-4F6F-A700-AC739F118A49}" ShortID="294498724">
+											<PropertyList>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UserAuxSendVolume1" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="AMB Bus" ID="{3D3D36FB-65F8-4140-85E8-185CDB73577B}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Teahouse_EXT_Reverb" ID="{49C18909-6732-4A62-B694-772F3D162753}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="Teahouse_INT_Reverb" ID="{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_steam_15" ID="{A7C6FF2A-A3D1-47F6-B596-B81BA2B8472E}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_steam_15.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="248586927"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{390DDD18-FF7B-4A2C-B123-6A4C8400A965}"/>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_steam_15" ID="{A7C6FF2A-A3D1-47F6-B596-B81BA2B8472E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AMB_steam_16" ID="{58D0404A-822E-4176-8251-B8F892F046F2}" ShortID="815598975">
+											<PropertyList>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UserAuxSendVolume1" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="AMB Bus" ID="{3D3D36FB-65F8-4140-85E8-185CDB73577B}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Teahouse_EXT_Reverb" ID="{49C18909-6732-4A62-B694-772F3D162753}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="Teahouse_INT_Reverb" ID="{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_steam_16" ID="{A69752F7-6562-4F87-AA70-1A75CACB9334}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_steam_16.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="756863167"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{F0037429-A002-4215-AD14-8972093E9470}"/>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_steam_16" ID="{A69752F7-6562-4F87-AA70-1A75CACB9334}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="AMB_steam_17" ID="{E08C1242-CF30-4AB2-8DE0-D78AD31D4A12}" ShortID="927171026">
+											<PropertyList>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+												<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UserAuxSendVolume1" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="AMB Bus" ID="{3D3D36FB-65F8-4140-85E8-185CDB73577B}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Teahouse_EXT_Reverb" ID="{49C18909-6732-4A62-B694-772F3D162753}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="Teahouse_INT_Reverb" ID="{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="AMB_steam_17" ID="{191FA4A7-6DD4-4F90-960A-C3142F939D07}">
+													<Language>SFX</Language>
+													<AudioFile>AMB_steam_17.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="964192497"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{344D0D87-2780-428E-96E8-FFCDBBBFECD2}"/>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="AMB_steam_17" ID="{191FA4A7-6DD4-4F90-960A-C3142F939D07}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="AMB_boiling" ID="{50BB7474-E2E9-499A-B273-7005B3D7DE1A}" ShortID="818495252">
+							<PropertyList>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Teahouse_EXT_Reverb" ID="{49C18909-6732-4A62-B694-772F3D162753}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+								<Reference Name="UserAuxSend1">
+									<ObjectRef Name="Teahouse_INT_Reverb" ID="{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_boiling" ID="{99556DCE-4375-42F4-97E8-08145E98AA20}">
+									<Language>SFX</Language>
+									<AudioFile>AMB_boiling.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="455945861"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_boiling" ID="{99556DCE-4375-42F4-97E8-08145E98AA20}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{50BEDDFB-227D-4F8F-BDDA-091CB963B18B}"/>
+					</PositioningInfo>
+					<StateInfo>
+						<StatePropertyList>
+							<Property Name="Highpass"/>
+							<Property Name="Lowpass"/>
+							<Property Name="MakeUpGain"/>
+							<Property Name="Pitch"/>
+							<Property Name="UserAuxSendVolume0"/>
+							<Property Name="UserAuxSendVolume1"/>
+							<Property Name="Volume"/>
+						</StatePropertyList>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="SceneSwitch" ID="{668FC4B0-1BC0-4728-AC69-7C3B82B73853}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Teahouse_INT" ID="{AFDCACEA-CCC3-4096-97C1-7C1B5CCB2B96}"/>
+								<CustomState Name="" ID="{AFD00E94-84A9-4C5D-AAB1-FECFDAFB69D0}" ShortID="813450311">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume1" Type="Real64" Value="96"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Boss" ID="{F806CE04-C0BB-40D5-94F0-E0466EC695B0}"/>
+								<CustomState Name="" ID="{9C4DCE68-0FB1-4918-86DD-9ACB7B940FC7}" ShortID="486434319"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Cutscene" ID="{58741484-806C-424C-90E7-B561ABFEBE6C}"/>
+								<CustomState Name="" ID="{279508C9-5E2F-45E3-86C9-08805BA4C7C3}" ShortID="473053642"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Teahouse_EXT" ID="{42F3D9A6-CEA9-4928-9F93-3B5F39F8B30C}"/>
+								<CustomState Name="" ID="{9779E5E3-6776-4740-BF69-1C6E91016F08}" ShortID="491867859">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume0" Type="Real64" Value="96"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="BellyBar" ID="{0E933AFD-9E4C-4A95-A95F-DA9E2109BBC0}"/>
+								<CustomState Name="" ID="{0F417FAC-11C6-4D3F-BD87-D1C0103086F5}" ShortID="634519835"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Credits" ID="{42E0EA2F-E80A-4B58-BD2C-0F04143A1CDD}"/>
+								<CustomState Name="" ID="{842CD48B-A221-4C4A-BB88-0F4E933A1E02}" ShortID="972637814"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="MainMenu" ID="{E3A91F98-A27F-4C64-9D40-387A4564EC72}"/>
+								<CustomState Name="" ID="{ADBAE99A-1305-4731-90E2-65731C5632DE}" ShortID="990089071"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="None" ID="{CCC415A5-C82A-4F86-AD75-B4A1E1CECFA6}"/>
+								<CustomState Name="" ID="{221C4C71-0D55-4ADA-B22B-EB30D8572EB7}" ShortID="79881746"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{AAFCC6A8-AD2D-40B6-AAB8-1A205078669A}" ShortID="866561288">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="SC_windZone" ID="{D679832A-24A3-4B33-B168-E1D2F7EAE184}" WorkUnitID="{09AA0B54-5263-4C3D-B792-8594A0055D34}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{E6DB4D15-D163-4325-84CD-77E81B08F3D5}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-48</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>-20.13158</XPos>
+																<YPos>-0.04247</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>-12.78948</XPos>
+																<YPos>-7.1623</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+					<BlendTrackList>
+						<BlendTrack Name="Calm Wind" ID="{E8E58243-2B7E-4CF2-AF54-8EE166346232}" ShortID="857318674">
+							<PropertyList>
+								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+							</PropertyList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{215996A0-8745-4645-AFEA-C01A0328A357}" ShortID="872873089">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="WindIntensity" ID="{1FDF9EF0-405A-4501-93AC-D360F28F6228}" WorkUnitID="{FDD19470-A549-40E2-9F39-B0B35533325A}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{0973A44A-EABA-42F7-8C7E-9DC8306A4E96}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-6.0206</YPos>
+																		<Flags>21</Flags>
+																		<SegmentShape>Log3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>0</YPos>
+																		<Flags>53</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</BlendTrack>
+						<BlendTrack Name="Gust Wind" ID="{4DDB2F5D-71CD-4156-8977-FA8CC32800DD}" ShortID="365916620">
+							<PropertyList>
+								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+							</PropertyList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{9FC176E2-72DE-405D-9C1D-1E132FAC2838}" ShortID="937650996">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="WindIntensity" ID="{1FDF9EF0-405A-4501-93AC-D360F28F6228}" WorkUnitID="{FDD19470-A549-40E2-9F39-B0B35533325A}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{C17F1EB0-1680-4ADC-9BF0-D0FB1F277FD6}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-5.83516</YPos>
+																		<Flags>21</Flags>
+																		<SegmentShape>Log3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>-2.49188</YPos>
+																		<Flags>53</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="AMB_windGust_layer" ID="{9375EA23-4FB2-47BD-85B7-73BA70278AFD}"/>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+						<BlendTrack Name="Breath" ID="{4ECDEC5B-C89E-485C-97B0-4C3EF5EBB470}" ShortID="779861569">
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{262E8E60-7B4F-4B2A-97B7-7E161E24BFD4}" ShortID="597986650">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="SC_breathCycle" ID="{5FD9C158-B2B3-48ED-830D-B92C1F6AF067}" WorkUnitID="{09AA0B54-5263-4C3D-B792-8594A0055D34}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{D9917DE3-307B-4835-A7DA-CC768B1BF96F}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-48</XPos>
+																		<YPos>-37.673</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-22.445</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</BlendTrack>
+						<BlendTrack Name="Breath Cycle" ID="{9460FB13-7691-41D0-A3B6-22759F5B1C5A}" ShortID="441781203"/>
+						<BlendTrack Name="Leaves" ID="{C25B3E65-4A03-4377-813D-AE09422149ED}" ShortID="796949422">
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{63A89111-8AFE-420F-BBDA-C4AC0D01F15E}" ShortID="884097685">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="WindIntensity" ID="{1FDF9EF0-405A-4501-93AC-D360F28F6228}" WorkUnitID="{FDD19470-A549-40E2-9F39-B0B35533325A}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{7D9F69F1-C191-45BC-994C-8CCE8FE32BEB}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-18.0618</YPos>
+																		<Flags>21</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>-3.79759</YPos>
+																		<Flags>53</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{2DA049DE-FE4B-402A-9A5B-BF5AE9B00E42}" ShortID="891299139">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="SC_breathCycle" ID="{5FD9C158-B2B3-48ED-830D-B92C1F6AF067}" WorkUnitID="{09AA0B54-5263-4C3D-B792-8594A0055D34}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{589043C9-43C6-44BA-BEB1-FFD048E450B1}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-48</XPos>
+																		<YPos>-12.0412</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-2.26079</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</BlendTrack>
+					</BlendTrackList>
+				</BlendContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

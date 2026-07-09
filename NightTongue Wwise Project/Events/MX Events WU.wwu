@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0CE77192-B848-40A5-BD37-E01AEDAF0608}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="MX Events WU" ID="{0CE77192-B848-40A5-BD37-E01AEDAF0608}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="15"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Music States" ID="{6886FDD3-A029-4268-BD5D-5EAD8799632D}" ShortID="414135334">
+					<ChildrenList>
+						<Event Name="MX_State_BAR" ID="{DD02157C-9C8B-4254-8E3B-86B75113560A}">
+							<ChildrenList>
+								<Action Name="" ID="{D5FDAC3D-4268-4313-8BEF-9F5E8D52AE2C}" ShortID="559500797">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="BellyBar" ID="{0E933AFD-9E4C-4A95-A95F-DA9E2109BBC0}" WorkUnitID="{D352ADA4-7676-4067-BF4C-538C008C76A3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MX_State_BOS" ID="{7264BDFB-C00D-45D3-82EC-2FB934452121}">
+							<ChildrenList>
+								<Action Name="" ID="{5F48BA4A-3545-4C87-9D9D-17F00B23FF67}" ShortID="542505508">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Boss" ID="{F806CE04-C0BB-40D5-94F0-E0466EC695B0}" WorkUnitID="{D352ADA4-7676-4067-BF4C-538C008C76A3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MX_State_CUT" ID="{3CAFB1C4-735D-4BBA-8998-2F0D28EE8D9D}">
+							<ChildrenList>
+								<Action Name="" ID="{61D734FD-C62F-428B-A504-D261241C7C68}" ShortID="45489534">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Cutscene" ID="{58741484-806C-424C-90E7-B561ABFEBE6C}" WorkUnitID="{D352ADA4-7676-4067-BF4C-538C008C76A3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MX_State_MEN" ID="{3FF6605D-4954-4527-AC0D-21296E4CA913}">
+							<ChildrenList>
+								<Action Name="" ID="{F95E0615-C9D7-4E90-A77B-B99CD6A5503D}" ShortID="771120542">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MainMenu" ID="{E3A91F98-A27F-4C64-9D40-387A4564EC72}" WorkUnitID="{D352ADA4-7676-4067-BF4C-538C008C76A3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MX_State_TH_EXT" ID="{ECD6F5BB-E0B9-4E92-A6FC-9619FF9C8FE3}">
+							<ChildrenList>
+								<Action Name="" ID="{0C203976-F59C-4EC5-B498-2528CB2C8167}" ShortID="795319025">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Teahouse_EXT" ID="{42F3D9A6-CEA9-4928-9F93-3B5F39F8B30C}" WorkUnitID="{D352ADA4-7676-4067-BF4C-538C008C76A3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MX_State_TH_INT" ID="{8A8223D5-0D09-4B00-BF7F-8B837DA32212}">
+							<ChildrenList>
+								<Action Name="" ID="{0357C676-8C97-4231-A5F1-88BDF8D97177}" ShortID="408209090">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Teahouse_INT" ID="{AFDCACEA-CCC3-4096-97C1-7C1B5CCB2B96}" WorkUnitID="{D352ADA4-7676-4067-BF4C-538C008C76A3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MX_State_None" ID="{4E3DDED2-F3DF-4127-BEC1-6BE00C76F7EE}">
+							<ChildrenList>
+								<Action Name="" ID="{82804A65-9947-43BC-9EF8-EF7FF5EBD289}" ShortID="431776226">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="None" ID="{CCC415A5-C82A-4F86-AD75-B4A1E1CECFA6}" WorkUnitID="{D352ADA4-7676-4067-BF4C-538C008C76A3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MX_State_CRD" ID="{77E2B037-7BB3-483D-A8B3-BBA7E63DCAB7}">
+							<ChildrenList>
+								<Action Name="" ID="{5384740E-B395-4AC6-BC2E-C104B128A54E}" ShortID="1046898365">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Credits" ID="{42E0EA2F-E80A-4B58-BD2C-0F04143A1CDD}" WorkUnitID="{D352ADA4-7676-4067-BF4C-538C008C76A3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="MusicSwitch_Start" ID="{71CF16FB-FEDD-443D-8DBB-9CDDBCFC88CE}">
+					<ChildrenList>
+						<Action Name="" ID="{AE496C1C-C183-4A48-849F-CBDE037B3E02}" ShortID="1058567742">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MasterMusicSwitch" ID="{F1B242B2-A99F-4B64-AE92-AEF65FC2871D}" WorkUnitID="{2C8A7404-93F9-4B38-8399-84B9529BC5AC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MusicSwitch_Stop" ID="{3CDB2485-82BF-4BF1-B3BF-4523C2FFCEC2}">
+					<ChildrenList>
+						<Action Name="" ID="{771BC632-A324-430F-9324-113D1FD3E45E}" ShortID="383560670">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MasterMusicSwitch" ID="{F1B242B2-A99F-4B64-AE92-AEF65FC2871D}" WorkUnitID="{2C8A7404-93F9-4B38-8399-84B9529BC5AC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

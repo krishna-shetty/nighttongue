@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{39AE7DBA-A9E9-4F59-A267-2FC4CD89799B}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="SFX Events WU" ID="{39AE7DBA-A9E9-4F59-A267-2FC4CD89799B}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="19"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Tami Movement" ID="{D38A76D2-F700-4E19-A5F5-DBB2BE12DBBC}" ShortID="196817219">
+					<ChildrenList>
+						<Event Name="Play_SFX_tami_footsteps" ID="{60B86E47-5B51-4F68-9C3E-6BE2AD7696A6}">
+							<ChildrenList>
+								<Action Name="" ID="{5EEE29E7-B3CC-4879-9E17-44E65BBD8B0E}" ShortID="900410946">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_tami_footsteps" ID="{E10074A5-A631-403D-9CC4-73A43052C783}" WorkUnitID="{8120FE55-43F6-4156-B574-CC74C66B27F5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_tami_land" ID="{DB39B04A-BA31-4B4A-A3B3-EB77B038B31A}">
+							<ChildrenList>
+								<Action Name="" ID="{EDB693AF-DCD1-489D-B55B-41CD66D336FA}" ShortID="752557252">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_tami_land" ID="{F34D8396-C327-4EE3-A6B0-BC4BC336AA6E}" WorkUnitID="{8120FE55-43F6-4156-B574-CC74C66B27F5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F6EAE737-8E2E-4D68-8C23-881BA53B3C34}" ShortID="461947384">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_tami_ball_land" ID="{E931CC79-E1E1-4ACB-8451-01D1966818B0}" WorkUnitID="{8120FE55-43F6-4156-B574-CC74C66B27F5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_tami_jump" ID="{1396B400-A2F6-40C0-AE71-BA0B3B54D31B}">
+							<ChildrenList>
+								<Action Name="" ID="{89297764-98C2-4130-A3B7-AB2A076E683F}" ShortID="394037836">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_tami_jump" ID="{0E9FE0A2-06F7-4F50-AD1F-5FC1BC1998A4}" WorkUnitID="{8120FE55-43F6-4156-B574-CC74C66B27F5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Folder Name="Swing" ID="{90E77017-5204-4692-B8E4-2CE306D1B521}" ShortID="1053307451">
+							<ChildrenList>
+								<Event Name="Play_SFX_tami_swing_detach" ID="{E3B4E6F6-F804-4CEE-89F9-D948980B8060}">
+									<ChildrenList>
+										<Action Name="" ID="{2D960536-9B73-4E8B-8B2F-EEB321995721}" ShortID="101732474">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_tami_swing_detach" ID="{B83FA519-7CAA-4473-A15A-8987552CD686}" WorkUnitID="{8120FE55-43F6-4156-B574-CC74C66B27F5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{A6B33455-7AB5-4A47-BC83-44C7C49F0C8C}" ShortID="709141488">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_tami_swing_ascend" ID="{C3728B0C-E1FF-49DF-A145-0A1382C31046}" WorkUnitID="{8120FE55-43F6-4156-B574-CC74C66B27F5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{56FB48A4-3BB2-4756-B4D4-FE1DF26F7CB7}" ShortID="215848552">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_tami_swing_backward" ID="{0F7E936A-0AA6-468E-9867-AC2A84E2AAD2}" WorkUnitID="{8120FE55-43F6-4156-B574-CC74C66B27F5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{FA87EEE0-0076-40CD-A8F9-FA13EA91A9CE}" ShortID="504110135">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_tami_swing_descend" ID="{544FA2BC-653C-44CE-AF12-3FB025BF4C64}" WorkUnitID="{8120FE55-43F6-4156-B574-CC74C66B27F5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{B30CAA72-FF22-44BB-928F-281D37203EAA}" ShortID="109254585">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_tami_swing_forward" ID="{016BD916-AFFF-4CC5-A08E-CABAADB99CE8}" WorkUnitID="{8120FE55-43F6-4156-B574-CC74C66B27F5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_tami_swing_attach" ID="{16026825-988A-4F1E-B7C0-656BD650DD1B}">
+									<ChildrenList>
+										<Action Name="" ID="{129FCB3A-136B-4A4B-9B78-E32052BF0C4E}" ShortID="338405311">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_tami_swing_attach" ID="{F0B92918-09D4-43A6-881C-9BD6DA080334}" WorkUnitID="{8120FE55-43F6-4156-B574-CC74C66B27F5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{B5DAFC9B-5A74-41DE-B8E5-F9131A0ADBD7}" ShortID="88537751">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_tami_swing_ascend" ID="{C3728B0C-E1FF-49DF-A145-0A1382C31046}" WorkUnitID="{8120FE55-43F6-4156-B574-CC74C66B27F5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{DE167358-A07A-4D58-AED8-3781B7365DCC}" ShortID="513566227">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_tami_swing_descend" ID="{544FA2BC-653C-44CE-AF12-3FB025BF4C64}" WorkUnitID="{8120FE55-43F6-4156-B574-CC74C66B27F5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_tami_swing_forward" ID="{8E2D8795-6E46-4688-9732-3E1002968C10}">
+									<ChildrenList>
+										<Action Name="" ID="{915A6204-D414-4DB5-BBB1-0BEC99D145D5}" ShortID="967981000">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_tami_swing_forward" ID="{F3AE550E-273D-4FE0-A86D-290BB410CEC0}" WorkUnitID="{8120FE55-43F6-4156-B574-CC74C66B27F5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{F76994A5-AF05-4271-AFFC-B524E46CE09D}" ShortID="564866830">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_tami_swing_backward" ID="{6C7A454C-B272-472F-984C-F959702AB74D}" WorkUnitID="{8120FE55-43F6-4156-B574-CC74C66B27F5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_tami_swing_backward" ID="{11141E1F-728B-44F5-9304-D10B8B3A42DD}">
+									<ChildrenList>
+										<Action Name="" ID="{D8EF2563-B859-44C0-A83B-78CF48806DB5}" ShortID="27551189">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_tami_swing_backward" ID="{6C7A454C-B272-472F-984C-F959702AB74D}" WorkUnitID="{8120FE55-43F6-4156-B574-CC74C66B27F5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{E523712D-1908-4AFF-94D6-B8F84F90B61F}" ShortID="166008818">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_tami_swing_forward" ID="{F3AE550E-273D-4FE0-A86D-290BB410CEC0}" WorkUnitID="{8120FE55-43F6-4156-B574-CC74C66B27F5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_tami_swing_ascend" ID="{A7BBF28A-0A05-41E2-8D48-E6F3616A4DC4}">
+									<ChildrenList>
+										<Action Name="" ID="{4550CFED-D5CD-4804-9D9C-94DED1C27560}" ShortID="453941654">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_tami_swing_ascend" ID="{C3728B0C-E1FF-49DF-A145-0A1382C31046}" WorkUnitID="{8120FE55-43F6-4156-B574-CC74C66B27F5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{0AE278B1-7CF5-455E-98D2-A3FB7BE76562}" ShortID="1022588829">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_tami_swing_descend" ID="{544FA2BC-653C-44CE-AF12-3FB025BF4C64}" WorkUnitID="{8120FE55-43F6-4156-B574-CC74C66B27F5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_tami_swing_descend" ID="{9F36F0B9-34A4-497C-84E8-BAB08844B95C}">
+									<ChildrenList>
+										<Action Name="" ID="{204EEB26-5F49-47AA-9AFA-7FE64EDB3F93}" ShortID="854114193">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_tami_swing_descend" ID="{544FA2BC-653C-44CE-AF12-3FB025BF4C64}" WorkUnitID="{8120FE55-43F6-4156-B574-CC74C66B27F5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{0E9E25A5-DE63-44AF-A463-041943CD6B69}" ShortID="528983532">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_tami_swing_ascend" ID="{C3728B0C-E1FF-49DF-A145-0A1382C31046}" WorkUnitID="{8120FE55-43F6-4156-B574-CC74C66B27F5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_SFX_tami_swing_vertical" ID="{D63C001C-C509-4162-99D5-326E79B71EB5}">
+									<ChildrenList>
+										<Action Name="" ID="{0665FD4A-8937-4658-BAF7-8D47870C2F13}" ShortID="545509009">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_tami_swing_ascend" ID="{C3728B0C-E1FF-49DF-A145-0A1382C31046}" WorkUnitID="{8120FE55-43F6-4156-B574-CC74C66B27F5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{CD89F415-4D19-4A2D-A439-B1A46CEA4707}" ShortID="452716627">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_tami_swing_descend" ID="{544FA2BC-653C-44CE-AF12-3FB025BF4C64}" WorkUnitID="{8120FE55-43F6-4156-B574-CC74C66B27F5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_tami_swing_min" ID="{01B4B70C-EE01-4DF0-8ED0-600CCC508B88}">
+									<ChildrenList>
+										<Action Name="" ID="{F4C6CF72-098A-476D-B8C7-17640DD02008}" ShortID="118972257">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_tami_swing_min" ID="{23922D24-E827-44AC-83CD-C61208FBC02A}" WorkUnitID="{8120FE55-43F6-4156-B574-CC74C66B27F5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{C5E0564C-81F3-4438-A581-AAB5EE01F7AB}" ShortID="713384106">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_tami_swing_ascend" ID="{C3728B0C-E1FF-49DF-A145-0A1382C31046}" WorkUnitID="{8120FE55-43F6-4156-B574-CC74C66B27F5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{A47BEF1C-37ED-4E2E-920F-B7603CDE5F50}" ShortID="708524901">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_tami_swing_descend" ID="{544FA2BC-653C-44CE-AF12-3FB025BF4C64}" WorkUnitID="{8120FE55-43F6-4156-B574-CC74C66B27F5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_tami_swing_max" ID="{3ABBE3AA-CE88-44D1-B192-46EE8CD888EB}">
+									<ChildrenList>
+										<Action Name="" ID="{BEE619D2-4F90-4B0B-8EB5-E9F77B97F5C3}" ShortID="422851663">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_tami_swing_max" ID="{C5320B7A-2D88-4BA0-A894-07A8CF2AE11C}" WorkUnitID="{8120FE55-43F6-4156-B574-CC74C66B27F5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{30A80520-B74C-4366-9652-7193D4674D26}" ShortID="973787702">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_tami_swing_ascend" ID="{C3728B0C-E1FF-49DF-A145-0A1382C31046}" WorkUnitID="{8120FE55-43F6-4156-B574-CC74C66B27F5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{F99B298B-97C4-4239-95D0-FC9AEE5B131B}" ShortID="270800910">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_tami_swing_descend" ID="{544FA2BC-653C-44CE-AF12-3FB025BF4C64}" WorkUnitID="{8120FE55-43F6-4156-B574-CC74C66B27F5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_tami_swing_swish" ID="{5A29D587-F7FD-4C11-80CF-AEC934E30832}">
+									<ChildrenList>
+										<Action Name="" ID="{C2E43487-B35B-44E9-B4BD-2D4B853F0EAA}" ShortID="749973142">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_tami_swing_swish" ID="{48CF1396-8588-428C-B819-2F71E31DA3B1}" WorkUnitID="{8120FE55-43F6-4156-B574-CC74C66B27F5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Event Name="Play_SFX_tami_moveTongue" ID="{F1D501F3-E969-4323-ADBB-1C8BAF27CE8E}">
+							<ChildrenList>
+								<Action Name="" ID="{75CADC90-C657-42CD-9AD4-5959618152B0}" ShortID="208245235">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_tami_moveTongue" ID="{5D2B41F3-CC45-4076-830B-293FD56CFD20}" WorkUnitID="{8120FE55-43F6-4156-B574-CC74C66B27F5}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Folder Name="Ball" ID="{CC81CF2D-210B-4346-AAC3-5E36E5F1E4DD}" ShortID="99758443">
+							<ChildrenList>
+								<Folder Name="BallRoll" ID="{63AD4041-1607-4FD3-8426-79BDE68E62EE}" ShortID="70322271">
+									<ChildrenList>
+										<Event Name="Stop_SFX_tami_ballroll" ID="{F3DDCC8E-A4C1-4A1C-BBCE-1968BD39B94F}">
+											<ChildrenList>
+												<Action Name="" ID="{C8FAE3AC-7CC1-477D-AB19-A470C6BF5796}" ShortID="960473084">
+													<PropertyList>
+														<Property Name="ActionType" Type="int16" Value="2"/>
+														<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+														<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_tami_ballroll" ID="{FD0A8746-FC13-4390-884C-E66F1BDC47D6}" WorkUnitID="{8120FE55-43F6-4156-B574-CC74C66B27F5}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Play_SFX_tami_ballroll" ID="{ADAFA661-26CE-4349-BA1F-E178DEC4A395}">
+											<ChildrenList>
+												<Action Name="" ID="{1959C6CC-B00D-4584-9CA3-43104C245CFD}" ShortID="488441755">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="SFX_tami_ballroll" ID="{FD0A8746-FC13-4390-884C-E66F1BDC47D6}" WorkUnitID="{8120FE55-43F6-4156-B574-CC74C66B27F5}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Event Name="Play_SFX_tami_ballcurl" ID="{9D99BCAA-B1BC-4F33-BBF0-04A85EF1642A}">
+									<ChildrenList>
+										<Action Name="" ID="{2EE6BFDF-F38F-4716-9F46-4214EB0C501B}" ShortID="307788300">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_tami_ballcurl" ID="{89AB503D-D3B6-4067-89E8-97F4970853DD}" WorkUnitID="{8120FE55-43F6-4156-B574-CC74C66B27F5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_tami_ballrelease" ID="{55727FBA-0B73-4F2F-8851-8DDE95CD101F}">
+									<ChildrenList>
+										<Action Name="" ID="{9C5A1827-4462-471C-A79B-E199452A599B}" ShortID="185914252">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_tami_ballrelease" ID="{905E62D4-0A08-496D-9455-F6D598CFFF11}" WorkUnitID="{8120FE55-43F6-4156-B574-CC74C66B27F5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_tami_ball_land" ID="{7F39B91B-099A-456E-82E5-269BF0A15DC0}">
+									<ChildrenList>
+										<Action Name="" ID="{96C77EEB-E825-4B29-8F38-0B0B93D14DCD}" ShortID="55843161">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_tami_ball_land" ID="{E931CC79-E1E1-4ACB-8451-01D1966818B0}" WorkUnitID="{8120FE55-43F6-4156-B574-CC74C66B27F5}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Pickups" ID="{335F206F-9089-45DF-9554-4FD1464189DB}" ShortID="545716712">
+					<ChildrenList>
+						<Event Name="Play_SFX_pickup_sweet" ID="{E0161CB6-7B27-40BD-A388-92EA75984F4C}">
+							<ChildrenList>
+								<Action Name="" ID="{91B12147-0016-4288-AECE-61342D3F120C}" ShortID="1025481790">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_pickup_sweet" ID="{21F5FEBF-5B2A-4482-95F5-39587A1453E6}" WorkUnitID="{5818E737-B109-41B4-80F8-1F6DE11FD14F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_pickup_sour" ID="{EB5A3003-B41B-408C-8EAA-7D565C4F93E9}">
+							<ChildrenList>
+								<Action Name="" ID="{EF837D43-7E74-4AAE-926B-742D3DC0AC09}" ShortID="209651988">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_pickup_sour" ID="{9B77709A-38D7-4BFF-A49E-A3EEA789C903}" WorkUnitID="{5818E737-B109-41B4-80F8-1F6DE11FD14F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_pickup_oil" ID="{6EFCBBF7-20AD-4187-A52A-A90EA1FE54D3}">
+							<ChildrenList>
+								<Action Name="" ID="{6250B208-44DF-4C50-BA62-E3D7BB6323BA}" ShortID="509153204">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_pickup_oil" ID="{6E6CEDDB-6A66-4146-8106-FDCDC0FEF687}" WorkUnitID="{5818E737-B109-41B4-80F8-1F6DE11FD14F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_pickup_syrup" ID="{0AE8410B-75F8-42E6-A1DA-25899F765680}">
+							<ChildrenList>
+								<Action Name="" ID="{440F3A73-5AE2-4E5C-A4E7-386899DBC17B}" ShortID="127369665">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_pickup_syrup" ID="{42ED0848-DF7C-4948-9827-298412E16CF1}" WorkUnitID="{5818E737-B109-41B4-80F8-1F6DE11FD14F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_pickup_flour" ID="{4D6548FA-3D6C-4923-9571-E2D9F2DCA997}">
+							<ChildrenList>
+								<Action Name="" ID="{52EECEC4-A261-4BFD-BC1F-C0866C397C95}" ShortID="577307209">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_pickup_flour" ID="{0D548434-9945-4464-9BD9-288F6FD625A8}" WorkUnitID="{5818E737-B109-41B4-80F8-1F6DE11FD14F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_pickup_water" ID="{157E9BE2-4351-4C99-9964-001912B4A41F}">
+							<ChildrenList>
+								<Action Name="" ID="{BC6BAD9B-DECB-42FF-AE7E-D9FE8724187B}" ShortID="441022448">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_pickup_water" ID="{4C36FD2B-1F45-4994-89EC-CF73F131063C}" WorkUnitID="{5818E737-B109-41B4-80F8-1F6DE11FD14F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_drag_goop" ID="{329D3D71-E2E8-4A9D-A269-8939DDE93845}">
+							<ChildrenList>
+								<Action Name="" ID="{CF6C7147-E39B-4EC6-9041-700050519863}" ShortID="1049512113">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_drag_goop" ID="{EA113C18-3D85-4927-8382-77327C03D8C3}" WorkUnitID="{5818E737-B109-41B4-80F8-1F6DE11FD14F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_drop_filling" ID="{F52339E6-58DF-49A9-83EB-F9E140DEF8E0}">
+							<ChildrenList>
+								<Action Name="" ID="{81CF35EE-9E55-44BD-9B22-1798096749A9}" ShortID="116677980">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_drop_filling" ID="{429A960B-5E79-49D5-9BC1-A71EB15BB7DF}" WorkUnitID="{5818E737-B109-41B4-80F8-1F6DE11FD14F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_pickup_filling" ID="{1238C7FC-FEB3-4806-BBDD-8107D3A74D78}">
+							<ChildrenList>
+								<Action Name="" ID="{502B5C7F-1497-4AF4-B716-62B9881C9FB4}" ShortID="843119669">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_pickup_filling" ID="{8ECA70D1-E750-49A7-97DB-C8CDA3775F4E}" WorkUnitID="{5818E737-B109-41B4-80F8-1F6DE11FD14F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_SFX_drag_goop" ID="{232746AE-FA46-47F0-94F8-417A07136D34}">
+							<ChildrenList>
+								<Action Name="" ID="{43A73D1A-31AB-4E16-9276-41605EBF7761}" ShortID="207840741">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_drag_goop" ID="{EA113C18-3D85-4927-8382-77327C03D8C3}" WorkUnitID="{5818E737-B109-41B4-80F8-1F6DE11FD14F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_drop_goop" ID="{865238C6-0DD0-4E50-BC22-E51E0351D2D1}">
+							<ChildrenList>
+								<Action Name="" ID="{C28906B9-0FE8-4769-9E83-9165117D08B9}" ShortID="765566388">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_drop_goop" ID="{CAFD35D1-139F-43E5-A9E5-0DF6EDCB178E}" WorkUnitID="{5818E737-B109-41B4-80F8-1F6DE11FD14F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="UI" ID="{C165F7F9-7D03-4795-8738-81AEB3D5EAB6}" ShortID="905608323">
+					<ChildrenList>
+						<Event Name="Play_AMB_bar_drink_click" ID="{85D2599D-AF63-4EB0-A1A7-BE565EDDC6C5}">
+							<ChildrenList>
+								<Action Name="" ID="{2D31EA0B-D604-4D32-A9C5-C54E5EC414B2}" ShortID="20395173">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_bar_drink_click" ID="{852559F1-67B2-412C-A893-5B1276271D5E}" WorkUnitID="{1AADB50E-8107-4E8F-B438-374265749A6D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_bar_drink_hover" ID="{A35AAE5E-9284-41DC-B538-DE4EC5D45064}">
+							<ChildrenList>
+								<Action Name="" ID="{BBD6E30F-C733-40A7-8934-533F220A60EC}" ShortID="946136874">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_bar_drink_hover" ID="{6D7591C7-4D63-4764-82AA-B40F977B4E65}" WorkUnitID="{1AADB50E-8107-4E8F-B438-374265749A6D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_click" ID="{3BEDEF8C-78AB-4B9E-ADC4-211FF440BF8E}">
+							<ChildrenList>
+								<Action Name="" ID="{100B7D3E-08C0-443A-A141-9C89C39CD228}" ShortID="324956182">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_click" ID="{9830F29F-4FC6-4AB3-99D8-F474E69EF6F9}" WorkUnitID="{1AADB50E-8107-4E8F-B438-374265749A6D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_hover" ID="{DBE93BAD-928B-4D10-938A-A0904A3DDC3E}">
+							<ChildrenList>
+								<Action Name="" ID="{68BF5041-82F9-4A29-9695-0D9BE562E6A3}" ShortID="881873065">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_hover" ID="{6B1BBB4F-135F-46CF-837D-E05906BB8F77}" WorkUnitID="{1AADB50E-8107-4E8F-B438-374265749A6D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_unhover" ID="{2E22D46A-A883-4297-9D55-DE9D0123D235}">
+							<ChildrenList>
+								<Action Name="" ID="{53F1896D-B84B-4911-8733-2301CAEB293F}" ShortID="425507950">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_unhover" ID="{D4990B39-E194-458A-B85B-C8CFD3ACE84B}" WorkUnitID="{1AADB50E-8107-4E8F-B438-374265749A6D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_UI_tap" ID="{43043F10-F835-4418-9E31-95FCF47D9590}">
+							<ChildrenList>
+								<Action Name="" ID="{AD90E54D-4BCA-492A-A2FD-0D1B67CCCE8C}" ShortID="805708981">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="UI_tap" ID="{6BA3647B-AB61-40B9-A18B-EC6116752745}" WorkUnitID="{1AADB50E-8107-4E8F-B438-374265749A6D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Damage" ID="{2189A614-FAD0-401A-9AFA-BCED0EF0F441}" ShortID="621033242">
+					<ChildrenList>
+						<Folder Name="Tami" ID="{E7769D16-1C12-4F5C-834B-8AE954803966}" ShortID="1041824110">
+							<ChildrenList>
+								<Event Name="Play_SFX_burn" ID="{9759C5E7-C173-4014-B824-2F5DB9DB8B7B}">
+									<ChildrenList>
+										<Action Name="" ID="{D4B62BB4-8061-4EA2-BE88-AEFA0FA6833D}" ShortID="699289522">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_burn" ID="{EA32664D-1881-4E28-A7C1-45C7B405D98E}" WorkUnitID="{74BD8F94-8C0D-4FF4-8EC0-376DA164371D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_tami_fall_acid" ID="{B9F99D9F-CB9B-4511-A39C-F119CE888510}">
+									<ChildrenList>
+										<Action Name="" ID="{22BF97F6-66A9-4176-9E28-DDE53DDBA74F}" ShortID="1003465691">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_tami_fall_acid" ID="{29E341BE-F1E6-480A-9371-20E04A5BE2E8}" WorkUnitID="{74BD8F94-8C0D-4FF4-8EC0-376DA164371D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{B05F5227-9657-4275-82A4-9C68C4C20DB4}" ShortID="431667314">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_tami_fall_water" ID="{040C01CE-7673-452D-9192-3EF2E58CB8B1}" WorkUnitID="{74BD8F94-8C0D-4FF4-8EC0-376DA164371D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_tami_damage" ID="{BB91B1F8-0690-42FC-999C-8BC1F2F6509B}">
+									<ChildrenList>
+										<Action Name="" ID="{7949EF76-445F-4242-A021-A6CB5A6B394F}" ShortID="555197874">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_tami_damage" ID="{12ED2445-504F-433D-AC62-B1DCD96C35B2}" WorkUnitID="{74BD8F94-8C0D-4FF4-8EC0-376DA164371D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Goomba" ID="{447139E0-5127-4F66-8A2E-4BBD92A26C37}" ShortID="717282845">
+							<ChildrenList>
+								<Event Name="Play_SFX_goomba_attack" ID="{58C134F2-B3FD-4EAA-BA28-7F7F95028973}">
+									<ChildrenList>
+										<Action Name="" ID="{C067BD8F-8591-4D6F-80AA-7C402B132646}" ShortID="620600344">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_goomba_attack" ID="{560320E1-B054-4F89-8578-08227C4A419B}" WorkUnitID="{74BD8F94-8C0D-4FF4-8EC0-376DA164371D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_goomba_damage" ID="{CDE0973F-90FB-43F1-90A8-42032AD51BF4}">
+									<ChildrenList>
+										<Action Name="" ID="{E08565E6-EA06-4034-BB6E-38C60502A13C}" ShortID="372478001">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_goomba_damage" ID="{FE16461E-E83C-4C26-91EE-C8D4C94408A5}" WorkUnitID="{74BD8F94-8C0D-4FF4-8EC0-376DA164371D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Boss" ID="{30649142-78E1-4AC7-8625-2E7041521E9A}" ShortID="1003845393">
+							<ChildrenList>
+								<Event Name="Play_SFX_boss_attack" ID="{9419C6A2-480B-4057-92EC-11D0C15572DD}">
+									<ChildrenList>
+										<Action Name="" ID="{0045A7EE-260D-4BE5-8403-7BAB70E42678}" ShortID="435389550">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_boss_attack" ID="{DD1BCD8F-63B3-48D8-8154-7B7898DA3F40}" WorkUnitID="{74BD8F94-8C0D-4FF4-8EC0-376DA164371D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_SFX_boss_puff" ID="{6C685240-A8EC-41F5-BA22-FB2F7E1F7ED2}">
+									<ChildrenList>
+										<Action Name="" ID="{F6BAD8E2-E8C5-499C-AA18-4DCDD19984A5}" ShortID="1037812014">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="SFX_boss_puff" ID="{D622052A-D36B-475D-AFDF-D6AC3875A7D0}" WorkUnitID="{74BD8F94-8C0D-4FF4-8EC0-376DA164371D}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Play_SFX_blender" ID="{8B9DAD48-C5A1-4780-AC3C-1D7DA2E8E05D}">
+					<ChildrenList>
+						<Action Name="" ID="{99C420F4-927E-47CE-8661-9ED3C8E6E58A}" ShortID="781090602">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_blender" ID="{728540F9-C6C1-4075-B128-D62DD484D6F8}" WorkUnitID="{AF1D340B-1AA6-4A85-822B-812D92E8B213}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="Boat" ID="{C701101E-6CA7-4129-BE06-044027522C84}" ShortID="610257290">
+					<ChildrenList>
+						<Event Name="Play_SFX_boat_launch" ID="{B1280B22-E58C-4850-91B3-57D3FD533FA8}">
+							<ChildrenList>
+								<Action Name="" ID="{E1829FA1-2741-4955-8082-E8C4526F107B}" ShortID="390636970">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_boat_launch" ID="{FAEECEEE-27DE-4ECE-A89B-B6D8AC7FE2E7}" WorkUnitID="{AF1D340B-1AA6-4A85-822B-812D92E8B213}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_boat_stop" ID="{C5463105-C96D-4659-8D32-764AFA56BC0F}">
+							<ChildrenList>
+								<Action Name="" ID="{BD39C6F5-F484-44D7-9DE8-AEDDD100E91B}" ShortID="688647330">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_boat_stop" ID="{8773F7FA-0BA6-48BF-B7C0-16A778D9A149}" WorkUnitID="{AF1D340B-1AA6-4A85-822B-812D92E8B213}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_boat_unload" ID="{78E9E575-1C73-4C75-BCF3-098F3F5A75D9}">
+							<ChildrenList>
+								<Action Name="" ID="{2DE5C27C-D4B9-4DFE-8E33-A620E05DF1A3}" ShortID="442818828">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_boat_unload" ID="{AB8E7478-3087-4B27-A69C-CADC46938664}" WorkUnitID="{AF1D340B-1AA6-4A85-822B-812D92E8B213}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_boat_load" ID="{4B0AFDAD-D45D-4FF3-BE70-424A3C27A3DD}">
+							<ChildrenList>
+								<Action Name="" ID="{2C3B62A9-3900-4F4D-A132-8DB9B33C1718}" ShortID="651876661">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_boat_load" ID="{2B7BB9F4-F65B-4DEB-B3E0-65A5DD2E15D5}" WorkUnitID="{AF1D340B-1AA6-4A85-822B-812D92E8B213}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Dough" ID="{6741D3F7-4D8D-460A-A211-1D812740BEE0}" ShortID="218699659">
+					<ChildrenList>
+						<Event Name="Play_SFX_dough_drag" ID="{A4BDE940-D70C-49D9-90A9-6ECE15DC71C8}">
+							<ChildrenList>
+								<Action Name="" ID="{ADDE89CD-9ED6-4E2D-B091-FD37EAB4B5F1}" ShortID="741887170">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_dough_drag" ID="{775AF151-2F0D-4B12-AA30-AB7566781D13}" WorkUnitID="{5818E737-B109-41B4-80F8-1F6DE11FD14F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_dough_land" ID="{55832D9B-208A-40A0-9AFE-BC40FB9BC077}">
+							<ChildrenList>
+								<Action Name="" ID="{9E4DF796-178C-4DE1-B940-7F6FD84719AA}" ShortID="700129451">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_dough_land" ID="{62892D71-3C97-4FB2-BEB6-93B8140AC32F}" WorkUnitID="{5818E737-B109-41B4-80F8-1F6DE11FD14F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_dough_roll" ID="{CF68615E-8EB0-40F7-B9E3-FB685D1604AB}">
+							<ChildrenList>
+								<Action Name="" ID="{5C38FB2D-1934-4F15-8C2C-A636D8113A2D}" ShortID="802737398">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_dough_roll" ID="{45201180-E546-4965-88AA-7CC5672F95D5}" WorkUnitID="{5818E737-B109-41B4-80F8-1F6DE11FD14F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_finished_dough" ID="{56480552-5738-4451-9BB4-A2D833D9C412}">
+							<ChildrenList>
+								<Action Name="" ID="{52507D25-698C-4309-AAF7-BF8D188A17E6}" ShortID="773981138">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_finished_dough" ID="{44B05418-AEC2-49D4-84DF-820054FFBED1}" WorkUnitID="{AF1D340B-1AA6-4A85-822B-812D92E8B213}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_mooncake_spawn" ID="{34BA6A6B-81F3-4078-8811-D824C0E86A6E}">
+							<ChildrenList>
+								<Action Name="" ID="{0C4F9726-7A63-42BD-8BD5-9D24EED114F2}" ShortID="590021545">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_mooncake_spawn" ID="{EF4A943D-2690-4E25-9796-6662305B1CF6}" WorkUnitID="{AF1D340B-1AA6-4A85-822B-812D92E8B213}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_SFX_dough_drag" ID="{65A49960-8E94-466D-8BC4-F0AB73E533BE}">
+							<ChildrenList>
+								<Action Name="" ID="{319CB603-3910-42FE-84BE-5F799D30D1FA}" ShortID="148781846">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_dough_drag" ID="{775AF151-2F0D-4B12-AA30-AB7566781D13}" WorkUnitID="{5818E737-B109-41B4-80F8-1F6DE11FD14F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_SFX_dough_roll" ID="{7DA5FE74-2026-4FEA-8379-4A038A42D3ED}">
+							<ChildrenList>
+								<Action Name="" ID="{B04BE60F-7327-4B56-B3C6-B36EAE294E36}" ShortID="139656074">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_dough_roll" ID="{45201180-E546-4965-88AA-7CC5672F95D5}" WorkUnitID="{5818E737-B109-41B4-80F8-1F6DE11FD14F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_SFX_dough_mold" ID="{A76D22E5-3A64-4474-BD19-88ED201C6669}">
+							<ChildrenList>
+								<Action Name="" ID="{FDF9CBEE-C62A-4050-AD11-AB90269DEC05}" ShortID="598798263">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFX_dough_mold" ID="{0BACCA57-3153-4D35-B833-F2FBF841287A}" WorkUnitID="{AF1D340B-1AA6-4A85-822B-812D92E8B213}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Play_SFX_oven_done" ID="{EE8D22A9-AB81-475D-A68C-A238FE2AC8EF}">
+					<ChildrenList>
+						<Action Name="" ID="{E25BB248-CD3C-4946-BFBD-0F761921370D}" ShortID="704914100">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_oven_done" ID="{24E1097A-2709-42E3-88E1-9DE00FE3D48C}" WorkUnitID="{AF1D340B-1AA6-4A85-822B-812D92E8B213}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{74EB1405-9305-4715-B291-6EA334C505C8}" ShortID="888801803">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_oven_start" ID="{8DECB201-D086-49A1-858A-44416F12DF20}" WorkUnitID="{AF1D340B-1AA6-4A85-822B-812D92E8B213}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_oven_start" ID="{7D9B60B2-2028-4F4F-9781-C6EE8F1BC1A9}">
+					<ChildrenList>
+						<Action Name="" ID="{7634AE69-B182-4602-852E-F0DEE745DF7D}" ShortID="517080470">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_oven_start" ID="{8DECB201-D086-49A1-858A-44416F12DF20}" WorkUnitID="{AF1D340B-1AA6-4A85-822B-812D92E8B213}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

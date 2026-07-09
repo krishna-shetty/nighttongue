@@ -1,0 +1,15 @@
+﻿{
+  "projectFileVersion": 3,
+  "sourceFiles": [
+    "*Cutscene1KehLily*/*.yarn",
+    "**/*.yarn"
+  ],
+  "excludeFiles": [
+    "**/*~/*",
+    "./Samples/Yarn Spinner*/*"
+  ],
+  "localisation": {},
+  "baseLanguage": "en",
+  "compilerOptions": {},
+  "definitionsFiles": []
+}

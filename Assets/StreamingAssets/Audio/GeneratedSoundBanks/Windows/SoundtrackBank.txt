@@ -1,0 +1,33 @@
+Event	ID	Name			Wwise Object Path	Notes
+	52370649	MX_State_TH_INT			\MX Events WU\Music States\MX_State_TH_INT	
+	203702919	MusicSwitch_Start			\MX Events WU\MusicSwitch_Start	
+	481409113	MX_State_CUT			\MX Events WU\Music States\MX_State_CUT	
+	582221893	MX_State_BOS			\MX Events WU\Music States\MX_State_BOS	
+	617687853	MusicSwitch_Stop			\MX Events WU\MusicSwitch_Stop	
+	749997958	MX_State_BAR			\MX Events WU\Music States\MX_State_BAR	
+	3187763393	MX_State_None			\MX Events WU\Music States\MX_State_None	
+	4111862835	MX_State_TH_EXT			\MX Events WU\Music States\MX_State_TH_EXT	
+	4170116433	MX_State_MEN			\MX Events WU\Music States\MX_State_MEN	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	711545299	SceneSwitch			\Default Work Unit\SceneSwitch	
+
+State	ID	Name	State Group			Notes
+	635489713	Teahouse_INT	SceneSwitch			
+	748895195	None	SceneSwitch			
+	939458395	Teahouse_EXT	SceneSwitch			
+	1182958561	Cutscene	SceneSwitch			
+	1560169506	Boss	SceneSwitch			
+	3604647259	MainMenu	SceneSwitch			
+	4224142038	BellyBar	SceneSwitch			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	50593421	AFT_MEN_90BPM_44TS_v1	Y:\Documents\PerforceAGP_Aftertaste\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\6B\{6BBC3789-7ED4-C225-3DE2-CDFA4E6E6D4F}.wem		\Interactive Music Hierarchy\Interactive MX WU\MasterMusicSwitch\Regions\MainMenu\MEN_Loop\AFT_MEN_90BPM_44TS_v1\AFT_MEN_90BPM_44TS_v1		22528160
+	87510458	MX_TeahouseInterior_110_4_4_L42	Y:\Documents\PerforceAGP_Aftertaste\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\B0\{B049CD30-DD18-508C-D9EA-C40D517D2839}.wem		\Interactive Music Hierarchy\Interactive MX WU\MasterMusicSwitch\Regions\Teahouse\TH_INT_EXPLORE\MX_TeahouseInterior_110_4_4_L42_Intro\MX_TeahouseInterior_110_4_4_L42		16934560
+	259642380	AFT_TH_Concept_v2	Y:\Documents\PerforceAGP_Aftertaste\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\61\{61E65A11-DE1E-6534-50D4-C7DF84F31F17}.wem		\Interactive Music Hierarchy\Interactive MX WU\MasterMusicSwitch\Regions\Teahouse\TH_EXT_EXPLORE\AFT_TH_Concept_Loop\AFT_TH_Concept_v2		13096500
+	757287261	AFT_BOSS_EXPLORE_124BPM_44TS_v2	Y:\Documents\PerforceAGP_Aftertaste\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\72\{72D0D085-CC91-7AF3-48B3-B1F1528D2E4D}.wem		\Interactive Music Hierarchy\Interactive MX WU\MasterMusicSwitch\Regions\Boss\BOS_EXPLORE\AFT_BOSS_EXPLORE_124BPM_44TS_v2\AFT_BOSS_EXPLORE_124BPM_44TS_v2		28985968
+	814325160	AFT_TH_EXT_EXPLORE_96BPM_44TS_v3	Y:\Documents\PerforceAGP_Aftertaste\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\2F\{2F15EEC1-F6CA-B349-159E-C329F44ED4DE}.wem		\Interactive Music Hierarchy\Interactive MX WU\MasterMusicSwitch\Regions\Teahouse\TH_EXT_EXPLORE\AFT_TH_EXT_EXPLORE_96BPM_44TS_v3_LOOP\AFT_TH_EXT_EXPLORE_96BPM_44TS_v3		24000160
+	887503020	AFT_TH_EXT_EXPLORE_96BPM_44TS_v2_1	Y:\Documents\PerforceAGP_Aftertaste\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\D0\{D011E552-8531-2799-B3D4-1F87AAF99D28}.wem		\Interactive Music Hierarchy\Interactive MX WU\MasterMusicSwitch\Regions\Teahouse\TH_EXT_EXPLORE\AFT_TH_EXT_EXPLORE_96BPM_44TS_v2_LOOP\AFT_TH_EXT_EXPLORE_96BPM_44TS_v2_1		16484092
+	961312120	AFT_MEN_92BPM_34TS_v3	Y:\Documents\PerforceAGP_Aftertaste\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\E2\{E2CE7056-EF91-B93A-60E4-0EA50592DB1E}.wem		\Interactive Music Hierarchy\Interactive MX WU\MasterMusicSwitch\Regions\Cutscene\CUT_LOOP\AFT_MEN_92BPM_34TS_v3\AFT_MEN_92BPM_34TS_v3		13899292
+	1043049844	AFT_BAR_90BPM_44TS_v1	Y:\Documents\PerforceAGP_Aftertaste\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\3A\{3ABC8038-027F-2768-E700-4968C393F324}.wem		\Interactive Music Hierarchy\Interactive MX WU\MasterMusicSwitch\Regions\BellyBar\BAR_LOOP\AFT_BAR_90BPM_44TS_v1\AFT_BAR_90BPM_44TS_v1		13440160
+

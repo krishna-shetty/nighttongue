@@ -1,0 +1,79 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2798933884",
+    "Type": "Event",
+    "GUID": "{4DAC28A7-F91A-4554-9393-B131402869AF}",
+    "Language": "SFX",
+    "Hash": "{8FB71D3D-274A-FD73-A1F1-2A53F0903432}",
+    "ObjectPath": "Play_Wind_Blend_Container",
+    "ShortName": "Play_Wind_Blend_Container",
+    "Path": "Event/Play_Wind_Blend_Container.bnk",
+    "Media": [
+     {
+      "Id": "320856549",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_breath_layer.wav",
+      "Path": "Media/320856549.wem",
+      "CachePath": "F6/{F679AE61-C2E1-7420-C67D-2C1ECF9BE2F4}.wem"
+     },
+     {
+      "Id": "573633617",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_windGust_layer.wav",
+      "Path": "Media/573633617.wem",
+      "CachePath": "4B/{4B0840AD-94F4-D167-BE12-0DE1FFAD7AFE}.wem"
+     },
+     {
+      "Id": "1059766060",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_windCalm_layer.wav",
+      "Path": "Media/1059766060.wem",
+      "CachePath": "20/{207B626D-104D-D18C-C5F2-B91E2A2D4FD2}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2798933884",
+      "Name": "Play_Wind_Blend_Container",
+      "ObjectPath": "\\Events\\AMB Events WU\\Teahouse\\Play_Wind_Blend_Container",
+      "GUID": "{4DAC28A7-F91A-4554-9393-B131402869AF}",
+      "Color": "18",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "320856549"
+       },
+       {
+        "Id": "573633617"
+       },
+       {
+        "Id": "1059766060"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1042517418",
+      "Name": "windIntensity",
+      "ObjectPath": "\\Game Parameters\\Weather Parameters WU\\windIntensity",
+      "GUID": "{564D8447-E6D1-42B5-A57E-E1B5B56FC247}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{F0B66BB7-D1BB-ADD6-C36E-518BDA40ECD8}"
+ }
+}

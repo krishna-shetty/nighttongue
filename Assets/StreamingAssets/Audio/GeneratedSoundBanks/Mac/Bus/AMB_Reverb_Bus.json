@@ -1,0 +1,30 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2622372973",
+    "Type": "Bus",
+    "GUID": "{17A82CB3-C323-45BD-A557-A452535F8B46}",
+    "Language": "SFX",
+    "Hash": "{7EEDD5D1-BFA9-DB8B-2CAA-9D080B20C0BB}",
+    "ObjectPath": "AMB_Reverb_Bus",
+    "ShortName": "AMB_Reverb_Bus",
+    "Path": "Bus/AMB_Reverb_Bus.bnk",
+    "AuxBusses": [
+     {
+      "Id": "2622372973",
+      "Name": "AMB_Reverb_Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX Bus\\AMB Bus\\AMB_Reverb_Bus",
+      "GUID": "{17A82CB3-C323-45BD-A557-A452535F8B46}",
+      "Color": "18"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{38DD023D-7F5E-A255-B1E2-FFB401360B64}"
+ }
+}

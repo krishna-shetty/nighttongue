@@ -1,0 +1,386 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2222677789",
+    "Type": "User",
+    "GUID": "{C8845393-CA3E-41BB-AE8F-2221E87A9AB9}",
+    "Language": "SFX",
+    "Hash": "{A6741A87-00B7-3C1E-0FEE-DAE7E5AD1038}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SoundtrackBank",
+    "ShortName": "SoundtrackBank",
+    "Path": "SoundtrackBank.bnk",
+    "Media": [
+     {
+      "Id": "50593421",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AFT_MEN_90BPM_44TS_v1.wav",
+      "CachePath": "6B/{6BBC3789-7ED4-C225-3DE2-CDFA4E6E6D4F}.wem"
+     },
+     {
+      "Id": "87510458",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MX_TeahouseInterior_110_4_4_L42.wav",
+      "CachePath": "B0/{B049CD30-DD18-508C-D9EA-C40D517D2839}.wem"
+     },
+     {
+      "Id": "259642380",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AFT_TH_Concept_v2.wav",
+      "CachePath": "61/{61E65A11-DE1E-6534-50D4-C7DF84F31F17}.wem"
+     },
+     {
+      "Id": "757287261",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AFT_BOSS_EXPLORE_124BPM_44TS_v2.wav",
+      "CachePath": "72/{72D0D085-CC91-7AF3-48B3-B1F1528D2E4D}.wem"
+     },
+     {
+      "Id": "814325160",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AFT_TH_EXT_EXPLORE_96BPM_44TS_v3.wav",
+      "CachePath": "2F/{2F15EEC1-F6CA-B349-159E-C329F44ED4DE}.wem"
+     },
+     {
+      "Id": "887503020",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AFT_TH_EXT_EXPLORE_96BPM_44TS_v2.1.wav",
+      "CachePath": "D0/{D011E552-8531-2799-B3D4-1F87AAF99D28}.wem"
+     },
+     {
+      "Id": "961312120",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AFT_MEN_92BPM_34TS_v3.wav",
+      "CachePath": "E2/{E2CE7056-EF91-B93A-60E4-0EA50592DB1E}.wem"
+     },
+     {
+      "Id": "1043049844",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AFT_BAR_90BPM_44TS_v1.wav",
+      "CachePath": "3A/{3ABC8038-027F-2768-E700-4968C393F324}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "203702919",
+      "Name": "MusicSwitch_Start",
+      "ObjectPath": "\\Events\\MX Events WU\\MusicSwitch_Start",
+      "GUID": "{71CF16FB-FEDD-443D-8DBB-9CDDBCFC88CE}",
+      "Color": "15",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "711545299",
+         "Id": "4224142038",
+         "GUID": "{0E933AFD-9E4C-4A95-A95F-DA9E2109BBC0}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "1043049844"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "711545299",
+         "Id": "1182958561",
+         "GUID": "{58741484-806C-424C-90E7-B561ABFEBE6C}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "961312120"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "711545299",
+         "Id": "1560169506",
+         "GUID": "{F806CE04-C0BB-40D5-94F0-E0466EC695B0}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "757287261"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "711545299",
+         "Id": "3604647259",
+         "GUID": "{E3A91F98-A27F-4C64-9D40-387A4564EC72}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "50593421"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "711545299",
+         "Id": "939458395",
+         "GUID": "{42F3D9A6-CEA9-4928-9F93-3B5F39F8B30C}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "259642380"
+         },
+         {
+          "Id": "814325160"
+         },
+         {
+          "Id": "887503020"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "711545299",
+         "Id": "635489713",
+         "GUID": "{AFDCACEA-CCC3-4096-97C1-7C1B5CCB2B96}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "87510458"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "617687853",
+      "Name": "MusicSwitch_Stop",
+      "ObjectPath": "\\Events\\MX Events WU\\MusicSwitch_Stop",
+      "GUID": "{3CDB2485-82BF-4BF1-B3BF-4523C2FFCEC2}",
+      "Color": "15",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "749997958",
+      "Name": "MX_State_BAR",
+      "ObjectPath": "\\Events\\MX Events WU\\Music States\\MX_State_BAR",
+      "GUID": "{DD02157C-9C8B-4254-8E3B-86B75113560A}",
+      "Color": "15",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "711545299",
+        "Id": "4224142038",
+        "Name": "BellyBar",
+        "ObjectPath": "\\States\\Default Work Unit\\SceneSwitch\\BellyBar",
+        "GUID": "{0E933AFD-9E4C-4A95-A95F-DA9E2109BBC0}"
+       }
+      ]
+     },
+     {
+      "Id": "582221893",
+      "Name": "MX_State_BOS",
+      "ObjectPath": "\\Events\\MX Events WU\\Music States\\MX_State_BOS",
+      "GUID": "{7264BDFB-C00D-45D3-82EC-2FB934452121}",
+      "Color": "15",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "711545299",
+        "Id": "1560169506",
+        "Name": "Boss",
+        "ObjectPath": "\\States\\Default Work Unit\\SceneSwitch\\Boss",
+        "GUID": "{F806CE04-C0BB-40D5-94F0-E0466EC695B0}"
+       }
+      ]
+     },
+     {
+      "Id": "481409113",
+      "Name": "MX_State_CUT",
+      "ObjectPath": "\\Events\\MX Events WU\\Music States\\MX_State_CUT",
+      "GUID": "{3CAFB1C4-735D-4BBA-8998-2F0D28EE8D9D}",
+      "Color": "15",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "711545299",
+        "Id": "1182958561",
+        "Name": "Cutscene",
+        "ObjectPath": "\\States\\Default Work Unit\\SceneSwitch\\Cutscene",
+        "GUID": "{58741484-806C-424C-90E7-B561ABFEBE6C}"
+       }
+      ]
+     },
+     {
+      "Id": "4170116433",
+      "Name": "MX_State_MEN",
+      "ObjectPath": "\\Events\\MX Events WU\\Music States\\MX_State_MEN",
+      "GUID": "{3FF6605D-4954-4527-AC0D-21296E4CA913}",
+      "Color": "15",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "711545299",
+        "Id": "3604647259",
+        "Name": "MainMenu",
+        "ObjectPath": "\\States\\Default Work Unit\\SceneSwitch\\MainMenu",
+        "GUID": "{E3A91F98-A27F-4C64-9D40-387A4564EC72}"
+       }
+      ]
+     },
+     {
+      "Id": "3187763393",
+      "Name": "MX_State_None",
+      "ObjectPath": "\\Events\\MX Events WU\\Music States\\MX_State_None",
+      "GUID": "{4E3DDED2-F3DF-4127-BEC1-6BE00C76F7EE}",
+      "Color": "15",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "711545299",
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\SceneSwitch\\None",
+        "GUID": "{CCC415A5-C82A-4F86-AD75-B4A1E1CECFA6}"
+       }
+      ]
+     },
+     {
+      "Id": "4111862835",
+      "Name": "MX_State_TH_EXT",
+      "ObjectPath": "\\Events\\MX Events WU\\Music States\\MX_State_TH_EXT",
+      "GUID": "{ECD6F5BB-E0B9-4E92-A6FC-9619FF9C8FE3}",
+      "Color": "15",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "711545299",
+        "Id": "939458395",
+        "Name": "Teahouse_EXT",
+        "ObjectPath": "\\States\\Default Work Unit\\SceneSwitch\\Teahouse_EXT",
+        "GUID": "{42F3D9A6-CEA9-4928-9F93-3B5F39F8B30C}"
+       }
+      ]
+     },
+     {
+      "Id": "52370649",
+      "Name": "MX_State_TH_INT",
+      "ObjectPath": "\\Events\\MX Events WU\\Music States\\MX_State_TH_INT",
+      "GUID": "{8A8223D5-0D09-4B00-BF7F-8B837DA32212}",
+      "Color": "15",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "ActionSetState": [
+       {
+        "GroupId": "711545299",
+        "Id": "635489713",
+        "Name": "Teahouse_INT",
+        "ObjectPath": "\\States\\Default Work Unit\\SceneSwitch\\Teahouse_INT",
+        "GUID": "{AFDCACEA-CCC3-4096-97C1-7C1B5CCB2B96}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "711545299",
+      "Name": "SceneSwitch",
+      "ObjectPath": "\\States\\Default Work Unit\\SceneSwitch",
+      "GUID": "{668FC4B0-1BC0-4728-AC69-7C3B82B73853}",
+      "States": [
+       {
+        "Id": "635489713",
+        "Name": "Teahouse_INT",
+        "ObjectPath": "\\States\\Default Work Unit\\SceneSwitch\\Teahouse_INT",
+        "GUID": "{AFDCACEA-CCC3-4096-97C1-7C1B5CCB2B96}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\SceneSwitch\\None",
+        "GUID": "{CCC415A5-C82A-4F86-AD75-B4A1E1CECFA6}"
+       },
+       {
+        "Id": "939458395",
+        "Name": "Teahouse_EXT",
+        "ObjectPath": "\\States\\Default Work Unit\\SceneSwitch\\Teahouse_EXT",
+        "GUID": "{42F3D9A6-CEA9-4928-9F93-3B5F39F8B30C}"
+       },
+       {
+        "Id": "1182958561",
+        "Name": "Cutscene",
+        "ObjectPath": "\\States\\Default Work Unit\\SceneSwitch\\Cutscene",
+        "GUID": "{58741484-806C-424C-90E7-B561ABFEBE6C}"
+       },
+       {
+        "Id": "1560169506",
+        "Name": "Boss",
+        "ObjectPath": "\\States\\Default Work Unit\\SceneSwitch\\Boss",
+        "GUID": "{F806CE04-C0BB-40D5-94F0-E0466EC695B0}"
+       },
+       {
+        "Id": "3604647259",
+        "Name": "MainMenu",
+        "ObjectPath": "\\States\\Default Work Unit\\SceneSwitch\\MainMenu",
+        "GUID": "{E3A91F98-A27F-4C64-9D40-387A4564EC72}"
+       },
+       {
+        "Id": "4224142038",
+        "Name": "BellyBar",
+        "ObjectPath": "\\States\\Default Work Unit\\SceneSwitch\\BellyBar",
+        "GUID": "{0E933AFD-9E4C-4A95-A95F-DA9E2109BBC0}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{97857E3C-0DCE-5780-15C8-47A222C20CAE}"
+ }
+}

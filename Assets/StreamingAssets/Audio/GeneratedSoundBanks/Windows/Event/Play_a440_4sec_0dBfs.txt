@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	890596405	Play_a440_4sec_0dBfs			\Test WU\Test Events\Play_a440_4sec_0dBfs	
+

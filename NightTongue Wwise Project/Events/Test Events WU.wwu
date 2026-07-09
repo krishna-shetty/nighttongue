@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{88B1351A-2AF7-436E-A7D5-BCB914B785B2}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Test Events WU" ID="{88B1351A-2AF7-436E-A7D5-BCB914B785B2}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="27"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Test Events" ID="{D4D44A82-1C6F-4088-ADB2-218A3B655C3F}" ShortID="932926474">
+					<ChildrenList>
+						<Event Name="Play_a440_4sec_0dBfs_01" ID="{7DC2B0BD-CCAE-444F-9986-D5ED022CF9F8}">
+							<ChildrenList>
+								<Action Name="" ID="{1BBDCE30-1A86-4395-A005-2C3E06F245C1}" ShortID="415154069">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="a440_4sec_0dBfs" ID="{10F15B2E-A446-4713-9240-9134425BAA0A}" WorkUnitID="{2D77F124-E65A-46E2-8CED-AA073EEB29A6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

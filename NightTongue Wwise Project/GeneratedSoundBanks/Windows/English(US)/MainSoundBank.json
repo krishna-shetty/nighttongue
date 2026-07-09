@@ -1,0 +1,5776 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "534561221",
+    "Type": "User",
+    "GUID": "{A51C61A3-A707-4313-98AE-6A0852D953E3}",
+    "Language": "English(US)",
+    "Hash": "{076755ED-9B32-A9BF-CF6C-DE799A82E350}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\MainSoundBank",
+    "ShortName": "MainSoundBank",
+    "Path": "English(US)/MainSoundBank.bnk",
+    "Media": [
+     {
+      "Id": "2856194",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_bartender_g.wav",
+      "CachePath": "40/{400A07F6-92F4-A259-3D10-8ECD97B52197}.wem"
+     },
+     {
+      "Id": "7840480",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "a440_4sec_0dBfs.wav",
+      "CachePath": "13/{13C74809-806C-C8F5-3732-B3E7FA255DF6}.wem"
+     },
+     {
+      "Id": "18695543",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_bartender_v.wav",
+      "CachePath": "90/{90D68D24-016A-8C31-F0DE-1E5E6FC766DF}.wem"
+     },
+     {
+      "Id": "26030415",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_cup_conveyor.wav",
+      "CachePath": "3D/{3DF36AAA-740C-600B-8743-2808EB4DBEDD}.wem"
+     },
+     {
+      "Id": "28799827",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_bartender_l.wav",
+      "CachePath": "56/{56F4F956-80D4-F30E-F80B-AA7924503FA9}.wem"
+     },
+     {
+      "Id": "31785810",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_heart_swell_01.wav",
+      "CachePath": "D1/{D17676D9-24CD-57C9-6026-89F807F98307}.wem"
+     },
+     {
+      "Id": "32346152",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_dough_roll.wav",
+      "CachePath": "9C/{9C6A6EF3-8403-459E-5470-A6A225410FF4}.wem"
+     },
+     {
+      "Id": "35858086",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_tami_v.wav",
+      "CachePath": "A1/{A17E24A6-9514-F7CA-B4EC-806986BDECA2}.wem"
+     },
+     {
+      "Id": "38151343",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_bar_spray_01.wav",
+      "CachePath": "48/{48F0E0CE-9F9B-FCCF-6C9C-7A4BB2D04FA6}.wem"
+     },
+     {
+      "Id": "38965680",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_tami_footsteps_01.wav",
+      "CachePath": "53/{5305CFD0-8C5B-0D01-3757-66EE9781E372}.wem"
+     },
+     {
+      "Id": "43130221",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_bar_gurgles.wav",
+      "CachePath": "47/{472CF186-6C9F-6B9B-6950-EE5AB66CB68A}.wem"
+     },
+     {
+      "Id": "43822184",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_bar_spray_03.wav",
+      "CachePath": "CE/{CE0A63F7-1BFA-8B16-252C-924EE22A827B}.wem"
+     },
+     {
+      "Id": "53737817",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_exhale_04.wav",
+      "CachePath": "B4/{B400268F-7455-EA74-1EBB-B8701BCBC1F4}.wem"
+     },
+     {
+      "Id": "59627563",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_bartender_s.wav",
+      "CachePath": "53/{53B7DFF0-E753-45A5-4C1A-78C92CD2B5B1}.wem"
+     },
+     {
+      "Id": "60400236",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_bartender_r.wav",
+      "CachePath": "D6/{D65CD090-8725-6145-77E8-00C71CD1EB94}.wem"
+     },
+     {
+      "Id": "62975053",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_alveolus_w.wav",
+      "CachePath": "ED/{EDB57E82-FFE9-0AB2-B4A5-641A5DC348AA}.wem"
+     },
+     {
+      "Id": "67682474",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_tami_o.wav",
+      "CachePath": "05/{05E73B50-D7BE-DA58-65D1-F3CE1214438D}.wem"
+     },
+     {
+      "Id": "68387722",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_bartender_o.wav",
+      "CachePath": "38/{3822C19A-709C-7511-91F8-A333047E2DAD}.wem"
+     },
+     {
+      "Id": "72581235",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_tami_swing_forward.wav",
+      "CachePath": "8A/{8A3781BF-9E03-B52E-D1CB-4E1183B467F2}.wem"
+     },
+     {
+      "Id": "88610057",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_tami_y.wav",
+      "CachePath": "31/{318A85CF-6A0E-18BC-891A-86BAEC619C3C}.wem"
+     },
+     {
+      "Id": "88937665",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_bartender_n.wav",
+      "CachePath": "5B/{5B3CC8B5-D7E1-4103-B5FF-5BC044A22F02}.wem"
+     },
+     {
+      "Id": "106406905",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_tami_h.wav",
+      "CachePath": "A6/{A6FC6583-F211-9CE4-E393-AB042FBD42DA}.wem"
+     },
+     {
+      "Id": "110180796",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_bartender_p.wav",
+      "CachePath": "8D/{8DDA2862-B847-3A7D-9163-3ABEE863409C}.wem"
+     },
+     {
+      "Id": "119248897",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_tami_footsteps_03.wav",
+      "CachePath": "45/{45F1DE12-8B96-C565-C1D4-AA024A3E29D1}.wem"
+     },
+     {
+      "Id": "124679784",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_droplets_03.wav",
+      "CachePath": "9A/{9A5E2582-7866-AA1F-6998-8C3ED6B8FC33}.wem"
+     },
+     {
+      "Id": "144495341",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_pickup_sour.wav",
+      "CachePath": "06/{06D055CE-F25E-05AA-314C-207E720A52CF}.wem"
+     },
+     {
+      "Id": "160274551",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_heart_swell_04.wav",
+      "CachePath": "A1/{A1DCAD29-7A22-CD59-1B49-D0E9911679A6}.wem"
+     },
+     {
+      "Id": "161214462",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_tami_p.wav",
+      "CachePath": "B5/{B5BD4B95-00AB-2B4A-2DA5-4D0952BE75D5}.wem"
+     },
+     {
+      "Id": "163524447",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_dough_roll.wav",
+      "CachePath": "B0/{B0E4D13B-A959-BE48-85DB-70CA5B6F9F38}.wem"
+     },
+     {
+      "Id": "165503632",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_heart_swell_03.wav",
+      "CachePath": "FF/{FF891B2E-3EE5-BE9F-6B17-88F267A475D2}.wem"
+     },
+     {
+      "Id": "166261619",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_alveolus_u.wav",
+      "CachePath": "0A/{0ACC5A3F-F735-64A9-61C1-C3629B9CB168}.wem"
+     },
+     {
+      "Id": "167115619",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_tami_damage_02.wav",
+      "CachePath": "9B/{9BBEB3CA-A272-8F32-53FF-31A030457CFE}.wem"
+     },
+     {
+      "Id": "168828278",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_bartender_h.wav",
+      "CachePath": "E2/{E22D5BB1-6305-FB7D-43F9-862C181F6C6D}.wem"
+     },
+     {
+      "Id": "174046898",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_bartender_e.wav",
+      "CachePath": "F3/{F374C87E-F31A-F418-F7F4-EB352D97E66F}.wem"
+     },
+     {
+      "Id": "193896560",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_alveolus_a.wav",
+      "CachePath": "2A/{2A9C4C8D-A902-EA3C-79B7-FCB55B2693C8}.wem"
+     },
+     {
+      "Id": "212733085",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_unhover.wav",
+      "CachePath": "37/{374FAC32-91D6-B390-7685-15C1F80B8B5D}.wem"
+     },
+     {
+      "Id": "216116997",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_alveolus_n.wav",
+      "CachePath": "9B/{9BF8691B-3625-E96F-7DAB-B7A13C23A904}.wem"
+     },
+     {
+      "Id": "222560456",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_bartender_w.wav",
+      "CachePath": "D5/{D5C3898F-D1D5-9A35-E9E2-90626D270291}.wem"
+     },
+     {
+      "Id": "239098230",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_tami_j.wav",
+      "CachePath": "D2/{D21B2242-DC06-FC17-EF96-12AC878C6F74}.wem"
+     },
+     {
+      "Id": "248715415",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_tami_footsteps_02.wav",
+      "CachePath": "22/{2269A64C-AAC4-B0DA-8FB6-EFB926516F7A}.wem"
+     },
+     {
+      "Id": "253616762",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_tami_jump.wav",
+      "CachePath": "F5/{F53C6321-24EC-E41F-D94E-619BDE1EAA29}.wem"
+     },
+     {
+      "Id": "274633021",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_boss_attack_02.wav",
+      "CachePath": "F4/{F44A07D3-15FE-5794-3B49-35542072EE14}.wem"
+     },
+     {
+      "Id": "282829293",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_creak_04.wav",
+      "CachePath": "26/{260AC62B-0EE4-262D-696F-161B0006CD02}.wem"
+     },
+     {
+      "Id": "289207894",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_tami_x.wav",
+      "CachePath": "4D/{4DD40485-4BF4-1855-F898-7EFE702432E3}.wem"
+     },
+     {
+      "Id": "291638591",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_alveolus_c.wav",
+      "CachePath": "46/{46703C1C-D2E0-0819-BFBA-015566017060}.wem"
+     },
+     {
+      "Id": "291807790",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_alveolus_g.wav",
+      "CachePath": "FE/{FEBE4ADD-B6A9-D4F9-8A9C-A7D6413BF791}.wem"
+     },
+     {
+      "Id": "293901214",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_exhale_01.wav",
+      "CachePath": "CE/{CE6D66BC-0AC5-7E3E-E192-DD495CBF6822}.wem"
+     },
+     {
+      "Id": "299055625",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_tami_fall_water.wav",
+      "CachePath": "D0/{D0BD5633-9135-2A3B-23B3-86183BB5E521}.wem"
+     },
+     {
+      "Id": "308667210",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_droplets_01.wav",
+      "CachePath": "09/{09AD6C46-9DC2-E6B3-20AA-F8B542AA5ED2}.wem"
+     },
+     {
+      "Id": "308696779",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_droplets_07.wav",
+      "CachePath": "99/{993C9718-7063-2C5B-60D1-87039F6CFBED}.wem"
+     },
+     {
+      "Id": "309003248",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_droplets_11.wav",
+      "CachePath": "2F/{2F968CAA-EC89-6B59-6944-096348DC8690}.wem"
+     },
+     {
+      "Id": "319881484",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_tami_swing_detach.wav",
+      "CachePath": "52/{520EE929-1FFC-162F-5344-E7BE7CF0B634}.wem"
+     },
+     {
+      "Id": "320856549",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_breath_layer.wav",
+      "CachePath": "6F/{6FF9456C-B29E-095F-851D-97887E2940ED}.wem"
+     },
+     {
+      "Id": "322512191",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_pickup_water.wav",
+      "CachePath": "FF/{FF098D79-4A57-676B-65DC-3CCF1081869E}.wem"
+     },
+     {
+      "Id": "332163773",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_heart_swell_02.wav",
+      "CachePath": "70/{70F25E18-18F4-8096-33BD-1E47DC14B955}.wem"
+     },
+     {
+      "Id": "333446308",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_tami_swing_min.wav",
+      "CachePath": "11/{11E9CABC-0096-749F-F006-0D93BCA8F928}.wem"
+     },
+     {
+      "Id": "337893874",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_bartender_q.wav",
+      "CachePath": "EF/{EF1F7621-A2A1-5C25-80E2-D2477D866C06}.wem"
+     },
+     {
+      "Id": "344474662",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_tami_b.wav",
+      "CachePath": "99/{9974A8B4-CB4D-B26B-28E6-03AAA56A5EB0}.wem"
+     },
+     {
+      "Id": "374515091",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_fire.wav",
+      "CachePath": "C6/{C6909511-282E-923D-5DBC-B9267AEC2080}.wem"
+     },
+     {
+      "Id": "383920120",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_tami_damage_01.wav",
+      "CachePath": "F6/{F6DAB26C-1989-ABC7-6CC6-46C114C4B257}.wem"
+     },
+     {
+      "Id": "390777594",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_tami_damage_03.wav",
+      "CachePath": "A5/{A58BEFAD-F7A5-CDDA-AF53-786CA5822563}.wem"
+     },
+     {
+      "Id": "404232577",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_bar_drink_hover.wav",
+      "CachePath": "91/{91FC980D-5CF4-0402-96F0-DBABBA9EA4B3}.wem"
+     },
+     {
+      "Id": "408036862",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_steam_19.wav",
+      "CachePath": "AA/{AA2D79E9-05D4-D4D9-752F-52FFCBC92724}.wem"
+     },
+     {
+      "Id": "409052204",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_utensils.wav",
+      "CachePath": "48/{48304E3E-2F3D-D1ED-D65C-AD079B060BB9}.wem"
+     },
+     {
+      "Id": "414832803",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_dough_land_03.wav",
+      "CachePath": "22/{226B4436-B8CB-6A85-50CD-47E109A44FF2}.wem"
+     },
+     {
+      "Id": "415644435",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_bartender_c.wav",
+      "CachePath": "C5/{C547CC74-7BDC-914A-EE57-66F7EF4D4C91}.wem"
+     },
+     {
+      "Id": "429165170",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_bar_clink_01.wav",
+      "CachePath": "A8/{A85C719A-E600-9C1E-273D-ADE72C3301DC}.wem"
+     },
+     {
+      "Id": "430159898",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_bartender_j.wav",
+      "CachePath": "6D/{6DBF17E5-6549-574A-8D12-14F47D784695}.wem"
+     },
+     {
+      "Id": "431626106",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_alveolus_s.wav",
+      "CachePath": "B1/{B109C829-BD99-FC8A-742B-D78102EA2468}.wem"
+     },
+     {
+      "Id": "440976626",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_tami_s.wav",
+      "CachePath": "71/{71F4B12C-F275-4B6F-AC26-C16A00198341}.wem"
+     },
+     {
+      "Id": "444000060",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_bar_cut_03.wav",
+      "CachePath": "E9/{E9449FF1-6D92-1626-1576-41987AD5AE4C}.wem"
+     },
+     {
+      "Id": "455945861",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_boiling.wav",
+      "CachePath": "FF/{FF3B099C-6C42-9F4A-0278-EC6A6B2ECAC0}.wem"
+     },
+     {
+      "Id": "456583565",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_tami_f.wav",
+      "CachePath": "DA/{DA8E5681-CD83-DCC1-0189-3CD76D74D313}.wem"
+     },
+     {
+      "Id": "458149572",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_exhale_03.wav",
+      "CachePath": "AA/{AA214E77-BCEF-FAF2-FBFA-81F427C57331}.wem"
+     },
+     {
+      "Id": "459007389",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "White Noise.wav",
+      "CachePath": "BC/{BC2EAFD1-5310-67F8-6C0D-237151FF1F99}.wem"
+     },
+     {
+      "Id": "465449119",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_boat_load_01.wav",
+      "CachePath": "7A/{7A02EEF3-AD28-A272-B3B6-6084CC5F7E55}.wem"
+     },
+     {
+      "Id": "468321885",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_pickup_filling.wav",
+      "CachePath": "A2/{A227839B-EB19-EDF2-4E23-3D465E2E4BD7}.wem"
+     },
+     {
+      "Id": "469422738",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_tami_m.wav",
+      "CachePath": "0E/{0EB9E70E-2BC7-AB0F-4283-B1F83B8B224E}.wem"
+     },
+     {
+      "Id": "473234517",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_alveolus_m.wav",
+      "CachePath": "F5/{F5D288CB-3E77-08F3-C5FF-EF0ACEB2656F}.wem"
+     },
+     {
+      "Id": "477827456",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_hover.wav",
+      "CachePath": "26/{26E280A2-4507-8233-C18D-E8E4E93E9A53}.wem"
+     },
+     {
+      "Id": "479306740",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_tami_ball_land.wav",
+      "CachePath": "F0/{F0AE22DB-72F2-37CF-8B23-B7AC3EB0A603}.wem"
+     },
+     {
+      "Id": "486655394",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_alveolus_k.wav",
+      "CachePath": "C7/{C7D37203-E1E4-37F7-C70E-584926C80BEB}.wem"
+     },
+     {
+      "Id": "488146446",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_pickup_oil.wav",
+      "CachePath": "62/{62A031F7-A8BA-D518-6521-E969DA42E2B3}.wem"
+     },
+     {
+      "Id": "494942608",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_boat_stop.wav",
+      "CachePath": "F9/{F95FA8F7-7E23-0545-CDDC-6D6F4EED6A90}.wem"
+     },
+     {
+      "Id": "495320957",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_inhale_02.wav",
+      "CachePath": "36/{367097C7-7BA0-0113-BF15-A64BA7D90D68}.wem"
+     },
+     {
+      "Id": "499939748",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_alveolus_l.wav",
+      "CachePath": "D8/{D8B46A72-63A5-D42B-A98D-A016374CC5CE}.wem"
+     },
+     {
+      "Id": "516440497",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_tami_r.wav",
+      "CachePath": "23/{23A97AE5-CC0A-2129-A9BF-91271A199A5F}.wem"
+     },
+     {
+      "Id": "517191733",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_bartender_b.wav",
+      "CachePath": "8F/{8F84A1CC-F586-9BAB-B1C7-147D7B033DD4}.wem"
+     },
+     {
+      "Id": "525298123",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_pickup_syrup.wav",
+      "CachePath": "33/{33C8BEDC-D885-F440-16B9-E27113484C89}.wem"
+     },
+     {
+      "Id": "525546835",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_drop_filling.wav",
+      "CachePath": "D6/{D60313FA-0C26-EA2A-1332-8768090119DA}.wem"
+     },
+     {
+      "Id": "533842625",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_cup_change_direction_02.wav",
+      "CachePath": "1E/{1E0487A5-AA3D-C046-282B-1ADE1BA7908F}.wem"
+     },
+     {
+      "Id": "543278390",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_oven_done.wav",
+      "CachePath": "76/{763DF010-0397-0AB0-FDCD-0A86C936B827}.wem"
+     },
+     {
+      "Id": "543989087",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_tap.wav",
+      "CachePath": "02/{0252A486-8858-20D3-3740-BC013FAE2F9B}.wem"
+     },
+     {
+      "Id": "545959677",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_plate_conveyor.wav",
+      "CachePath": "89/{892B47FF-84E8-C246-9C5F-D2BA5B4D3E6C}.wem"
+     },
+     {
+      "Id": "550547379",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_bartender_u.wav",
+      "CachePath": "07/{075A552C-3FFA-A301-898D-7F324B896E2D}.wem"
+     },
+     {
+      "Id": "554781607",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_tami_e.wav",
+      "CachePath": "F7/{F7C64132-9BB1-9C43-EB49-2B337CB07C53}.wem"
+     },
+     {
+      "Id": "560746972",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_alveolus_z.wav",
+      "CachePath": "B1/{B1FCF955-DD09-238E-7B9D-8F8F8CB4E7C1}.wem"
+     },
+     {
+      "Id": "573633617",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_windGust_layer.wav",
+      "CachePath": "59/{59D91541-2ED2-998A-3E8A-2A413BB0973B}.wem"
+     },
+     {
+      "Id": "580095087",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_pickup_sweet.wav",
+      "CachePath": "0B/{0BD90F2A-7209-7428-5C6E-9B624015EA8F}.wem"
+     },
+     {
+      "Id": "596458039",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_embers.wav",
+      "CachePath": "E6/{E6DB9FAE-055C-0967-A738-FA15D74DED3B}.wem"
+     },
+     {
+      "Id": "601462081",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_cup_change_direction_01.wav",
+      "CachePath": "EA/{EAAF98A3-3F66-7B84-971A-1B5F75766CF8}.wem"
+     },
+     {
+      "Id": "601970072",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_steam_09.wav",
+      "CachePath": "70/{703927D7-97FC-4DA3-A0BA-43D3155D7543}.wem"
+     },
+     {
+      "Id": "608321178",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_boss_attack_01.wav",
+      "CachePath": "75/{75D9588D-EE2D-EDA7-7139-D4820D8EFDC4}.wem"
+     },
+     {
+      "Id": "625965357",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_tami_l.wav",
+      "CachePath": "B2/{B216C02D-8E5E-70C1-CEFB-C1B23A57423E}.wem"
+     },
+     {
+      "Id": "634732461",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_blender.wav",
+      "CachePath": "E1/{E11948D4-8A3C-FAA5-228F-1835195992F4}.wem"
+     },
+     {
+      "Id": "641003083",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_tami_ballroll.wav",
+      "CachePath": "E2/{E2D9289D-617D-7E28-2404-150C651994D0}.wem"
+     },
+     {
+      "Id": "647356697",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_bar_clink_02.wav",
+      "CachePath": "59/{59B21280-2BA1-95BA-B6FF-35BB8075AF25}.wem"
+     },
+     {
+      "Id": "654446881",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_alveolus_t.wav",
+      "CachePath": "D3/{D3F990B5-3510-88CB-9B7B-6BFB8B657E47}.wem"
+     },
+     {
+      "Id": "659019764",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_bar_cut_02.wav",
+      "CachePath": "B7/{B711CB2B-F535-B3CE-A7BC-770D60288B1E}.wem"
+     },
+     {
+      "Id": "659369843",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_leaves.wav",
+      "CachePath": "E8/{E8FB14A3-23B3-EA75-9203-0ED44B468949}.wem"
+     },
+     {
+      "Id": "662991372",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_tami_c.wav",
+      "CachePath": "D8/{D8501DBE-6B48-63C3-E15A-3EF39DCFBDE0}.wem"
+     },
+     {
+      "Id": "663179529",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_goomba_attack.wav",
+      "CachePath": "C8/{C805F33A-5B18-10B3-A60D-00C9632A0C41}.wem"
+     },
+     {
+      "Id": "668447059",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_mooncake.wav",
+      "CachePath": "D9/{D9B88E3C-2CB2-6B7D-C107-D9E2625DC652}.wem"
+     },
+     {
+      "Id": "675951433",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_bar_clink_04.wav",
+      "CachePath": "B6/{B6751EB7-3881-D8F1-44F1-78C209DE159C}.wem"
+     },
+     {
+      "Id": "677216396",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_heart.wav",
+      "CachePath": "24/{24E1FE81-B9AE-C384-1023-7576B4020541}.wem"
+     },
+     {
+      "Id": "703113281",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_inhale_04.wav",
+      "CachePath": "40/{40B382AC-0395-8329-582A-3D50EB949C20}.wem"
+     },
+     {
+      "Id": "704680711",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_wind_exhale.wav",
+      "CachePath": "DC/{DC3E9041-392F-5E18-B89B-BD5903E3F95C}.wem"
+     },
+     {
+      "Id": "711325325",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_bar_drink_click.wav",
+      "CachePath": "D4/{D487796B-658E-AA81-306C-0886A303575B}.wem"
+     },
+     {
+      "Id": "713642632",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_tami_u.wav",
+      "CachePath": "3B/{3B68B8B4-9784-E689-1290-28334756990D}.wem"
+     },
+     {
+      "Id": "713774480",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_tami_i.wav",
+      "CachePath": "59/{59152407-E153-3A6C-350B-4A796014D5E2}.wem"
+     },
+     {
+      "Id": "717116099",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_alveolus_b.wav",
+      "CachePath": "F5/{F599D294-D6BC-3394-D72F-11AFF1C1548B}.wem"
+     },
+     {
+      "Id": "725244182",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_tami_fall_acid.wav",
+      "CachePath": "3E/{3E133A8B-B60E-DEDB-986E-6FE1BCE8F972}.wem"
+     },
+     {
+      "Id": "730032968",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_boat_launch.wav",
+      "CachePath": "98/{98C5D19E-C798-BEF3-ADA2-66E2A5FA9A56}.wem"
+     },
+     {
+      "Id": "731773316",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_alveolus_x.wav",
+      "CachePath": "29/{2992EED9-4B90-3437-E9E3-A09AAB62295A}.wem"
+     },
+     {
+      "Id": "735618552",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_tami_swing_descend.wav",
+      "CachePath": "8C/{8CEF59D9-61F7-9AD3-821A-9298EB8C8BEC}.wem"
+     },
+     {
+      "Id": "738605570",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_tami_moveTongue.wav",
+      "CachePath": "D1/{D124CDF8-EFF5-99FC-5B58-B5634B265EE1}.wem"
+     },
+     {
+      "Id": "740782969",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_inhale_01.wav",
+      "CachePath": "63/{63C6180E-E9F9-E2D6-3169-805067D3BC96}.wem"
+     },
+     {
+      "Id": "750536681",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_bartender_k.wav",
+      "CachePath": "F0/{F00C9593-B228-36B0-2DCB-FD54B932C02F}.wem"
+     },
+     {
+      "Id": "756863167",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_steam_16.wav",
+      "CachePath": "E1/{E1F44D6A-4814-DEB4-9ECC-44E425296F4B}.wem"
+     },
+     {
+      "Id": "757570144",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_dough_mold.wav",
+      "CachePath": "9D/{9D9257A4-F62B-472B-4A35-047E95DBA257}.wem"
+     },
+     {
+      "Id": "760136657",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_tami_z.wav",
+      "CachePath": "53/{53222869-EC8D-4047-B52E-22624F23D064}.wem"
+     },
+     {
+      "Id": "766780530",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_bar.wav",
+      "CachePath": "69/{69024B70-1586-7E44-8AF1-79EC86601116}.wem"
+     },
+     {
+      "Id": "768673171",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_alveolus_v.wav",
+      "CachePath": "66/{665BB363-91ED-BC56-9E9D-B0A63A5B1AA5}.wem"
+     },
+     {
+      "Id": "770300209",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_tami_a.wav",
+      "CachePath": "A4/{A41A0343-A770-A504-CCB4-08266D694E23}.wem"
+     },
+     {
+      "Id": "775235115",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_tami_swing_ascend.wav",
+      "CachePath": "AE/{AE20F0B7-FF1B-78A3-AED7-3D1772D31271}.wem"
+     },
+     {
+      "Id": "784155455",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_bar_clink_06.wav",
+      "CachePath": "45/{453D175C-3F6F-5183-789B-6F63D2232E8A}.wem"
+     },
+     {
+      "Id": "785031987",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_bartender_z.wav",
+      "CachePath": "E9/{E9258948-A336-7379-E5AA-C135443957FA}.wem"
+     },
+     {
+      "Id": "786271772",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_boat_load_02.wav",
+      "CachePath": "EB/{EBE3C3D0-532B-E4B6-19A9-5C9700971B6B}.wem"
+     },
+     {
+      "Id": "792762366",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_creak_02.wav",
+      "CachePath": "77/{776A4215-A6AB-83FE-426C-5C223235F0EA}.wem"
+     },
+     {
+      "Id": "803962685",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_dough_land_02.wav",
+      "CachePath": "26/{26B3FEBC-89EE-5A6D-AD13-B84D776F6AF5}.wem"
+     },
+     {
+      "Id": "805559727",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_drop_goop.wav",
+      "CachePath": "FC/{FC7DA38E-3766-95AC-55BE-EFF639F11D51}.wem"
+     },
+     {
+      "Id": "816854192",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_dough_land.wav",
+      "CachePath": "62/{622FFAFE-EA31-94B9-8F6D-B6F6A3736719}.wem"
+     },
+     {
+      "Id": "819956669",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_bar_clink_03.wav",
+      "CachePath": "2C/{2C83466F-1092-98DB-0C39-46157BB044C6}.wem"
+     },
+     {
+      "Id": "826786002",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_alveolus_y.wav",
+      "CachePath": "D6/{D6181F17-DF26-44C6-F9F9-00CFDDB3B1C1}.wem"
+     },
+     {
+      "Id": "843369214",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_alveolus_q.wav",
+      "CachePath": "FB/{FBB673A1-FFCC-CB89-C0BD-502FCCC33747}.wem"
+     },
+     {
+      "Id": "847167030",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_tami_ballrelease.wav",
+      "CachePath": "7F/{7F722CED-9F52-8FDF-F442-AABC7B23144F}.wem"
+     },
+     {
+      "Id": "871880140",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_droplets_09.wav",
+      "CachePath": "1A/{1A44A239-5B7C-2BD1-AEAE-6B2E4E1D2CE3}.wem"
+     },
+     {
+      "Id": "880440434",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_goomba_damage.wav",
+      "CachePath": "94/{94260A1D-8701-EAAB-864F-E50584E9DC5E}.wem"
+     },
+     {
+      "Id": "896037403",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_alveolus_p.wav",
+      "CachePath": "89/{897AE7FB-502A-3939-14E2-1D87B4B49117}.wem"
+     },
+     {
+      "Id": "896113011",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_droplets_05.wav",
+      "CachePath": "B6/{B62DDB98-59DC-3E2C-F49C-6FDB86331531}.wem"
+     },
+     {
+      "Id": "902255624",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_alveolus_d.wav",
+      "CachePath": "EE/{EEAABB67-34BB-AE3D-4E5C-627BAACAB8A8}.wem"
+     },
+     {
+      "Id": "903111121",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_tami_swing_backward.wav",
+      "CachePath": "BA/{BA2B7897-6095-EE70-5B3F-4B5E154A97DE}.wem"
+     },
+     {
+      "Id": "904482263",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_creak_06.wav",
+      "CachePath": "E8/{E8DD7451-3AE0-7F3F-E328-430170955E91}.wem"
+     },
+     {
+      "Id": "907367624",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_alveolus_j.wav",
+      "CachePath": "11/{11F1C0CA-CA83-0847-1A28-25340FDFBA7C}.wem"
+     },
+     {
+      "Id": "908885052",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_tami_w.wav",
+      "CachePath": "E6/{E6178DA3-4D95-7193-7B64-7C4410BA2BAA}.wem"
+     },
+     {
+      "Id": "910540747",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_tami_n.wav",
+      "CachePath": "A0/{A096476D-CB28-9D78-2B70-BB066838EF10}.wem"
+     },
+     {
+      "Id": "917741124",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_tami_q.wav",
+      "CachePath": "00/{00B6CB7C-B417-632A-9CD1-C3E0AC0A3379}.wem"
+     },
+     {
+      "Id": "918184788",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_bartender_d.wav",
+      "CachePath": "BA/{BA07BE62-56FE-04C1-912B-6BF38C8C6620}.wem"
+     },
+     {
+      "Id": "932470245",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_alveolus_i.wav",
+      "CachePath": "5D/{5DE36420-6A6B-2B55-43CF-CFF013A75D6A}.wem"
+     },
+     {
+      "Id": "940680603",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_alveolus_e.wav",
+      "CachePath": "02/{02CD1775-3A47-5F72-3326-16E45728CA32}.wem"
+     },
+     {
+      "Id": "942768908",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_steam_22.wav",
+      "CachePath": "30/{30258A56-9018-71BD-DF0D-1CAE8D711827}.wem"
+     },
+     {
+      "Id": "946115145",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_tami_ballcurl.wav",
+      "CachePath": "B5/{B5B21111-E735-2A45-08A2-AA0D09BB5E50}.wem"
+     },
+     {
+      "Id": "948814787",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_alveolus_f.wav",
+      "CachePath": "E5/{E595BE74-6287-4622-C30F-56188B281AB5}.wem"
+     },
+     {
+      "Id": "951459047",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_tami_land.wav",
+      "CachePath": "AE/{AEB250B6-8496-3F77-2A9B-F34D4F76955B}.wem"
+     },
+     {
+      "Id": "955246791",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_bartender_y.wav",
+      "CachePath": "B3/{B376F86B-28C5-AF02-D5E0-10665DF5D0CB}.wem"
+     },
+     {
+      "Id": "958574105",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_click.wav",
+      "CachePath": "60/{60006626-DEC4-272F-4E69-B64ABB067CD9}.wem"
+     },
+     {
+      "Id": "960375811",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_steam_11.wav",
+      "CachePath": "04/{0448C029-FC48-C2CB-8E46-D50A9978949A}.wem"
+     },
+     {
+      "Id": "963401328",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_bartender_i.wav",
+      "CachePath": "7F/{7FE50D33-1028-5C82-3315-ED49B9B702F5}.wem"
+     },
+     {
+      "Id": "977119962",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_burn.wav",
+      "CachePath": "B4/{B4F89C74-09E3-2CE9-98AD-111B523D4A4D}.wem"
+     },
+     {
+      "Id": "978663871",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_bar_cut_01.wav",
+      "CachePath": "60/{6014DB76-B5A9-817D-FD38-E877716DA294}.wem"
+     },
+     {
+      "Id": "979541979",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_steam_14.wav",
+      "CachePath": "B9/{B972A0A9-5DD1-8C03-EC36-0493B68A4F23}.wem"
+     },
+     {
+      "Id": "990982219",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_tami_d.wav",
+      "CachePath": "4C/{4CB0D1E3-E4F6-FFA2-2695-919547B58ACC}.wem"
+     },
+     {
+      "Id": "993681694",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_drag_goop.wav",
+      "CachePath": "FE/{FE6E74F7-5145-6852-ADB7-52C552EF598D}.wem"
+     },
+     {
+      "Id": "1005311946",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_bartender_a.wav",
+      "CachePath": "7B/{7B1F2645-4DA7-A388-1E4B-90C9B4938ECC}.wem"
+     },
+     {
+      "Id": "1011321960",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_pickup_flour.wav",
+      "CachePath": "2C/{2CAC58A5-B81F-DB2D-B3AB-12C3D37FA991}.wem"
+     },
+     {
+      "Id": "1018123111",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_boss_puff.wav",
+      "CachePath": "66/{660194D5-954E-3DEB-E30D-A89ABE5AE676}.wem"
+     },
+     {
+      "Id": "1023540605",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_boat_unload.wav",
+      "CachePath": "C1/{C1D8EE23-6803-7615-4D56-CB4DF45BE4CF}.wem"
+     },
+     {
+      "Id": "1027740293",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_tami_k.wav",
+      "CachePath": "36/{36503944-7746-45A9-3334-3C256E51A9FA}.wem"
+     },
+     {
+      "Id": "1030602842",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_tami_g.wav",
+      "CachePath": "CB/{CB537BEB-A372-0053-BDDE-10879C6F12F3}.wem"
+     },
+     {
+      "Id": "1036505123",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_bartender_t.wav",
+      "CachePath": "6F/{6FBFB22E-2CC6-5019-671A-3B03542D7A52}.wem"
+     },
+     {
+      "Id": "1042242449",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_tami_swing_attach.wav",
+      "CachePath": "37/{37AE769A-6AC5-FA98-BF0C-1F6E56F5DB18}.wem"
+     },
+     {
+      "Id": "1042921825",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_alveolus_r.wav",
+      "CachePath": "6C/{6C36FA7E-FF5E-5058-F089-126F76BF191E}.wem"
+     },
+     {
+      "Id": "1043403401",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_tami_swing_max.wav",
+      "CachePath": "1B/{1BB5F66C-A12E-4398-5E9F-5386469BC8EC}.wem"
+     },
+     {
+      "Id": "1048130153",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_bartender_m.wav",
+      "CachePath": "0D/{0DC7EA11-6D0B-2EB3-0B6A-A42443606CC5}.wem"
+     },
+     {
+      "Id": "1049103362",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_alveolus_h.wav",
+      "CachePath": "80/{80BD761D-C23F-D425-2860-6CAA558B53B2}.wem"
+     },
+     {
+      "Id": "1054735823",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_bartender_f.wav",
+      "CachePath": "A4/{A40585FF-E597-5CAC-BEAA-8EB7D983D98A}.wem"
+     },
+     {
+      "Id": "1059766060",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMB_windCalm_layer.wav",
+      "CachePath": "02/{0250EA1E-29B3-EFD2-A9B4-B449EFBB03AA}.wem"
+     },
+     {
+      "Id": "1063904366",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_bartender_x.wav",
+      "CachePath": "C7/{C7CB15BA-C22F-4229-06E9-2FD6CD0CB0DC}.wem"
+     },
+     {
+      "Id": "1067049488",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_alveolus_o.wav",
+      "CachePath": "CF/{CF6BEBA7-F196-E44C-DC76-57CD7A29B789}.wem"
+     },
+     {
+      "Id": "1067370502",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_oven_start.wav",
+      "CachePath": "52/{5201C723-DF9D-41AA-7E24-D2A9954E3188}.wem"
+     },
+     {
+      "Id": "1069220616",
+      "Language": "English(US)",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "dx_tami_t.wav",
+      "CachePath": "B0/{B0E53237-58DF-2B23-29DC-E07026ABBE30}.wem"
+     }
+    ],
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "18805950",
+       "Name": "Meter (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Item Pickups WU\\SFX_dough_drag\\[Effect Slot [0]: (Meter)]\\Meter (Custom)",
+       "GUID": "{2464702C-D351-4342-92F1-65471CEA091E}",
+       "LibName": "Wwise Meter",
+       "LibId": "8454147"
+      },
+      {
+       "Id": "52379422",
+       "Name": "RoomVerb (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Teahouse AMB WU\\Teahouse Blend Container\\AMB_leaves\\[Effect Slot [0]: (RoomVerb)]\\RoomVerb (Custom)",
+       "GUID": "{25A42283-416D-4CC9-B87A-27E5F2E1F129}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "84869189",
+       "Name": "Time Stretch (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\DX WU\\DX_tami\\[Effect Slot [0]: (Time Stretch)]\\Time Stretch (Custom)",
+       "GUID": "{0CEEC4E3-0D7C-4FE9-8F7C-00A5F23A0D11}",
+       "LibName": "Wwise Time Stretch",
+       "LibId": "8519683"
+      },
+      {
+       "Id": "217381063",
+       "Name": "RoomVerb (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Teahouse AMB WU\\Teahouse Blend Container\\Breath Cycle Sequence\\[Effect Slot [1]: (RoomVerb)]\\RoomVerb (Custom)",
+       "GUID": "{0C2D400C-D733-4400-AC71-E071C6B4E333}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "246609777",
+       "Name": "Meter (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Teahouse AMB WU\\Teahouse Blend Container\\Breath Cycle Sequence\\[Effect Slot [0]: (Meter)]\\Meter (Custom)",
+       "GUID": "{4C406B5D-853D-4A48-B712-45FE5A513364}",
+       "LibName": "Wwise Meter",
+       "LibId": "8454147"
+      },
+      {
+       "Id": "430475093",
+       "Name": "Parametric EQ (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Tami Movement SFX\\Movement Actor-Mixer\\Swing\\SFX_tami_swing_swish\\[Effect Slot [0]: (Parametric EQ)]\\Parametric EQ (Custom)",
+       "GUID": "{37D907A0-22AD-4A09-8BB5-2F3E8B219FF4}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "468018233",
+       "Name": "RoomVerb (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Tami Movement SFX\\Movement Actor-Mixer\\Swing\\SFX_tami_swing_swish\\[Effect Slot [1]: (RoomVerb)]\\RoomVerb (Custom)",
+       "GUID": "{E6F96652-DB03-44C6-9C32-D567572D83A4}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "716349243",
+       "Name": "Meter (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\3D Ambiences\\Wind Zone WU\\AMB_wind_zone\\[Effect Slot [0]: (Meter)]\\Meter (Custom)",
+       "GUID": "{E3A52C6F-374F-4037-BC5C-BFC7D3D5D382}",
+       "LibName": "Wwise Meter",
+       "LibId": "8454147"
+      },
+      {
+       "Id": "752426852",
+       "Name": "Meter (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Item Pickups WU\\SFX_drag_goop\\[Effect Slot [0]: (Meter)]\\Meter (Custom)",
+       "GUID": "{244F3AC4-FA6F-4B17-8FDA-619C348FE802}",
+       "LibName": "Wwise Meter",
+       "LibId": "8454147"
+      },
+      {
+       "Id": "992639600",
+       "Name": "Time Stretch (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\DX WU\\DX_alveolus\\[Effect Slot [0]: (Time Stretch)]\\Time Stretch (Custom)",
+       "GUID": "{BA7E565B-A570-4430-8B80-4F22C08FCAB7}",
+       "LibName": "Wwise Time Stretch",
+       "LibId": "8519683"
+      },
+      {
+       "Id": "1002363062",
+       "Name": "Time Stretch (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\DX WU\\DX_bartender\\[Effect Slot [0]: (Time Stretch)]\\Time Stretch (Custom)",
+       "GUID": "{5C6522ED-0A77-47FC-968E-FAFAB5650502}",
+       "LibName": "Wwise Time Stretch",
+       "LibId": "8519683"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "1257356241",
+      "Name": "Play_a440_4sec_0dBfs_01",
+      "ObjectPath": "\\Events\\Test Events WU\\Test Events\\Play_a440_4sec_0dBfs_01",
+      "GUID": "{7DC2B0BD-CCAE-444F-9986-D5ED022CF9F8}",
+      "Color": "27",
+      "DurationType": "OneShot",
+      "DurationMin": "4",
+      "DurationMax": "4",
+      "MediaRefs": [
+       {
+        "Id": "7840480"
+       }
+      ]
+     },
+     {
+      "Id": "1039376738",
+      "Name": "Play_AMB_bar_drink_click",
+      "ObjectPath": "\\Events\\SFX Events WU\\UI\\Play_AMB_bar_drink_click",
+      "GUID": "{85D2599D-AF63-4EB0-A1A7-BE565EDDC6C5}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "1.420657",
+      "DurationMax": "1.420657",
+      "MediaRefs": [
+       {
+        "Id": "711325325"
+       }
+      ]
+     },
+     {
+      "Id": "2625479552",
+      "Name": "Play_AMB_cup_change_direction",
+      "ObjectPath": "\\Events\\AMB Events WU\\Teahouse\\Play_AMB_cup_change_direction",
+      "GUID": "{936DC9C0-042F-4340-94B7-1BDC351DA33E}",
+      "Color": "18",
+      "MaxAttenuation": "40",
+      "DurationType": "OneShot",
+      "DurationMin": "0.9555625",
+      "DurationMax": "1.0039375",
+      "MediaRefs": [
+       {
+        "Id": "533842625"
+       },
+       {
+        "Id": "601462081"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1992311728",
+        "Name": "Teahouse_INT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_INT_Reverb",
+        "GUID": "{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}"
+       }
+      ]
+     },
+     {
+      "Id": "337406641",
+      "Name": "Play_AMB_cup_conveyor",
+      "ObjectPath": "\\Events\\AMB Events WU\\Teahouse\\Play_AMB_cup_conveyor",
+      "GUID": "{A8D10E3B-B72C-4DA1-BCE2-EE5900ED0FFF}",
+      "Color": "18",
+      "MaxAttenuation": "40",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "26030415"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1992311728",
+        "Name": "Teahouse_INT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_INT_Reverb",
+        "GUID": "{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}"
+       }
+      ]
+     },
+     {
+      "Id": "670257741",
+      "Name": "Play_AMB_embers",
+      "ObjectPath": "\\Events\\AMB Events WU\\Teahouse\\Play_AMB_embers",
+      "GUID": "{0768E355-679F-47BC-B005-AC817DE8EB1B}",
+      "Color": "18",
+      "MaxAttenuation": "40",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "596458039"
+       }
+      ]
+     },
+     {
+      "Id": "2767852325",
+      "Name": "Play_AMB_fire",
+      "ObjectPath": "\\Events\\AMB Events WU\\Teahouse\\Play_AMB_fire",
+      "GUID": "{A8E1583D-6D67-44D3-8A36-7CE7DF0F7F09}",
+      "Color": "18",
+      "MaxAttenuation": "40",
+      "DurationType": "OneShot",
+      "DurationMin": "10.92342",
+      "DurationMax": "13.772647",
+      "MediaRefs": [
+       {
+        "Id": "374515091"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1992311728",
+        "Name": "Teahouse_INT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_INT_Reverb",
+        "GUID": "{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}"
+       }
+      ]
+     },
+     {
+      "Id": "3263608106",
+      "Name": "Play_AMB_mooncake",
+      "ObjectPath": "\\Events\\AMB Events WU\\Teahouse\\Play_AMB_mooncake",
+      "GUID": "{D00E4D73-6487-44F6-BC86-608AC7D0CDB4}",
+      "Color": "18",
+      "MaxAttenuation": "40",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "668447059"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1992311728",
+        "Name": "Teahouse_INT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_INT_Reverb",
+        "GUID": "{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}"
+       }
+      ]
+     },
+     {
+      "Id": "2778300033",
+      "Name": "Play_AMB_plate_conveyor",
+      "ObjectPath": "\\Events\\AMB Events WU\\Teahouse\\Play_AMB_plate_conveyor",
+      "GUID": "{98F04737-1361-4E2B-A0B7-28FA03DF76B2}",
+      "Color": "18",
+      "MaxAttenuation": "40",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "545959677"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1992311728",
+        "Name": "Teahouse_INT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_INT_Reverb",
+        "GUID": "{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}"
+       }
+      ]
+     },
+     {
+      "Id": "4240732704",
+      "Name": "Play_AMB_utensils",
+      "ObjectPath": "\\Events\\AMB Events WU\\Teahouse\\Play_AMB_utensils",
+      "GUID": "{1B407F22-E294-4791-8559-8E25F71CCB3C}",
+      "Color": "18",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "409052204"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1992311728",
+        "Name": "Teahouse_INT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_INT_Reverb",
+        "GUID": "{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}"
+       }
+      ]
+     },
+     {
+      "Id": "1558830816",
+      "Name": "Play_AMB_wind_zone",
+      "ObjectPath": "\\Events\\AMB Events WU\\Teahouse\\Play_AMB_wind_zone",
+      "GUID": "{429AC4EE-274B-4E42-B499-EF15DEF6F4AD}",
+      "Color": "18",
+      "MaxAttenuation": "40",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "704680711"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "716349243"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "4210201076",
+      "Name": "Play_Belly_Bar_Blend_Container",
+      "ObjectPath": "\\Events\\AMB Events WU\\Play_Belly_Bar_Blend_Container",
+      "GUID": "{54CD3A5B-99DD-473F-AF1A-55B81E431BD1}",
+      "Color": "18",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "38151343"
+       },
+       {
+        "Id": "43130221"
+       },
+       {
+        "Id": "43822184"
+       },
+       {
+        "Id": "429165170"
+       },
+       {
+        "Id": "444000060"
+       },
+       {
+        "Id": "647356697"
+       },
+       {
+        "Id": "659019764"
+       },
+       {
+        "Id": "675951433"
+       },
+       {
+        "Id": "766780530"
+       },
+       {
+        "Id": "784155455"
+       },
+       {
+        "Id": "819956669"
+       },
+       {
+        "Id": "978663871"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1017777360",
+      "Name": "Play_dx_alveolus_a",
+      "ObjectPath": "\\Events\\DX Events WU\\Alveolus\\Play_dx_alveolus_a",
+      "GUID": "{F5AA7AB3-B270-4AF9-9D34-11217417F385}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.25",
+      "DurationMax": "0.25",
+      "MediaRefs": [
+       {
+        "Id": "193896560"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "992639600"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1017777363",
+      "Name": "Play_dx_alveolus_b",
+      "ObjectPath": "\\Events\\DX Events WU\\Alveolus\\Play_dx_alveolus_b",
+      "GUID": "{0B658901-5960-451B-8004-3A38BB1CB50D}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.12905984",
+      "DurationMax": "0.12905984",
+      "MediaRefs": [
+       {
+        "Id": "717116099"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "992639600"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1017777362",
+      "Name": "Play_dx_alveolus_c",
+      "ObjectPath": "\\Events\\DX Events WU\\Alveolus\\Play_dx_alveolus_c",
+      "GUID": "{C8487D57-392D-46E4-B008-BC364FB3E77C}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.17004845",
+      "DurationMax": "0.17004845",
+      "MediaRefs": [
+       {
+        "Id": "291638591"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "992639600"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1017777365",
+      "Name": "Play_dx_alveolus_d",
+      "ObjectPath": "\\Events\\DX Events WU\\Alveolus\\Play_dx_alveolus_d",
+      "GUID": "{C02E1316-546E-40FD-A1FE-F10BA3C9610A}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.13878734",
+      "DurationMax": "0.13878734",
+      "MediaRefs": [
+       {
+        "Id": "902255624"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "992639600"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1017777364",
+      "Name": "Play_dx_alveolus_e",
+      "ObjectPath": "\\Events\\DX Events WU\\Alveolus\\Play_dx_alveolus_e",
+      "GUID": "{0F06D6F7-43CA-40C0-B571-3DD3B9B4E86A}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.25",
+      "DurationMax": "0.25",
+      "MediaRefs": [
+       {
+        "Id": "940680603"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "992639600"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1017777367",
+      "Name": "Play_dx_alveolus_f",
+      "ObjectPath": "\\Events\\DX Events WU\\Alveolus\\Play_dx_alveolus_f",
+      "GUID": "{2A27DC1D-6055-4138-B6D1-943D248D9AE6}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.084984556",
+      "DurationMax": "0.084984556",
+      "MediaRefs": [
+       {
+        "Id": "948814787"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "992639600"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1017777366",
+      "Name": "Play_dx_alveolus_g",
+      "ObjectPath": "\\Events\\DX Events WU\\Alveolus\\Play_dx_alveolus_g",
+      "GUID": "{9F61E6F0-6B24-4ADA-9921-EEFE08179557}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.07398663",
+      "DurationMax": "0.07398663",
+      "MediaRefs": [
+       {
+        "Id": "291807790"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "992639600"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1017777369",
+      "Name": "Play_dx_alveolus_h",
+      "ObjectPath": "\\Events\\DX Events WU\\Alveolus\\Play_dx_alveolus_h",
+      "GUID": "{C977A369-CFA6-4DB6-B52B-419994321C8D}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.11752137",
+      "DurationMax": "0.11752137",
+      "MediaRefs": [
+       {
+        "Id": "1049103362"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "992639600"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1017777368",
+      "Name": "Play_dx_alveolus_i",
+      "ObjectPath": "\\Events\\DX Events WU\\Alveolus\\Play_dx_alveolus_i",
+      "GUID": "{216E7896-DE70-48D0-A27A-3BB7313FF01C}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.25",
+      "DurationMax": "0.25",
+      "MediaRefs": [
+       {
+        "Id": "932470245"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "992639600"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1017777371",
+      "Name": "Play_dx_alveolus_j",
+      "ObjectPath": "\\Events\\DX Events WU\\Alveolus\\Play_dx_alveolus_j",
+      "GUID": "{9CB31792-563F-45CA-9711-1ACC0F482B03}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.14048299",
+      "DurationMax": "0.14048299",
+      "MediaRefs": [
+       {
+        "Id": "907367624"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "992639600"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1017777370",
+      "Name": "Play_dx_alveolus_k",
+      "ObjectPath": "\\Events\\DX Events WU\\Alveolus\\Play_dx_alveolus_k",
+      "GUID": "{950927E3-D4F2-4594-8E20-73D0BEF73C39}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.117545694",
+      "DurationMax": "0.117545694",
+      "MediaRefs": [
+       {
+        "Id": "486655394"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "992639600"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1017777373",
+      "Name": "Play_dx_alveolus_l",
+      "ObjectPath": "\\Events\\DX Events WU\\Alveolus\\Play_dx_alveolus_l",
+      "GUID": "{7DD90837-2B07-4302-9954-AFE5ED78D879}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.13665694",
+      "DurationMax": "0.13665694",
+      "MediaRefs": [
+       {
+        "Id": "499939748"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "992639600"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1017777372",
+      "Name": "Play_dx_alveolus_m",
+      "ObjectPath": "\\Events\\DX Events WU\\Alveolus\\Play_dx_alveolus_m",
+      "GUID": "{3E97F4CA-3A39-487D-B4D9-4E563035F696}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.11333037",
+      "DurationMax": "0.11333037",
+      "MediaRefs": [
+       {
+        "Id": "473234517"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "992639600"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1017777375",
+      "Name": "Play_dx_alveolus_n",
+      "ObjectPath": "\\Events\\DX Events WU\\Alveolus\\Play_dx_alveolus_n",
+      "GUID": "{636E2CEE-7F76-47EC-ACA4-0E2ED9760751}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.09517962",
+      "DurationMax": "0.09517962",
+      "MediaRefs": [
+       {
+        "Id": "216116997"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "992639600"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1017777374",
+      "Name": "Play_dx_alveolus_o",
+      "ObjectPath": "\\Events\\DX Events WU\\Alveolus\\Play_dx_alveolus_o",
+      "GUID": "{A84C22C9-6849-46AD-ABFE-AED8EB35EE88}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.25",
+      "DurationMax": "0.25",
+      "MediaRefs": [
+       {
+        "Id": "1067049488"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "992639600"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1017777345",
+      "Name": "Play_dx_alveolus_p",
+      "ObjectPath": "\\Events\\DX Events WU\\Alveolus\\Play_dx_alveolus_p",
+      "GUID": "{BF20D01E-1F1A-4132-9317-CF3F2390CE06}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.16539626",
+      "DurationMax": "0.16539626",
+      "MediaRefs": [
+       {
+        "Id": "896037403"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "992639600"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1017777344",
+      "Name": "Play_dx_alveolus_q",
+      "ObjectPath": "\\Events\\DX Events WU\\Alveolus\\Play_dx_alveolus_q",
+      "GUID": "{E5FFF95C-F38B-4432-B66B-87042BFA37A1}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.25",
+      "DurationMax": "0.25",
+      "MediaRefs": [
+       {
+        "Id": "843369214"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "992639600"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1017777347",
+      "Name": "Play_dx_alveolus_r",
+      "ObjectPath": "\\Events\\DX Events WU\\Alveolus\\Play_dx_alveolus_r",
+      "GUID": "{37A2DD04-01E3-4EA6-935F-F537B7F6DC3F}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.18311225",
+      "DurationMax": "0.18311225",
+      "MediaRefs": [
+       {
+        "Id": "1042921825"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "992639600"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1017777346",
+      "Name": "Play_dx_alveolus_s",
+      "ObjectPath": "\\Events\\DX Events WU\\Alveolus\\Play_dx_alveolus_s",
+      "GUID": "{5332A205-99BD-4B08-A6F6-DA4AF8B363EB}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.10726496",
+      "DurationMax": "0.10726496",
+      "MediaRefs": [
+       {
+        "Id": "431626106"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "992639600"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1017777349",
+      "Name": "Play_dx_alveolus_t",
+      "ObjectPath": "\\Events\\DX Events WU\\Alveolus\\Play_dx_alveolus_t",
+      "GUID": "{2C224C3F-8749-483E-8003-AF38F6D960B9}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.20183422",
+      "DurationMax": "0.20183422",
+      "MediaRefs": [
+       {
+        "Id": "654446881"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "992639600"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1017777348",
+      "Name": "Play_dx_alveolus_u",
+      "ObjectPath": "\\Events\\DX Events WU\\Alveolus\\Play_dx_alveolus_u",
+      "GUID": "{415C30D4-2E47-4C30-A4FF-CBE87A3B69A1}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.25",
+      "DurationMax": "0.25",
+      "MediaRefs": [
+       {
+        "Id": "166261619"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "992639600"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1017777351",
+      "Name": "Play_dx_alveolus_v",
+      "ObjectPath": "\\Events\\DX Events WU\\Alveolus\\Play_dx_alveolus_v",
+      "GUID": "{74041D24-22E3-4113-9D64-50B4843DB8F4}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.25",
+      "DurationMax": "0.25",
+      "MediaRefs": [
+       {
+        "Id": "768673171"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "992639600"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1017777350",
+      "Name": "Play_dx_alveolus_w",
+      "ObjectPath": "\\Events\\DX Events WU\\Alveolus\\Play_dx_alveolus_w",
+      "GUID": "{11EE042E-47F3-4A2E-9FF8-DB04FF35E91B}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.25",
+      "DurationMax": "0.25",
+      "MediaRefs": [
+       {
+        "Id": "826786002"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "992639600"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1017777353",
+      "Name": "Play_dx_alveolus_x",
+      "ObjectPath": "\\Events\\DX Events WU\\Alveolus\\Play_dx_alveolus_x",
+      "GUID": "{2BEB3723-00CD-4AEB-99E3-B7C2F50181F7}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.12246128",
+      "DurationMax": "0.12246128",
+      "MediaRefs": [
+       {
+        "Id": "731773316"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "992639600"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1017777352",
+      "Name": "Play_dx_alveolus_y",
+      "ObjectPath": "\\Events\\DX Events WU\\Alveolus\\Play_dx_alveolus_y",
+      "GUID": "{555A64E4-9966-48B8-8EA4-926492ECE7B6}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.16460396",
+      "DurationMax": "0.16460396",
+      "MediaRefs": [
+       {
+        "Id": "62975053"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "992639600"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1017777355",
+      "Name": "Play_dx_alveolus_z",
+      "ObjectPath": "\\Events\\DX Events WU\\Alveolus\\Play_dx_alveolus_z",
+      "GUID": "{F27C2A1D-95AF-4AC9-B53D-5215C026175B}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.25",
+      "DurationMax": "0.25",
+      "MediaRefs": [
+       {
+        "Id": "560746972"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "992639600"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "1365280286",
+      "Name": "Play_dx_bartender_a",
+      "ObjectPath": "\\Events\\DX Events WU\\Bartender\\Play_dx_bartender_a",
+      "GUID": "{A695E03A-F02C-47D1-B5F2-0A27B8CEF7D7}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.21638414",
+      "DurationMax": "0.28883818",
+      "MediaRefs": [
+       {
+        "Id": "1005311946"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "1002363062"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1365280285",
+      "Name": "Play_dx_bartender_b",
+      "ObjectPath": "\\Events\\DX Events WU\\Bartender\\Play_dx_bartender_b",
+      "GUID": "{8E58FEF8-FF05-4B83-9191-130A89CF4BC8}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.21638414",
+      "DurationMax": "0.28883818",
+      "MediaRefs": [
+       {
+        "Id": "517191733"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "1002363062"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1365280284",
+      "Name": "Play_dx_bartender_c",
+      "ObjectPath": "\\Events\\DX Events WU\\Bartender\\Play_dx_bartender_c",
+      "GUID": "{D23E6A6D-67A8-4BF6-B1A0-F2A4C1A6338E}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.21638414",
+      "DurationMax": "0.28883818",
+      "MediaRefs": [
+       {
+        "Id": "415644435"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "1002363062"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1365280283",
+      "Name": "Play_dx_bartender_d",
+      "ObjectPath": "\\Events\\DX Events WU\\Bartender\\Play_dx_bartender_d",
+      "GUID": "{7B66E2CD-F874-4FD5-9230-8DE3486D92B9}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.21638414",
+      "DurationMax": "0.28883818",
+      "MediaRefs": [
+       {
+        "Id": "918184788"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "1002363062"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1365280282",
+      "Name": "Play_dx_bartender_e",
+      "ObjectPath": "\\Events\\DX Events WU\\Bartender\\Play_dx_bartender_e",
+      "GUID": "{031BA6EE-90DA-41A5-A959-437FB81E614F}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.21638414",
+      "DurationMax": "0.28883818",
+      "MediaRefs": [
+       {
+        "Id": "174046898"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "1002363062"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1365280281",
+      "Name": "Play_dx_bartender_f",
+      "ObjectPath": "\\Events\\DX Events WU\\Bartender\\Play_dx_bartender_f",
+      "GUID": "{CC148389-C70D-452A-8D2D-C9D24D348C29}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.21638414",
+      "DurationMax": "0.28883818",
+      "MediaRefs": [
+       {
+        "Id": "1054735823"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "1002363062"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1365280280",
+      "Name": "Play_dx_bartender_g",
+      "ObjectPath": "\\Events\\DX Events WU\\Bartender\\Play_dx_bartender_g",
+      "GUID": "{A4F4D3D4-5EA1-412E-AC5C-55495C2B0D97}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.21638414",
+      "DurationMax": "0.28883818",
+      "MediaRefs": [
+       {
+        "Id": "2856194"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "1002363062"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1365280279",
+      "Name": "Play_dx_bartender_h",
+      "ObjectPath": "\\Events\\DX Events WU\\Bartender\\Play_dx_bartender_h",
+      "GUID": "{9EE809CB-13CD-48B1-8B6E-87F97693CAD1}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.18049866",
+      "DurationMax": "0.2409368",
+      "MediaRefs": [
+       {
+        "Id": "168828278"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "1002363062"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1365280278",
+      "Name": "Play_dx_bartender_i",
+      "ObjectPath": "\\Events\\DX Events WU\\Bartender\\Play_dx_bartender_i",
+      "GUID": "{5B27B40B-9D41-4A2F-ABDE-7D560BD7E2A7}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.21638414",
+      "DurationMax": "0.28883818",
+      "MediaRefs": [
+       {
+        "Id": "963401328"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "1002363062"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1365280277",
+      "Name": "Play_dx_bartender_j",
+      "ObjectPath": "\\Events\\DX Events WU\\Bartender\\Play_dx_bartender_j",
+      "GUID": "{F925DB64-2A43-4B95-9E54-806E4C4882C8}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.21638414",
+      "DurationMax": "0.28883818",
+      "MediaRefs": [
+       {
+        "Id": "430159898"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "1002363062"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1365280276",
+      "Name": "Play_dx_bartender_k",
+      "ObjectPath": "\\Events\\DX Events WU\\Bartender\\Play_dx_bartender_k",
+      "GUID": "{00169A2C-07C8-4A1E-9C6D-19A6DD5FD3CA}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.21638414",
+      "DurationMax": "0.28883818",
+      "MediaRefs": [
+       {
+        "Id": "750536681"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "1002363062"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1365280275",
+      "Name": "Play_dx_bartender_l",
+      "ObjectPath": "\\Events\\DX Events WU\\Bartender\\Play_dx_bartender_l",
+      "GUID": "{C6190AEE-83C2-42EC-B4CB-BC6551882B3F}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.21638414",
+      "DurationMax": "0.28883818",
+      "MediaRefs": [
+       {
+        "Id": "28799827"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "1002363062"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1365280274",
+      "Name": "Play_dx_bartender_m",
+      "ObjectPath": "\\Events\\DX Events WU\\Bartender\\Play_dx_bartender_m",
+      "GUID": "{A9ACB6C0-28E3-414E-8A7C-4DBEF981B266}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.21638414",
+      "DurationMax": "0.28883818",
+      "MediaRefs": [
+       {
+        "Id": "1048130153"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "1002363062"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1365280273",
+      "Name": "Play_dx_bartender_n",
+      "ObjectPath": "\\Events\\DX Events WU\\Bartender\\Play_dx_bartender_n",
+      "GUID": "{E0B8D63B-ECE6-4358-92B4-84B02D11538B}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.20138723",
+      "DurationMax": "0.2688197",
+      "MediaRefs": [
+       {
+        "Id": "88937665"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "1002363062"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1365280272",
+      "Name": "Play_dx_bartender_o",
+      "ObjectPath": "\\Events\\DX Events WU\\Bartender\\Play_dx_bartender_o",
+      "GUID": "{782AC033-3CE0-4789-B307-CA1C7261CFC2}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.21638414",
+      "DurationMax": "0.28883818",
+      "MediaRefs": [
+       {
+        "Id": "68387722"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "1002363062"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1365280271",
+      "Name": "Play_dx_bartender_p",
+      "ObjectPath": "\\Events\\DX Events WU\\Bartender\\Play_dx_bartender_p",
+      "GUID": "{14708319-5196-4AA1-AE3C-C8F4BA4FC497}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.21638414",
+      "DurationMax": "0.28883818",
+      "MediaRefs": [
+       {
+        "Id": "110180796"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "1002363062"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1365280270",
+      "Name": "Play_dx_bartender_q",
+      "ObjectPath": "\\Events\\DX Events WU\\Bartender\\Play_dx_bartender_q",
+      "GUID": "{3AEF0381-1FF9-4814-A3EB-749A4872F477}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.21638414",
+      "DurationMax": "0.28883818",
+      "MediaRefs": [
+       {
+        "Id": "337893874"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "1002363062"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1365280269",
+      "Name": "Play_dx_bartender_r",
+      "ObjectPath": "\\Events\\DX Events WU\\Bartender\\Play_dx_bartender_r",
+      "GUID": "{3B5D7F37-FC55-4765-92A4-A04BC272BBEA}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.21638414",
+      "DurationMax": "0.28883818",
+      "MediaRefs": [
+       {
+        "Id": "60400236"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "1002363062"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1365280268",
+      "Name": "Play_dx_bartender_s",
+      "ObjectPath": "\\Events\\DX Events WU\\Bartender\\Play_dx_bartender_s",
+      "GUID": "{247A7A80-060A-4DED-AD7E-24E2B35387FC}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.21638414",
+      "DurationMax": "0.28883818",
+      "MediaRefs": [
+       {
+        "Id": "59627563"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "1002363062"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1365280267",
+      "Name": "Play_dx_bartender_t",
+      "ObjectPath": "\\Events\\DX Events WU\\Bartender\\Play_dx_bartender_t",
+      "GUID": "{6B421027-1811-4576-B2E9-032B1571C2DA}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.21638414",
+      "DurationMax": "0.28883818",
+      "MediaRefs": [
+       {
+        "Id": "1036505123"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "1002363062"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1365280266",
+      "Name": "Play_dx_bartender_u",
+      "ObjectPath": "\\Events\\DX Events WU\\Bartender\\Play_dx_bartender_u",
+      "GUID": "{45BF76A0-FF8E-46EC-89D2-B14FC62A80B3}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.21638414",
+      "DurationMax": "0.28883818",
+      "MediaRefs": [
+       {
+        "Id": "550547379"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "1002363062"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1365280265",
+      "Name": "Play_dx_bartender_v",
+      "ObjectPath": "\\Events\\DX Events WU\\Bartender\\Play_dx_bartender_v",
+      "GUID": "{C36F41DF-DDF2-4C9C-9773-309E5082BCB7}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.21638414",
+      "DurationMax": "0.28883818",
+      "MediaRefs": [
+       {
+        "Id": "18695543"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "1002363062"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1365280264",
+      "Name": "Play_dx_bartender_w",
+      "ObjectPath": "\\Events\\DX Events WU\\Bartender\\Play_dx_bartender_w",
+      "GUID": "{A3794EF7-7406-4F07-A75E-53DDD0C4AF76}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.21638414",
+      "DurationMax": "0.28883818",
+      "MediaRefs": [
+       {
+        "Id": "222560456"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "1002363062"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1365280263",
+      "Name": "Play_dx_bartender_x",
+      "ObjectPath": "\\Events\\DX Events WU\\Bartender\\Play_dx_bartender_x",
+      "GUID": "{A5DA68E3-72EF-43B7-8779-61C4AC8389C9}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.21638414",
+      "DurationMax": "0.28883818",
+      "MediaRefs": [
+       {
+        "Id": "1063904366"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "1002363062"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1365280262",
+      "Name": "Play_dx_bartender_y",
+      "ObjectPath": "\\Events\\DX Events WU\\Bartender\\Play_dx_bartender_y",
+      "GUID": "{6D65DED0-7025-4977-B220-1F9CA73B9634}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.21638414",
+      "DurationMax": "0.28883818",
+      "MediaRefs": [
+       {
+        "Id": "955246791"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "1002363062"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1365280261",
+      "Name": "Play_dx_bartender_z",
+      "ObjectPath": "\\Events\\DX Events WU\\Bartender\\Play_dx_bartender_z",
+      "GUID": "{C09FCD37-D9BD-432C-909A-78539C8454E4}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.21638414",
+      "DurationMax": "0.28883818",
+      "MediaRefs": [
+       {
+        "Id": "785031987"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "1002363062"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1266389086",
+      "Name": "Play_dx_tami_a",
+      "ObjectPath": "\\Events\\DX Events WU\\Tami\\Play_dx_tami_a",
+      "GUID": "{6320C3E4-6E87-4341-BB4B-B28FB9524CA9}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.23596856",
+      "DurationMax": "0.25",
+      "MediaRefs": [
+       {
+        "Id": "770300209"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "84869189"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1266389085",
+      "Name": "Play_dx_tami_b",
+      "ObjectPath": "\\Events\\DX Events WU\\Tami\\Play_dx_tami_b",
+      "GUID": "{B4461301-FEED-4C66-B2CA-788B7DD5E8D7}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.23596856",
+      "DurationMax": "0.25",
+      "MediaRefs": [
+       {
+        "Id": "344474662"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "84869189"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1266389084",
+      "Name": "Play_dx_tami_c",
+      "ObjectPath": "\\Events\\DX Events WU\\Tami\\Play_dx_tami_c",
+      "GUID": "{1049008C-37FE-44F7-8DB6-820003AB11C3}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.23596856",
+      "DurationMax": "0.25",
+      "MediaRefs": [
+       {
+        "Id": "662991372"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "84869189"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1266389083",
+      "Name": "Play_dx_tami_d",
+      "ObjectPath": "\\Events\\DX Events WU\\Tami\\Play_dx_tami_d",
+      "GUID": "{DA5D39AB-966E-45AF-9609-42CDD93317FB}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.17580825",
+      "DurationMax": "0.18626237",
+      "MediaRefs": [
+       {
+        "Id": "990982219"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "84869189"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1266389082",
+      "Name": "Play_dx_tami_e",
+      "ObjectPath": "\\Events\\DX Events WU\\Tami\\Play_dx_tami_e",
+      "GUID": "{7ECE30FB-AE62-4D26-B62A-55E72914AAB3}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.23596856",
+      "DurationMax": "0.25",
+      "MediaRefs": [
+       {
+        "Id": "554781607"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "84869189"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1266389081",
+      "Name": "Play_dx_tami_f",
+      "ObjectPath": "\\Events\\DX Events WU\\Tami\\Play_dx_tami_f",
+      "GUID": "{5EBD40FF-36EA-4533-BFB1-4AA542FCA41A}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.23596856",
+      "DurationMax": "0.25",
+      "MediaRefs": [
+       {
+        "Id": "456583565"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "84869189"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1266389080",
+      "Name": "Play_dx_tami_g",
+      "ObjectPath": "\\Events\\DX Events WU\\Tami\\Play_dx_tami_g",
+      "GUID": "{9A376610-7DF6-4933-BDC2-EAA0A3638B30}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.23596856",
+      "DurationMax": "0.25",
+      "MediaRefs": [
+       {
+        "Id": "1030602842"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "84869189"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1266389079",
+      "Name": "Play_dx_tami_h",
+      "ObjectPath": "\\Events\\DX Events WU\\Tami\\Play_dx_tami_h",
+      "GUID": "{822FF10D-3699-43BB-8DE9-93C6593BD00D}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.23596856",
+      "DurationMax": "0.25",
+      "MediaRefs": [
+       {
+        "Id": "106406905"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "84869189"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1266389078",
+      "Name": "Play_dx_tami_i",
+      "ObjectPath": "\\Events\\DX Events WU\\Tami\\Play_dx_tami_i",
+      "GUID": "{62646179-523C-403D-A54F-CC989EBF22FE}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.23596856",
+      "DurationMax": "0.25",
+      "MediaRefs": [
+       {
+        "Id": "713774480"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "84869189"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1266389077",
+      "Name": "Play_dx_tami_j",
+      "ObjectPath": "\\Events\\DX Events WU\\Tami\\Play_dx_tami_j",
+      "GUID": "{939F1E41-BE01-45E5-A86C-579B4DDD421F}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.23596856",
+      "DurationMax": "0.25",
+      "MediaRefs": [
+       {
+        "Id": "239098230"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "84869189"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1266389076",
+      "Name": "Play_dx_tami_k",
+      "ObjectPath": "\\Events\\DX Events WU\\Tami\\Play_dx_tami_k",
+      "GUID": "{E4ABA2F5-3FC4-41BA-850B-839EABC0F2DA}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.19216251",
+      "DurationMax": "0.20358911",
+      "MediaRefs": [
+       {
+        "Id": "1027740293"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "84869189"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1266389075",
+      "Name": "Play_dx_tami_l",
+      "ObjectPath": "\\Events\\DX Events WU\\Tami\\Play_dx_tami_l",
+      "GUID": "{62DE78D4-3C63-4EDD-B1CF-4EFCB3A99FB8}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.23596856",
+      "DurationMax": "0.25",
+      "MediaRefs": [
+       {
+        "Id": "625965357"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "84869189"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1266389074",
+      "Name": "Play_dx_tami_m",
+      "ObjectPath": "\\Events\\DX Events WU\\Tami\\Play_dx_tami_m",
+      "GUID": "{367835CA-83A9-4BC3-AA0A-8F68BDB467AD}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.2188984",
+      "DurationMax": "0.23191477",
+      "MediaRefs": [
+       {
+        "Id": "469422738"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "84869189"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1266389073",
+      "Name": "Play_dx_tami_n",
+      "ObjectPath": "\\Events\\DX Events WU\\Tami\\Play_dx_tami_n",
+      "GUID": "{97246B8E-7BC5-4011-A729-1053C6CF394B}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.20661259",
+      "DurationMax": "0.2188984",
+      "MediaRefs": [
+       {
+        "Id": "910540747"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "84869189"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1266389072",
+      "Name": "Play_dx_tami_o",
+      "ObjectPath": "\\Events\\DX Events WU\\Tami\\Play_dx_tami_o",
+      "GUID": "{5BF0D46A-1727-4627-9C4E-71F90CD51E10}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.23596856",
+      "DurationMax": "0.25",
+      "MediaRefs": [
+       {
+        "Id": "67682474"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "84869189"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1266389071",
+      "Name": "Play_dx_tami_p",
+      "ObjectPath": "\\Events\\DX Events WU\\Tami\\Play_dx_tami_p",
+      "GUID": "{9F441307-F31D-4FC8-8E64-2476CA45B5B8}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.22370286",
+      "DurationMax": "0.23700495",
+      "MediaRefs": [
+       {
+        "Id": "161214462"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "84869189"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1266389070",
+      "Name": "Play_dx_tami_q",
+      "ObjectPath": "\\Events\\DX Events WU\\Tami\\Play_dx_tami_q",
+      "GUID": "{E4B27B5B-0916-4711-B127-6247E6B63043}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.23596856",
+      "DurationMax": "0.25",
+      "MediaRefs": [
+       {
+        "Id": "917741124"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "84869189"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1266389069",
+      "Name": "Play_dx_tami_r",
+      "ObjectPath": "\\Events\\DX Events WU\\Tami\\Play_dx_tami_r",
+      "GUID": "{5E1BD375-A087-455A-B425-1A102543608E}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.23596856",
+      "DurationMax": "0.25",
+      "MediaRefs": [
+       {
+        "Id": "516440497"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "84869189"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1266389068",
+      "Name": "Play_dx_tami_s",
+      "ObjectPath": "\\Events\\DX Events WU\\Tami\\Play_dx_tami_s",
+      "GUID": "{DCE6F7C9-D40E-4518-8135-E9B32A91EA21}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.23596856",
+      "DurationMax": "0.25",
+      "MediaRefs": [
+       {
+        "Id": "440976626"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "84869189"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1266389067",
+      "Name": "Play_dx_tami_t",
+      "ObjectPath": "\\Events\\DX Events WU\\Tami\\Play_dx_tami_t",
+      "GUID": "{5EF5AA96-0F3D-439A-BC9E-2411A7BC3484}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.1863217",
+      "DurationMax": "0.19740099",
+      "MediaRefs": [
+       {
+        "Id": "1069220616"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "84869189"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1266389066",
+      "Name": "Play_dx_tami_u",
+      "ObjectPath": "\\Events\\DX Events WU\\Tami\\Play_dx_tami_u",
+      "GUID": "{09C56367-7DEC-4C3C-A301-589D28713DFE}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.23596856",
+      "DurationMax": "0.25",
+      "MediaRefs": [
+       {
+        "Id": "713642632"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "84869189"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1266389065",
+      "Name": "Play_dx_tami_v",
+      "ObjectPath": "\\Events\\DX Events WU\\Tami\\Play_dx_tami_v",
+      "GUID": "{5B3BC293-58C0-4C6C-B8DC-0D5A8E87DD1F}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.23596856",
+      "DurationMax": "0.25",
+      "MediaRefs": [
+       {
+        "Id": "35858086"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "84869189"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1266389064",
+      "Name": "Play_dx_tami_w",
+      "ObjectPath": "\\Events\\DX Events WU\\Tami\\Play_dx_tami_w",
+      "GUID": "{3DCE3859-969F-4247-B1EA-1DE6A907654A}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.23596856",
+      "DurationMax": "0.25",
+      "MediaRefs": [
+       {
+        "Id": "908885052"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "84869189"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1266389063",
+      "Name": "Play_dx_tami_x",
+      "ObjectPath": "\\Events\\DX Events WU\\Tami\\Play_dx_tami_x",
+      "GUID": "{68DD412B-9942-4EB1-ABCE-749F245F3B38}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.23596856",
+      "DurationMax": "0.25",
+      "MediaRefs": [
+       {
+        "Id": "289207894"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "84869189"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1266389062",
+      "Name": "Play_dx_tami_y",
+      "ObjectPath": "\\Events\\DX Events WU\\Tami\\Play_dx_tami_y",
+      "GUID": "{261E2F52-D522-461C-B53C-3B99E309F97C}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.23596856",
+      "DurationMax": "0.25",
+      "MediaRefs": [
+       {
+        "Id": "88610057"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "84869189"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1266389061",
+      "Name": "Play_dx_tami_z",
+      "ObjectPath": "\\Events\\DX Events WU\\Tami\\Play_dx_tami_z",
+      "GUID": "{68A8B7F3-0178-449F-910F-D1BAA0804624}",
+      "Color": "22",
+      "DurationType": "OneShot",
+      "DurationMin": "0.23596856",
+      "DurationMax": "0.25",
+      "MediaRefs": [
+       {
+        "Id": "760136657"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "84869189"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       }
+      ]
+     },
+     {
+      "Id": "1923226714",
+      "Name": "Play_Heart_Blend_Container",
+      "ObjectPath": "\\Events\\AMB Events WU\\Play_Heart_Blend_Container",
+      "GUID": "{D2D6B351-E66D-456C-BD5B-D13E54AF40C4}",
+      "Color": "18",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "31785810"
+       },
+       {
+        "Id": "160274551"
+       },
+       {
+        "Id": "165503632"
+       },
+       {
+        "Id": "332163773"
+       },
+       {
+        "Id": "677216396"
+       }
+      ]
+     },
+     {
+      "Id": "3646404409",
+      "Name": "Play_SFX_bar_drink_hover",
+      "ObjectPath": "\\Events\\SFX Events WU\\UI\\Play_SFX_bar_drink_hover",
+      "GUID": "{A35AAE5E-9284-41DC-B538-DE4EC5D45064}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "0.2085625",
+      "DurationMax": "0.2085625",
+      "MediaRefs": [
+       {
+        "Id": "404232577"
+       }
+      ]
+     },
+     {
+      "Id": "2671946102",
+      "Name": "Play_SFX_blender",
+      "ObjectPath": "\\Events\\SFX Events WU\\Play_SFX_blender",
+      "GUID": "{8B9DAD48-C5A1-4780-AC3C-1D7DA2E8E05D}",
+      "Color": "19",
+      "MaxAttenuation": "40",
+      "DurationType": "OneShot",
+      "DurationMin": "1.5627291",
+      "DurationMax": "1.5627291",
+      "MediaRefs": [
+       {
+        "Id": "634732461"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1038996342",
+        "Name": "Heart_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Heart_Reverb",
+        "GUID": "{9B58766C-D008-49F6-B8B1-CDFF11EA9602}"
+       }
+      ]
+     },
+     {
+      "Id": "618833946",
+      "Name": "Play_SFX_boat_launch",
+      "ObjectPath": "\\Events\\SFX Events WU\\Boat\\Play_SFX_boat_launch",
+      "GUID": "{B1280B22-E58C-4850-91B3-57D3FD533FA8}",
+      "Color": "19",
+      "MaxAttenuation": "40",
+      "DurationType": "OneShot",
+      "DurationMin": "1.3154792",
+      "DurationMax": "1.3154792",
+      "MediaRefs": [
+       {
+        "Id": "730032968"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1038996342",
+        "Name": "Heart_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Heart_Reverb",
+        "GUID": "{9B58766C-D008-49F6-B8B1-CDFF11EA9602}"
+       }
+      ]
+     },
+     {
+      "Id": "1967412891",
+      "Name": "Play_SFX_boat_load",
+      "ObjectPath": "\\Events\\SFX Events WU\\Boat\\Play_SFX_boat_load",
+      "GUID": "{4B0AFDAD-D45D-4FF3-BE70-424A3C27A3DD}",
+      "Color": "19",
+      "MaxAttenuation": "40",
+      "DurationType": "OneShot",
+      "DurationMin": "0.31938344",
+      "DurationMax": "0.42585742",
+      "MediaRefs": [
+       {
+        "Id": "465449119"
+       },
+       {
+        "Id": "786271772"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1038996342",
+        "Name": "Heart_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Heart_Reverb",
+        "GUID": "{9B58766C-D008-49F6-B8B1-CDFF11EA9602}"
+       }
+      ]
+     },
+     {
+      "Id": "1399734751",
+      "Name": "Play_SFX_boat_stop",
+      "ObjectPath": "\\Events\\SFX Events WU\\Boat\\Play_SFX_boat_stop",
+      "GUID": "{C5463105-C96D-4659-8D32-764AFA56BC0F}",
+      "Color": "19",
+      "MaxAttenuation": "40",
+      "DurationType": "OneShot",
+      "DurationMin": "0.7285208",
+      "DurationMax": "0.7285208",
+      "MediaRefs": [
+       {
+        "Id": "494942608"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1038996342",
+        "Name": "Heart_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Heart_Reverb",
+        "GUID": "{9B58766C-D008-49F6-B8B1-CDFF11EA9602}"
+       }
+      ]
+     },
+     {
+      "Id": "1136698174",
+      "Name": "Play_SFX_boat_unload",
+      "ObjectPath": "\\Events\\SFX Events WU\\Boat\\Play_SFX_boat_unload",
+      "GUID": "{78E9E575-1C73-4C75-BCF3-098F3F5A75D9}",
+      "Color": "19",
+      "MaxAttenuation": "40",
+      "DurationType": "OneShot",
+      "DurationMin": "0.33472916",
+      "DurationMax": "0.33472916",
+      "MediaRefs": [
+       {
+        "Id": "1023540605"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1038996342",
+        "Name": "Heart_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Heart_Reverb",
+        "GUID": "{9B58766C-D008-49F6-B8B1-CDFF11EA9602}"
+       }
+      ]
+     },
+     {
+      "Id": "833966536",
+      "Name": "Play_SFX_boss_attack",
+      "ObjectPath": "\\Events\\SFX Events WU\\Damage\\Boss\\Play_SFX_boss_attack",
+      "GUID": "{9419C6A2-480B-4057-92EC-11D0C15572DD}",
+      "Color": "19",
+      "MaxAttenuation": "80",
+      "DurationType": "OneShot",
+      "DurationMin": "0.621625",
+      "DurationMax": "0.621875",
+      "MediaRefs": [
+       {
+        "Id": "274633021"
+       },
+       {
+        "Id": "608321178"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1038996342",
+        "Name": "Heart_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Heart_Reverb",
+        "GUID": "{9B58766C-D008-49F6-B8B1-CDFF11EA9602}"
+       }
+      ]
+     },
+     {
+      "Id": "874522489",
+      "Name": "Play_SFX_boss_puff",
+      "ObjectPath": "\\Events\\SFX Events WU\\Damage\\Boss\\Play_SFX_boss_puff",
+      "GUID": "{6C685240-A8EC-41F5-BA22-FB2F7E1F7ED2}",
+      "Color": "19",
+      "MaxAttenuation": "80",
+      "DurationType": "OneShot",
+      "DurationMin": "2.8299375",
+      "DurationMax": "2.8299375",
+      "MediaRefs": [
+       {
+        "Id": "1018123111"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1038996342",
+        "Name": "Heart_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Heart_Reverb",
+        "GUID": "{9B58766C-D008-49F6-B8B1-CDFF11EA9602}"
+       }
+      ]
+     },
+     {
+      "Id": "2466609305",
+      "Name": "Play_SFX_burn",
+      "ObjectPath": "\\Events\\SFX Events WU\\Damage\\Tami\\Play_SFX_burn",
+      "GUID": "{9759C5E7-C173-4014-B824-2F5DB9DB8B7B}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "1.4567916",
+      "DurationMax": "1.4567916",
+      "MediaRefs": [
+       {
+        "Id": "977119962"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1992311728",
+        "Name": "Teahouse_INT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_INT_Reverb",
+        "GUID": "{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}"
+       }
+      ]
+     },
+     {
+      "Id": "3213085276",
+      "Name": "Play_SFX_dough_drag",
+      "ObjectPath": "\\Events\\SFX Events WU\\Dough\\Play_SFX_dough_drag",
+      "GUID": "{A4BDE940-D70C-49D9-90A9-6ECE15DC71C8}",
+      "Color": "19",
+      "MaxAttenuation": "40",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "163524447"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "18805950"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "1038996342",
+        "Name": "Heart_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Heart_Reverb",
+        "GUID": "{9B58766C-D008-49F6-B8B1-CDFF11EA9602}"
+       }
+      ]
+     },
+     {
+      "Id": "1467800657",
+      "Name": "Play_SFX_dough_land",
+      "ObjectPath": "\\Events\\SFX Events WU\\Dough\\Play_SFX_dough_land",
+      "GUID": "{55832D9B-208A-40A0-9AFE-BC40FB9BC077}",
+      "Color": "19",
+      "MaxAttenuation": "20",
+      "DurationType": "OneShot",
+      "DurationMin": "0.33964583",
+      "DurationMax": "0.33964583",
+      "MediaRefs": [
+       {
+        "Id": "816854192"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1038996342",
+        "Name": "Heart_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Heart_Reverb",
+        "GUID": "{9B58766C-D008-49F6-B8B1-CDFF11EA9602}"
+       }
+      ]
+     },
+     {
+      "Id": "2758685314",
+      "Name": "Play_SFX_dough_mold",
+      "ObjectPath": "\\Events\\SFX Events WU\\Dough\\Play_SFX_dough_mold",
+      "GUID": "{A76D22E5-3A64-4474-BD19-88ED201C6669}",
+      "Color": "19",
+      "MaxAttenuation": "40",
+      "DurationType": "OneShot",
+      "DurationMin": "1.329",
+      "DurationMax": "1.329",
+      "MediaRefs": [
+       {
+        "Id": "757570144"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1038996342",
+        "Name": "Heart_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Heart_Reverb",
+        "GUID": "{9B58766C-D008-49F6-B8B1-CDFF11EA9602}"
+       }
+      ]
+     },
+     {
+      "Id": "1635328471",
+      "Name": "Play_SFX_dough_roll",
+      "ObjectPath": "\\Events\\SFX Events WU\\Dough\\Play_SFX_dough_roll",
+      "GUID": "{CF68615E-8EB0-40F7-B9E3-FB685D1604AB}",
+      "Color": "19",
+      "MaxAttenuation": "40",
+      "DurationType": "OneShot",
+      "DurationMin": "2.6668959",
+      "DurationMax": "2.6668959",
+      "MediaRefs": [
+       {
+        "Id": "32346152"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1038996342",
+        "Name": "Heart_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Heart_Reverb",
+        "GUID": "{9B58766C-D008-49F6-B8B1-CDFF11EA9602}"
+       }
+      ]
+     },
+     {
+      "Id": "321415936",
+      "Name": "Play_SFX_drag_goop",
+      "ObjectPath": "\\Events\\SFX Events WU\\Pickups\\Play_SFX_drag_goop",
+      "GUID": "{329D3D71-E2E8-4A9D-A269-8939DDE93845}",
+      "Color": "19",
+      "MaxAttenuation": "40",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "993681694"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "752426852"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "2203681506",
+        "Name": "Teahouse_EXT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_EXT_Reverb",
+        "GUID": "{49C18909-6732-4A62-B694-772F3D162753}"
+       }
+      ]
+     },
+     {
+      "Id": "518849949",
+      "Name": "Play_SFX_drop_filling",
+      "ObjectPath": "\\Events\\SFX Events WU\\Pickups\\Play_SFX_drop_filling",
+      "GUID": "{F52339E6-58DF-49A9-83EB-F9E140DEF8E0}",
+      "Color": "19",
+      "MaxAttenuation": "40",
+      "DurationType": "OneShot",
+      "DurationMin": "0.4720625",
+      "DurationMax": "0.4720625",
+      "MediaRefs": [
+       {
+        "Id": "525546835"
+       }
+      ]
+     },
+     {
+      "Id": "3137520235",
+      "Name": "Play_SFX_drop_goop",
+      "ObjectPath": "\\Events\\SFX Events WU\\Pickups\\Play_SFX_drop_goop",
+      "GUID": "{865238C6-0DD0-4E50-BC22-E51E0351D2D1}",
+      "Color": "19",
+      "MaxAttenuation": "40",
+      "DurationType": "OneShot",
+      "DurationMin": "0.30066666",
+      "DurationMax": "0.30066666",
+      "MediaRefs": [
+       {
+        "Id": "805559727"
+       }
+      ]
+     },
+     {
+      "Id": "2913241088",
+      "Name": "Play_SFX_finished_dough",
+      "ObjectPath": "\\Events\\SFX Events WU\\Dough\\Play_SFX_finished_dough",
+      "GUID": "{56480552-5738-4451-9BB4-A2D833D9C412}",
+      "Color": "19",
+      "MaxAttenuation": "40",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5455602",
+      "DurationMax": "0.5455602",
+      "MediaRefs": [
+       {
+        "Id": "414832803"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1038996342",
+        "Name": "Heart_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Heart_Reverb",
+        "GUID": "{9B58766C-D008-49F6-B8B1-CDFF11EA9602}"
+       }
+      ]
+     },
+     {
+      "Id": "406668382",
+      "Name": "Play_SFX_goomba_attack",
+      "ObjectPath": "\\Events\\SFX Events WU\\Damage\\Goomba\\Play_SFX_goomba_attack",
+      "GUID": "{58C134F2-B3FD-4EAA-BA28-7F7F95028973}",
+      "Color": "19",
+      "MaxAttenuation": "40",
+      "DurationType": "OneShot",
+      "DurationMin": "0.3363125",
+      "DurationMax": "0.3363125",
+      "MediaRefs": [
+       {
+        "Id": "663179529"
+       }
+      ]
+     },
+     {
+      "Id": "2127445609",
+      "Name": "Play_SFX_goomba_damage",
+      "ObjectPath": "\\Events\\SFX Events WU\\Damage\\Goomba\\Play_SFX_goomba_damage",
+      "GUID": "{CDE0973F-90FB-43F1-90A8-42032AD51BF4}",
+      "Color": "19",
+      "MaxAttenuation": "40",
+      "DurationType": "OneShot",
+      "DurationMin": "0.38838333",
+      "DurationMax": "0.38838333",
+      "MediaRefs": [
+       {
+        "Id": "880440434"
+       }
+      ]
+     },
+     {
+      "Id": "2670212385",
+      "Name": "Play_SFX_mooncake_spawn",
+      "ObjectPath": "\\Events\\SFX Events WU\\Dough\\Play_SFX_mooncake_spawn",
+      "GUID": "{34BA6A6B-81F3-4078-8811-D824C0E86A6E}",
+      "Color": "19",
+      "MaxAttenuation": "40",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5659955",
+      "DurationMax": "0.5659955",
+      "MediaRefs": [
+       {
+        "Id": "803962685"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1038996342",
+        "Name": "Heart_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Heart_Reverb",
+        "GUID": "{9B58766C-D008-49F6-B8B1-CDFF11EA9602}"
+       }
+      ]
+     },
+     {
+      "Id": "879751311",
+      "Name": "Play_SFX_oven_done",
+      "ObjectPath": "\\Events\\SFX Events WU\\Play_SFX_oven_done",
+      "GUID": "{EE8D22A9-AB81-475D-A68C-A238FE2AC8EF}",
+      "Color": "19",
+      "MaxAttenuation": "40",
+      "DurationType": "OneShot",
+      "DurationMin": "2.1422708",
+      "DurationMax": "2.1422708",
+      "MediaRefs": [
+       {
+        "Id": "543278390"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1038996342",
+        "Name": "Heart_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Heart_Reverb",
+        "GUID": "{9B58766C-D008-49F6-B8B1-CDFF11EA9602}"
+       }
+      ]
+     },
+     {
+      "Id": "2417319537",
+      "Name": "Play_SFX_oven_start",
+      "ObjectPath": "\\Events\\SFX Events WU\\Play_SFX_oven_start",
+      "GUID": "{7D9B60B2-2028-4F4F-9781-C6EE8F1BC1A9}",
+      "Color": "19",
+      "MaxAttenuation": "40",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "1067370502"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1038996342",
+        "Name": "Heart_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Heart_Reverb",
+        "GUID": "{9B58766C-D008-49F6-B8B1-CDFF11EA9602}"
+       }
+      ]
+     },
+     {
+      "Id": "629514194",
+      "Name": "Play_SFX_pickup_filling",
+      "ObjectPath": "\\Events\\SFX Events WU\\Pickups\\Play_SFX_pickup_filling",
+      "GUID": "{1238C7FC-FEB3-4806-BBDD-8107D3A74D78}",
+      "Color": "19",
+      "MaxAttenuation": "40",
+      "DurationType": "OneShot",
+      "DurationMin": "0.4720625",
+      "DurationMax": "0.4720625",
+      "MediaRefs": [
+       {
+        "Id": "468321885"
+       }
+      ]
+     },
+     {
+      "Id": "208110303",
+      "Name": "Play_SFX_pickup_flour",
+      "ObjectPath": "\\Events\\SFX Events WU\\Pickups\\Play_SFX_pickup_flour",
+      "GUID": "{4D6548FA-3D6C-4923-9571-E2D9F2DCA997}",
+      "Color": "19",
+      "MaxAttenuation": "40",
+      "DurationType": "OneShot",
+      "DurationMin": "0.3005353",
+      "DurationMax": "0.3005353",
+      "MediaRefs": [
+       {
+        "Id": "1011321960"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1038996342",
+        "Name": "Heart_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Heart_Reverb",
+        "GUID": "{9B58766C-D008-49F6-B8B1-CDFF11EA9602}"
+       }
+      ]
+     },
+     {
+      "Id": "4274223795",
+      "Name": "Play_SFX_pickup_oil",
+      "ObjectPath": "\\Events\\SFX Events WU\\Pickups\\Play_SFX_pickup_oil",
+      "GUID": "{6EFCBBF7-20AD-4187-A52A-A90EA1FE54D3}",
+      "Color": "19",
+      "MaxAttenuation": "40",
+      "DurationType": "OneShot",
+      "DurationMin": "0.33630386",
+      "DurationMax": "0.33630386",
+      "MediaRefs": [
+       {
+        "Id": "488146446"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1038996342",
+        "Name": "Heart_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Heart_Reverb",
+        "GUID": "{9B58766C-D008-49F6-B8B1-CDFF11EA9602}"
+       }
+      ]
+     },
+     {
+      "Id": "634385826",
+      "Name": "Play_SFX_pickup_sour",
+      "ObjectPath": "\\Events\\SFX Events WU\\Pickups\\Play_SFX_pickup_sour",
+      "GUID": "{EB5A3003-B41B-408C-8EAA-7D565C4F93E9}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "0.93052083",
+      "DurationMax": "0.93052083",
+      "MediaRefs": [
+       {
+        "Id": "144495341"
+       }
+      ]
+     },
+     {
+      "Id": "2140887891",
+      "Name": "Play_SFX_pickup_sweet",
+      "ObjectPath": "\\Events\\SFX Events WU\\Pickups\\Play_SFX_pickup_sweet",
+      "GUID": "{E0161CB6-7B27-40BD-A388-92EA75984F4C}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "0.915625",
+      "DurationMax": "0.915625",
+      "MediaRefs": [
+       {
+        "Id": "580095087"
+       }
+      ]
+     },
+     {
+      "Id": "1865253394",
+      "Name": "Play_SFX_pickup_syrup",
+      "ObjectPath": "\\Events\\SFX Events WU\\Pickups\\Play_SFX_pickup_syrup",
+      "GUID": "{0AE8410B-75F8-42E6-A1DA-25899F765680}",
+      "Color": "19",
+      "MaxAttenuation": "40",
+      "DurationType": "OneShot",
+      "DurationMin": "0.60039586",
+      "DurationMax": "0.60039586",
+      "MediaRefs": [
+       {
+        "Id": "525298123"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1038996342",
+        "Name": "Heart_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Heart_Reverb",
+        "GUID": "{9B58766C-D008-49F6-B8B1-CDFF11EA9602}"
+       }
+      ]
+     },
+     {
+      "Id": "1341960766",
+      "Name": "Play_SFX_pickup_water",
+      "ObjectPath": "\\Events\\SFX Events WU\\Pickups\\Play_SFX_pickup_water",
+      "GUID": "{157E9BE2-4351-4C99-9964-001912B4A41F}",
+      "Color": "19",
+      "MaxAttenuation": "40",
+      "DurationType": "OneShot",
+      "DurationMin": "0.49063492",
+      "DurationMax": "0.49063492",
+      "MediaRefs": [
+       {
+        "Id": "322512191"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1038996342",
+        "Name": "Heart_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Heart_Reverb",
+        "GUID": "{9B58766C-D008-49F6-B8B1-CDFF11EA9602}"
+       }
+      ]
+     },
+     {
+      "Id": "1507479957",
+      "Name": "Play_SFX_tami_ball_land",
+      "ObjectPath": "\\Events\\SFX Events WU\\Tami Movement\\Ball\\Play_SFX_tami_ball_land",
+      "GUID": "{7F39B91B-099A-456E-82E5-269BF0A15DC0}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "0.38585034",
+      "DurationMax": "0.38585034",
+      "MediaRefs": [
+       {
+        "Id": "479306740"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       },
+       {
+        "Id": "1038996342",
+        "Name": "Heart_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Heart_Reverb",
+        "GUID": "{9B58766C-D008-49F6-B8B1-CDFF11EA9602}"
+       },
+       {
+        "Id": "1992311728",
+        "Name": "Teahouse_INT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_INT_Reverb",
+        "GUID": "{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}"
+       },
+       {
+        "Id": "2203681506",
+        "Name": "Teahouse_EXT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_EXT_Reverb",
+        "GUID": "{49C18909-6732-4A62-B694-772F3D162753}"
+       }
+      ]
+     },
+     {
+      "Id": "1665269913",
+      "Name": "Play_SFX_tami_ballcurl",
+      "ObjectPath": "\\Events\\SFX Events WU\\Tami Movement\\Ball\\Play_SFX_tami_ballcurl",
+      "GUID": "{9D99BCAA-B1BC-4F33-BBF0-04A85EF1642A}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "0.4405625",
+      "DurationMax": "0.4405625",
+      "MediaRefs": [
+       {
+        "Id": "946115145"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       },
+       {
+        "Id": "1038996342",
+        "Name": "Heart_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Heart_Reverb",
+        "GUID": "{9B58766C-D008-49F6-B8B1-CDFF11EA9602}"
+       },
+       {
+        "Id": "1992311728",
+        "Name": "Teahouse_INT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_INT_Reverb",
+        "GUID": "{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}"
+       },
+       {
+        "Id": "2203681506",
+        "Name": "Teahouse_EXT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_EXT_Reverb",
+        "GUID": "{49C18909-6732-4A62-B694-772F3D162753}"
+       }
+      ]
+     },
+     {
+      "Id": "3610297994",
+      "Name": "Play_SFX_tami_ballrelease",
+      "ObjectPath": "\\Events\\SFX Events WU\\Tami Movement\\Ball\\Play_SFX_tami_ballrelease",
+      "GUID": "{55727FBA-0B73-4F2F-8851-8DDE95CD101F}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5053125",
+      "DurationMax": "0.5053125",
+      "MediaRefs": [
+       {
+        "Id": "847167030"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       },
+       {
+        "Id": "1038996342",
+        "Name": "Heart_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Heart_Reverb",
+        "GUID": "{9B58766C-D008-49F6-B8B1-CDFF11EA9602}"
+       },
+       {
+        "Id": "1992311728",
+        "Name": "Teahouse_INT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_INT_Reverb",
+        "GUID": "{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}"
+       },
+       {
+        "Id": "2203681506",
+        "Name": "Teahouse_EXT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_EXT_Reverb",
+        "GUID": "{49C18909-6732-4A62-B694-772F3D162753}"
+       }
+      ]
+     },
+     {
+      "Id": "2440939370",
+      "Name": "Play_SFX_tami_ballroll",
+      "ObjectPath": "\\Events\\SFX Events WU\\Tami Movement\\Ball\\BallRoll\\Play_SFX_tami_ballroll",
+      "GUID": "{ADAFA661-26CE-4349-BA1F-E178DEC4A395}",
+      "Color": "19",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "641003083"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       },
+       {
+        "Id": "1038996342",
+        "Name": "Heart_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Heart_Reverb",
+        "GUID": "{9B58766C-D008-49F6-B8B1-CDFF11EA9602}"
+       },
+       {
+        "Id": "1992311728",
+        "Name": "Teahouse_INT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_INT_Reverb",
+        "GUID": "{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}"
+       },
+       {
+        "Id": "2203681506",
+        "Name": "Teahouse_EXT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_EXT_Reverb",
+        "GUID": "{49C18909-6732-4A62-B694-772F3D162753}"
+       }
+      ]
+     },
+     {
+      "Id": "2609742507",
+      "Name": "Play_SFX_tami_damage",
+      "ObjectPath": "\\Events\\SFX Events WU\\Damage\\Tami\\Play_SFX_tami_damage",
+      "GUID": "{BB91B1F8-0690-42FC-999C-8BC1F2F6509B}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "0.20341666",
+      "DurationMax": "0.7099375",
+      "MediaRefs": [
+       {
+        "Id": "167115619"
+       },
+       {
+        "Id": "383920120"
+       },
+       {
+        "Id": "390777594"
+       }
+      ]
+     },
+     {
+      "Id": "913391681",
+      "Name": "Play_SFX_tami_fall_acid",
+      "ObjectPath": "\\Events\\SFX Events WU\\Damage\\Tami\\Play_SFX_tami_fall_acid",
+      "GUID": "{B9F99D9F-CB9B-4511-A39C-F119CE888510}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "1.3127503",
+      "DurationMax": "1.3127503",
+      "MediaRefs": [
+       {
+        "Id": "299055625"
+       },
+       {
+        "Id": "725244182"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1992311728",
+        "Name": "Teahouse_INT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_INT_Reverb",
+        "GUID": "{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}"
+       }
+      ]
+     },
+     {
+      "Id": "912070213",
+      "Name": "Play_SFX_tami_footsteps",
+      "ObjectPath": "\\Events\\SFX Events WU\\Tami Movement\\Play_SFX_tami_footsteps",
+      "GUID": "{60B86E47-5B51-4F68-9C3E-6BE2AD7696A6}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "0.15857998",
+      "DurationMax": "0.2523669",
+      "MediaRefs": [
+       {
+        "Id": "38965680"
+       },
+       {
+        "Id": "119248897"
+       },
+       {
+        "Id": "248715415"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       },
+       {
+        "Id": "1038996342",
+        "Name": "Heart_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Heart_Reverb",
+        "GUID": "{9B58766C-D008-49F6-B8B1-CDFF11EA9602}"
+       },
+       {
+        "Id": "1992311728",
+        "Name": "Teahouse_INT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_INT_Reverb",
+        "GUID": "{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}"
+       },
+       {
+        "Id": "2203681506",
+        "Name": "Teahouse_EXT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_EXT_Reverb",
+        "GUID": "{49C18909-6732-4A62-B694-772F3D162753}"
+       }
+      ]
+     },
+     {
+      "Id": "1814915300",
+      "Name": "Play_SFX_tami_jump",
+      "ObjectPath": "\\Events\\SFX Events WU\\Tami Movement\\Play_SFX_tami_jump",
+      "GUID": "{1396B400-A2F6-40C0-AE71-BA0B3B54D31B}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "0.3190673",
+      "DurationMax": "0.33804002",
+      "MediaRefs": [
+       {
+        "Id": "253616762"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       },
+       {
+        "Id": "1038996342",
+        "Name": "Heart_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Heart_Reverb",
+        "GUID": "{9B58766C-D008-49F6-B8B1-CDFF11EA9602}"
+       },
+       {
+        "Id": "1992311728",
+        "Name": "Teahouse_INT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_INT_Reverb",
+        "GUID": "{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}"
+       },
+       {
+        "Id": "2203681506",
+        "Name": "Teahouse_EXT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_EXT_Reverb",
+        "GUID": "{49C18909-6732-4A62-B694-772F3D162753}"
+       }
+      ]
+     },
+     {
+      "Id": "1206898023",
+      "Name": "Play_SFX_tami_land",
+      "ObjectPath": "\\Events\\SFX Events WU\\Tami Movement\\Play_SFX_tami_land",
+      "GUID": "{DB39B04A-BA31-4B4A-A3B3-EB77B038B31A}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "0.38585034",
+      "DurationMax": "0.38585034",
+      "MediaRefs": [
+       {
+        "Id": "479306740"
+       },
+       {
+        "Id": "951459047"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       },
+       {
+        "Id": "1038996342",
+        "Name": "Heart_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Heart_Reverb",
+        "GUID": "{9B58766C-D008-49F6-B8B1-CDFF11EA9602}"
+       },
+       {
+        "Id": "1992311728",
+        "Name": "Teahouse_INT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_INT_Reverb",
+        "GUID": "{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}"
+       },
+       {
+        "Id": "2203681506",
+        "Name": "Teahouse_EXT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_EXT_Reverb",
+        "GUID": "{49C18909-6732-4A62-B694-772F3D162753}"
+       }
+      ]
+     },
+     {
+      "Id": "347798471",
+      "Name": "Play_SFX_tami_moveTongue",
+      "ObjectPath": "\\Events\\SFX Events WU\\Tami Movement\\Play_SFX_tami_moveTongue",
+      "GUID": "{F1D501F3-E969-4323-ADBB-1C8BAF27CE8E}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8805909",
+      "DurationMax": "0.8805909",
+      "MediaRefs": [
+       {
+        "Id": "738605570"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       },
+       {
+        "Id": "1038996342",
+        "Name": "Heart_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Heart_Reverb",
+        "GUID": "{9B58766C-D008-49F6-B8B1-CDFF11EA9602}"
+       },
+       {
+        "Id": "1992311728",
+        "Name": "Teahouse_INT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_INT_Reverb",
+        "GUID": "{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}"
+       },
+       {
+        "Id": "2203681506",
+        "Name": "Teahouse_EXT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_EXT_Reverb",
+        "GUID": "{49C18909-6732-4A62-B694-772F3D162753}"
+       }
+      ]
+     },
+     {
+      "Id": "1944267675",
+      "Name": "Play_SFX_tami_swing_ascend",
+      "ObjectPath": "\\Events\\SFX Events WU\\Tami Movement\\Swing\\Play_SFX_tami_swing_ascend",
+      "GUID": "{A7BBF28A-0A05-41E2-8D48-E6F3616A4DC4}",
+      "Color": "19",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "775235115"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       },
+       {
+        "Id": "1038996342",
+        "Name": "Heart_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Heart_Reverb",
+        "GUID": "{9B58766C-D008-49F6-B8B1-CDFF11EA9602}"
+       },
+       {
+        "Id": "1992311728",
+        "Name": "Teahouse_INT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_INT_Reverb",
+        "GUID": "{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}"
+       },
+       {
+        "Id": "2203681506",
+        "Name": "Teahouse_EXT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_EXT_Reverb",
+        "GUID": "{49C18909-6732-4A62-B694-772F3D162753}"
+       }
+      ]
+     },
+     {
+      "Id": "1172593522",
+      "Name": "Play_SFX_tami_swing_attach",
+      "ObjectPath": "\\Events\\SFX Events WU\\Tami Movement\\Swing\\Play_SFX_tami_swing_attach",
+      "GUID": "{16026825-988A-4F1E-B7C0-656BD650DD1B}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "0.3800625",
+      "DurationMax": "0.3800625",
+      "MediaRefs": [
+       {
+        "Id": "1042242449"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       },
+       {
+        "Id": "1038996342",
+        "Name": "Heart_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Heart_Reverb",
+        "GUID": "{9B58766C-D008-49F6-B8B1-CDFF11EA9602}"
+       },
+       {
+        "Id": "1992311728",
+        "Name": "Teahouse_INT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_INT_Reverb",
+        "GUID": "{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}"
+       },
+       {
+        "Id": "2203681506",
+        "Name": "Teahouse_EXT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_EXT_Reverb",
+        "GUID": "{49C18909-6732-4A62-B694-772F3D162753}"
+       }
+      ]
+     },
+     {
+      "Id": "1487574826",
+      "Name": "Play_SFX_tami_swing_backward",
+      "ObjectPath": "\\Events\\SFX Events WU\\Tami Movement\\Swing\\Play_SFX_tami_swing_backward",
+      "GUID": "{11141E1F-728B-44F5-9304-D10B8B3A42DD}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "0.85830796",
+      "DurationMax": "0.9093456",
+      "MediaRefs": [
+       {
+        "Id": "903111121"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       },
+       {
+        "Id": "1038996342",
+        "Name": "Heart_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Heart_Reverb",
+        "GUID": "{9B58766C-D008-49F6-B8B1-CDFF11EA9602}"
+       },
+       {
+        "Id": "1992311728",
+        "Name": "Teahouse_INT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_INT_Reverb",
+        "GUID": "{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}"
+       },
+       {
+        "Id": "2203681506",
+        "Name": "Teahouse_EXT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_EXT_Reverb",
+        "GUID": "{49C18909-6732-4A62-B694-772F3D162753}"
+       }
+      ]
+     },
+     {
+      "Id": "1905326817",
+      "Name": "Play_SFX_tami_swing_descend",
+      "ObjectPath": "\\Events\\SFX Events WU\\Tami Movement\\Swing\\Play_SFX_tami_swing_descend",
+      "GUID": "{9F36F0B9-34A4-497C-84E8-BAB08844B95C}",
+      "Color": "19",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "735618552"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       },
+       {
+        "Id": "1038996342",
+        "Name": "Heart_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Heart_Reverb",
+        "GUID": "{9B58766C-D008-49F6-B8B1-CDFF11EA9602}"
+       },
+       {
+        "Id": "1992311728",
+        "Name": "Teahouse_INT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_INT_Reverb",
+        "GUID": "{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}"
+       },
+       {
+        "Id": "2203681506",
+        "Name": "Teahouse_EXT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_EXT_Reverb",
+        "GUID": "{49C18909-6732-4A62-B694-772F3D162753}"
+       }
+      ]
+     },
+     {
+      "Id": "4121447004",
+      "Name": "Play_SFX_tami_swing_detach",
+      "ObjectPath": "\\Events\\SFX Events WU\\Tami Movement\\Swing\\Play_SFX_tami_swing_detach",
+      "GUID": "{E3B4E6F6-F804-4CEE-89F9-D948980B8060}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "0.23172916",
+      "DurationMax": "0.23172916",
+      "MediaRefs": [
+       {
+        "Id": "319881484"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       },
+       {
+        "Id": "1038996342",
+        "Name": "Heart_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Heart_Reverb",
+        "GUID": "{9B58766C-D008-49F6-B8B1-CDFF11EA9602}"
+       },
+       {
+        "Id": "1992311728",
+        "Name": "Teahouse_INT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_INT_Reverb",
+        "GUID": "{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}"
+       },
+       {
+        "Id": "2203681506",
+        "Name": "Teahouse_EXT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_EXT_Reverb",
+        "GUID": "{49C18909-6732-4A62-B694-772F3D162753}"
+       }
+      ]
+     },
+     {
+      "Id": "15887648",
+      "Name": "Play_SFX_tami_swing_forward",
+      "ObjectPath": "\\Events\\SFX Events WU\\Tami Movement\\Swing\\Play_SFX_tami_swing_forward",
+      "GUID": "{8E2D8795-6E46-4688-9732-3E1002968C10}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "0.71514875",
+      "DurationMax": "0.7576737",
+      "MediaRefs": [
+       {
+        "Id": "72581235"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       },
+       {
+        "Id": "1038996342",
+        "Name": "Heart_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Heart_Reverb",
+        "GUID": "{9B58766C-D008-49F6-B8B1-CDFF11EA9602}"
+       },
+       {
+        "Id": "1992311728",
+        "Name": "Teahouse_INT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_INT_Reverb",
+        "GUID": "{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}"
+       },
+       {
+        "Id": "2203681506",
+        "Name": "Teahouse_EXT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_EXT_Reverb",
+        "GUID": "{49C18909-6732-4A62-B694-772F3D162753}"
+       }
+      ]
+     },
+     {
+      "Id": "399175617",
+      "Name": "Play_SFX_tami_swing_max",
+      "ObjectPath": "\\Events\\SFX Events WU\\Tami Movement\\Swing\\Play_SFX_tami_swing_max",
+      "GUID": "{3ABBE3AA-CE88-44D1-B192-46EE8CD888EB}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "0.2185",
+      "DurationMax": "0.2185",
+      "MediaRefs": [
+       {
+        "Id": "1043403401"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       },
+       {
+        "Id": "1038996342",
+        "Name": "Heart_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Heart_Reverb",
+        "GUID": "{9B58766C-D008-49F6-B8B1-CDFF11EA9602}"
+       },
+       {
+        "Id": "1992311728",
+        "Name": "Teahouse_INT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_INT_Reverb",
+        "GUID": "{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}"
+       },
+       {
+        "Id": "2203681506",
+        "Name": "Teahouse_EXT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_EXT_Reverb",
+        "GUID": "{49C18909-6732-4A62-B694-772F3D162753}"
+       }
+      ]
+     },
+     {
+      "Id": "533396543",
+      "Name": "Play_SFX_tami_swing_min",
+      "ObjectPath": "\\Events\\SFX Events WU\\Tami Movement\\Swing\\Play_SFX_tami_swing_min",
+      "GUID": "{01B4B70C-EE01-4DF0-8ED0-600CCC508B88}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "0.1986613",
+      "DurationMax": "0.1986613",
+      "MediaRefs": [
+       {
+        "Id": "333446308"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       },
+       {
+        "Id": "1038996342",
+        "Name": "Heart_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Heart_Reverb",
+        "GUID": "{9B58766C-D008-49F6-B8B1-CDFF11EA9602}"
+       },
+       {
+        "Id": "1992311728",
+        "Name": "Teahouse_INT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_INT_Reverb",
+        "GUID": "{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}"
+       },
+       {
+        "Id": "2203681506",
+        "Name": "Teahouse_EXT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_EXT_Reverb",
+        "GUID": "{49C18909-6732-4A62-B694-772F3D162753}"
+       }
+      ]
+     },
+     {
+      "Id": "2888170357",
+      "Name": "Play_SFX_tami_swing_swish",
+      "ObjectPath": "\\Events\\SFX Events WU\\Tami Movement\\Swing\\Play_SFX_tami_swing_swish",
+      "GUID": "{5A29D587-F7FD-4C11-80CF-AEC934E30832}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "0.9890208",
+      "DurationMax": "0.9890208",
+      "MediaRefs": [
+       {
+        "Id": "459007389"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "430475093"
+        },
+        {
+         "Id": "468018233"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "320567181",
+        "Name": "BellyBar_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BellyBar_Reverb",
+        "GUID": "{D05B4065-7A01-419D-AC28-11F72A9787B0}"
+       },
+       {
+        "Id": "1038996342",
+        "Name": "Heart_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Heart_Reverb",
+        "GUID": "{9B58766C-D008-49F6-B8B1-CDFF11EA9602}"
+       },
+       {
+        "Id": "1992311728",
+        "Name": "Teahouse_INT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_INT_Reverb",
+        "GUID": "{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}"
+       },
+       {
+        "Id": "2203681506",
+        "Name": "Teahouse_EXT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_EXT_Reverb",
+        "GUID": "{49C18909-6732-4A62-B694-772F3D162753}"
+       }
+      ]
+     },
+     {
+      "Id": "36506668",
+      "Name": "Play_Teahouse_Blend_Container",
+      "ObjectPath": "\\Events\\AMB Events WU\\Teahouse\\Play_Teahouse_Blend_Container",
+      "GUID": "{F212E845-5035-48FD-A951-C78CD438A64A}",
+      "Color": "18",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "53737817"
+       },
+       {
+        "Id": "293901214"
+       },
+       {
+        "Id": "320856549"
+       },
+       {
+        "Id": "458149572"
+       },
+       {
+        "Id": "495320957"
+       },
+       {
+        "Id": "573633617"
+       },
+       {
+        "Id": "659369843"
+       },
+       {
+        "Id": "703113281"
+       },
+       {
+        "Id": "740782969"
+       },
+       {
+        "Id": "1059766060"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "52379422"
+        },
+        {
+         "Id": "217381063"
+        },
+        {
+         "Id": "246609777"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "1992311728",
+        "Name": "Teahouse_INT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_INT_Reverb",
+        "GUID": "{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}"
+       },
+       {
+        "Id": "2203681506",
+        "Name": "Teahouse_EXT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_EXT_Reverb",
+        "GUID": "{49C18909-6732-4A62-B694-772F3D162753}"
+       }
+      ]
+     },
+     {
+      "Id": "2803818098",
+      "Name": "Play_Teahouse_INT_Blend_Container",
+      "ObjectPath": "\\Events\\AMB Events WU\\Teahouse\\Play_Teahouse_INT_Blend_Container",
+      "GUID": "{EA552C35-C3EE-4DE7-947E-F32E2801880F}",
+      "Color": "18",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "124679784"
+       },
+       {
+        "Id": "282829293"
+       },
+       {
+        "Id": "308667210"
+       },
+       {
+        "Id": "308696779"
+       },
+       {
+        "Id": "309003248"
+       },
+       {
+        "Id": "408036862"
+       },
+       {
+        "Id": "455945861"
+       },
+       {
+        "Id": "573633617"
+       },
+       {
+        "Id": "601970072"
+       },
+       {
+        "Id": "756863167"
+       },
+       {
+        "Id": "792762366"
+       },
+       {
+        "Id": "871880140"
+       },
+       {
+        "Id": "896113011"
+       },
+       {
+        "Id": "904482263"
+       },
+       {
+        "Id": "942768908"
+       },
+       {
+        "Id": "960375811"
+       },
+       {
+        "Id": "979541979"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "1992311728",
+        "Name": "Teahouse_INT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_INT_Reverb",
+        "GUID": "{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}"
+       },
+       {
+        "Id": "2203681506",
+        "Name": "Teahouse_EXT_Reverb",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Teahouse_EXT_Reverb",
+        "GUID": "{49C18909-6732-4A62-B694-772F3D162753}"
+       }
+      ]
+     },
+     {
+      "Id": "1749424733",
+      "Name": "Play_UI_click",
+      "ObjectPath": "\\Events\\SFX Events WU\\UI\\Play_UI_click",
+      "GUID": "{3BEDEF8C-78AB-4B9E-ADC4-211FF440BF8E}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5005208",
+      "DurationMax": "0.5005208",
+      "MediaRefs": [
+       {
+        "Id": "958574105"
+       }
+      ]
+     },
+     {
+      "Id": "1339559671",
+      "Name": "Play_UI_hover",
+      "ObjectPath": "\\Events\\SFX Events WU\\UI\\Play_UI_hover",
+      "GUID": "{DBE93BAD-928B-4D10-938A-A0904A3DDC3E}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "0.31758332",
+      "DurationMax": "0.31758332",
+      "MediaRefs": [
+       {
+        "Id": "477827456"
+       }
+      ]
+     },
+     {
+      "Id": "2286464654",
+      "Name": "Play_UI_tap",
+      "ObjectPath": "\\Events\\SFX Events WU\\UI\\Play_UI_tap",
+      "GUID": "{43043F10-F835-4418-9E31-95FCF47D9590}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "0.17391667",
+      "DurationMax": "0.17391667",
+      "MediaRefs": [
+       {
+        "Id": "543989087"
+       }
+      ]
+     },
+     {
+      "Id": "1900432556",
+      "Name": "Play_UI_unhover",
+      "ObjectPath": "\\Events\\SFX Events WU\\UI\\Play_UI_unhover",
+      "GUID": "{2E22D46A-A883-4297-9D55-DE9D0123D235}",
+      "Color": "19",
+      "DurationType": "OneShot",
+      "DurationMin": "0.1160625",
+      "DurationMax": "0.1160625",
+      "MediaRefs": [
+       {
+        "Id": "212733085"
+       }
+      ]
+     },
+     {
+      "Id": "4088419506",
+      "Name": "Stop_Belly_Bar_Blend_Container",
+      "ObjectPath": "\\Events\\AMB Events WU\\Stop_Belly_Bar_Blend_Container",
+      "GUID": "{B3BB3BB1-3D51-4528-90A4-8D2441AA9BB0}",
+      "Color": "18",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2710887140",
+      "Name": "Stop_Heart_Blend_Container",
+      "ObjectPath": "\\Events\\AMB Events WU\\Stop_Heart_Blend_Container",
+      "GUID": "{061E305C-D192-4F62-80EA-47B9768628D4}",
+      "Color": "18",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1323673866",
+      "Name": "Stop_SFX_dough_drag",
+      "ObjectPath": "\\Events\\SFX Events WU\\Dough\\Stop_SFX_dough_drag",
+      "GUID": "{65A49960-8E94-466D-8BC4-F0AB73E533BE}",
+      "Color": "19",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2133897397",
+      "Name": "Stop_SFX_dough_roll",
+      "ObjectPath": "\\Events\\SFX Events WU\\Dough\\Stop_SFX_dough_roll",
+      "GUID": "{7DA5FE74-2026-4FEA-8379-4A038A42D3ED}",
+      "Color": "19",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3339793614",
+      "Name": "Stop_SFX_drag_goop",
+      "ObjectPath": "\\Events\\SFX Events WU\\Pickups\\Stop_SFX_drag_goop",
+      "GUID": "{232746AE-FA46-47F0-94F8-417A07136D34}",
+      "Color": "19",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3485395160",
+      "Name": "Stop_SFX_tami_ballroll",
+      "ObjectPath": "\\Events\\SFX Events WU\\Tami Movement\\Ball\\BallRoll\\Stop_SFX_tami_ballroll",
+      "GUID": "{F3DDCC8E-A4C1-4A1C-BBCE-1968BD39B94F}",
+      "Color": "19",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "2566881809",
+      "Name": "Stop_SFX_tami_swing_vertical",
+      "ObjectPath": "\\Events\\SFX Events WU\\Tami Movement\\Swing\\Stop_SFX_tami_swing_vertical",
+      "GUID": "{D63C001C-C509-4162-99D5-326E79B71EB5}",
+      "Color": "19",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "164475293",
+      "Name": "Velocity_X",
+      "ObjectPath": "\\Game Parameters\\Movement Parameters WU\\Velocity_X",
+      "GUID": "{C7F03361-43F2-45A5-B7BE-371583FCA8D8}"
+     },
+     {
+      "Id": "397659350",
+      "Name": "SC_windZone",
+      "ObjectPath": "\\Game Parameters\\AMB SC Parameters WU\\SC_windZone",
+      "GUID": "{D679832A-24A3-4B33-B168-E1D2F7EAE184}"
+     },
+     {
+      "Id": "1110095543",
+      "Name": "Velocity_Magnitude",
+      "ObjectPath": "\\Game Parameters\\Movement Parameters WU\\Velocity_Magnitude",
+      "GUID": "{B0AC36E5-B771-48F4-9364-35E867E43B61}"
+     },
+     {
+      "Id": "2899052607",
+      "Name": "Velocity_Magnitude_Peak",
+      "ObjectPath": "\\Game Parameters\\Movement Parameters WU\\Velocity_Magnitude_Peak",
+      "GUID": "{81785343-83C8-4B8B-8591-0DBC9B30B860}"
+     },
+     {
+      "Id": "3227390961",
+      "Name": "SC_Dragging",
+      "ObjectPath": "\\Game Parameters\\AMB SC Parameters WU\\SC_Dragging",
+      "GUID": "{0F6E7B58-61F2-416A-874B-1B1FC7E05EA8}"
+     },
+     {
+      "Id": "3915534442",
+      "Name": "SC_breathCycle",
+      "ObjectPath": "\\Game Parameters\\AMB SC Parameters WU\\SC_breathCycle",
+      "GUID": "{5FD9C158-B2B3-48ED-830D-B92C1F6AF067}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{43B4D9CF-783A-F954-3EF2-95430F47F944}"
+ }
+}

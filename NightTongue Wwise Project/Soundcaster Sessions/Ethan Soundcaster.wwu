@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{680DAEBE-202E-43D2-95FE-4C1E7F7E80EC}" SchemaVersion="123">
+	<SoundcasterSessions>
+		<WorkUnit Name="Ethan Soundcaster" ID="{680DAEBE-202E-43D2-95FE-4C1E7F7E80EC}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Main Session" ID="{6BF79D03-28E8-419E-BC7B-1DEBD2AFE6CC}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Heart_Blend_Container" ID="{D2D6B351-E66D-456C-BD5B-D13E54AF40C4}" WorkUnitID="{8E7DE722-0BD3-4F16-BEBF-ACDD6B87088F}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MusicSwitch_Start" ID="{71CF16FB-FEDD-443D-8DBB-9CDDBCFC88CE}" WorkUnitID="{0CE77192-B848-40A5-BD37-E01AEDAF0608}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Teahouse_INT_Blend_Container" ID="{EA552C35-C3EE-4DE7-947E-F32E2801880F}" WorkUnitID="{8E7DE722-0BD3-4F16-BEBF-ACDD6B87088F}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MusicSwitch_Stop" ID="{3CDB2485-82BF-4BF1-B3BF-4523C2FFCEC2}" WorkUnitID="{0CE77192-B848-40A5-BD37-E01AEDAF0608}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Teahouse_Blend_Container" ID="{F212E845-5035-48FD-A951-C78CD438A64A}" WorkUnitID="{8E7DE722-0BD3-4F16-BEBF-ACDD6B87088F}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_tami_jump" ID="{1396B400-A2F6-40C0-AE71-BA0B3B54D31B}" WorkUnitID="{39AE7DBA-A9E9-4F59-A267-2FC4CD89799B}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_tami_swing_backward" ID="{11141E1F-728B-44F5-9304-D10B8B3A42DD}" WorkUnitID="{39AE7DBA-A9E9-4F59-A267-2FC4CD89799B}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_AMB_wind_zone" ID="{429AC4EE-274B-4E42-B499-EF15DEF6F4AD}" WorkUnitID="{8E7DE722-0BD3-4F16-BEBF-ACDD6B87088F}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_tami_footsteps" ID="{60B86E47-5B51-4F68-9C3E-6BE2AD7696A6}" WorkUnitID="{39AE7DBA-A9E9-4F59-A267-2FC4CD89799B}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_tami_swing_forward" ID="{8E2D8795-6E46-4688-9732-3E1002968C10}" WorkUnitID="{39AE7DBA-A9E9-4F59-A267-2FC4CD89799B}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_boat_launch" ID="{B1280B22-E58C-4850-91B3-57D3FD533FA8}" WorkUnitID="{39AE7DBA-A9E9-4F59-A267-2FC4CD89799B}"/>
+							<Position X="5" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_boat_load" ID="{4B0AFDAD-D45D-4FF3-BE70-424A3C27A3DD}" WorkUnitID="{39AE7DBA-A9E9-4F59-A267-2FC4CD89799B}"/>
+							<Position X="5" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_boat_stop" ID="{C5463105-C96D-4659-8D32-764AFA56BC0F}" WorkUnitID="{39AE7DBA-A9E9-4F59-A267-2FC4CD89799B}"/>
+							<Position X="5" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_SFX_boat_unload" ID="{78E9E575-1C73-4C75-BCF3-098F3F5A75D9}" WorkUnitID="{39AE7DBA-A9E9-4F59-A267-2FC4CD89799B}"/>
+							<Position X="5" Y="3"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

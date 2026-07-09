@@ -1,0 +1,74 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	711545299	SceneSwitch			\Default Work Unit\SceneSwitch	
+	4143104860	AbilityState			\Default Work Unit\AbilityState	
+
+State	ID	Name	State Group			Notes
+	635489713	Teahouse_INT	SceneSwitch			
+	748895195	None	SceneSwitch			
+	939458395	Teahouse_EXT	SceneSwitch			
+	1182958561	Cutscene	SceneSwitch			
+	1560169506	Boss	SceneSwitch			
+	3604647259	MainMenu	SceneSwitch			
+	4224142038	BellyBar	SceneSwitch			
+	748895195	None	AbilityState			
+	782826392	Default	AbilityState			
+	1777984502	Ball	AbilityState			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	397659350	SC_windZone			\AMB SC Parameters WU\SC_windZone	
+	504532776	Brick			\Factory Acoustic Textures\Textures\Brick	
+	513139656	Mountain			\Factory Acoustic Textures\Textures\Mountain	
+	803077317	SC_Movement			\SFX SC Parameters WU\SC_Movement	
+	841620460	Concrete			\Factory Acoustic Textures\Textures\Concrete	
+	1434265073	SC_Heart_Beat			\AMB SC Parameters WU\SC_Heart_Beat	
+	1441253587	MX_Volume			\Audio Settings WU\MX_Volume	
+	1564184899	SFX_Volume			\Audio Settings WU\SFX_Volume	
+	1724999881	SC_AMB_BUS			\AMB SC Parameters WU\SC_AMB_BUS	
+	1755085759	Wood_Deep			\Factory Acoustic Textures\Textures\Wood_Deep	
+	1873957695	Anechoic			\Factory Acoustic Textures\Textures\Anechoic	
+	1970351858	Fabric			\Factory Acoustic Textures\Textures\Fabric	
+	2058049674	Wood			\Factory Acoustic Textures\Textures\Wood	
+	2097802854	SC_Combat			\SFX SC Parameters WU\SC_Combat	
+	2412606308	Carpet			\Factory Acoustic Textures\Textures\Carpet	
+	2637588553	Tile			\Factory Acoustic Textures\Textures\Tile	
+	2928161104	Curtains			\Factory Acoustic Textures\Textures\Curtains	
+	3078721972	SC_Dialogue			\SFX SC Parameters WU\SC_Dialogue	
+	3195498748	Cork_Tiles			\Factory Acoustic Textures\Textures\Cork_Tiles	
+	3670307564	Drywall			\Factory Acoustic Textures\Textures\Drywall	
+	3728565946	DX_Volume			\Audio Settings WU\DX_Volume	
+	4168643977	Acoustic_Banner			\Factory Acoustic Textures\Textures\Acoustic_Banner	
+	4179668880	Master_Volume			\Audio Settings WU\Master_Volume	
+	4262522749	Wood_Bright			\Factory Acoustic Textures\Textures\Wood_Bright	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	902944831	Tami Footsteps			\Default Work Unit\Master Audio Bus\SFX Bus\Tami Footsteps	
+	1313057045	AMB Bus			\Default Work Unit\Master Audio Bus\SFX Bus\AMB Bus	
+	1502772432	SFX Bus			\Default Work Unit\Master Audio Bus\SFX Bus	
+	1748021847	DX Bus			\Default Work Unit\Master Audio Bus\DX Bus	
+	2764240573	Combat			\Default Work Unit\Master Audio Bus\SFX Bus\Combat	
+	3027868960	MX Bus			\Default Work Unit\Master Audio Bus\MX Bus	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	4204629676	DX Tami			\Default Work Unit\Master Audio Bus\DX Bus\DX Tami	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	320567181	BellyBar_Reverb			\Default Work Unit\Master Audio Bus\BellyBar_Reverb	
+	1038996342	Heart_Reverb			\Default Work Unit\Master Audio Bus\Heart_Reverb	
+	1992311728	Teahouse_INT_Reverb			\Default Work Unit\Master Audio Bus\Teahouse_INT_Reverb	
+	2203681506	Teahouse_EXT_Reverb			\Default Work Unit\Master Audio Bus\Teahouse_EXT_Reverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
+	166085178	Compressor (Custom)	Wwise Compressor			
+	229230997	RoomVerb (Custom)	Wwise RoomVerb			
+	436292562	Meter (Custom)	Wwise Meter			
+	478338415	Meter (Custom)	Wwise Meter			
+	510237013	Meter (Custom)	Wwise Meter			
+	586144621	Compressor (Custom)	Wwise Compressor			
+	877845816	Meter (Custom)	Wwise Meter			
+	1459522457	Brick_Wall_Minus_1dB_Peak_Fast_Release	Wwise Peak Limiter			
+	2891462749	Room_Medium_High_Absorbtion	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

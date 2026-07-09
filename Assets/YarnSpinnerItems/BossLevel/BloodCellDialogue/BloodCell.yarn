@@ -1,0 +1,9 @@
+﻿title: BloodCell
+---
+<<if $hasTalkedToNPC == true>>
+<<stop>>
+<<endif>>
+
+Blood Cell: Flavors! Get your flavors here!
+<<set $hasTalkedToNPC = true>>
+===

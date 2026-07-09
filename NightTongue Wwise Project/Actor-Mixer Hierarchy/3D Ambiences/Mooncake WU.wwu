@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BE4E5461-D428-4EDD-8E23-AD8F4A038102}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Mooncake WU" ID="{BE4E5461-D428-4EDD-8E23-AD8F4A038102}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="AMB_mooncake" ID="{63240D90-C323-4BC1-AD7B-39AB8B8820E9}" ShortID="58872664">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="AttenuationDistanceScaling" Type="Real32" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="MakeUpGain" Type="Real64">
+							<ValueList>
+								<Value>-14</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="40"/>
+						<Property Name="UserAuxSendVolume3" Type="Real64">
+							<ValueList>
+								<Value>-96</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Default Attenuation" ID="{FF599457-E076-4EC3-A589-630ADC95215C}" WorkUnitID="{95295B8B-2EA3-4674-8D7B-1A97F380DCD1}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="AMB Bus" ID="{3D3D36FB-65F8-4140-85E8-185CDB73577B}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+						<Reference Name="UserAuxSend3">
+							<ObjectRef Name="Teahouse_INT_Reverb" ID="{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="AMB_mooncake" ID="{30D6E0C2-EB93-47C1-9A71-979BF1A9C7E3}">
+							<PropertyList>
+								<Property Name="CrossfadeDuration" Type="Real64" Value="882.624"/>
+								<Property Name="LoopBegin" Type="Real64" Value="0.632490405091294"/>
+								<Property Name="LoopEnd" Type="Real64" Value="8.87667531649272"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>AMB_mooncake.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="668447059"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<StateInfo>
+						<StatePropertyList>
+							<Property Name="Highpass"/>
+							<Property Name="Lowpass"/>
+							<Property Name="MakeUpGain"/>
+							<Property Name="Pitch"/>
+							<Property Name="UserAuxSendVolume3"/>
+							<Property Name="Volume"/>
+						</StatePropertyList>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="SceneSwitch" ID="{668FC4B0-1BC0-4728-AC69-7C3B82B73853}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Teahouse_INT" ID="{AFDCACEA-CCC3-4096-97C1-7C1B5CCB2B96}"/>
+								<CustomState Name="" ID="{2979E241-1169-49B6-9427-E30FBBCCA0CC}" ShortID="832725854">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume3" Type="Real64" Value="96"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Boss" ID="{F806CE04-C0BB-40D5-94F0-E0466EC695B0}"/>
+								<CustomState Name="" ID="{EC0743C7-19B4-41DB-925C-F8BCEA8E8EEA}" ShortID="468701215"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Cutscene" ID="{58741484-806C-424C-90E7-B561ABFEBE6C}"/>
+								<CustomState Name="" ID="{B86B0D37-38DA-42B1-A150-F12EAA74DD50}" ShortID="250364776"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Teahouse_EXT" ID="{42F3D9A6-CEA9-4928-9F93-3B5F39F8B30C}"/>
+								<CustomState Name="" ID="{347863A0-B83B-441A-8E3D-A7CF50359DB1}" ShortID="588177546"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="BellyBar" ID="{0E933AFD-9E4C-4A95-A95F-DA9E2109BBC0}"/>
+								<CustomState Name="" ID="{5D577133-FC76-46BD-8FDD-9EFF39B91C8F}" ShortID="865257326"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Credits" ID="{42E0EA2F-E80A-4B58-BD2C-0F04143A1CDD}"/>
+								<CustomState Name="" ID="{4E26169F-7E43-473B-92CA-82D60F0C56AD}" ShortID="456613643"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="MainMenu" ID="{E3A91F98-A27F-4C64-9D40-387A4564EC72}"/>
+								<CustomState Name="" ID="{35025887-FEF5-4E11-AA11-EF389C2131B0}" ShortID="10080912"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="None" ID="{CCC415A5-C82A-4F86-AD75-B4A1E1CECFA6}"/>
+								<CustomState Name="" ID="{06771029-76D4-468A-82C9-006918B20FBC}" ShortID="793410487"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ActiveSourceList>
+						<ActiveSource Name="AMB_mooncake" ID="{30D6E0C2-EB93-47C1-9A71-979BF1A9C7E3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

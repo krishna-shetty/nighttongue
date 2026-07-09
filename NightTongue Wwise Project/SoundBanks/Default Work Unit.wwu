@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{666CFA19-DA77-4FE6-8053-0427DFB215D2}" SchemaVersion="123">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{666CFA19-DA77-4FE6-8053-0427DFB215D2}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="MainSoundBank" ID="{A51C61A3-A707-4313-98AE-6A0852D953E3}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Test Events WU" ID="{88B1351A-2AF7-436E-A7D5-BCB914B785B2}" WorkUnitID="{88B1351A-2AF7-436E-A7D5-BCB914B785B2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DX Events WU" ID="{4F3D63DF-E636-471A-9B28-49C528538F61}" WorkUnitID="{4F3D63DF-E636-471A-9B28-49C528538F61}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="AMB Events WU" ID="{8E7DE722-0BD3-4F16-BEBF-ACDD6B87088F}" WorkUnitID="{8E7DE722-0BD3-4F16-BEBF-ACDD6B87088F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SFX Events WU" ID="{39AE7DBA-A9E9-4F59-A267-2FC4CD89799B}" WorkUnitID="{39AE7DBA-A9E9-4F59-A267-2FC4CD89799B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="SoundtrackBank" ID="{C8845393-CA3E-41BB-AE8F-2221E87A9AB9}">
+					<ObjectInclusionList>
+						<ObjectRef Name="MX Events WU" ID="{0CE77192-B848-40A5-BD37-E01AEDAF0608}" WorkUnitID="{0CE77192-B848-40A5-BD37-E01AEDAF0608}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

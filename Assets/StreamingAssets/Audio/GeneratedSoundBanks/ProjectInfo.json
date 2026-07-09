@@ -1,0 +1,36 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "NightTongue Wwise Project",
+   "GUID": "{35B4F732-5040-4F83-AF1F-A4FE5F4BAE2B}",
+   "Generator": "2024.1.9.8920"
+  },
+  "CacheRoot": "../../../../NightTongue Wwise Project/.cache",
+  "Platforms": [
+   {
+    "Name": "Mac",
+    "GUID": "{BF2AB9F3-B90B-4A21-AB58-653F8F4FF638}",
+    "BasePlatform": "Mac",
+    "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
+    "Path": "../../../../NightTongue Wwise Project/GeneratedSoundBanks/Mac"
+   },
+   {
+    "Name": "Windows",
+    "GUID": "{169B0796-8FB3-470D-9E34-DE402DC3B0C2}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "../../../../NightTongue Wwise Project/GeneratedSoundBanks/Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{217B45BB-52A9-490F-BB30-3B08CBD1E9CB}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{A0F53264-967B-3DF8-7F7D-567E11D14308}"
+ }
+}

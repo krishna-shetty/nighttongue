@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class PushOffOverhang : MonoBehaviour
@@ -15,6 +16,8 @@ public class PushOffOverhang : MonoBehaviour
     [SerializeField] private bool _leftInner = false;
     [SerializeField] private bool _rightInner = false;
     [SerializeField] private bool _rightOuter = false;
+
+    public Action OnHeadHit;
 
     private void Awake()
     {
@@ -43,6 +46,14 @@ public class PushOffOverhang : MonoBehaviour
         _leftInner = Physics.Raycast(origin + new Vector3(-_innerOffset, 0f, 0f), Vector3.up, distance, _layerMask);
         _rightInner = Physics.Raycast(origin + new Vector3(_innerOffset, 0f, 0f), Vector3.up, distance, _layerMask);
         _rightOuter = Physics.Raycast(origin + new Vector3(_outerOffset, 0f, 0f), Vector3.up, distance, _layerMask);
+
+        if(_leftOuter && 
+            _leftInner &&
+            _rightInner &&
+            _rightOuter)
+        {
+            OnHeadHit?.Invoke();
+        }
 
         // Push left if right side hits ceiling but left side is clear
         if ((_rightOuter && (!_rightInner && !_leftOuter && !_leftInner)))

@@ -1,0 +1,397 @@
+Event	ID	Name			Wwise Object Path	Notes
+	15887648	Play_SFX_tami_swing_forward			\SFX Events WU\Tami Movement\Swing\Play_SFX_tami_swing_forward	
+	36506668	Play_Teahouse_Blend_Container			\AMB Events WU\Teahouse\Play_Teahouse_Blend_Container	
+	208110303	Play_SFX_pickup_flour			\SFX Events WU\Pickups\Play_SFX_pickup_flour	
+	321415936	Play_SFX_drag_goop			\SFX Events WU\Pickups\Play_SFX_drag_goop	
+	337406641	Play_AMB_cup_conveyor			\AMB Events WU\Teahouse\Play_AMB_cup_conveyor	
+	347798471	Play_SFX_tami_moveTongue			\SFX Events WU\Tami Movement\Play_SFX_tami_moveTongue	
+	399175617	Play_SFX_tami_swing_max			\SFX Events WU\Tami Movement\Swing\Play_SFX_tami_swing_max	
+	406668382	Play_SFX_goomba_attack			\SFX Events WU\Damage\Goomba\Play_SFX_goomba_attack	
+	518849949	Play_SFX_drop_filling			\SFX Events WU\Pickups\Play_SFX_drop_filling	
+	533396543	Play_SFX_tami_swing_min			\SFX Events WU\Tami Movement\Swing\Play_SFX_tami_swing_min	
+	618833946	Play_SFX_boat_launch			\SFX Events WU\Boat\Play_SFX_boat_launch	
+	629514194	Play_SFX_pickup_filling			\SFX Events WU\Pickups\Play_SFX_pickup_filling	
+	634385826	Play_SFX_pickup_sour			\SFX Events WU\Pickups\Play_SFX_pickup_sour	
+	670257741	Play_AMB_embers			\AMB Events WU\Teahouse\Play_AMB_embers	
+	833966536	Play_SFX_boss_attack			\SFX Events WU\Damage\Boss\Play_SFX_boss_attack	
+	874522489	Play_SFX_boss_puff			\SFX Events WU\Damage\Boss\Play_SFX_boss_puff	
+	879751311	Play_SFX_oven_done			\SFX Events WU\Play_SFX_oven_done	
+	912070213	Play_SFX_tami_footsteps			\SFX Events WU\Tami Movement\Play_SFX_tami_footsteps	
+	913391681	Play_SFX_tami_fall_acid			\SFX Events WU\Damage\Tami\Play_SFX_tami_fall_acid	
+	1017777344	Play_dx_alveolus_q			\DX Events WU\Alveolus\Play_dx_alveolus_q	
+	1017777345	Play_dx_alveolus_p			\DX Events WU\Alveolus\Play_dx_alveolus_p	
+	1017777346	Play_dx_alveolus_s			\DX Events WU\Alveolus\Play_dx_alveolus_s	
+	1017777347	Play_dx_alveolus_r			\DX Events WU\Alveolus\Play_dx_alveolus_r	
+	1017777348	Play_dx_alveolus_u			\DX Events WU\Alveolus\Play_dx_alveolus_u	
+	1017777349	Play_dx_alveolus_t			\DX Events WU\Alveolus\Play_dx_alveolus_t	
+	1017777350	Play_dx_alveolus_w			\DX Events WU\Alveolus\Play_dx_alveolus_w	
+	1017777351	Play_dx_alveolus_v			\DX Events WU\Alveolus\Play_dx_alveolus_v	
+	1017777352	Play_dx_alveolus_y			\DX Events WU\Alveolus\Play_dx_alveolus_y	
+	1017777353	Play_dx_alveolus_x			\DX Events WU\Alveolus\Play_dx_alveolus_x	
+	1017777355	Play_dx_alveolus_z			\DX Events WU\Alveolus\Play_dx_alveolus_z	
+	1017777360	Play_dx_alveolus_a			\DX Events WU\Alveolus\Play_dx_alveolus_a	
+	1017777362	Play_dx_alveolus_c			\DX Events WU\Alveolus\Play_dx_alveolus_c	
+	1017777363	Play_dx_alveolus_b			\DX Events WU\Alveolus\Play_dx_alveolus_b	
+	1017777364	Play_dx_alveolus_e			\DX Events WU\Alveolus\Play_dx_alveolus_e	
+	1017777365	Play_dx_alveolus_d			\DX Events WU\Alveolus\Play_dx_alveolus_d	
+	1017777366	Play_dx_alveolus_g			\DX Events WU\Alveolus\Play_dx_alveolus_g	
+	1017777367	Play_dx_alveolus_f			\DX Events WU\Alveolus\Play_dx_alveolus_f	
+	1017777368	Play_dx_alveolus_i			\DX Events WU\Alveolus\Play_dx_alveolus_i	
+	1017777369	Play_dx_alveolus_h			\DX Events WU\Alveolus\Play_dx_alveolus_h	
+	1017777370	Play_dx_alveolus_k			\DX Events WU\Alveolus\Play_dx_alveolus_k	
+	1017777371	Play_dx_alveolus_j			\DX Events WU\Alveolus\Play_dx_alveolus_j	
+	1017777372	Play_dx_alveolus_m			\DX Events WU\Alveolus\Play_dx_alveolus_m	
+	1017777373	Play_dx_alveolus_l			\DX Events WU\Alveolus\Play_dx_alveolus_l	
+	1017777374	Play_dx_alveolus_o			\DX Events WU\Alveolus\Play_dx_alveolus_o	
+	1017777375	Play_dx_alveolus_n			\DX Events WU\Alveolus\Play_dx_alveolus_n	
+	1039376738	Play_AMB_bar_drink_click			\SFX Events WU\UI\Play_AMB_bar_drink_click	
+	1136698174	Play_SFX_boat_unload			\SFX Events WU\Boat\Play_SFX_boat_unload	
+	1172593522	Play_SFX_tami_swing_attach			\SFX Events WU\Tami Movement\Swing\Play_SFX_tami_swing_attach	
+	1206898023	Play_SFX_tami_land			\SFX Events WU\Tami Movement\Play_SFX_tami_land	
+	1257356241	Play_a440_4sec_0dBfs_01			\Test Events WU\Test Events\Play_a440_4sec_0dBfs_01	
+	1266389061	Play_dx_tami_z			\DX Events WU\Tami\Play_dx_tami_z	
+	1266389062	Play_dx_tami_y			\DX Events WU\Tami\Play_dx_tami_y	
+	1266389063	Play_dx_tami_x			\DX Events WU\Tami\Play_dx_tami_x	
+	1266389064	Play_dx_tami_w			\DX Events WU\Tami\Play_dx_tami_w	
+	1266389065	Play_dx_tami_v			\DX Events WU\Tami\Play_dx_tami_v	
+	1266389066	Play_dx_tami_u			\DX Events WU\Tami\Play_dx_tami_u	
+	1266389067	Play_dx_tami_t			\DX Events WU\Tami\Play_dx_tami_t	
+	1266389068	Play_dx_tami_s			\DX Events WU\Tami\Play_dx_tami_s	
+	1266389069	Play_dx_tami_r			\DX Events WU\Tami\Play_dx_tami_r	
+	1266389070	Play_dx_tami_q			\DX Events WU\Tami\Play_dx_tami_q	
+	1266389071	Play_dx_tami_p			\DX Events WU\Tami\Play_dx_tami_p	
+	1266389072	Play_dx_tami_o			\DX Events WU\Tami\Play_dx_tami_o	
+	1266389073	Play_dx_tami_n			\DX Events WU\Tami\Play_dx_tami_n	
+	1266389074	Play_dx_tami_m			\DX Events WU\Tami\Play_dx_tami_m	
+	1266389075	Play_dx_tami_l			\DX Events WU\Tami\Play_dx_tami_l	
+	1266389076	Play_dx_tami_k			\DX Events WU\Tami\Play_dx_tami_k	
+	1266389077	Play_dx_tami_j			\DX Events WU\Tami\Play_dx_tami_j	
+	1266389078	Play_dx_tami_i			\DX Events WU\Tami\Play_dx_tami_i	
+	1266389079	Play_dx_tami_h			\DX Events WU\Tami\Play_dx_tami_h	
+	1266389080	Play_dx_tami_g			\DX Events WU\Tami\Play_dx_tami_g	
+	1266389081	Play_dx_tami_f			\DX Events WU\Tami\Play_dx_tami_f	
+	1266389082	Play_dx_tami_e			\DX Events WU\Tami\Play_dx_tami_e	
+	1266389083	Play_dx_tami_d			\DX Events WU\Tami\Play_dx_tami_d	
+	1266389084	Play_dx_tami_c			\DX Events WU\Tami\Play_dx_tami_c	
+	1266389085	Play_dx_tami_b			\DX Events WU\Tami\Play_dx_tami_b	
+	1266389086	Play_dx_tami_a			\DX Events WU\Tami\Play_dx_tami_a	
+	1323673866	Stop_SFX_dough_drag			\SFX Events WU\Dough\Stop_SFX_dough_drag	
+	1339559671	Play_UI_hover			\SFX Events WU\UI\Play_UI_hover	
+	1341960766	Play_SFX_pickup_water			\SFX Events WU\Pickups\Play_SFX_pickup_water	
+	1365280261	Play_dx_bartender_z			\DX Events WU\Bartender\Play_dx_bartender_z	
+	1365280262	Play_dx_bartender_y			\DX Events WU\Bartender\Play_dx_bartender_y	
+	1365280263	Play_dx_bartender_x			\DX Events WU\Bartender\Play_dx_bartender_x	
+	1365280264	Play_dx_bartender_w			\DX Events WU\Bartender\Play_dx_bartender_w	
+	1365280265	Play_dx_bartender_v			\DX Events WU\Bartender\Play_dx_bartender_v	
+	1365280266	Play_dx_bartender_u			\DX Events WU\Bartender\Play_dx_bartender_u	
+	1365280267	Play_dx_bartender_t			\DX Events WU\Bartender\Play_dx_bartender_t	
+	1365280268	Play_dx_bartender_s			\DX Events WU\Bartender\Play_dx_bartender_s	
+	1365280269	Play_dx_bartender_r			\DX Events WU\Bartender\Play_dx_bartender_r	
+	1365280270	Play_dx_bartender_q			\DX Events WU\Bartender\Play_dx_bartender_q	
+	1365280271	Play_dx_bartender_p			\DX Events WU\Bartender\Play_dx_bartender_p	
+	1365280272	Play_dx_bartender_o			\DX Events WU\Bartender\Play_dx_bartender_o	
+	1365280273	Play_dx_bartender_n			\DX Events WU\Bartender\Play_dx_bartender_n	
+	1365280274	Play_dx_bartender_m			\DX Events WU\Bartender\Play_dx_bartender_m	
+	1365280275	Play_dx_bartender_l			\DX Events WU\Bartender\Play_dx_bartender_l	
+	1365280276	Play_dx_bartender_k			\DX Events WU\Bartender\Play_dx_bartender_k	
+	1365280277	Play_dx_bartender_j			\DX Events WU\Bartender\Play_dx_bartender_j	
+	1365280278	Play_dx_bartender_i			\DX Events WU\Bartender\Play_dx_bartender_i	
+	1365280279	Play_dx_bartender_h			\DX Events WU\Bartender\Play_dx_bartender_h	
+	1365280280	Play_dx_bartender_g			\DX Events WU\Bartender\Play_dx_bartender_g	
+	1365280281	Play_dx_bartender_f			\DX Events WU\Bartender\Play_dx_bartender_f	
+	1365280282	Play_dx_bartender_e			\DX Events WU\Bartender\Play_dx_bartender_e	
+	1365280283	Play_dx_bartender_d			\DX Events WU\Bartender\Play_dx_bartender_d	
+	1365280284	Play_dx_bartender_c			\DX Events WU\Bartender\Play_dx_bartender_c	
+	1365280285	Play_dx_bartender_b			\DX Events WU\Bartender\Play_dx_bartender_b	
+	1365280286	Play_dx_bartender_a			\DX Events WU\Bartender\Play_dx_bartender_a	
+	1399734751	Play_SFX_boat_stop			\SFX Events WU\Boat\Play_SFX_boat_stop	
+	1467800657	Play_SFX_dough_land			\SFX Events WU\Dough\Play_SFX_dough_land	
+	1487574826	Play_SFX_tami_swing_backward			\SFX Events WU\Tami Movement\Swing\Play_SFX_tami_swing_backward	
+	1507479957	Play_SFX_tami_ball_land			\SFX Events WU\Tami Movement\Ball\Play_SFX_tami_ball_land	
+	1558830816	Play_AMB_wind_zone			\AMB Events WU\Teahouse\Play_AMB_wind_zone	
+	1635328471	Play_SFX_dough_roll			\SFX Events WU\Dough\Play_SFX_dough_roll	
+	1665269913	Play_SFX_tami_ballcurl			\SFX Events WU\Tami Movement\Ball\Play_SFX_tami_ballcurl	
+	1749424733	Play_UI_click			\SFX Events WU\UI\Play_UI_click	
+	1814915300	Play_SFX_tami_jump			\SFX Events WU\Tami Movement\Play_SFX_tami_jump	
+	1865253394	Play_SFX_pickup_syrup			\SFX Events WU\Pickups\Play_SFX_pickup_syrup	
+	1900432556	Play_UI_unhover			\SFX Events WU\UI\Play_UI_unhover	
+	1905326817	Play_SFX_tami_swing_descend			\SFX Events WU\Tami Movement\Swing\Play_SFX_tami_swing_descend	
+	1923226714	Play_Heart_Blend_Container			\AMB Events WU\Play_Heart_Blend_Container	
+	1944267675	Play_SFX_tami_swing_ascend			\SFX Events WU\Tami Movement\Swing\Play_SFX_tami_swing_ascend	
+	1967412891	Play_SFX_boat_load			\SFX Events WU\Boat\Play_SFX_boat_load	
+	2127445609	Play_SFX_goomba_damage			\SFX Events WU\Damage\Goomba\Play_SFX_goomba_damage	
+	2133897397	Stop_SFX_dough_roll			\SFX Events WU\Dough\Stop_SFX_dough_roll	
+	2140887891	Play_SFX_pickup_sweet			\SFX Events WU\Pickups\Play_SFX_pickup_sweet	
+	2286464654	Play_UI_tap			\SFX Events WU\UI\Play_UI_tap	
+	2417319537	Play_SFX_oven_start			\SFX Events WU\Play_SFX_oven_start	
+	2440939370	Play_SFX_tami_ballroll			\SFX Events WU\Tami Movement\Ball\BallRoll\Play_SFX_tami_ballroll	
+	2466609305	Play_SFX_burn			\SFX Events WU\Damage\Tami\Play_SFX_burn	
+	2566881809	Stop_SFX_tami_swing_vertical			\SFX Events WU\Tami Movement\Swing\Stop_SFX_tami_swing_vertical	
+	2609742507	Play_SFX_tami_damage			\SFX Events WU\Damage\Tami\Play_SFX_tami_damage	
+	2625479552	Play_AMB_cup_change_direction			\AMB Events WU\Teahouse\Play_AMB_cup_change_direction	
+	2670212385	Play_SFX_mooncake_spawn			\SFX Events WU\Dough\Play_SFX_mooncake_spawn	
+	2671946102	Play_SFX_blender			\SFX Events WU\Play_SFX_blender	
+	2710887140	Stop_Heart_Blend_Container			\AMB Events WU\Stop_Heart_Blend_Container	
+	2758685314	Play_SFX_dough_mold			\SFX Events WU\Dough\Play_SFX_dough_mold	
+	2767852325	Play_AMB_fire			\AMB Events WU\Teahouse\Play_AMB_fire	
+	2778300033	Play_AMB_plate_conveyor			\AMB Events WU\Teahouse\Play_AMB_plate_conveyor	
+	2803818098	Play_Teahouse_INT_Blend_Container			\AMB Events WU\Teahouse\Play_Teahouse_INT_Blend_Container	
+	2888170357	Play_SFX_tami_swing_swish			\SFX Events WU\Tami Movement\Swing\Play_SFX_tami_swing_swish	
+	2913241088	Play_SFX_finished_dough			\SFX Events WU\Dough\Play_SFX_finished_dough	
+	3137520235	Play_SFX_drop_goop			\SFX Events WU\Pickups\Play_SFX_drop_goop	
+	3213085276	Play_SFX_dough_drag			\SFX Events WU\Dough\Play_SFX_dough_drag	
+	3263608106	Play_AMB_mooncake			\AMB Events WU\Teahouse\Play_AMB_mooncake	
+	3339793614	Stop_SFX_drag_goop			\SFX Events WU\Pickups\Stop_SFX_drag_goop	
+	3485395160	Stop_SFX_tami_ballroll			\SFX Events WU\Tami Movement\Ball\BallRoll\Stop_SFX_tami_ballroll	
+	3610297994	Play_SFX_tami_ballrelease			\SFX Events WU\Tami Movement\Ball\Play_SFX_tami_ballrelease	
+	3646404409	Play_SFX_bar_drink_hover			\SFX Events WU\UI\Play_SFX_bar_drink_hover	
+	4088419506	Stop_Belly_Bar_Blend_Container			\AMB Events WU\Stop_Belly_Bar_Blend_Container	
+	4121447004	Play_SFX_tami_swing_detach			\SFX Events WU\Tami Movement\Swing\Play_SFX_tami_swing_detach	
+	4210201076	Play_Belly_Bar_Blend_Container			\AMB Events WU\Play_Belly_Bar_Blend_Container	
+	4240732704	Play_AMB_utensils			\AMB Events WU\Teahouse\Play_AMB_utensils	
+	4274223795	Play_SFX_pickup_oil			\SFX Events WU\Pickups\Play_SFX_pickup_oil	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	711545299	SceneSwitch			\Default Work Unit\SceneSwitch	
+	4143104860	AbilityState			\Default Work Unit\AbilityState	
+
+State	ID	Name	State Group			Notes
+	635489713	Teahouse_INT	SceneSwitch			
+	748895195	None	SceneSwitch			
+	939458395	Teahouse_EXT	SceneSwitch			
+	1182958561	Cutscene	SceneSwitch			
+	1560169506	Boss	SceneSwitch			
+	2201105581	Credits	SceneSwitch			
+	3604647259	MainMenu	SceneSwitch			
+	4224142038	BellyBar	SceneSwitch			
+	748895195	None	AbilityState			
+	782826392	Default	AbilityState			
+	1777984502	Ball	AbilityState			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	164475293	Velocity_X			\Movement Parameters WU\Velocity_X	
+	397659350	SC_windZone			\AMB SC Parameters WU\SC_windZone	
+	1110095543	Velocity_Magnitude			\Movement Parameters WU\Velocity_Magnitude	
+	2899052607	Velocity_Magnitude_Peak			\Movement Parameters WU\Velocity_Magnitude_Peak	
+	3227390961	SC_Dragging			\AMB SC Parameters WU\SC_Dragging	
+	3915534442	SC_breathCycle			\AMB SC Parameters WU\SC_breathCycle	
+
+Modulator LFO	ID	Name			Wwise Object Path	Notes
+	277635220	Modulator LFO (Custom)				
+	322873965	WindIntensity			\Default Work Unit\WindIntensity	
+	372734337	Modulator LFO (Custom)				
+	1053686343	Modulator LFO (Custom)				
+
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	81883803	Modulator Envelope (Custom)				
+	210109357	Modulator Envelope (Custom)				
+	490692981	Modulator Envelope (Custom)				
+	677607358	Modulator Envelope (Custom)				
+	838501927	Modulator Envelope (Custom)				
+
+Effect plug-ins	ID	Name	Type				Notes
+	18805950	Meter (Custom)	Wwise Meter			
+	52379422	RoomVerb (Custom)	Wwise RoomVerb			
+	84869189	Time Stretch (Custom)	Wwise Time Stretch			
+	217381063	RoomVerb (Custom)	Wwise RoomVerb			
+	246609777	Meter (Custom)	Wwise Meter			
+	430475093	Parametric EQ (Custom)	Wwise Parametric EQ			
+	468018233	RoomVerb (Custom)	Wwise RoomVerb			
+	716349243	Meter (Custom)	Wwise Meter			
+	752426852	Meter (Custom)	Wwise Meter			
+	992639600	Time Stretch (Custom)	Wwise Time Stretch			
+	1002363062	Time Stretch (Custom)	Wwise Time Stretch			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	2856194	dx_bartender_g	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\40\{400A07F6-92F4-A259-3D10-8ECD97B52197}.wem		\Actor-Mixer Hierarchy\DX WU\DX_bartender\dx_bartender_g		44196
+	7840480	a440_4sec_0dBfs	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\13\{13C74809-806C-C8F5-3732-B3E7FA255DF6}.wem		\Actor-Mixer Hierarchy\Test WU\a440_4sec_0dBfs		384096
+	18695543	dx_bartender_v	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\90\{90D68D24-016A-8C31-F0DE-1E5E6FC766DF}.wem		\Actor-Mixer Hierarchy\DX WU\DX_bartender\dx_bartender_v		44196
+	26030415	AMB_cup_conveyor	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\3D\{3DF36AAA-740C-600B-8743-2808EB4DBEDD}.wem		\Actor-Mixer Hierarchy\3D Ambiences\Kitchenware WU\Kitchenware Mixer\AMB_cup_conveyor		1322112
+	28799827	dx_bartender_l	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\56\{56F4F956-80D4-F30E-F80B-AA7924503FA9}.wem		\Actor-Mixer Hierarchy\DX WU\DX_bartender\dx_bartender_l		44196
+	31785810	AMB_heart_swell_01	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\D1\{D17676D9-24CD-57C9-6026-89F807F98307}.wem		\Actor-Mixer Hierarchy\Heart AMB WU\Heart Blend Container\Swell Random\AMB_heart_swell_01		3840096
+	32346152	SFX_dough_roll	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\9C\{9C6A6EF3-8403-459E-5470-A6A225410FF4}.wem		\Actor-Mixer Hierarchy\Item Pickups WU\SFX_dough_roll		512188
+	35858086	dx_tami_v	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\A1\{A17E24A6-9514-F7CA-B4EC-806986BDECA2}.wem		\Actor-Mixer Hierarchy\DX WU\DX_tami\dx_tami_v		44196
+	38151343	AMB_bar_spray_01	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\48\{48F0E0CE-9F9B-FCCF-6C9C-7A4BB2D04FA6}.wem		\Actor-Mixer Hierarchy\Belly Bar AMB WU\Belly Bar Blend Container\Spray Random\AMB_bar_spray_01		224320
+	38965680	SFX_tami_footsteps_01	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\53\{5305CFD0-8C5B-0D01-3757-66EE9781E372}.wem		\Actor-Mixer Hierarchy\Tami Movement SFX\Movement Actor-Mixer\SFX_tami_footsteps\SFX_tami_footsteps_01		34272
+	43130221	AMB_bar_gurgles	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\47\{472CF186-6C9F-6B9B-6950-EE5AB66CB68A}.wem		\Actor-Mixer Hierarchy\Belly Bar AMB WU\Belly Bar Blend Container\AMB_bar_gurgles		13968100
+	43822184	AMB_bar_spray_03	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\CE\{CE0A63F7-1BFA-8B16-252C-924EE22A827B}.wem		\Actor-Mixer Hierarchy\Belly Bar AMB WU\Belly Bar Blend Container\Spray Random\AMB_bar_spray_03		536632
+	53737817	AMB_exhale_04	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\B4\{B400268F-7455-EA74-1EBB-B8701BCBC1F4}.wem		\Actor-Mixer Hierarchy\Teahouse AMB WU\Teahouse Blend Container\Breath Cycle Sequence\Exhale Random\AMB_exhale_04		474930
+	59627563	dx_bartender_s	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\53\{53B7DFF0-E753-45A5-4C1A-78C92CD2B5B1}.wem		\Actor-Mixer Hierarchy\DX WU\DX_bartender\dx_bartender_s		44196
+	60400236	dx_bartender_r	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\D6\{D65CD090-8725-6145-77E8-00C71CD1EB94}.wem		\Actor-Mixer Hierarchy\DX WU\DX_bartender\dx_bartender_r		44196
+	62975053	dx_alveolus_w	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\ED\{EDB57E82-FFE9-0AB2-B4A5-641A5DC348AA}.wem		\Actor-Mixer Hierarchy\DX WU\DX_alveolus\dx_alveolus_w		29132
+	67682474	dx_tami_o	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\05\{05E73B50-D7BE-DA58-65D1-F3CE1214438D}.wem		\Actor-Mixer Hierarchy\DX WU\DX_tami\dx_tami_o		44196
+	68387722	dx_bartender_o	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\38\{3822C19A-709C-7511-91F8-A333047E2DAD}.wem		\Actor-Mixer Hierarchy\DX WU\DX_bartender\dx_bartender_o		44196
+	72581235	SFX_tami_swing_forward	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\8A\{8A3781BF-9E03-B52E-D1CB-4E1183B467F2}.wem		\Actor-Mixer Hierarchy\Tami Movement SFX\Movement Actor-Mixer\Swing\SFX_tami_swing_forward\SFX_tami_swing_forward		141428
+	88610057	dx_tami_y	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\31\{318A85CF-6A0E-18BC-891A-86BAEC619C3C}.wem		\Actor-Mixer Hierarchy\DX WU\DX_tami\dx_tami_y		44196
+	88937665	dx_bartender_n	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\5B\{5B3CC8B5-D7E1-4103-B5FF-5BC044A22F02}.wem		\Actor-Mixer Hierarchy\DX WU\DX_bartender\dx_bartender_n		41140
+	106406905	dx_tami_h	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\A6\{A6FC6583-F211-9CE4-E393-AB042FBD42DA}.wem		\Actor-Mixer Hierarchy\DX WU\DX_tami\dx_tami_h		44196
+	110180796	dx_bartender_p	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\8D\{8DDA2862-B847-3A7D-9163-3ABEE863409C}.wem		\Actor-Mixer Hierarchy\DX WU\DX_bartender\dx_bartender_p		44196
+	119248897	SFX_tami_footsteps_03	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\45\{45F1DE12-8B96-C565-C1D4-AA024A3E29D1}.wem		\Actor-Mixer Hierarchy\Tami Movement SFX\Movement Actor-Mixer\SFX_tami_footsteps\SFX_tami_footsteps_03		38500
+	124679784	AMB_droplets_03	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\9A\{9A5E2582-7866-AA1F-6998-8C3ED6B8FC33}.wem		\Actor-Mixer Hierarchy\Teahouse AMB WU\Teahouse INT Blend Container\Droplets\AMB_droplets_03		233484
+	144495341	SFX_pickup_sour	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\06\{06D055CE-F25E-05AA-314C-207E720A52CF}.wem		\Actor-Mixer Hierarchy\Item Pickups WU\SFX_pickup_sour		178756
+	160274551	AMB_heart_swell_04	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\A1\{A1DCAD29-7A22-CD59-1B49-D0E9911679A6}.wem		\Actor-Mixer Hierarchy\Heart AMB WU\Heart Blend Container\Swell Random\AMB_heart_swell_04		3840096
+	161214462	dx_tami_p	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\B5\{B5BD4B95-00AB-2B4A-2DA5-4D0952BE75D5}.wem		\Actor-Mixer Hierarchy\DX WU\DX_tami\dx_tami_p		41904
+	163524447	SFX_dough_drag	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\B0\{B0E4D13B-A959-BE48-85DB-70CA5B6F9F38}.wem		\Actor-Mixer Hierarchy\Item Pickups WU\SFX_dough_drag		512188
+	165503632	AMB_heart_swell_03	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\FF\{FF891B2E-3EE5-BE9F-6B17-88F267A475D2}.wem		\Actor-Mixer Hierarchy\Heart AMB WU\Heart Blend Container\Swell Random\AMB_heart_swell_03		3840096
+	166261619	dx_alveolus_u	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\0A\{0ACC5A3F-F735-64A9-61C1-C3629B9CB168}.wem		\Actor-Mixer Hierarchy\DX WU\DX_alveolus\dx_alveolus_u		44196
+	167115619	SFX_tami_damage_02	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\9B\{9BBEB3CA-A272-8F32-53FF-31A030457CFE}.wem		\Actor-Mixer Hierarchy\Damage WU\Tami\SFX_tami_damage\SFX_tami_damage_02		39152
+	168828278	dx_bartender_h	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\E2\{E22D5BB1-6305-FB7D-43F9-862C181F6C6D}.wem		\Actor-Mixer Hierarchy\DX WU\DX_bartender\dx_bartender_h		36884
+	174046898	dx_bartender_e	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\F3\{F374C87E-F31A-F418-F7F4-EB352D97E66F}.wem		\Actor-Mixer Hierarchy\DX WU\DX_bartender\dx_bartender_e		44196
+	193896560	dx_alveolus_a	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\2A\{2A9C4C8D-A902-EA3C-79B7-FCB55B2693C8}.wem		\Actor-Mixer Hierarchy\DX WU\DX_alveolus\dx_alveolus_a		44196
+	212733085	UI_unhover	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\37\{374FAC32-91D6-B390-7685-15C1F80B8B5D}.wem		\Actor-Mixer Hierarchy\UI WU\UI Buttons\UI_unhover		22380
+	216116997	dx_alveolus_n	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\9B\{9BF8691B-3625-E96F-7DAB-B7A13C23A904}.wem		\Actor-Mixer Hierarchy\DX WU\DX_alveolus\dx_alveolus_n		16884
+	222560456	dx_bartender_w	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\D5\{D5C3898F-D1D5-9A35-E9E2-90626D270291}.wem		\Actor-Mixer Hierarchy\DX WU\DX_bartender\dx_bartender_w		44196
+	239098230	dx_tami_j	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\D2\{D21B2242-DC06-FC17-EF96-12AC878C6F74}.wem		\Actor-Mixer Hierarchy\DX WU\DX_tami\dx_tami_j		44196
+	248715415	SFX_tami_footsteps_02	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\22\{2269A64C-AAC4-B0DA-8FB6-EFB926516F7A}.wem		\Actor-Mixer Hierarchy\Tami Movement SFX\Movement Actor-Mixer\SFX_tami_footsteps\SFX_tami_footsteps_02		43264
+	253616762	SFX_tami_jump	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\F5\{F53C6321-24EC-E41F-D94E-619BDE1EAA29}.wem		\Actor-Mixer Hierarchy\Tami Movement SFX\Movement Actor-Mixer\SFX_tami_jump		63152
+	274633021	SFX_boss_attack_02	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\F4\{F44A07D3-15FE-5794-3B49-35542072EE14}.wem		\Actor-Mixer Hierarchy\Damage WU\Boss\Boss Mixer\SFX_boss_attack\SFX_boss_attack_02		119448
+	282829293	AMB_creak_04	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\26\{260AC62B-0EE4-262D-696F-161B0006CD02}.wem		\Actor-Mixer Hierarchy\Teahouse AMB WU\Teahouse INT Blend Container\Creaks\AMB_creak_04		486872
+	289207894	dx_tami_x	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\4D\{4DD40485-4BF4-1855-F898-7EFE702432E3}.wem		\Actor-Mixer Hierarchy\DX WU\DX_tami\dx_tami_x		44196
+	291638591	dx_alveolus_c	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\46\{46703C1C-D2E0-0819-BFBA-015566017060}.wem		\Actor-Mixer Hierarchy\DX WU\DX_alveolus\dx_alveolus_c		30092
+	291807790	dx_alveolus_g	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\FE\{FEBE4ADD-B6A9-D4F9-8A9C-A7D6413BF791}.wem		\Actor-Mixer Hierarchy\DX WU\DX_alveolus\dx_alveolus_g		13148
+	293901214	AMB_exhale_01	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\CE\{CE6D66BC-0AC5-7E3E-E192-DD495CBF6822}.wem		\Actor-Mixer Hierarchy\Teahouse AMB WU\Teahouse Blend Container\Breath Cycle Sequence\Exhale Random\AMB_exhale_01		477702
+	299055625	SFX_tami_fall_water	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\D0\{D0BD5633-9135-2A3B-23B3-86183BB5E521}.wem		\Actor-Mixer Hierarchy\Damage WU\Tami\SFX_tami_fall_acid\SFX_tami_fall_water		105856
+	308667210	AMB_droplets_01	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\09\{09AD6C46-9DC2-E6B3-20AA-F8B542AA5ED2}.wem		\Actor-Mixer Hierarchy\Teahouse AMB WU\Teahouse INT Blend Container\Droplets\AMB_droplets_01		180770
+	308696779	AMB_droplets_07	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\99\{993C9718-7063-2C5B-60D1-87039F6CFBED}.wem		\Actor-Mixer Hierarchy\Teahouse AMB WU\Teahouse INT Blend Container\Droplets\AMB_droplets_07		267486
+	309003248	AMB_droplets_11	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\2F\{2F968CAA-EC89-6B59-6944-096348DC8690}.wem		\Actor-Mixer Hierarchy\Teahouse AMB WU\Teahouse INT Blend Container\Droplets\AMB_droplets_11		202828
+	319881484	SFX_tami_swing_detach	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\52\{520EE929-1FFC-162F-5344-E7BE7CF0B634}.wem		\Actor-Mixer Hierarchy\Tami Movement SFX\Movement Actor-Mixer\Swing\SFX_tami_swing_detach		44588
+	320856549	AMB_breath_layer	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\6F\{6FF9456C-B29E-095F-851D-97887E2940ED}.wem		\Actor-Mixer Hierarchy\Teahouse AMB WU\Teahouse Blend Container\AMB_breath_layer		6906184
+	322512191	SFX_pickup_water	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\FF\{FF098D79-4A57-676B-65DC-3CCF1081869E}.wem		\Actor-Mixer Hierarchy\Item Pickups WU\SFX_pickup_water		43370
+	332163773	AMB_heart_swell_02	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\70\{70F25E18-18F4-8096-33BD-1E47DC14B955}.wem		\Actor-Mixer Hierarchy\Heart AMB WU\Heart Blend Container\Swell Random\AMB_heart_swell_02		3840096
+	333446308	SFX_tami_swing_min	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\11\{11E9CABC-0096-749F-F006-0D93BCA8F928}.wem		\Actor-Mixer Hierarchy\Tami Movement SFX\Movement Actor-Mixer\Swing\SFX_tami_swing_min		38240
+	337893874	dx_bartender_q	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\EF\{EF1F7621-A2A1-5C25-80E2-D2477D866C06}.wem		\Actor-Mixer Hierarchy\DX WU\DX_bartender\dx_bartender_q		44196
+	344474662	dx_tami_b	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\99\{9974A8B4-CB4D-B26B-28E6-03AAA56A5EB0}.wem		\Actor-Mixer Hierarchy\DX WU\DX_tami\dx_tami_b		44196
+	374515091	AMB_fire	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\C6\{C6909511-282E-923D-5DBC-B9267AEC2080}.wem		\Actor-Mixer Hierarchy\3D Ambiences\Flames WU\AMB_fire		2354232
+	383920120	SFX_tami_damage_01	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\F6\{F6DAB26C-1989-ABC7-6CC6-46C114C4B257}.wem		\Actor-Mixer Hierarchy\Damage WU\Tami\SFX_tami_damage\SFX_tami_damage_01		114992
+	390777594	SFX_tami_damage_03	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\A5\{A58BEFAD-F7A5-CDDA-AF53-786CA5822563}.wem		\Actor-Mixer Hierarchy\Damage WU\Tami\SFX_tami_damage\SFX_tami_damage_03		136404
+	404232577	SFX_bar_drink_hover	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\91\{91FC980D-5CF4-0402-96F0-DBABBA9EA4B3}.wem		\Actor-Mixer Hierarchy\UI WU\SFX_bar_drink_hover		40140
+	408036862	AMB_steam_19	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\AA\{AA2D79E9-05D4-D4D9-752F-52FFCBC92724}.wem		\Actor-Mixer Hierarchy\Teahouse AMB WU\Teahouse INT Blend Container\Steam\Hi\AMB_steam_19		1195732
+	409052204	AMB_utensils	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\48\{48304E3E-2F3D-D1ED-D65C-AD079B060BB9}.wem		\Actor-Mixer Hierarchy\3D Ambiences\Kitchenware WU\Kitchenware Mixer\AMB_utensils		4643976
+	414832803	SFX_finished_dough	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\22\{226B4436-B8CB-6A85-50CD-47E109A44FF2}.wem		\Actor-Mixer Hierarchy\Heart SFX WU\Dough\SFX_finished_dough		78568
+	415644435	dx_bartender_c	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\C5\{C547CC74-7BDC-914A-EE57-66F7EF4D4C91}.wem		\Actor-Mixer Hierarchy\DX WU\DX_bartender\dx_bartender_c		44196
+	429165170	AMB_bar_clink_01	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\A8\{A85C719A-E600-9C1E-273D-ADE72C3301DC}.wem		\Actor-Mixer Hierarchy\Belly Bar AMB WU\Belly Bar Blend Container\Clink Random\AMB_bar_clink_01		104204
+	430159898	dx_bartender_j	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\6D\{6DBF17E5-6549-574A-8D12-14F47D784695}.wem		\Actor-Mixer Hierarchy\DX WU\DX_bartender\dx_bartender_j		44196
+	431626106	dx_alveolus_s	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\B1\{B109C829-BD99-FC8A-742B-D78102EA2468}.wem		\Actor-Mixer Hierarchy\DX WU\DX_alveolus\dx_alveolus_s		19016
+	440976626	dx_tami_s	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\71\{71F4B12C-F275-4B6F-AC26-C16A00198341}.wem		\Actor-Mixer Hierarchy\DX WU\DX_tami\dx_tami_s		44196
+	444000060	AMB_bar_cut_03	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\E9\{E9449FF1-6D92-1626-1576-41987AD5AE4C}.wem		\Actor-Mixer Hierarchy\Belly Bar AMB WU\Belly Bar Blend Container\Chop Random\AMB_bar_cut_03		624720
+	455945861	AMB_boiling	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\FF\{FF3B099C-6C42-9F4A-0278-EC6A6B2ECAC0}.wem		\Actor-Mixer Hierarchy\Teahouse AMB WU\Teahouse INT Blend Container\AMB_boiling		7628476
+	456583565	dx_tami_f	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\DA\{DA8E5681-CD83-DCC1-0189-3CD76D74D313}.wem		\Actor-Mixer Hierarchy\DX WU\DX_tami\dx_tami_f		44196
+	458149572	AMB_exhale_03	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\AA\{AA214E77-BCEF-FAF2-FBFA-81F427C57331}.wem		\Actor-Mixer Hierarchy\Teahouse AMB WU\Teahouse Blend Container\Breath Cycle Sequence\Exhale Random\AMB_exhale_03		467858
+	459007389	SFX_tami_swing_swish	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\BC\{BC2EAFD1-5310-67F8-6C0D-237151FF1F99}.wem		\Actor-Mixer Hierarchy\Tami Movement SFX\Movement Actor-Mixer\Swing\SFX_tami_swing_swish		95042
+	465449119	SFX_boat_load_01	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\7A\{7A02EEF3-AD28-A272-B3B6-6084CC5F7E55}.wem		\Actor-Mixer Hierarchy\Heart SFX WU\Boat\SFX_boat_load\SFX_boat_load_01		72940
+	468321885	SFX_pickup_filling	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\A2\{A227839B-EB19-EDF2-4E23-3D465E2E4BD7}.wem		\Actor-Mixer Hierarchy\Item Pickups WU\SFX_pickup_filling		90732
+	469422738	dx_tami_m	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\0E\{0EB9E70E-2BC7-AB0F-4283-B1F83B8B224E}.wem		\Actor-Mixer Hierarchy\DX WU\DX_tami\dx_tami_m		44196
+	473234517	dx_alveolus_m	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\F5\{F5D288CB-3E77-08F3-C5FF-EF0ACEB2656F}.wem		\Actor-Mixer Hierarchy\DX WU\DX_alveolus\dx_alveolus_m		20088
+	477827456	UI_hover	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\26\{26E280A2-4507-8233-C18D-E8E4E93E9A53}.wem		\Actor-Mixer Hierarchy\UI WU\UI Buttons\UI_hover		61072
+	479306740	SFX_tami_ball_land	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\F0\{F0AE22DB-72F2-37CF-8B23-B7AC3EB0A603}.wem		\Actor-Mixer Hierarchy\Tami Movement SFX\Movement Actor-Mixer\SFX_tami_land\SFX_tami_ball_land		34128
+	486655394	dx_alveolus_k	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\C7\{C7D37203-E1E4-37F7-C70E-584926C80BEB}.wem		\Actor-Mixer Hierarchy\DX WU\DX_alveolus\dx_alveolus_k		20832
+	488146446	SFX_pickup_oil	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\62\{62A031F7-A8BA-D518-6521-E969DA42E2B3}.wem		\Actor-Mixer Hierarchy\Item Pickups WU\SFX_pickup_oil		29758
+	494942608	SFX_boat_stop	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\F9\{F95FA8F7-7E23-0545-CDDC-6D6F4EED6A90}.wem		\Actor-Mixer Hierarchy\Heart SFX WU\Boat\SFX_boat_stop		139972
+	495320957	AMB_inhale_02	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\36\{367097C7-7BA0-0113-BF15-A64BA7D90D68}.wem		\Actor-Mixer Hierarchy\Teahouse AMB WU\Teahouse Blend Container\Breath Cycle Sequence\Inhale Random\AMB_inhale_02		464828
+	499939748	dx_alveolus_l	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\D8\{D8B46A72-63A5-D42B-A98D-A016374CC5CE}.wem		\Actor-Mixer Hierarchy\DX WU\DX_alveolus\dx_alveolus_l		24252
+	516440497	dx_tami_r	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\23\{23A97AE5-CC0A-2129-A9BF-91271A199A5F}.wem		\Actor-Mixer Hierarchy\DX WU\DX_tami\dx_tami_r		44196
+	517191733	dx_bartender_b	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\8F\{8F84A1CC-F586-9BAB-B1C7-147D7B033DD4}.wem		\Actor-Mixer Hierarchy\DX WU\DX_bartender\dx_bartender_b		44196
+	525298123	SFX_pickup_syrup	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\33\{33C8BEDC-D885-F440-16B9-E27113484C89}.wem		\Actor-Mixer Hierarchy\Item Pickups WU\SFX_pickup_syrup		115372
+	525546835	SFX_drop_filling	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\D6\{D60313FA-0C26-EA2A-1332-8768090119DA}.wem		\Actor-Mixer Hierarchy\Item Pickups WU\SFX_drop_filling		90732
+	533842625	AMB_cup_change_direction_02	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\1E\{1E0487A5-AA3D-C046-282B-1ADE1BA7908F}.wem		\Actor-Mixer Hierarchy\3D Ambiences\Kitchenware WU\Kitchenware Mixer\AMB_cup_change_direction\AMB_cup_change_direction_02		192852
+	543278390	SFX_oven_done	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\76\{763DF010-0397-0AB0-FDCD-0A86C936B827}.wem		\Actor-Mixer Hierarchy\Heart SFX WU\SFX_oven_done		411412
+	543989087	UI_tap	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\02\{0252A486-8858-20D3-3740-BC013FAE2F9B}.wem		\Actor-Mixer Hierarchy\UI WU\UI Buttons\UI_tap		33488
+	545959677	AMB_plate_conveyor	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\89\{892B47FF-84E8-C246-9C5F-D2BA5B4D3E6C}.wem		\Actor-Mixer Hierarchy\3D Ambiences\Kitchenware WU\Kitchenware Mixer\AMB_plate_conveyor		1322112
+	550547379	dx_bartender_u	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\07\{075A552C-3FFA-A301-898D-7F324B896E2D}.wem		\Actor-Mixer Hierarchy\DX WU\DX_bartender\dx_bartender_u		44196
+	554781607	dx_tami_e	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\F7\{F7C64132-9BB1-9C43-EB49-2B337CB07C53}.wem		\Actor-Mixer Hierarchy\DX WU\DX_tami\dx_tami_e		44196
+	560746972	dx_alveolus_z	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\B1\{B1FCF955-DD09-238E-7B9D-8F8F8CB4E7C1}.wem		\Actor-Mixer Hierarchy\DX WU\DX_alveolus\dx_alveolus_z		44196
+	573633617	AMB_windGust_layer	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\59\{59D91541-2ED2-998A-3E8A-2A413BB0973B}.wem		\Actor-Mixer Hierarchy\Teahouse AMB WU\Teahouse Blend Container\AMB_windGust_layer		1824244
+	580095087	SFX_pickup_sweet	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\0B\{0BD90F2A-7209-7428-5C6E-9B624015EA8F}.wem		\Actor-Mixer Hierarchy\Item Pickups WU\SFX_pickup_sweet		175896
+	596458039	AMB_embers	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\E6\{E6DB9FAE-055C-0967-A738-FA15D74DED3B}.wem		\Actor-Mixer Hierarchy\3D Ambiences\Flames WU\AMB_embers		21451136
+	601462081	AMB_cup_change_direction_01	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\EA\{EAAF98A3-3F66-7B84-971A-1B5F75766CF8}.wem		\Actor-Mixer Hierarchy\3D Ambiences\Kitchenware WU\Kitchenware Mixer\AMB_cup_change_direction\AMB_cup_change_direction_01		183564
+	601970072	AMB_steam_09	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\70\{703927D7-97FC-4DA3-A0BA-43D3155D7543}.wem		\Actor-Mixer Hierarchy\Teahouse AMB WU\Teahouse INT Blend Container\Steam\LoMid\AMB_steam_09		1015508
+	608321178	SFX_boss_attack_01	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\75\{75D9588D-EE2D-EDA7-7139-D4820D8EFDC4}.wem		\Actor-Mixer Hierarchy\Damage WU\Boss\Boss Mixer\SFX_boss_attack\SFX_boss_attack_01		119496
+	625965357	dx_tami_l	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\B2\{B216C02D-8E5E-70C1-CEFB-C1B23A57423E}.wem		\Actor-Mixer Hierarchy\DX WU\DX_tami\dx_tami_l		44196
+	634732461	SFX_blender	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\E1\{E11948D4-8A3C-FAA5-228F-1835195992F4}.wem		\Actor-Mixer Hierarchy\Heart SFX WU\SFX_blender		300140
+	641003083	SFX_tami_ballroll	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\E2\{E2D9289D-617D-7E28-2404-150C651994D0}.wem		\Actor-Mixer Hierarchy\Tami Movement SFX\Movement Actor-Mixer\SFX_tami_ballroll		441580
+	647356697	AMB_bar_clink_02	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\59\{59B21280-2BA1-95BA-B6FF-35BB8075AF25}.wem		\Actor-Mixer Hierarchy\Belly Bar AMB WU\Belly Bar Blend Container\Clink Random\AMB_bar_clink_02		144240
+	654446881	dx_alveolus_t	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\D3\{D3F990B5-3510-88CB-9B7B-6BFB8B657E47}.wem		\Actor-Mixer Hierarchy\DX WU\DX_alveolus\dx_alveolus_t		35700
+	659019764	AMB_bar_cut_02	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\B7\{B711CB2B-F535-B3CE-A7BC-770D60288B1E}.wem		\Actor-Mixer Hierarchy\Belly Bar AMB WU\Belly Bar Blend Container\Chop Random\AMB_bar_cut_02		328424
+	659369843	AMB_leaves	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\E8\{E8FB14A3-23B3-EA75-9203-0ED44B468949}.wem		\Actor-Mixer Hierarchy\Teahouse AMB WU\Teahouse Blend Container\AMB_leaves		5880512
+	662991372	dx_tami_c	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\D8\{D8501DBE-6B48-63C3-E15A-3EF39DCFBDE0}.wem		\Actor-Mixer Hierarchy\DX WU\DX_tami\dx_tami_c		44196
+	663179529	SFX_goomba_attack	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\C8\{C805F33A-5B18-10B3-A60D-00C9632A0C41}.wem		\Actor-Mixer Hierarchy\Damage WU\Goomba\SFX_goomba_attack		64668
+	668447059	AMB_mooncake	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\D9\{D9B88E3C-2CB2-6B7D-C107-D9E2625DC652}.wem		\Actor-Mixer Hierarchy\3D Ambiences\Mooncake WU\AMB_mooncake		1859404
+	675951433	AMB_bar_clink_04	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\B6\{B6751EB7-3881-D8F1-44F1-78C209DE159C}.wem		\Actor-Mixer Hierarchy\Belly Bar AMB WU\Belly Bar Blend Container\Clink Random\AMB_bar_clink_04		136232
+	677216396	AMB_heart	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\24\{24E1FE81-B9AE-C384-1023-7576B4020541}.wem		\Actor-Mixer Hierarchy\Heart AMB WU\Heart Blend Container\AMB_heart		16901836
+	703113281	AMB_inhale_04	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\40\{40B382AC-0395-8329-582A-3D50EB949C20}.wem		\Actor-Mixer Hierarchy\Teahouse AMB WU\Teahouse Blend Container\Breath Cycle Sequence\Inhale Random\AMB_inhale_04		480098
+	704680711	AMB_wind_zone	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\DC\{DC3E9041-392F-5E18-B89B-BD5903E3F95C}.wem		\Actor-Mixer Hierarchy\3D Ambiences\Wind Zone WU\AMB_wind_zone		2576944
+	711325325	AMB_bar_drink_click	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\D4\{D487796B-658E-AA81-306C-0886A303575B}.wem		\Actor-Mixer Hierarchy\UI WU\AMB_bar_drink_click		272864
+	713642632	dx_tami_u	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\3B\{3B68B8B4-9784-E689-1290-28334756990D}.wem		\Actor-Mixer Hierarchy\DX WU\DX_tami\dx_tami_u		44196
+	713774480	dx_tami_i	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\59\{59152407-E153-3A6C-350B-4A796014D5E2}.wem		\Actor-Mixer Hierarchy\DX WU\DX_tami\dx_tami_i		44196
+	717116099	dx_alveolus_b	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\F5\{F599D294-D6BC-3394-D72F-11AFF1C1548B}.wem		\Actor-Mixer Hierarchy\DX WU\DX_alveolus\dx_alveolus_b		22864
+	725244182	SFX_tami_fall_acid	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\3E\{3E133A8B-B60E-DEDB-986E-6FE1BCE8F972}.wem		\Actor-Mixer Hierarchy\Damage WU\Tami\SFX_tami_fall_acid\SFX_tami_fall_acid		115880
+	730032968	SFX_boat_launch	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\98\{98C5D19E-C798-BEF3-ADA2-66E2A5FA9A56}.wem		\Actor-Mixer Hierarchy\Heart SFX WU\Boat\SFX_boat_launch		252668
+	731773316	dx_alveolus_x	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\29\{2992EED9-4B90-3437-E9E3-A09AAB62295A}.wem		\Actor-Mixer Hierarchy\DX WU\DX_alveolus\dx_alveolus_x		21700
+	735618552	SFX_tami_swing_descend	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\8C\{8CEF59D9-61F7-9AD3-821A-9298EB8C8BEC}.wem		\Actor-Mixer Hierarchy\Tami Movement SFX\Movement Actor-Mixer\Swing\SFX_tami_swing_descend		252356
+	738605570	SFX_tami_moveTongue	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\D1\{D124CDF8-EFF5-99FC-5B58-B5634B265EE1}.wem		\Actor-Mixer Hierarchy\Tami Movement SFX\Movement Actor-Mixer\SFX_tami_moveTongue		257848
+	740782969	AMB_inhale_01	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\63\{63C6180E-E9F9-E2D6-3169-805067D3BC96}.wem		\Actor-Mixer Hierarchy\Teahouse AMB WU\Teahouse Blend Container\Breath Cycle Sequence\Inhale Random\AMB_inhale_01		448940
+	750536681	dx_bartender_k	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\F0\{F00C9593-B228-36B0-2DCB-FD54B932C02F}.wem		\Actor-Mixer Hierarchy\DX WU\DX_bartender\dx_bartender_k		44196
+	756863167	AMB_steam_16	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\E1\{E1F44D6A-4814-DEB4-9ECC-44E425296F4B}.wem		\Actor-Mixer Hierarchy\Teahouse AMB WU\Teahouse INT Blend Container\Steam\HiMid\AMB_steam_16		1151776
+	757570144	SFX_dough_mold	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\9D\{9D9257A4-F62B-472B-4A35-047E95DBA257}.wem		\Actor-Mixer Hierarchy\Heart SFX WU\Dough\SFX_dough_mold		255264
+	760136657	dx_tami_z	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\53\{53222869-EC8D-4047-B52E-22624F23D064}.wem		\Actor-Mixer Hierarchy\DX WU\DX_tami\dx_tami_z		44196
+	766780530	AMB_bar	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\69\{69024B70-1586-7E44-8AF1-79EC86601116}.wem		\Actor-Mixer Hierarchy\Belly Bar AMB WU\Belly Bar Blend Container\AMB_bar		10661060
+	768673171	dx_alveolus_v	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\66\{665BB363-91ED-BC56-9E9D-B0A63A5B1AA5}.wem		\Actor-Mixer Hierarchy\DX WU\DX_alveolus\dx_alveolus_v		44196
+	770300209	dx_tami_a	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\A4\{A41A0343-A770-A504-CCB4-08266D694E23}.wem		\Actor-Mixer Hierarchy\DX WU\DX_tami\dx_tami_a		44196
+	775235115	SFX_tami_swing_ascend	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\AE\{AE20F0B7-FF1B-78A3-AED7-3D1772D31271}.wem		\Actor-Mixer Hierarchy\Tami Movement SFX\Movement Actor-Mixer\Swing\SFX_tami_swing_ascend		210916
+	784155455	AMB_bar_clink_06	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\45\{453D175C-3F6F-5183-789B-6F63D2232E8A}.wem		\Actor-Mixer Hierarchy\Belly Bar AMB WU\Belly Bar Blend Container\Clink Random\AMB_bar_clink_06		208304
+	785031987	dx_bartender_z	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\E9\{E9258948-A336-7379-E5AA-C135443957FA}.wem		\Actor-Mixer Hierarchy\DX WU\DX_bartender\dx_bartender_z		44196
+	786271772	SFX_boat_load_02	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\EB\{EBE3C3D0-532B-E4B6-19A9-5C9700971B6B}.wem		\Actor-Mixer Hierarchy\Heart SFX WU\Boat\SFX_boat_load\SFX_boat_load_02		65064
+	792762366	AMB_creak_02	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\77\{776A4215-A6AB-83FE-426C-5C223235F0EA}.wem		\Actor-Mixer Hierarchy\Teahouse AMB WU\Teahouse INT Blend Container\Creaks\AMB_creak_02		444360
+	803962685	SFX_mooncake_spawn	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\26\{26B3FEBC-89EE-5A6D-AD13-B84D776F6AF5}.wem		\Actor-Mixer Hierarchy\Heart SFX WU\Dough\SFX_mooncake_spawn		87856
+	805559727	SFX_drop_goop	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\FC\{FC7DA38E-3766-95AC-55BE-EFF639F11D51}.wem		\Actor-Mixer Hierarchy\Item Pickups WU\SFX_drop_goop		57824
+	816854192	SFX_dough_land	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\62\{622FFAFE-EA31-94B9-8F6D-B6F6A3736719}.wem		\Actor-Mixer Hierarchy\Item Pickups WU\SFX_dough_land		65308
+	819956669	AMB_bar_clink_03	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\2C\{2C83466F-1092-98DB-0C39-46157BB044C6}.wem		\Actor-Mixer Hierarchy\Belly Bar AMB WU\Belly Bar Blend Container\Clink Random\AMB_bar_clink_03		104200
+	826786002	dx_alveolus_y	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\D6\{D6181F17-DF26-44C6-F9F9-00CFDDB3B1C1}.wem		\Actor-Mixer Hierarchy\DX WU\DX_alveolus\dx_alveolus_y		44196
+	843369214	dx_alveolus_q	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\FB\{FBB673A1-FFCC-CB89-C0BD-502FCCC33747}.wem		\Actor-Mixer Hierarchy\DX WU\DX_alveolus\dx_alveolus_q		44196
+	847167030	SFX_tami_ballrelease	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\7F\{7F722CED-9F52-8FDF-F442-AABC7B23144F}.wem		\Actor-Mixer Hierarchy\Tami Movement SFX\Movement Actor-Mixer\SFX_tami_ballrelease		97116
+	871880140	AMB_droplets_09	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\1A\{1A44A239-5B7C-2BD1-AEAE-6B2E4E1D2CE3}.wem		\Actor-Mixer Hierarchy\Teahouse AMB WU\Teahouse INT Blend Container\Droplets\AMB_droplets_09		213386
+	880440434	SFX_goomba_damage	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\94\{94260A1D-8701-EAAB-864F-E50584E9DC5E}.wem		\Actor-Mixer Hierarchy\Damage WU\Goomba\SFX_goomba_damage		74664
+	896037403	dx_alveolus_p	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\89\{897AE7FB-502A-3939-14E2-1D87B4B49117}.wem		\Actor-Mixer Hierarchy\DX WU\DX_alveolus\dx_alveolus_p		29272
+	896113011	AMB_droplets_05	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\B6\{B62DDB98-59DC-3E2C-F49C-6FDB86331531}.wem		\Actor-Mixer Hierarchy\Teahouse AMB WU\Teahouse INT Blend Container\Droplets\AMB_droplets_05		173548
+	902255624	dx_alveolus_d	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\EE\{EEAABB67-34BB-AE3D-4E5C-627BAACAB8A8}.wem		\Actor-Mixer Hierarchy\DX WU\DX_alveolus\dx_alveolus_d		24580
+	903111121	SFX_tami_swing_backward	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\BA\{BA2B7897-6095-EE70-5B3F-4B5E154A97DE}.wem		\Actor-Mixer Hierarchy\Tami Movement SFX\Movement Actor-Mixer\Swing\SFX_tami_swing_backward\SFX_tami_swing_backward		169720
+	904482263	AMB_creak_06	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\E8\{E8DD7451-3AE0-7F3F-E328-430170955E91}.wem		\Actor-Mixer Hierarchy\Teahouse AMB WU\Teahouse INT Blend Container\Creaks\AMB_creak_06		646416
+	907367624	dx_alveolus_j	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\11\{11F1C0CA-CA83-0847-1A28-25340FDFBA7C}.wem		\Actor-Mixer Hierarchy\DX WU\DX_alveolus\dx_alveolus_j		24876
+	908885052	dx_tami_w	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\E6\{E6178DA3-4D95-7193-7B64-7C4410BA2BAA}.wem		\Actor-Mixer Hierarchy\DX WU\DX_tami\dx_tami_w		44196
+	910540747	dx_tami_n	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\A0\{A096476D-CB28-9D78-2B70-BB066838EF10}.wem		\Actor-Mixer Hierarchy\DX WU\DX_tami\dx_tami_n		44196
+	917741124	dx_tami_q	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\00\{00B6CB7C-B417-632A-9CD1-C3E0AC0A3379}.wem		\Actor-Mixer Hierarchy\DX WU\DX_tami\dx_tami_q		44196
+	918184788	dx_bartender_d	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\BA\{BA07BE62-56FE-04C1-912B-6BF38C8C6620}.wem		\Actor-Mixer Hierarchy\DX WU\DX_bartender\dx_bartender_d		44196
+	932470245	dx_alveolus_i	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\5D\{5DE36420-6A6B-2B55-43CF-CFF013A75D6A}.wem		\Actor-Mixer Hierarchy\DX WU\DX_alveolus\dx_alveolus_i		44196
+	940680603	dx_alveolus_e	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\02\{02CD1775-3A47-5F72-3326-16E45728CA32}.wem		\Actor-Mixer Hierarchy\DX WU\DX_alveolus\dx_alveolus_e		44196
+	942768908	AMB_steam_22	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\30\{30258A56-9018-71BD-DF0D-1CAE8D711827}.wem		\Actor-Mixer Hierarchy\Teahouse AMB WU\Teahouse INT Blend Container\Steam\Hi\AMB_steam_22		1358372
+	946115145	SFX_tami_ballcurl	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\B5\{B5B21111-E735-2A45-08A2-AA0D09BB5E50}.wem		\Actor-Mixer Hierarchy\Tami Movement SFX\Movement Actor-Mixer\SFX_tami_ballcurl		84684
+	948814787	dx_alveolus_f	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\E5\{E595BE74-6287-4622-C30F-56188B281AB5}.wem		\Actor-Mixer Hierarchy\DX WU\DX_alveolus\dx_alveolus_f		15088
+	951459047	SFX_tami_land	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\AE\{AEB250B6-8496-3F77-2A9B-F34D4F76955B}.wem		\Actor-Mixer Hierarchy\Tami Movement SFX\Movement Actor-Mixer\SFX_tami_land\SFX_tami_land		45616
+	955246791	dx_bartender_y	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\B3\{B376F86B-28C5-AF02-D5E0-10665DF5D0CB}.wem		\Actor-Mixer Hierarchy\DX WU\DX_bartender\dx_bartender_y		44196
+	958574105	UI_click	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\60\{60006626-DEC4-272F-4E69-B64ABB067CD9}.wem		\Actor-Mixer Hierarchy\UI WU\UI Buttons\UI_click		96196
+	960375811	AMB_steam_11	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\04\{0448C029-FC48-C2CB-8E46-D50A9978949A}.wem		\Actor-Mixer Hierarchy\Teahouse AMB WU\Teahouse INT Blend Container\Steam\LoMid\AMB_steam_11		1129796
+	963401328	dx_bartender_i	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\7F\{7FE50D33-1028-5C82-3315-ED49B9B702F5}.wem		\Actor-Mixer Hierarchy\DX WU\DX_bartender\dx_bartender_i		44196
+	977119962	SFX_burn	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\B4\{B4F89C74-09E3-2CE9-98AD-111B523D4A4D}.wem		\Actor-Mixer Hierarchy\Damage WU\Tami\SFX_burn		279800
+	978663871	AMB_bar_cut_01	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\60\{6014DB76-B5A9-817D-FD38-E877716DA294}.wem		\Actor-Mixer Hierarchy\Belly Bar AMB WU\Belly Bar Blend Container\Chop Random\AMB_bar_cut_01		304368
+	979541979	AMB_steam_14	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\B9\{B972A0A9-5DD1-8C03-EC36-0493B68A4F23}.wem		\Actor-Mixer Hierarchy\Teahouse AMB WU\Teahouse INT Blend Container\Steam\HiMid\AMB_steam_14		1182544
+	990982219	dx_tami_d	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\4C\{4CB0D1E3-E4F6-FFA2-2695-919547B58ACC}.wem		\Actor-Mixer Hierarchy\DX WU\DX_tami\dx_tami_d		32952
+	993681694	SFX_drag_goop	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\FE\{FE6E74F7-5145-6852-ADB7-52C552EF598D}.wem		\Actor-Mixer Hierarchy\Item Pickups WU\SFX_drag_goop		1369624
+	1005311946	dx_bartender_a	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\7B\{7B1F2645-4DA7-A388-1E4B-90C9B4938ECC}.wem		\Actor-Mixer Hierarchy\DX WU\DX_bartender\dx_bartender_a		44196
+	1011321960	SFX_pickup_flour	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\2C\{2CAC58A5-B81F-DB2D-B3AB-12C3D37FA991}.wem		\Actor-Mixer Hierarchy\Item Pickups WU\SFX_pickup_flour		57136
+	1018123111	SFX_boss_puff	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\66\{660194D5-954E-3DEB-E30D-A89ABE5AE676}.wem		\Actor-Mixer Hierarchy\Damage WU\Boss\Boss Mixer\SFX_boss_puff		543444
+	1023540605	SFX_boat_unload	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\C1\{C1D8EE23-6803-7615-4D56-CB4DF45BE4CF}.wem		\Actor-Mixer Hierarchy\Heart SFX WU\Boat\SFX_boat_unload		64364
+	1027740293	dx_tami_k	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\36\{36503944-7746-45A9-3334-3C256E51A9FA}.wem		\Actor-Mixer Hierarchy\DX WU\DX_tami\dx_tami_k		36008
+	1030602842	dx_tami_g	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\CB\{CB537BEB-A372-0053-BDDE-10879C6F12F3}.wem		\Actor-Mixer Hierarchy\DX WU\DX_tami\dx_tami_g		44196
+	1036505123	dx_bartender_t	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\6F\{6FBFB22E-2CC6-5019-671A-3B03542D7A52}.wem		\Actor-Mixer Hierarchy\DX WU\DX_bartender\dx_bartender_t		44196
+	1042242449	SFX_tami_swing_attach	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\37\{37AE769A-6AC5-FA98-BF0C-1F6E56F5DB18}.wem		\Actor-Mixer Hierarchy\Tami Movement SFX\Movement Actor-Mixer\Swing\SFX_tami_swing_attach		73068
+	1042921825	dx_alveolus_r	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\6C\{6C36FA7E-FF5E-5058-F089-126F76BF191E}.wem		\Actor-Mixer Hierarchy\DX WU\DX_alveolus\dx_alveolus_r		32396
+	1043403401	SFX_tami_swing_max	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\1B\{1BB5F66C-A12E-4398-5E9F-5386469BC8EC}.wem		\Actor-Mixer Hierarchy\Tami Movement SFX\Movement Actor-Mixer\Swing\SFX_tami_swing_max		42048
+	1048130153	dx_bartender_m	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\0D\{0DC7EA11-6D0B-2EB3-0B6A-A42443606CC5}.wem		\Actor-Mixer Hierarchy\DX WU\DX_bartender\dx_bartender_m		44196
+	1049103362	dx_alveolus_h	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\80\{80BD761D-C23F-D425-2860-6CAA558B53B2}.wem		\Actor-Mixer Hierarchy\DX WU\DX_alveolus\dx_alveolus_h		20828
+	1054735823	dx_bartender_f	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\A4\{A40585FF-E597-5CAC-BEAA-8EB7D983D98A}.wem		\Actor-Mixer Hierarchy\DX WU\DX_bartender\dx_bartender_f		44196
+	1059766060	AMB_windCalm_layer	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\02\{0250EA1E-29B3-EFD2-A9B4-B449EFBB03AA}.wem		\Actor-Mixer Hierarchy\Teahouse AMB WU\Teahouse Blend Container\AMB_windCalm_layer		31981712
+	1063904366	dx_bartender_x	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\C7\{C7CB15BA-C22F-4229-06E9-2FD6CD0CB0DC}.wem		\Actor-Mixer Hierarchy\DX WU\DX_bartender\dx_bartender_x		44196
+	1067049488	dx_alveolus_o	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\CF\{CF6BEBA7-F196-E44C-DC76-57CD7A29B789}.wem		\Actor-Mixer Hierarchy\DX WU\DX_alveolus\dx_alveolus_o		44196
+	1067370502	SFX_oven_start	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\52\{5201C723-DF9D-41AA-7E24-D2A9954E3188}.wem		\Actor-Mixer Hierarchy\Heart SFX WU\SFX_oven_start		2289984
+	1069220616	dx_tami_t	Y:\Documents\PerforceAGP_Aftertaste_EXPO\NightTongue\NightTongue_Dev\NightTongue Wwise Project\.cache\B0\{B0E53237-58DF-2B23-29DC-E07026ABBE30}.wem		\Actor-Mixer Hierarchy\DX WU\DX_tami\dx_tami_t		34916
+

@@ -3,21 +3,25 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - PlayerModel
+  - Alveoli
+  - Boat
+  - Av2
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
   - Terrain
   - Aim Plane Mask
   - Throwable
-  - 
-  - 
-  - 
-  - 
+  - Grappleable
+  - Swingable
+  - Enemy
+  - PP
   - 
   - 
   - 

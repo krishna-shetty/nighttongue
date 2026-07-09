@@ -1,0 +1,2131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8120FE55-43F6-4156-B574-CC74C66B27F5}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Tami Movement SFX" ID="{8120FE55-43F6-4156-B574-CC74C66B27F5}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="19"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="Movement Actor-Mixer" ID="{24E9A90B-2B39-4D82-BEEC-3C3A33E90C98}" ShortID="270054440">
+					<PropertyList>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-96</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UserAuxSendVolume1" Type="Real64">
+							<ValueList>
+								<Value>-96</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UserAuxSendVolume2" Type="Real64">
+							<ValueList>
+								<Value>-96</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UserAuxSendVolume3" Type="Real64">
+							<ValueList>
+								<Value>-96</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Tami Footsteps" ID="{73B5C515-CE78-4B80-BDD7-E5F23EB45B27}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="BellyBar_Reverb" ID="{D05B4065-7A01-419D-AC28-11F72A9787B0}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+						<Reference Name="UserAuxSend1">
+							<ObjectRef Name="Heart_Reverb" ID="{9B58766C-D008-49F6-B8B1-CDFF11EA9602}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+						<Reference Name="UserAuxSend2">
+							<ObjectRef Name="Teahouse_EXT_Reverb" ID="{49C18909-6732-4A62-B694-772F3D162753}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+						<Reference Name="UserAuxSend3">
+							<ObjectRef Name="Teahouse_INT_Reverb" ID="{0375A6D5-FD4A-4A06-9FD6-5069FB1F1879}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="SFX_tami_footsteps" ID="{E10074A5-A631-403D-9CC4-73A43052C783}" ShortID="1042885520">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>19</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>24</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{3F678462-79A0-483A-A0AF-3755671821A2}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="200"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Tami Footsteps" ID="{73B5C515-CE78-4B80-BDD7-E5F23EB45B27}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_tami_footsteps_01" ID="{5C82923F-4450-436D-B809-1D0F9A8FDEA4}" ShortID="489853836">
+									<PropertyList>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>80</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Tami Footsteps" ID="{73B5C515-CE78-4B80-BDD7-E5F23EB45B27}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_tami_footsteps_01" ID="{2549F51F-F122-48D6-8DD0-4683599C5FEE}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_tami_footsteps_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="38965680"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_tami_footsteps_01" ID="{2549F51F-F122-48D6-8DD0-4683599C5FEE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_tami_footsteps_02" ID="{3840E809-FDFE-4259-8909-DEBD1413E92B}" ShortID="622201989">
+									<PropertyList>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>80</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Tami Footsteps" ID="{73B5C515-CE78-4B80-BDD7-E5F23EB45B27}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_tami_footsteps_02" ID="{00A0A6C8-DA54-4074-97A9-0E9708DAD0E3}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_tami_footsteps_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="248715415"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_tami_footsteps_02" ID="{00A0A6C8-DA54-4074-97A9-0E9708DAD0E3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_tami_footsteps_03" ID="{D18598A5-B759-4FD8-89E8-FBFEB05F1F0F}" ShortID="743482494">
+									<PropertyList>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>20</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Tami Footsteps" ID="{73B5C515-CE78-4B80-BDD7-E5F23EB45B27}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_tami_footsteps_03" ID="{3DBBA66A-06BF-4C77-A30C-84ABB9ABB0D2}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_tami_footsteps_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="119248897"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_tami_footsteps_03" ID="{3DBBA66A-06BF-4C77-A30C-84ABB9ABB0D2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{C5CF3FB0-CD8A-442C-BCE0-DC17D8B4E19C}"/>
+							</PositioningInfo>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{2205BC8E-38DB-47DA-B500-34591EEDA91F}" ShortID="996410143">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="SC_windZone" ID="{D679832A-24A3-4B33-B168-E1D2F7EAE184}" WorkUnitID="{09AA0B54-5263-4C3D-B792-8594A0055D34}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{49D6E56D-D67D-4444-8D34-91438BEC6569}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-48</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>-27.41637</XPos>
+																		<YPos>-0.82966</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+						<Sound Name="SFX_tami_ballcurl" ID="{89AB503D-D3B6-4067-89E8-97F4970853DD}" ShortID="618050758">
+							<PropertyList>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{9793A78D-262D-4FD1-B732-5C45B8A49FCC}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_tami_ballcurl" ID="{ED554519-C584-4732-9E09-B069F43E34F6}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>SFX_tami_ballcurl.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="946115145"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_tami_ballcurl" ID="{ED554519-C584-4732-9E09-B069F43E34F6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_tami_ballrelease" ID="{905E62D4-0A08-496D-9455-F6D598CFFF11}" ShortID="752483020">
+							<PropertyList>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{0DDD55F9-DE11-4C3F-BA6C-7FDD3C717DF3}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_tami_ballrelease" ID="{64749731-E6FB-425D-9C7E-43A75AB1D594}">
+									<PropertyList>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>SFX_tami_ballrelease.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="847167030"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_tami_ballrelease" ID="{64749731-E6FB-425D-9C7E-43A75AB1D594}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_tami_ballroll" ID="{FD0A8746-FC13-4390-884C-E66F1BDC47D6}" ShortID="379380294">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{09831B7B-3A40-4799-B530-02A04CF40A50}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Tami Footsteps" ID="{73B5C515-CE78-4B80-BDD7-E5F23EB45B27}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_tami_ballroll" ID="{B5CDE61F-0D41-4291-92C0-A5F527203AA9}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="143.697"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.095"/>
+										<Property Name="LoopEnd" Type="Real64" Value="2.167"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>SFX_tami_ballroll.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="641003083"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{96B70B16-4E7A-4B95-A870-7C1021EE41B0}" ShortID="413759476">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Velocity_X" ID="{C7F03361-43F2-45A5-B7BE-371583FCA8D8}" WorkUnitID="{BBDCF0C5-3151-4AE8-BF07-38603B84D811}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{E07EE8B1-FFD8-4BDF-BADD-5B3CEC3919E7}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-25</XPos>
+																		<YPos>-0.02295</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>-5</XPos>
+																		<YPos>-1</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Exp1</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>-0.5</XPos>
+																		<YPos>-7</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>-0.1</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.1</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>0.5</XPos>
+																		<YPos>-7</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log1</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>5</XPos>
+																		<YPos>-1</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>25</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_tami_ballroll" ID="{B5CDE61F-0D41-4291-92C0-A5F527203AA9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_tami_jump" ID="{0E9FE0A2-06F7-4F50-AD1F-5FC1BC1998A4}" ShortID="203431432">
+							<PropertyList>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{6FC5256F-6883-4010-9136-5D5F715720A5}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="50"/>
+													<Property Name="Min" Type="Real64" Value="-50"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Tami Footsteps" ID="{73B5C515-CE78-4B80-BDD7-E5F23EB45B27}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_tami_jump" ID="{6A3BA177-E1A0-4D7F-BB3A-A14BFFB83897}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.00602599404273777"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>SFX_tami_jump.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="253616762"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="SceneSwitch" ID="{668FC4B0-1BC0-4728-AC69-7C3B82B73853}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Teahouse_INT" ID="{AFDCACEA-CCC3-4096-97C1-7C1B5CCB2B96}"/>
+										<CustomState Name="" ID="{15C0BEC8-48CC-4C0A-AE18-511D32AC5D3C}" ShortID="167758246">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="25"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Boss" ID="{F806CE04-C0BB-40D5-94F0-E0466EC695B0}"/>
+										<CustomState Name="" ID="{120FA33D-0AEF-449F-801C-4B00DBBAC0C4}" ShortID="640511017">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="25"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Cutscene" ID="{58741484-806C-424C-90E7-B561ABFEBE6C}"/>
+										<CustomState Name="" ID="{C17CE7F4-D078-440B-B345-8D4DDA17D10D}" ShortID="327771805"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Teahouse_EXT" ID="{42F3D9A6-CEA9-4928-9F93-3B5F39F8B30C}"/>
+										<CustomState Name="" ID="{1DD7B3E0-FE54-4B5C-ACF7-A435344B5BFA}" ShortID="203222542">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="31"/>
+												<Property Name="Volume" Type="Real64" Value="-6"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="BellyBar" ID="{0E933AFD-9E4C-4A95-A95F-DA9E2109BBC0}"/>
+										<CustomState Name="" ID="{19F1DE39-667F-4DF3-8848-70BDD65379DA}" ShortID="613050295">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="25"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Credits" ID="{42E0EA2F-E80A-4B58-BD2C-0F04143A1CDD}"/>
+										<CustomState Name="" ID="{55932AA0-48F2-44ED-A210-84199121B984}" ShortID="40832816"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="MainMenu" ID="{E3A91F98-A27F-4C64-9D40-387A4564EC72}"/>
+										<CustomState Name="" ID="{D968BB63-7A81-425A-BC25-1108EB2D8B55}" ShortID="833514964"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="None" ID="{CCC415A5-C82A-4F86-AD75-B4A1E1CECFA6}"/>
+										<CustomState Name="" ID="{AFCB7DB7-830E-427D-97F0-247DA56A0CF9}" ShortID="146887598"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_tami_jump" ID="{6A3BA177-E1A0-4D7F-BB3A-A14BFFB83897}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_tami_moveTongue" ID="{5D2B41F3-CC45-4076-830B-293FD56CFD20}" ShortID="27353977">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>44</Value>
+									</ValueList>
+								</Property>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>26</Value>
+									</ValueList>
+								</Property>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>730</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_tami_moveTongue" ID="{05A6D278-831B-40A7-8E35-7634A9EDFE22}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.173064931717227"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="1.34245823462865"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="4.58680751711823"/>
+										<Property Name="TrimEnd" Type="Real64" Value="5.92926575174688"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>SFX_tami_moveTongue.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="738605570"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="SceneSwitch" ID="{668FC4B0-1BC0-4728-AC69-7C3B82B73853}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Teahouse_INT" ID="{AFDCACEA-CCC3-4096-97C1-7C1B5CCB2B96}"/>
+										<CustomState Name="" ID="{0CB4AED7-B961-4D41-A10D-EEEC0D46B134}" ShortID="32290432"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Boss" ID="{F806CE04-C0BB-40D5-94F0-E0466EC695B0}"/>
+										<CustomState Name="" ID="{3016313B-FCE4-4C30-8BFD-F83177F899D1}" ShortID="982310447"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Cutscene" ID="{58741484-806C-424C-90E7-B561ABFEBE6C}"/>
+										<CustomState Name="" ID="{F86D2033-0666-47B6-ABC3-72289BF8A51D}" ShortID="626957532"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Teahouse_EXT" ID="{42F3D9A6-CEA9-4928-9F93-3B5F39F8B30C}"/>
+										<CustomState Name="" ID="{5F30B9C9-8DCC-4946-83B8-005B7EA844FC}" ShortID="710705492">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16" Value="2"/>
+												<Property Name="Lowpass" Type="int16" Value="2"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="BellyBar" ID="{0E933AFD-9E4C-4A95-A95F-DA9E2109BBC0}"/>
+										<CustomState Name="" ID="{F0B88DEE-2BAE-4E71-A007-65C578F60B8D}" ShortID="442906048"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Credits" ID="{42E0EA2F-E80A-4B58-BD2C-0F04143A1CDD}"/>
+										<CustomState Name="" ID="{A204BBCE-C2CA-49EA-BA28-CEC76E2B1279}" ShortID="49423813"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="MainMenu" ID="{E3A91F98-A27F-4C64-9D40-387A4564EC72}"/>
+										<CustomState Name="" ID="{453A7B53-DDE9-48E0-ABAC-C73FD58346DA}" ShortID="715389780"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="None" ID="{CCC415A5-C82A-4F86-AD75-B4A1E1CECFA6}"/>
+										<CustomState Name="" ID="{CB598E0A-683A-4D83-B06E-291D81B02ECF}" ShortID="990901782"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{E5BCA129-3616-49B4-995C-29B5013099DA}" ShortID="561529384">
+												<ReferenceList>
+													<Reference Name="Effect">
+														<Custom>
+															<Effect Name="Parametric EQ (Custom)" ID="{26B87897-275C-40B7-AC7D-AE0C0FACE475}" ShortID="524882550" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+																<PropertyList>
+																	<Property Name="FrequencyBand2" Type="Real32" Value="447"/>
+																	<Property Name="FrequencyBand3" Type="Real32" Value="5256"/>
+																	<Property Name="GainBand2" Type="Real32" Value="-24"/>
+																	<Property Name="QFactorBand2" Type="Real32" Value="0.5"/>
+																</PropertyList>
+															</Effect>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+												<StateInfo>
+													<CustomStateList>
+														<CustomState>
+															<StateRef Name="Teahouse_INT" ID="{AFDCACEA-CCC3-4096-97C1-7C1B5CCB2B96}"/>
+															<CustomState Name="" ID="{2B1286F0-428E-43F3-A72B-767855B4ADB5}" ShortID="817171522"/>
+														</CustomState>
+														<CustomState>
+															<StateRef Name="Boss" ID="{F806CE04-C0BB-40D5-94F0-E0466EC695B0}"/>
+															<CustomState Name="" ID="{9655A754-D82F-4F7F-A5E5-268C31959AE2}" ShortID="329591880"/>
+														</CustomState>
+														<CustomState>
+															<StateRef Name="Cutscene" ID="{58741484-806C-424C-90E7-B561ABFEBE6C}"/>
+															<CustomState Name="" ID="{163626EF-A735-48DC-A5E4-7672D1982B8A}" ShortID="83015752"/>
+														</CustomState>
+														<CustomState>
+															<StateRef Name="Teahouse_EXT" ID="{42F3D9A6-CEA9-4928-9F93-3B5F39F8B30C}"/>
+															<CustomState Name="" ID="{7FB52BBD-E452-41DC-9553-FE6A4319D24D}" ShortID="141968660"/>
+														</CustomState>
+														<CustomState>
+															<StateRef Name="BellyBar" ID="{0E933AFD-9E4C-4A95-A95F-DA9E2109BBC0}"/>
+															<CustomState Name="" ID="{CF296620-D9FA-46B5-908B-F5CD8022B4D4}" ShortID="344346881"/>
+														</CustomState>
+														<CustomState>
+															<StateRef Name="Credits" ID="{42E0EA2F-E80A-4B58-BD2C-0F04143A1CDD}"/>
+															<CustomState Name="" ID="{4707698C-4FD2-4535-9B05-0DF4298F7415}" ShortID="299493000"/>
+														</CustomState>
+														<CustomState>
+															<StateRef Name="MainMenu" ID="{E3A91F98-A27F-4C64-9D40-387A4564EC72}"/>
+															<CustomState Name="" ID="{D965248E-1699-400B-9DA3-AB9A10030395}" ShortID="312594237"/>
+														</CustomState>
+														<CustomState>
+															<StateRef Name="None" ID="{CCC415A5-C82A-4F86-AD75-B4A1E1CECFA6}"/>
+															<CustomState Name="" ID="{D2887569-A1A6-434C-8391-9CD55E821B10}" ShortID="714112910"/>
+														</CustomState>
+													</CustomStateList>
+												</StateInfo>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_tami_moveTongue" ID="{05A6D278-831B-40A7-8E35-7634A9EDFE22}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Folder Name="Swing" ID="{2C40E4DE-A8A9-4AAF-8AB1-8D281CF5A316}" ShortID="110707547">
+							<ChildrenList>
+								<Sound Name="SFX_tami_swing_attach" ID="{F0B92918-09D4-43A6-881C-9BD6DA080334}" ShortID="1052084682">
+									<PropertyList>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_tami_swing_attach" ID="{BC11E0D1-3CDC-45C7-8A49-455A7BF806DE}">
+											<PropertyList>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SFX_tami_swing_attach.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1042242449"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="SceneSwitch" ID="{668FC4B0-1BC0-4728-AC69-7C3B82B73853}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Teahouse_INT" ID="{AFDCACEA-CCC3-4096-97C1-7C1B5CCB2B96}"/>
+												<CustomState Name="" ID="{44FE0E1B-58F6-46CD-8AA8-F0799314E995}" ShortID="211741694">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="20"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Boss" ID="{F806CE04-C0BB-40D5-94F0-E0466EC695B0}"/>
+												<CustomState Name="" ID="{8C19C4E5-979C-4EA9-9546-604ADA53989D}" ShortID="407538312">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="19"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Cutscene" ID="{58741484-806C-424C-90E7-B561ABFEBE6C}"/>
+												<CustomState Name="" ID="{9756BEA4-0C88-419D-B465-FA27FCBD0402}" ShortID="287411050"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Teahouse_EXT" ID="{42F3D9A6-CEA9-4928-9F93-3B5F39F8B30C}"/>
+												<CustomState Name="" ID="{B071AA7A-7F61-4AC5-9893-73F17AE98911}" ShortID="275573053">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="25"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="BellyBar" ID="{0E933AFD-9E4C-4A95-A95F-DA9E2109BBC0}"/>
+												<CustomState Name="" ID="{5B2F862F-53BD-49B0-B555-C1A67F2EC291}" ShortID="172534398"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Credits" ID="{42E0EA2F-E80A-4B58-BD2C-0F04143A1CDD}"/>
+												<CustomState Name="" ID="{509551F4-BBDA-489A-9682-7161F9C191BD}" ShortID="960249448"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="MainMenu" ID="{E3A91F98-A27F-4C64-9D40-387A4564EC72}"/>
+												<CustomState Name="" ID="{6897CFD0-1494-4329-976C-0DAEDC3AD355}" ShortID="832470107"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="None" ID="{CCC415A5-C82A-4F86-AD75-B4A1E1CECFA6}"/>
+												<CustomState Name="" ID="{8B151E45-BCE0-42EA-A0F6-20BFE7E22EC3}" ShortID="465040586"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_tami_swing_attach" ID="{BC11E0D1-3CDC-45C7-8A49-455A7BF806DE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_tami_swing_detach" ID="{B83FA519-7CAA-4473-A15A-8987552CD686}" ShortID="917930547">
+									<PropertyList>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_tami_swing_detach" ID="{B67AACDE-EB16-43D1-BF5B-A368DA5D0D3B}">
+											<PropertyList>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>-3.7</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SFX_tami_swing_detach.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="319881484"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="SceneSwitch" ID="{668FC4B0-1BC0-4728-AC69-7C3B82B73853}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Teahouse_INT" ID="{AFDCACEA-CCC3-4096-97C1-7C1B5CCB2B96}"/>
+												<CustomState Name="" ID="{83582196-EAF5-4C0A-A3A6-FD2DA5D2F228}" ShortID="597154677">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="15"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Boss" ID="{F806CE04-C0BB-40D5-94F0-E0466EC695B0}"/>
+												<CustomState Name="" ID="{841EA30B-8627-4EF2-BE5F-5F7197CD2866}" ShortID="671763394">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="15"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Cutscene" ID="{58741484-806C-424C-90E7-B561ABFEBE6C}"/>
+												<CustomState Name="" ID="{FAB3E240-5D8A-4F46-A12D-28A99CB06AC4}" ShortID="210736747"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Teahouse_EXT" ID="{42F3D9A6-CEA9-4928-9F93-3B5F39F8B30C}"/>
+												<CustomState Name="" ID="{4A4EC474-F669-4A9E-BE61-515E52B0DCFA}" ShortID="349867095">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="20"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="BellyBar" ID="{0E933AFD-9E4C-4A95-A95F-DA9E2109BBC0}"/>
+												<CustomState Name="" ID="{94C9E04A-3380-4599-82D8-821874AE110C}" ShortID="1059627297"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Credits" ID="{42E0EA2F-E80A-4B58-BD2C-0F04143A1CDD}"/>
+												<CustomState Name="" ID="{8E3D5C82-FB74-403E-AB5C-11D5F1745EBE}" ShortID="26241781"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="MainMenu" ID="{E3A91F98-A27F-4C64-9D40-387A4564EC72}"/>
+												<CustomState Name="" ID="{94A66BCB-748C-40EB-B23A-ACF4FDCBD7D4}" ShortID="821582244"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="None" ID="{CCC415A5-C82A-4F86-AD75-B4A1E1CECFA6}"/>
+												<CustomState Name="" ID="{F39FBAF3-8460-4338-A81B-89398E7C5E2C}" ShortID="207192864"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_tami_swing_detach" ID="{B67AACDE-EB16-43D1-BF5B-A368DA5D0D3B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_tami_swing_ascend" ID="{C3728B0C-E1FF-49DF-A145-0A1382C31046}" ShortID="39739595">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_tami_swing_ascend" ID="{0CD1DCA4-38F2-4A2C-9221-3300A2BE0A35}">
+											<PropertyList>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SFX_tami_swing_ascend.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="775235115"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{D976212F-8785-4AA9-8A7B-27574F681C42}" ShortID="399099010">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Volume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<Custom>
+																	<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{55123777-EF8A-43F1-8F9C-FAF51CA033E2}" ShortID="838501927">
+																		<PropertyList>
+																			<Property Name="EnvelopeAttackTime" Type="Real64" Value="1"/>
+																			<Property Name="EnvelopeDecayTime" Type="Real64" Value="0"/>
+																			<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.005"/>
+																		</PropertyList>
+																	</ModulatorEnvelope>
+																</Custom>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{D8B42E83-843D-46A9-8EDF-C6A88493CAC7}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>21</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>-4.43698</YPos>
+																				<Flags>53</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_tami_swing_ascend" ID="{0CD1DCA4-38F2-4A2C-9221-3300A2BE0A35}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_tami_swing_descend" ID="{544FA2BC-653C-44CE-AF12-3FB025BF4C64}" ShortID="416840587">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_tami_swing_descend" ID="{36F6FF9A-A4CE-4319-8042-663B966C9492}">
+											<PropertyList>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SFX_tami_swing_descend.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="735618552"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_tami_swing_descend" ID="{36F6FF9A-A4CE-4319-8042-663B966C9492}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_tami_swing_max" ID="{C5320B7A-2D88-4BA0-A894-07A8CF2AE11C}" ShortID="375083131">
+									<PropertyList>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_tami_swing_max" ID="{2C02DE13-BFD9-48CC-8838-BEA94E9C0E15}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_tami_swing_max.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1043403401"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_tami_swing_max" ID="{2C02DE13-BFD9-48CC-8838-BEA94E9C0E15}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_tami_swing_min" ID="{23922D24-E827-44AC-83CD-C61208FBC02A}" ShortID="962114960">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>13</Value>
+											</ValueList>
+										</Property>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_tami_swing_min" ID="{2C006320-526B-42D7-AABC-F424E7DDB625}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0717387987721351"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0579428759313399"/>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>-4.2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SFX_tami_swing_min.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="333446308"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_tami_swing_min" ID="{2C006320-526B-42D7-AABC-F424E7DDB625}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<BlendContainer Name="SFX_tami_swing_backward" ID="{6C7A454C-B272-472F-984C-F959702AB74D}" ShortID="408793803">
+									<PropertyList>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_tami_swing_backward" ID="{0F7E936A-0AA6-468E-9867-AC2A84E2AAD2}" ShortID="833114908">
+											<PropertyList>
+												<Property Name="MakeUpGain" Type="Real64">
+													<ValueList>
+														<Value>7</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{6939D831-6BB3-4BE6-B9A7-17FE4A812857}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="50"/>
+																	<Property Name="Min" Type="Real64" Value="-50"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UserAuxSendVolume1" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Tami Footsteps" ID="{73B5C515-CE78-4B80-BDD7-E5F23EB45B27}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="BellyBar_Reverb" ID="{D05B4065-7A01-419D-AC28-11F72A9787B0}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="Heart_Reverb" ID="{9B58766C-D008-49F6-B8B1-CDFF11EA9602}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_tami_swing_backward" ID="{53B8FC50-8606-4626-BD83-938B96779833}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_tami_swing_backward.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="903111121"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="SceneSwitch" ID="{668FC4B0-1BC0-4728-AC69-7C3B82B73853}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Teahouse_INT" ID="{AFDCACEA-CCC3-4096-97C1-7C1B5CCB2B96}"/>
+														<CustomState Name="" ID="{79ED9558-6D13-453B-8DF4-931BBB7C0C44}" ShortID="823111736">
+															<PropertyList>
+																<Property Name="Lowpass" Type="int16" Value="35"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Boss" ID="{F806CE04-C0BB-40D5-94F0-E0466EC695B0}"/>
+														<CustomState Name="" ID="{C725C162-18DC-4012-95AB-A37E9EAB9A23}" ShortID="953647120">
+															<PropertyList>
+																<Property Name="Lowpass" Type="int16" Value="35"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Cutscene" ID="{58741484-806C-424C-90E7-B561ABFEBE6C}"/>
+														<CustomState Name="" ID="{B056FF29-53DF-4D5F-8B0C-440BFA96CA34}" ShortID="512080089"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Teahouse_EXT" ID="{42F3D9A6-CEA9-4928-9F93-3B5F39F8B30C}"/>
+														<CustomState Name="" ID="{A277A937-629C-4478-B8A8-5EB0D7E508E0}" ShortID="517940155">
+															<PropertyList>
+																<Property Name="Lowpass" Type="int16" Value="35"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="BellyBar" ID="{0E933AFD-9E4C-4A95-A95F-DA9E2109BBC0}"/>
+														<CustomState Name="" ID="{6B0F7171-3B4A-4E72-BD03-629C50B6F4C2}" ShortID="359944213"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Credits" ID="{42E0EA2F-E80A-4B58-BD2C-0F04143A1CDD}"/>
+														<CustomState Name="" ID="{9FCD23BD-0AD6-45B8-BCD1-9C73128278E9}" ShortID="98444652"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="MainMenu" ID="{E3A91F98-A27F-4C64-9D40-387A4564EC72}"/>
+														<CustomState Name="" ID="{C00A610B-3398-470A-82A6-BF16BE3F3AFC}" ShortID="67163360"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="None" ID="{CCC415A5-C82A-4F86-AD75-B4A1E1CECFA6}"/>
+														<CustomState Name="" ID="{FB22E08B-A052-46E5-9D9D-5734B04F0B52}" ShortID="828041589"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<ObjectLists>
+												<ObjectList Name="RTPC">
+													<Reference>
+														<Local>
+															<RTPC Name="" ID="{7401AEE9-A870-43C7-B4F9-56AD80CFD325}" ShortID="45561219">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="Volume"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<ObjectRef Name="Velocity_Magnitude" ID="{B0AC36E5-B771-48F4-9364-35E867E43B61}" WorkUnitID="{BBDCF0C5-3151-4AE8-BF07-38603B84D811}"/>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{1215314D-9BBD-46EF-A31E-C19117A377D2}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>-200</YPos>
+																						<Flags>5</Flags>
+																						<SegmentShape>Log1</SegmentShape>
+																					</Point>
+																					<Point>
+																						<XPos>1000</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_tami_swing_backward" ID="{53B8FC50-8606-4626-BD83-938B96779833}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</BlendContainer>
+								<BlendContainer Name="SFX_tami_swing_forward" ID="{F3AE550E-273D-4FE0-A86D-290BB410CEC0}" ShortID="130276354">
+									<PropertyList>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SFX_tami_swing_forward" ID="{016BD916-AFFF-4CC5-A08E-CABAADB99CE8}" ShortID="818307617">
+											<PropertyList>
+												<Property Name="MakeUpGain" Type="Real64">
+													<ValueList>
+														<Value>7</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{85BBDBA7-9C69-4830-B441-31AF5D8DE087}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="50"/>
+																	<Property Name="Min" Type="Real64" Value="-50"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+												<Property Name="UserAuxSendVolume1" Type="Real64">
+													<ValueList>
+														<Value>-96</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Tami Footsteps" ID="{73B5C515-CE78-4B80-BDD7-E5F23EB45B27}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="BellyBar_Reverb" ID="{D05B4065-7A01-419D-AC28-11F72A9787B0}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+												<Reference Name="UserAuxSend1">
+													<ObjectRef Name="Heart_Reverb" ID="{9B58766C-D008-49F6-B8B1-CDFF11EA9602}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SFX_tami_swing_forward" ID="{53E4EF52-A08B-4A7C-9159-14DE8102AFA8}">
+													<Language>SFX</Language>
+													<AudioFile>SFX_tami_swing_forward.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="72581235"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="SceneSwitch" ID="{668FC4B0-1BC0-4728-AC69-7C3B82B73853}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Teahouse_INT" ID="{AFDCACEA-CCC3-4096-97C1-7C1B5CCB2B96}"/>
+														<CustomState Name="" ID="{1BA6D6E5-F3A8-424A-8F5C-2C522612DF34}" ShortID="175541033">
+															<PropertyList>
+																<Property Name="Lowpass" Type="int16" Value="35"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Boss" ID="{F806CE04-C0BB-40D5-94F0-E0466EC695B0}"/>
+														<CustomState Name="" ID="{DE99C358-B971-47F3-AAE9-88CFBBE97F51}" ShortID="898537994">
+															<PropertyList>
+																<Property Name="Lowpass" Type="int16" Value="35"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Cutscene" ID="{58741484-806C-424C-90E7-B561ABFEBE6C}"/>
+														<CustomState Name="" ID="{53350759-1185-46C1-A529-43F5C6F4C2AC}" ShortID="69443770"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Teahouse_EXT" ID="{42F3D9A6-CEA9-4928-9F93-3B5F39F8B30C}"/>
+														<CustomState Name="" ID="{E72E6655-D585-4269-91DB-F594BC8DA1D1}" ShortID="328365696">
+															<PropertyList>
+																<Property Name="Lowpass" Type="int16" Value="35"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="BellyBar" ID="{0E933AFD-9E4C-4A95-A95F-DA9E2109BBC0}"/>
+														<CustomState Name="" ID="{362D5DA5-E1F6-4896-B229-3D62C3B5342C}" ShortID="298330127"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Credits" ID="{42E0EA2F-E80A-4B58-BD2C-0F04143A1CDD}"/>
+														<CustomState Name="" ID="{68A448D9-E700-4A11-B951-B9A6DB9A13B1}" ShortID="893068312"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="MainMenu" ID="{E3A91F98-A27F-4C64-9D40-387A4564EC72}"/>
+														<CustomState Name="" ID="{00EB8CCB-DCFE-451A-B5B5-470C2CFA7487}" ShortID="664240559"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="None" ID="{CCC415A5-C82A-4F86-AD75-B4A1E1CECFA6}"/>
+														<CustomState Name="" ID="{A86A6E2C-BB3B-4043-9D89-89E83E193E17}" ShortID="408311568"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<ObjectLists>
+												<ObjectList Name="RTPC">
+													<Reference>
+														<Local>
+															<RTPC Name="" ID="{F15A58FD-9441-46A7-A207-D690319A00BA}" ShortID="1035165390">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="Volume"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<ObjectRef Name="Velocity_Magnitude" ID="{B0AC36E5-B771-48F4-9364-35E867E43B61}" WorkUnitID="{BBDCF0C5-3151-4AE8-BF07-38603B84D811}"/>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{BAC93DAC-9EE6-4C76-BABE-F6A00A9E8068}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>-200</YPos>
+																						<Flags>5</Flags>
+																						<SegmentShape>Log1</SegmentShape>
+																					</Point>
+																					<Point>
+																						<XPos>1000</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+											<ActiveSourceList>
+												<ActiveSource Name="SFX_tami_swing_forward" ID="{53E4EF52-A08B-4A7C-9159-14DE8102AFA8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</BlendContainer>
+								<Sound Name="SFX_tami_swing_swish" ID="{48CF1396-8588-428C-B819-2F71E31DA3B1}" ShortID="684602392">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>27</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>45</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{EEBC2AAE-2EE1-4162-A153-3D00471CDE22}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{1CE6E5CC-E305-46B0-B917-87B6065E16B5}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-96</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UserAuxSendVolume1" Type="Real64">
+											<ValueList>
+												<Value>-96</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Tami Footsteps" ID="{73B5C515-CE78-4B80-BDD7-E5F23EB45B27}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="BellyBar_Reverb" ID="{D05B4065-7A01-419D-AC28-11F72A9787B0}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+										<Reference Name="UserAuxSend1">
+											<ObjectRef Name="Heart_Reverb" ID="{9B58766C-D008-49F6-B8B1-CDFF11EA9602}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="White Noise" ID="{3A1B5FC5-7688-40E0-9006-FCC355E6D0DF}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>White Noise.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="459007389"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{1B8B3EA7-F823-4CB4-A1E2-1E4CAF42B303}" ShortID="992406152">
+														<ReferenceList>
+															<Reference Name="Effect">
+																<Custom>
+																	<Effect Name="Parametric EQ (Custom)" ID="{37D907A0-22AD-4A09-8BB5-2F3E8B219FF4}" ShortID="430475093" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+																		<PropertyList>
+																			<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
+																			<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
+																			<Property Name="FrequencyBand1" Type="Real32" Value="285"/>
+																			<Property Name="FrequencyBand2" Type="Real32" Value="560"/>
+																			<Property Name="FrequencyBand3" Type="Real32" Value="20"/>
+																			<Property Name="GainBand1" Type="Real32" Value="-24"/>
+																			<Property Name="GainBand2" Type="Real32" Value="5"/>
+																			<Property Name="GainBand3" Type="Real32" Value="24"/>
+																			<Property Name="QFactorBand2" Type="Real32" Value="9.8"/>
+																			<Property Name="QFactorBand3" Type="Real32" Value="0.5"/>
+																		</PropertyList>
+																		<ObjectLists>
+																			<ObjectList Name="RTPC">
+																				<Reference>
+																					<Local>
+																						<RTPC Name="" ID="{7C03B4AC-4AD0-4277-B000-D500D90CC0B2}" ShortID="856529865">
+																							<PropertyList>
+																								<Property Name="PropertyName" Type="string" Value="FrequencyBand2"/>
+																							</PropertyList>
+																							<ReferenceList>
+																								<Reference Name="ControlInput">
+																									<Custom>
+																										<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{C3E07E9D-439C-4E1D-BCE5-A66349B6DB59}" ShortID="490692981">
+																											<PropertyList>
+																												<Property Name="EnvelopeDecayTime" Type="Real64" Value="0.5"/>
+																												<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+																												<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+																												<Property Name="ModulatorScope" Type="int32" Value="0"/>
+																											</PropertyList>
+																										</ModulatorEnvelope>
+																									</Custom>
+																								</Reference>
+																								<Reference Name="Curve">
+																									<Custom>
+																										<Curve Name="" ID="{3C5847A5-DBBB-4C0A-87A0-5B988C774806}">
+																											<PropertyList>
+																												<Property Name="Flags" Type="int32" Value="5"/>
+																											</PropertyList>
+																											<PointList>
+																												<Point>
+																													<XPos>0</XPos>
+																													<YPos>158.12785</YPos>
+																													<Flags>21</Flags>
+																												</Point>
+																												<Point>
+																													<XPos>1</XPos>
+																													<YPos>800</YPos>
+																													<Flags>53</Flags>
+																												</Point>
+																											</PointList>
+																										</Curve>
+																									</Custom>
+																								</Reference>
+																							</ReferenceList>
+																						</RTPC>
+																					</Local>
+																				</Reference>
+																				<Reference>
+																					<Local>
+																						<RTPC Name="" ID="{85C0946A-ECBC-474B-B287-4C34B165C37A}" ShortID="689748105">
+																							<PropertyList>
+																								<Property Name="PropertyName" Type="string" Value="FrequencyBand1"/>
+																							</PropertyList>
+																							<ReferenceList>
+																								<Reference Name="ControlInput">
+																									<Custom>
+																										<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{8DAD3C1B-5C1F-4C7A-B29A-3D94431FE1EB}" ShortID="677607358">
+																											<PropertyList>
+																												<Property Name="EnvelopeDecayTime" Type="Real64" Value="0.5"/>
+																												<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+																												<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+																												<Property Name="ModulatorScope" Type="int32" Value="0"/>
+																											</PropertyList>
+																										</ModulatorEnvelope>
+																									</Custom>
+																								</Reference>
+																								<Reference Name="Curve">
+																									<Custom>
+																										<Curve Name="" ID="{787E8ECD-EEB1-47A9-9ED6-F66663B0F9F4}">
+																											<PropertyList>
+																												<Property Name="Flags" Type="int32" Value="5"/>
+																											</PropertyList>
+																											<PointList>
+																												<Point>
+																													<XPos>0</XPos>
+																													<YPos>20</YPos>
+																													<Flags>21</Flags>
+																												</Point>
+																												<Point>
+																													<XPos>1</XPos>
+																													<YPos>450</YPos>
+																													<Flags>53</Flags>
+																												</Point>
+																											</PointList>
+																										</Curve>
+																									</Custom>
+																								</Reference>
+																							</ReferenceList>
+																						</RTPC>
+																					</Local>
+																				</Reference>
+																				<Reference>
+																					<Local>
+																						<RTPC Name="" ID="{9F5F6117-9BB4-4792-8538-488128C3753D}" ShortID="744663868">
+																							<PropertyList>
+																								<Property Name="PropertyName" Type="string" Value="FrequencyBand3"/>
+																							</PropertyList>
+																							<ReferenceList>
+																								<Reference Name="ControlInput">
+																									<Custom>
+																										<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{22DA3C6F-9922-4B5B-8B35-A0BDC7F9E3C2}" ShortID="210109357">
+																											<PropertyList>
+																												<Property Name="EnvelopeDecayTime" Type="Real64" Value="0.5"/>
+																												<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+																												<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+																												<Property Name="ModulatorScope" Type="int32" Value="0"/>
+																											</PropertyList>
+																										</ModulatorEnvelope>
+																									</Custom>
+																								</Reference>
+																								<Reference Name="Curve">
+																									<Custom>
+																										<Curve Name="" ID="{A0EF8696-A69F-4844-87AF-120A6F4A4C69}">
+																											<PropertyList>
+																												<Property Name="Flags" Type="int32" Value="5"/>
+																											</PropertyList>
+																											<PointList>
+																												<Point>
+																													<XPos>0</XPos>
+																													<YPos>196.82381</YPos>
+																													<Flags>21</Flags>
+																												</Point>
+																												<Point>
+																													<XPos>1</XPos>
+																													<YPos>700</YPos>
+																													<Flags>53</Flags>
+																												</Point>
+																											</PointList>
+																										</Curve>
+																									</Custom>
+																								</Reference>
+																							</ReferenceList>
+																						</RTPC>
+																					</Local>
+																				</Reference>
+																			</ObjectList>
+																		</ObjectLists>
+																	</Effect>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{629B6E04-BAD4-435E-B622-74EBA51D46FB}" ShortID="690392597">
+														<ReferenceList>
+															<Reference Name="Effect">
+																<Custom>
+																	<Effect Name="RoomVerb (Custom)" ID="{E6F96652-DB03-44C6-9C32-D567572D83A4}" ShortID="468018233" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+																		<PropertyList>
+																			<Property Name="DryLevel" Type="Real32" Value="-0.3"/>
+																			<Property Name="ERLevel" Type="Real32" Value="0"/>
+																			<Property Name="HFDamping" Type="Real32" Value="0.5"/>
+																			<Property Name="ReverbLevel" Type="Real32" Value="-96"/>
+																		</PropertyList>
+																	</Effect>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{FF4F613E-3076-4DC4-A21D-E581D1550C51}" ShortID="900117064">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Volume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<Custom>
+																	<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{9C790D76-B7D0-494B-B388-2009FC5C3E21}" ShortID="81883803">
+																		<PropertyList>
+																			<Property Name="EnvelopeDecayTime" Type="Real64" Value="0.5">
+																				<ModifierList>
+																					<ModifierInfo>
+																						<Modifier Name="" ID="{A697FB01-8407-4B7C-9CC0-67ED6D02069B}">
+																							<PropertyList>
+																								<Property Name="Enabled" Type="bool" Value="True"/>
+																								<Property Name="Max" Type="Real64" Value="0.1"/>
+																								<Property Name="Min" Type="Real64" Value="-0.1"/>
+																							</PropertyList>
+																						</Modifier>
+																					</ModifierInfo>
+																				</ModifierList>
+																			</Property>
+																			<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0"/>
+																			<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+																			<Property Name="ModulatorScope" Type="int32" Value="0"/>
+																		</PropertyList>
+																	</ModulatorEnvelope>
+																</Custom>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{08E47854-29F7-427E-8EC0-64AA447D78DB}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>21</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>0</YPos>
+																				<Flags>53</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{AEDBF5D5-298B-4D32-8317-9D0F5F699BA3}" ShortID="933299433">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Volume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Velocity_Magnitude_Peak" ID="{81785343-83C8-4B8B-8591-0DBC9B30B860}" WorkUnitID="{BBDCF0C5-3151-4AE8-BF07-38603B84D811}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{F63E4E9D-76F4-402D-95BC-FA179178C1F7}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1000</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+									<ActiveSourceList>
+										<ActiveSource Name="White Noise" ID="{3A1B5FC5-7688-40E0-9006-FCC355E6D0DF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<ActorMixer Name="SFX_tami_land" ID="{C41B2135-36D4-4FB2-A294-6092A24B4F02}" ShortID="644862620">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_tami_ball_land" ID="{E931CC79-E1E1-4ACB-8451-01D1966818B0}" ShortID="666953362">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-96</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UserAuxSendVolume1" Type="Real64">
+											<ValueList>
+												<Value>-96</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Tami Footsteps" ID="{73B5C515-CE78-4B80-BDD7-E5F23EB45B27}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="BellyBar_Reverb" ID="{D05B4065-7A01-419D-AC28-11F72A9787B0}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+										<Reference Name="UserAuxSend1">
+											<ObjectRef Name="Heart_Reverb" ID="{9B58766C-D008-49F6-B8B1-CDFF11EA9602}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_tami_ball_land" ID="{C03524B6-43FF-47E9-9461-A210AC911FD7}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_tami_ball_land.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="479306740"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="SceneSwitch" ID="{668FC4B0-1BC0-4728-AC69-7C3B82B73853}"/>
+											</StateGroupInfo>
+											<StateGroupInfo>
+												<StateGroupRef Name="AbilityState" ID="{E7CAE0D7-130D-4B0F-9D73-D972453724B3}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Teahouse_INT" ID="{AFDCACEA-CCC3-4096-97C1-7C1B5CCB2B96}"/>
+												<CustomState Name="" ID="{79ED6189-1DAD-40CB-B6B1-504D605C29CF}" ShortID="108383320"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Boss" ID="{F806CE04-C0BB-40D5-94F0-E0466EC695B0}"/>
+												<CustomState Name="" ID="{5C4D9BE7-12F4-4BE8-96D1-CCEEF37482D4}" ShortID="1056119275"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Cutscene" ID="{58741484-806C-424C-90E7-B561ABFEBE6C}"/>
+												<CustomState Name="" ID="{ED5FCBD9-C921-412A-84C2-B243F76FD09D}" ShortID="830670206"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="None" ID="{F9646739-8EBC-43FA-9AE8-8806E3C04BF6}"/>
+												<CustomState Name="" ID="{E37F45D7-59B2-4FF9-931F-43FC2A1C9161}" ShortID="90373081">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Teahouse_EXT" ID="{42F3D9A6-CEA9-4928-9F93-3B5F39F8B30C}"/>
+												<CustomState Name="" ID="{9B112CA1-8849-4C5B-92DE-BD0F2448D3FE}" ShortID="886341473"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Ball" ID="{B680800C-915A-4A09-9120-DFFDF43EB3CF}"/>
+												<CustomState Name="" ID="{D60E2A84-64BF-48E5-8DD5-993798214F2A}" ShortID="84342111"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="BellyBar" ID="{0E933AFD-9E4C-4A95-A95F-DA9E2109BBC0}"/>
+												<CustomState Name="" ID="{32723828-D1D5-436C-8F06-8275551E4E16}" ShortID="920362884"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Credits" ID="{42E0EA2F-E80A-4B58-BD2C-0F04143A1CDD}"/>
+												<CustomState Name="" ID="{D3B31F87-2133-4417-8859-775A49EC1415}" ShortID="221457942"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="MainMenu" ID="{E3A91F98-A27F-4C64-9D40-387A4564EC72}"/>
+												<CustomState Name="" ID="{50822570-BA67-4D0D-9AB2-DD0A56651D8E}" ShortID="164653334"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Default" ID="{B1C0D2A1-AD55-4EE2-8E15-50E18E61707D}"/>
+												<CustomState Name="" ID="{45A12434-4C49-4DCA-8AF9-3D3C03E94084}" ShortID="463502512">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="None" ID="{CCC415A5-C82A-4F86-AD75-B4A1E1CECFA6}"/>
+												<CustomState Name="" ID="{65E95E9F-C848-4A46-B781-1B6241D9F39F}" ShortID="827349766"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_tami_ball_land" ID="{C03524B6-43FF-47E9-9461-A210AC911FD7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_tami_land" ID="{F34D8396-C327-4EE3-A6B0-BC4BC336AA6E}" ShortID="720868458">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{971AE6FF-7BBB-49E5-8A8B-E42A8E6DA1A5}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-50"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-96</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UserAuxSendVolume1" Type="Real64">
+											<ValueList>
+												<Value>-96</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{523B6799-251D-463F-A359-5D291D2AA7B8}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Tami Footsteps" ID="{73B5C515-CE78-4B80-BDD7-E5F23EB45B27}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="BellyBar_Reverb" ID="{D05B4065-7A01-419D-AC28-11F72A9787B0}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+										<Reference Name="UserAuxSend1">
+											<ObjectRef Name="Heart_Reverb" ID="{9B58766C-D008-49F6-B8B1-CDFF11EA9602}" WorkUnitID="{C373A0CC-1E6B-4948-9028-2FCAFE40E92A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_tami_land" ID="{475D6849-DD7C-4B72-B4A1-3245D5FED61D}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SFX_tami_land.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="951459047"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="SceneSwitch" ID="{668FC4B0-1BC0-4728-AC69-7C3B82B73853}"/>
+											</StateGroupInfo>
+											<StateGroupInfo>
+												<StateGroupRef Name="AbilityState" ID="{E7CAE0D7-130D-4B0F-9D73-D972453724B3}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Teahouse_INT" ID="{AFDCACEA-CCC3-4096-97C1-7C1B5CCB2B96}"/>
+												<CustomState Name="" ID="{F5EEFB5B-962E-4FE8-B4AC-3F9BC0AD8629}" ShortID="879164194">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="7"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Boss" ID="{F806CE04-C0BB-40D5-94F0-E0466EC695B0}"/>
+												<CustomState Name="" ID="{C2AC8A17-F750-4CFF-803F-A7B50B0A1D49}" ShortID="595780570">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="7"/>
+														<Property Name="Volume" Type="Real64" Value="-3"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Cutscene" ID="{58741484-806C-424C-90E7-B561ABFEBE6C}"/>
+												<CustomState Name="" ID="{1ACA090A-9AE1-4DC6-90E6-C0F443649047}" ShortID="761206689"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="None" ID="{F9646739-8EBC-43FA-9AE8-8806E3C04BF6}"/>
+												<CustomState Name="" ID="{6FA40842-5EDD-425F-B799-D41F82EE8B90}" ShortID="554043405"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Teahouse_EXT" ID="{42F3D9A6-CEA9-4928-9F93-3B5F39F8B30C}"/>
+												<CustomState Name="" ID="{5A7564F0-77FB-49B3-B25F-CE6D9B6192D9}" ShortID="281155087">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="18"/>
+														<Property Name="Volume" Type="Real64" Value="-5"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Ball" ID="{B680800C-915A-4A09-9120-DFFDF43EB3CF}"/>
+												<CustomState Name="" ID="{E352511A-517C-461A-B3CD-B1C9A7C21DAA}" ShortID="142865713">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-25"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="BellyBar" ID="{0E933AFD-9E4C-4A95-A95F-DA9E2109BBC0}"/>
+												<CustomState Name="" ID="{5D11C78C-F233-4570-B2DC-EF0797D9EED8}" ShortID="684966794">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="7"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Credits" ID="{42E0EA2F-E80A-4B58-BD2C-0F04143A1CDD}"/>
+												<CustomState Name="" ID="{66F3C253-30E0-45BE-B6DB-213E4288B914}" ShortID="1961248"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="MainMenu" ID="{E3A91F98-A27F-4C64-9D40-387A4564EC72}"/>
+												<CustomState Name="" ID="{DF752391-91AA-4C6C-9C1E-EA66ABAEBBFE}" ShortID="421976090"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Default" ID="{B1C0D2A1-AD55-4EE2-8E15-50E18E61707D}"/>
+												<CustomState Name="" ID="{951E0C45-47EC-4A5C-85CE-315B34E56B47}" ShortID="591226427"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="None" ID="{CCC415A5-C82A-4F86-AD75-B4A1E1CECFA6}"/>
+												<CustomState Name="" ID="{6DAD1F5A-4E77-4349-A819-5CB651D13BD7}" ShortID="130409931"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_tami_land" ID="{475D6849-DD7C-4B72-B4A1-3245D5FED61D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+					<StateInfo>
+						<StatePropertyList>
+							<Property Name="Highpass"/>
+							<Property Name="Lowpass"/>
+							<Property Name="MakeUpGain"/>
+							<Property Name="Pitch"/>
+							<Property Name="UserAuxSendVolume0"/>
+							<Property Name="UserAuxSendVolume1"/>
+							<Property Name="UserAuxSendVolume2"/>
+							<Property Name="UserAuxSendVolume3"/>
+							<Property Name="Volume"/>
+						</StatePropertyList>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="SceneSwitch" ID="{668FC4B0-1BC0-4728-AC69-7C3B82B73853}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Teahouse_INT" ID="{AFDCACEA-CCC3-4096-97C1-7C1B5CCB2B96}"/>
+								<CustomState Name="" ID="{6B321CA6-8910-4C01-A06D-525ECC671815}" ShortID="582581653">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume3" Type="Real64" Value="90"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Boss" ID="{F806CE04-C0BB-40D5-94F0-E0466EC695B0}"/>
+								<CustomState Name="" ID="{3C7E5E20-B4FA-42AF-A6B2-78E36A5A62D8}" ShortID="699978804">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume1" Type="Real64" Value="90"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Cutscene" ID="{58741484-806C-424C-90E7-B561ABFEBE6C}"/>
+								<CustomState Name="" ID="{21DE484C-F14E-433F-AD95-2584523A6319}" ShortID="418946502"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Teahouse_EXT" ID="{42F3D9A6-CEA9-4928-9F93-3B5F39F8B30C}"/>
+								<CustomState Name="" ID="{CE2CFE1E-98D7-4ED0-850C-7CB8170BCF21}" ShortID="1038797697">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume2" Type="Real64" Value="90"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="BellyBar" ID="{0E933AFD-9E4C-4A95-A95F-DA9E2109BBC0}"/>
+								<CustomState Name="" ID="{1EAE71DD-D98D-4D27-A197-1C82EAB51306}" ShortID="985522869">
+									<PropertyList>
+										<Property Name="UserAuxSendVolume0" Type="Real64" Value="90"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Credits" ID="{42E0EA2F-E80A-4B58-BD2C-0F04143A1CDD}"/>
+								<CustomState Name="" ID="{3227A02F-6DC2-4188-B334-28F52D5A5277}" ShortID="650990427"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="MainMenu" ID="{E3A91F98-A27F-4C64-9D40-387A4564EC72}"/>
+								<CustomState Name="" ID="{AD737505-9C74-427D-996D-DBBCD90DD712}" ShortID="737669152"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="None" ID="{CCC415A5-C82A-4F86-AD75-B4A1E1CECFA6}"/>
+								<CustomState Name="" ID="{AE38B14E-A689-4935-B9F4-3FAA1442234C}" ShortID="534433019"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ObjectLists>
+						<ObjectList Name="RTPC">
+							<Reference>
+								<Local>
+									<RTPC Name="" ID="{32F6B5A3-BF6C-4A9D-B91D-E9A8D11EE31C}" ShortID="978393343">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="SC_Dragging" ID="{0F6E7B58-61F2-416A-874B-1B1FC7E05EA8}" WorkUnitID="{09AA0B54-5263-4C3D-B792-8594A0055D34}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{99C2F29B-0C6F-4942-8844-3D3F625F20E0}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-48</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>-30</XPos>
+																<YPos>-8.17701</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-12.75945</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

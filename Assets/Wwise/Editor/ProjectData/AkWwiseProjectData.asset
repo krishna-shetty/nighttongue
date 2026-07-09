@@ -1,0 +1,4825 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c5d675bc65e07742aa1f29cc4678972, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: bc279ad611500c42a880baa8a2bbeaf6
+    ParentPath: Virtual Acoustics\Default Work Unit
+    guid: bc279ad611500c42a880baa8a2bbeaf6
+    GuidInternal: 
+    m_lastTime: -8584230002721120111
+    List: []
+  - PhysicalPath: Virtual Acoustics\Factory Acoustic Textures.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Factory Acoustic Textures
+      ObjectType: 12
+      guid: 6b663d46a83ca54f8b4a5fef12b883f6
+    ParentPath: Virtual Acoustics\Factory Acoustic Textures
+    guid: 6b663d46a83ca54f8b4a5fef12b883f6
+    GuidInternal: 
+    m_lastTime: -8584230002721089737
+    List:
+    - name: Acoustic_Banner
+      guid: f2532d2fccda8e408b8898b1b52a26d6
+      id: 4168643977
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Acoustic_Banner
+        ObjectType: 15
+        guid: f2532d2fccda8e408b8898b1b52a26d6
+      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Acoustic_Banner
+    - name: Anechoic
+      guid: 32c20a8be202de4ebeacfdd1a900e3ed
+      id: 1873957695
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Anechoic
+        ObjectType: 15
+        guid: 32c20a8be202de4ebeacfdd1a900e3ed
+      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Anechoic
+    - name: Brick
+      guid: a9a586b004f2534ca838bdb18b18f6d6
+      id: 504532776
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Brick
+        ObjectType: 15
+        guid: a9a586b004f2534ca838bdb18b18f6d6
+      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Brick
+    - name: Carpet
+      guid: 8975223456dc604296c4b9f4b669092b
+      id: 2412606308
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Carpet
+        ObjectType: 15
+        guid: 8975223456dc604296c4b9f4b669092b
+      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Carpet
+    - name: Concrete
+      guid: 001cf85c9628e04aaf7c3080bdaba682
+      id: 841620460
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Concrete
+        ObjectType: 15
+        guid: 001cf85c9628e04aaf7c3080bdaba682
+      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Concrete
+    - name: Cork_Tiles
+      guid: 19c9d2305f92434189063dbb3c4ae5e2
+      id: 3195498748
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Cork_Tiles
+        ObjectType: 15
+        guid: 19c9d2305f92434189063dbb3c4ae5e2
+      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Cork_Tiles
+    - name: Curtains
+      guid: 339ee6f8975c6849b508a1535f2d66e8
+      id: 2928161104
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Curtains
+        ObjectType: 15
+        guid: 339ee6f8975c6849b508a1535f2d66e8
+      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Curtains
+    - name: Drywall
+      guid: f4e3a4680b4c8746a8b8a84db93dbc8f
+      id: 3670307564
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Drywall
+        ObjectType: 15
+        guid: f4e3a4680b4c8746a8b8a84db93dbc8f
+      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Drywall
+    - name: Fabric
+      guid: 32d581836edbed4ea7a3bc7b0a0b8ba8
+      id: 1970351858
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Fabric
+        ObjectType: 15
+        guid: 32d581836edbed4ea7a3bc7b0a0b8ba8
+      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Fabric
+    - name: Mountain
+      guid: 313793c51a00b44a98dd9b033a8c8eab
+      id: 513139656
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Mountain
+        ObjectType: 15
+        guid: 313793c51a00b44a98dd9b033a8c8eab
+      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Mountain
+    - name: Textures
+      guid: a3121e7828e3df4a8bba5fb89c74031d
+      id: 1276632493
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      Path: Virtual Acoustics\Factory Acoustic Textures\Textures
+    - name: Tile
+      guid: c4da82a82a13b747ba9db9907ba29cc0
+      id: 2637588553
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Tile
+        ObjectType: 15
+        guid: c4da82a82a13b747ba9db9907ba29cc0
+      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Tile
+    - name: Wood
+      guid: 96bcff1fe76f9e48ba6c7c14a71391ae
+      id: 2058049674
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Wood
+        ObjectType: 15
+        guid: 96bcff1fe76f9e48ba6c7c14a71391ae
+      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Wood
+    - name: Wood_Bright
+      guid: e5d1857ba2c1634e9a13cec54b641adc
+      id: 4262522749
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Wood_Bright
+        ObjectType: 15
+        guid: e5d1857ba2c1634e9a13cec54b641adc
+      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Wood_Bright
+    - name: Wood_Deep
+      guid: 8e474652dac50c4ea0dec98d1479529a
+      id: 1755085759
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Wood_Deep
+        ObjectType: 15
+        guid: 8e474652dac50c4ea0dec98d1479529a
+      Path: Virtual Acoustics\Factory Acoustic Textures\Textures\Wood_Deep
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: cca073c36b1e484990282fcafe40e92a
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    guid: cca073c36b1e484990282fcafe40e92a
+    GuidInternal: 
+    m_lastTime: -8584230003153624311
+    List:
+    - name: AMB Bus
+      guid: fb363d3df865404185e8185cdb73577b
+      id: 1313057045
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cca073c36b1e484990282fcafe40e92a
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX Bus
+        ObjectType: 2
+        guid: 6b36300350f86549bdfed46169f493ed
+      - ElementName: AMB Bus
+        ObjectType: 2
+        guid: fb363d3df865404185e8185cdb73577b
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX Bus\AMB
+        Bus
+    - name: BellyBar_Reverb
+      guid: 65405bd0017a9d41ac2811f72a9787b0
+      id: 320567181
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cca073c36b1e484990282fcafe40e92a
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: BellyBar_Reverb
+        ObjectType: 1
+        guid: 65405bd0017a9d41ac2811f72a9787b0
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\BellyBar_Reverb
+    - name: Combat
+      guid: 9a70e5a16d7000419c7084d80ae1c278
+      id: 2764240573
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cca073c36b1e484990282fcafe40e92a
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX Bus
+        ObjectType: 2
+        guid: 6b36300350f86549bdfed46169f493ed
+      - ElementName: Combat
+        ObjectType: 2
+        guid: 9a70e5a16d7000419c7084d80ae1c278
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX Bus\Combat
+    - name: DX Bus
+      guid: d3b2127326c82f488f23854b2a1cea29
+      id: 1748021847
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cca073c36b1e484990282fcafe40e92a
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: DX Bus
+        ObjectType: 2
+        guid: d3b2127326c82f488f23854b2a1cea29
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\DX Bus
+    - name: DX Tami
+      guid: 324ff6d471a4324eb3914a6fae9e0f58
+      id: 4204629676
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cca073c36b1e484990282fcafe40e92a
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: DX Bus
+        ObjectType: 2
+        guid: d3b2127326c82f488f23854b2a1cea29
+      - ElementName: DX Tami
+        ObjectType: 2
+        guid: 324ff6d471a4324eb3914a6fae9e0f58
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\DX Bus\DX Tami
+    - name: Heart_Reverb
+      guid: 6c76589b08d0f649b8b1cdff11ea9602
+      id: 1038996342
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cca073c36b1e484990282fcafe40e92a
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Heart_Reverb
+        ObjectType: 1
+        guid: 6c76589b08d0f649b8b1cdff11ea9602
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Heart_Reverb
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cca073c36b1e484990282fcafe40e92a
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: MX Bus
+      guid: f885429242be094fb7a4882b546fab87
+      id: 3027868960
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cca073c36b1e484990282fcafe40e92a
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: MX Bus
+        ObjectType: 2
+        guid: f885429242be094fb7a4882b546fab87
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\MX Bus
+    - name: SFX Bus
+      guid: 6b36300350f86549bdfed46169f493ed
+      id: 1502772432
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cca073c36b1e484990282fcafe40e92a
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX Bus
+        ObjectType: 2
+        guid: 6b36300350f86549bdfed46169f493ed
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX Bus
+    - name: Tami Footsteps
+      guid: 15c5b57378ce804bbdd7e5f23eb45b27
+      id: 902944831
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cca073c36b1e484990282fcafe40e92a
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX Bus
+        ObjectType: 2
+        guid: 6b36300350f86549bdfed46169f493ed
+      - ElementName: Tami Footsteps
+        ObjectType: 2
+        guid: 15c5b57378ce804bbdd7e5f23eb45b27
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX Bus\Tami
+        Footsteps
+    - name: Teahouse_EXT_Reverb
+      guid: 0989c1493267624ab694772f3d162753
+      id: 2203681506
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cca073c36b1e484990282fcafe40e92a
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Teahouse_EXT_Reverb
+        ObjectType: 1
+        guid: 0989c1493267624ab694772f3d162753
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Teahouse_EXT_Reverb
+    - name: Teahouse_INT_Reverb
+      guid: d5a675034afd064a9fd65069fb1f1879
+      id: 1992311728
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cca073c36b1e484990282fcafe40e92a
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Teahouse_INT_Reverb
+        ObjectType: 1
+        guid: d5a675034afd064a9fd65069fb1f1879
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Teahouse_INT_Reverb
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 19fa6c6677dae64f80530427dfb215d2
+    ParentPath: SoundBanks\Default Work Unit
+    guid: 19fa6c6677dae64f80530427dfb215d2
+    GuidInternal: 
+    m_lastTime: -8584230002721297508
+    List:
+    - name: MainSoundBank
+      guid: a3611ca507a7134398ae6a0852d953e3
+      id: 534561221
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 19fa6c6677dae64f80530427dfb215d2
+      - ElementName: MainSoundBank
+        ObjectType: 7
+        guid: a3611ca507a7134398ae6a0852d953e3
+      Path: SoundBanks\Default Work Unit\MainSoundBank
+    - name: SoundtrackBank
+      guid: 935384c83ecabb41ae8f2221e87a9ab9
+      id: 2222677789
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 19fa6c6677dae64f80530427dfb215d2
+      - ElementName: SoundtrackBank
+        ObjectType: 7
+        guid: 935384c83ecabb41ae8f2221e87a9ab9
+      Path: SoundBanks\Default Work Unit\SoundtrackBank
+  EventWwu:
+  - PhysicalPath: Events\AMB Events WU.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: AMB Events WU
+      ObjectType: 12
+      guid: 22e77d8ed30b164fbebfacdd6b87088f
+    ParentPath: Events\AMB Events WU
+    guid: 22e77d8ed30b164fbebfacdd6b87088f
+    GuidInternal: 
+    m_lastTime: -8584230003719041008
+    List:
+    - name: Play_AMB_cup_change_direction
+      guid: c0c96d932f04404394b71bdc351da33e
+      id: 2625479552
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: AMB Events WU
+        ObjectType: 12
+        guid: 22e77d8ed30b164fbebfacdd6b87088f
+      - ElementName: Teahouse
+        ObjectType: 4
+        guid: 3a9c7c6a1fb4354b9a2f9a26ec1ef03b
+      - ElementName: Play_AMB_cup_change_direction
+        ObjectType: 3
+        guid: c0c96d932f04404394b71bdc351da33e
+      Path: Events\AMB Events WU\Teahouse\Play_AMB_cup_change_direction
+      maxAttenuation: 40
+      maxDuration: 1.0039375
+      minDuration: 0.9555625
+    - name: Play_AMB_cup_conveyor
+      guid: 3b0ed1a82cb7a14dbce2ee5900ed0fff
+      id: 337406641
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: AMB Events WU
+        ObjectType: 12
+        guid: 22e77d8ed30b164fbebfacdd6b87088f
+      - ElementName: Teahouse
+        ObjectType: 4
+        guid: 3a9c7c6a1fb4354b9a2f9a26ec1ef03b
+      - ElementName: Play_AMB_cup_conveyor
+        ObjectType: 3
+        guid: 3b0ed1a82cb7a14dbce2ee5900ed0fff
+      Path: Events\AMB Events WU\Teahouse\Play_AMB_cup_conveyor
+      maxAttenuation: 40
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_AMB_embers
+      guid: 55e368079f67bc47b005ac817de8eb1b
+      id: 670257741
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: AMB Events WU
+        ObjectType: 12
+        guid: 22e77d8ed30b164fbebfacdd6b87088f
+      - ElementName: Teahouse
+        ObjectType: 4
+        guid: 3a9c7c6a1fb4354b9a2f9a26ec1ef03b
+      - ElementName: Play_AMB_embers
+        ObjectType: 3
+        guid: 55e368079f67bc47b005ac817de8eb1b
+      Path: Events\AMB Events WU\Teahouse\Play_AMB_embers
+      maxAttenuation: 40
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_AMB_fire
+      guid: 3d58e1a8676dd3448a367ce7df0f7f09
+      id: 2767852325
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: AMB Events WU
+        ObjectType: 12
+        guid: 22e77d8ed30b164fbebfacdd6b87088f
+      - ElementName: Teahouse
+        ObjectType: 4
+        guid: 3a9c7c6a1fb4354b9a2f9a26ec1ef03b
+      - ElementName: Play_AMB_fire
+        ObjectType: 3
+        guid: 3d58e1a8676dd3448a367ce7df0f7f09
+      Path: Events\AMB Events WU\Teahouse\Play_AMB_fire
+      maxAttenuation: 40
+      maxDuration: 13.772647
+      minDuration: 10.92342
+    - name: Play_AMB_mooncake
+      guid: 734d0ed08764f644bc86608ac7d0cdb4
+      id: 3263608106
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: AMB Events WU
+        ObjectType: 12
+        guid: 22e77d8ed30b164fbebfacdd6b87088f
+      - ElementName: Teahouse
+        ObjectType: 4
+        guid: 3a9c7c6a1fb4354b9a2f9a26ec1ef03b
+      - ElementName: Play_AMB_mooncake
+        ObjectType: 3
+        guid: 734d0ed08764f644bc86608ac7d0cdb4
+      Path: Events\AMB Events WU\Teahouse\Play_AMB_mooncake
+      maxAttenuation: 40
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_AMB_plate_conveyor
+      guid: 3747f09861132b4ea0b728fa03df76b2
+      id: 2778300033
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: AMB Events WU
+        ObjectType: 12
+        guid: 22e77d8ed30b164fbebfacdd6b87088f
+      - ElementName: Teahouse
+        ObjectType: 4
+        guid: 3a9c7c6a1fb4354b9a2f9a26ec1ef03b
+      - ElementName: Play_AMB_plate_conveyor
+        ObjectType: 3
+        guid: 3747f09861132b4ea0b728fa03df76b2
+      Path: Events\AMB Events WU\Teahouse\Play_AMB_plate_conveyor
+      maxAttenuation: 40
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_AMB_utensils
+      guid: 227f401b94e2914785598e25f71ccb3c
+      id: 4240732704
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: AMB Events WU
+        ObjectType: 12
+        guid: 22e77d8ed30b164fbebfacdd6b87088f
+      - ElementName: Teahouse
+        ObjectType: 4
+        guid: 3a9c7c6a1fb4354b9a2f9a26ec1ef03b
+      - ElementName: Play_AMB_utensils
+        ObjectType: 3
+        guid: 227f401b94e2914785598e25f71ccb3c
+      Path: Events\AMB Events WU\Teahouse\Play_AMB_utensils
+      maxAttenuation: 100
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_AMB_wind_zone
+      guid: eec49a424b27424eb499ef15def6f4ad
+      id: 1558830816
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: AMB Events WU
+        ObjectType: 12
+        guid: 22e77d8ed30b164fbebfacdd6b87088f
+      - ElementName: Teahouse
+        ObjectType: 4
+        guid: 3a9c7c6a1fb4354b9a2f9a26ec1ef03b
+      - ElementName: Play_AMB_wind_zone
+        ObjectType: 3
+        guid: eec49a424b27424eb499ef15def6f4ad
+      Path: Events\AMB Events WU\Teahouse\Play_AMB_wind_zone
+      maxAttenuation: 40
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Belly_Bar_Blend_Container
+      guid: 5b3acd54dd993f47af1a55b81e431bd1
+      id: 4210201076
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: AMB Events WU
+        ObjectType: 12
+        guid: 22e77d8ed30b164fbebfacdd6b87088f
+      - ElementName: Play_Belly_Bar_Blend_Container
+        ObjectType: 3
+        guid: 5b3acd54dd993f47af1a55b81e431bd1
+      Path: Events\AMB Events WU\Play_Belly_Bar_Blend_Container
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Heart_Blend_Container
+      guid: 51b3d6d26de66c45bd5bd13e54af40c4
+      id: 1923226714
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: AMB Events WU
+        ObjectType: 12
+        guid: 22e77d8ed30b164fbebfacdd6b87088f
+      - ElementName: Play_Heart_Blend_Container
+        ObjectType: 3
+        guid: 51b3d6d26de66c45bd5bd13e54af40c4
+      Path: Events\AMB Events WU\Play_Heart_Blend_Container
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Teahouse_Blend_Container
+      guid: 45e812f23550fd48a951c78cd438a64a
+      id: 36506668
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: AMB Events WU
+        ObjectType: 12
+        guid: 22e77d8ed30b164fbebfacdd6b87088f
+      - ElementName: Teahouse
+        ObjectType: 4
+        guid: 3a9c7c6a1fb4354b9a2f9a26ec1ef03b
+      - ElementName: Play_Teahouse_Blend_Container
+        ObjectType: 3
+        guid: 45e812f23550fd48a951c78cd438a64a
+      Path: Events\AMB Events WU\Teahouse\Play_Teahouse_Blend_Container
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Teahouse_INT_Blend_Container
+      guid: 352c55eaeec3e74d947ef32e2801880f
+      id: 2803818098
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: AMB Events WU
+        ObjectType: 12
+        guid: 22e77d8ed30b164fbebfacdd6b87088f
+      - ElementName: Teahouse
+        ObjectType: 4
+        guid: 3a9c7c6a1fb4354b9a2f9a26ec1ef03b
+      - ElementName: Play_Teahouse_INT_Blend_Container
+        ObjectType: 3
+        guid: 352c55eaeec3e74d947ef32e2801880f
+      Path: Events\AMB Events WU\Teahouse\Play_Teahouse_INT_Blend_Container
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Belly_Bar_Blend_Container
+      guid: b13bbbb3513d284590a48d2441aa9bb0
+      id: 4088419506
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: AMB Events WU
+        ObjectType: 12
+        guid: 22e77d8ed30b164fbebfacdd6b87088f
+      - ElementName: Stop_Belly_Bar_Blend_Container
+        ObjectType: 3
+        guid: b13bbbb3513d284590a48d2441aa9bb0
+      Path: Events\AMB Events WU\Stop_Belly_Bar_Blend_Container
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Heart_Blend_Container
+      guid: 5c301e0692d1624f80ea47b9768628d4
+      id: 2710887140
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: AMB Events WU
+        ObjectType: 12
+        guid: 22e77d8ed30b164fbebfacdd6b87088f
+      - ElementName: Stop_Heart_Blend_Container
+        ObjectType: 3
+        guid: 5c301e0692d1624f80ea47b9768628d4
+      Path: Events\AMB Events WU\Stop_Heart_Blend_Container
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Teahouse
+      guid: 3a9c7c6a1fb4354b9a2f9a26ec1ef03b
+      id: 3073612507
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: AMB Events WU
+        ObjectType: 12
+        guid: 22e77d8ed30b164fbebfacdd6b87088f
+      - ElementName: Teahouse
+        ObjectType: 4
+        guid: 3a9c7c6a1fb4354b9a2f9a26ec1ef03b
+      Path: Events\AMB Events WU\Teahouse
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 860dc4425523d343bd745bf2b0625648
+    ParentPath: Events\Default Work Unit
+    guid: 860dc4425523d343bd745bf2b0625648
+    GuidInternal: 
+    m_lastTime: -8584230003719026020
+    List: []
+  - PhysicalPath: Events\DX Events WU.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: DX Events WU
+      ObjectType: 12
+      guid: df633d4f36e61a479b2849c528538f61
+    ParentPath: Events\DX Events WU
+    guid: df633d4f36e61a479b2849c528538f61
+    GuidInternal: 
+    m_lastTime: -8584230003719000775
+    List:
+    - name: Alveolus
+      guid: 683508ee97be68489bc5279a19683805
+      id: 3744156524
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Alveolus
+        ObjectType: 4
+        guid: 683508ee97be68489bc5279a19683805
+      Path: Events\DX Events WU\Alveolus
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Bartender
+      guid: 04ea8b7be1e6854886f3e31e491c961d
+      id: 3286153134
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Bartender
+        ObjectType: 4
+        guid: 04ea8b7be1e6854886f3e31e491c961d
+      Path: Events\DX Events WU\Bartender
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_dx_alveolus_a
+      guid: b37aaaf570b2f94a9d3411217417f385
+      id: 1017777360
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Alveolus
+        ObjectType: 4
+        guid: 683508ee97be68489bc5279a19683805
+      - ElementName: Play_dx_alveolus_a
+        ObjectType: 3
+        guid: b37aaaf570b2f94a9d3411217417f385
+      Path: Events\DX Events WU\Alveolus\Play_dx_alveolus_a
+      maxAttenuation: 0
+      maxDuration: 0.25
+      minDuration: 0.25
+    - name: Play_dx_alveolus_b
+      guid: 0189650b60591b4580043a38bb1cb50d
+      id: 1017777363
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Alveolus
+        ObjectType: 4
+        guid: 683508ee97be68489bc5279a19683805
+      - ElementName: Play_dx_alveolus_b
+        ObjectType: 3
+        guid: 0189650b60591b4580043a38bb1cb50d
+      Path: Events\DX Events WU\Alveolus\Play_dx_alveolus_b
+      maxAttenuation: 0
+      maxDuration: 0.12905984
+      minDuration: 0.12905984
+    - name: Play_dx_alveolus_c
+      guid: 577d48c82d39e446b008bc364fb3e77c
+      id: 1017777362
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Alveolus
+        ObjectType: 4
+        guid: 683508ee97be68489bc5279a19683805
+      - ElementName: Play_dx_alveolus_c
+        ObjectType: 3
+        guid: 577d48c82d39e446b008bc364fb3e77c
+      Path: Events\DX Events WU\Alveolus\Play_dx_alveolus_c
+      maxAttenuation: 0
+      maxDuration: 0.17004845
+      minDuration: 0.17004845
+    - name: Play_dx_alveolus_d
+      guid: 16132ec06e54fd40a1fef10ba3c9610a
+      id: 1017777365
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Alveolus
+        ObjectType: 4
+        guid: 683508ee97be68489bc5279a19683805
+      - ElementName: Play_dx_alveolus_d
+        ObjectType: 3
+        guid: 16132ec06e54fd40a1fef10ba3c9610a
+      Path: Events\DX Events WU\Alveolus\Play_dx_alveolus_d
+      maxAttenuation: 0
+      maxDuration: 0.13878734
+      minDuration: 0.13878734
+    - name: Play_dx_alveolus_e
+      guid: f7d6060fca43c040b5713dd3b9b4e86a
+      id: 1017777364
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Alveolus
+        ObjectType: 4
+        guid: 683508ee97be68489bc5279a19683805
+      - ElementName: Play_dx_alveolus_e
+        ObjectType: 3
+        guid: f7d6060fca43c040b5713dd3b9b4e86a
+      Path: Events\DX Events WU\Alveolus\Play_dx_alveolus_e
+      maxAttenuation: 0
+      maxDuration: 0.25
+      minDuration: 0.25
+    - name: Play_dx_alveolus_f
+      guid: 1ddc272a55603841b6d1943d248d9ae6
+      id: 1017777367
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Alveolus
+        ObjectType: 4
+        guid: 683508ee97be68489bc5279a19683805
+      - ElementName: Play_dx_alveolus_f
+        ObjectType: 3
+        guid: 1ddc272a55603841b6d1943d248d9ae6
+      Path: Events\DX Events WU\Alveolus\Play_dx_alveolus_f
+      maxAttenuation: 0
+      maxDuration: 0.084984556
+      minDuration: 0.084984556
+    - name: Play_dx_alveolus_g
+      guid: f0e6619f246bda4a9921eefe08179557
+      id: 1017777366
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Alveolus
+        ObjectType: 4
+        guid: 683508ee97be68489bc5279a19683805
+      - ElementName: Play_dx_alveolus_g
+        ObjectType: 3
+        guid: f0e6619f246bda4a9921eefe08179557
+      Path: Events\DX Events WU\Alveolus\Play_dx_alveolus_g
+      maxAttenuation: 0
+      maxDuration: 0.07398663
+      minDuration: 0.07398663
+    - name: Play_dx_alveolus_h
+      guid: 69a377c9a6cfb64db52b419994321c8d
+      id: 1017777369
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Alveolus
+        ObjectType: 4
+        guid: 683508ee97be68489bc5279a19683805
+      - ElementName: Play_dx_alveolus_h
+        ObjectType: 3
+        guid: 69a377c9a6cfb64db52b419994321c8d
+      Path: Events\DX Events WU\Alveolus\Play_dx_alveolus_h
+      maxAttenuation: 0
+      maxDuration: 0.11752137
+      minDuration: 0.11752137
+    - name: Play_dx_alveolus_i
+      guid: 96786e2170ded048a27a3bb7313ff01c
+      id: 1017777368
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Alveolus
+        ObjectType: 4
+        guid: 683508ee97be68489bc5279a19683805
+      - ElementName: Play_dx_alveolus_i
+        ObjectType: 3
+        guid: 96786e2170ded048a27a3bb7313ff01c
+      Path: Events\DX Events WU\Alveolus\Play_dx_alveolus_i
+      maxAttenuation: 0
+      maxDuration: 0.25
+      minDuration: 0.25
+    - name: Play_dx_alveolus_j
+      guid: 9217b39c3f56ca4597111acc0f482b03
+      id: 1017777371
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Alveolus
+        ObjectType: 4
+        guid: 683508ee97be68489bc5279a19683805
+      - ElementName: Play_dx_alveolus_j
+        ObjectType: 3
+        guid: 9217b39c3f56ca4597111acc0f482b03
+      Path: Events\DX Events WU\Alveolus\Play_dx_alveolus_j
+      maxAttenuation: 0
+      maxDuration: 0.14048299
+      minDuration: 0.14048299
+    - name: Play_dx_alveolus_k
+      guid: e3270995f2d494458e2073d0bef73c39
+      id: 1017777370
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Alveolus
+        ObjectType: 4
+        guid: 683508ee97be68489bc5279a19683805
+      - ElementName: Play_dx_alveolus_k
+        ObjectType: 3
+        guid: e3270995f2d494458e2073d0bef73c39
+      Path: Events\DX Events WU\Alveolus\Play_dx_alveolus_k
+      maxAttenuation: 0
+      maxDuration: 0.117545694
+      minDuration: 0.117545694
+    - name: Play_dx_alveolus_l
+      guid: 3708d97d072b02439954afe5ed78d879
+      id: 1017777373
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Alveolus
+        ObjectType: 4
+        guid: 683508ee97be68489bc5279a19683805
+      - ElementName: Play_dx_alveolus_l
+        ObjectType: 3
+        guid: 3708d97d072b02439954afe5ed78d879
+      Path: Events\DX Events WU\Alveolus\Play_dx_alveolus_l
+      maxAttenuation: 0
+      maxDuration: 0.13665694
+      minDuration: 0.13665694
+    - name: Play_dx_alveolus_m
+      guid: caf4973e393a7d48b4d94e563035f696
+      id: 1017777372
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Alveolus
+        ObjectType: 4
+        guid: 683508ee97be68489bc5279a19683805
+      - ElementName: Play_dx_alveolus_m
+        ObjectType: 3
+        guid: caf4973e393a7d48b4d94e563035f696
+      Path: Events\DX Events WU\Alveolus\Play_dx_alveolus_m
+      maxAttenuation: 0
+      maxDuration: 0.11333037
+      minDuration: 0.11333037
+    - name: Play_dx_alveolus_n
+      guid: ee2c6e63767fec47aca40e2ed9760751
+      id: 1017777375
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Alveolus
+        ObjectType: 4
+        guid: 683508ee97be68489bc5279a19683805
+      - ElementName: Play_dx_alveolus_n
+        ObjectType: 3
+        guid: ee2c6e63767fec47aca40e2ed9760751
+      Path: Events\DX Events WU\Alveolus\Play_dx_alveolus_n
+      maxAttenuation: 0
+      maxDuration: 0.09517962
+      minDuration: 0.09517962
+    - name: Play_dx_alveolus_o
+      guid: c9224ca84968ad46abfeaed8eb35ee88
+      id: 1017777374
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Alveolus
+        ObjectType: 4
+        guid: 683508ee97be68489bc5279a19683805
+      - ElementName: Play_dx_alveolus_o
+        ObjectType: 3
+        guid: c9224ca84968ad46abfeaed8eb35ee88
+      Path: Events\DX Events WU\Alveolus\Play_dx_alveolus_o
+      maxAttenuation: 0
+      maxDuration: 0.25
+      minDuration: 0.25
+    - name: Play_dx_alveolus_p
+      guid: 1ed020bf1a1f32419317cf3f2390ce06
+      id: 1017777345
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Alveolus
+        ObjectType: 4
+        guid: 683508ee97be68489bc5279a19683805
+      - ElementName: Play_dx_alveolus_p
+        ObjectType: 3
+        guid: 1ed020bf1a1f32419317cf3f2390ce06
+      Path: Events\DX Events WU\Alveolus\Play_dx_alveolus_p
+      maxAttenuation: 0
+      maxDuration: 0.16539626
+      minDuration: 0.16539626
+    - name: Play_dx_alveolus_q
+      guid: 5cf9ffe58bf33244b66b87042bfa37a1
+      id: 1017777344
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Alveolus
+        ObjectType: 4
+        guid: 683508ee97be68489bc5279a19683805
+      - ElementName: Play_dx_alveolus_q
+        ObjectType: 3
+        guid: 5cf9ffe58bf33244b66b87042bfa37a1
+      Path: Events\DX Events WU\Alveolus\Play_dx_alveolus_q
+      maxAttenuation: 0
+      maxDuration: 0.25
+      minDuration: 0.25
+    - name: Play_dx_alveolus_r
+      guid: 04dda237e301a64e935ff537b7f6dc3f
+      id: 1017777347
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Alveolus
+        ObjectType: 4
+        guid: 683508ee97be68489bc5279a19683805
+      - ElementName: Play_dx_alveolus_r
+        ObjectType: 3
+        guid: 04dda237e301a64e935ff537b7f6dc3f
+      Path: Events\DX Events WU\Alveolus\Play_dx_alveolus_r
+      maxAttenuation: 0
+      maxDuration: 0.18311225
+      minDuration: 0.18311225
+    - name: Play_dx_alveolus_s
+      guid: 05a23253bd99084ba6f6da4af8b363eb
+      id: 1017777346
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Alveolus
+        ObjectType: 4
+        guid: 683508ee97be68489bc5279a19683805
+      - ElementName: Play_dx_alveolus_s
+        ObjectType: 3
+        guid: 05a23253bd99084ba6f6da4af8b363eb
+      Path: Events\DX Events WU\Alveolus\Play_dx_alveolus_s
+      maxAttenuation: 0
+      maxDuration: 0.10726496
+      minDuration: 0.10726496
+    - name: Play_dx_alveolus_t
+      guid: 3f4c222c49873e488003af38f6d960b9
+      id: 1017777349
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Alveolus
+        ObjectType: 4
+        guid: 683508ee97be68489bc5279a19683805
+      - ElementName: Play_dx_alveolus_t
+        ObjectType: 3
+        guid: 3f4c222c49873e488003af38f6d960b9
+      Path: Events\DX Events WU\Alveolus\Play_dx_alveolus_t
+      maxAttenuation: 0
+      maxDuration: 0.20183422
+      minDuration: 0.20183422
+    - name: Play_dx_alveolus_u
+      guid: d4305c41472e304ca4ffcbe87a3b69a1
+      id: 1017777348
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Alveolus
+        ObjectType: 4
+        guid: 683508ee97be68489bc5279a19683805
+      - ElementName: Play_dx_alveolus_u
+        ObjectType: 3
+        guid: d4305c41472e304ca4ffcbe87a3b69a1
+      Path: Events\DX Events WU\Alveolus\Play_dx_alveolus_u
+      maxAttenuation: 0
+      maxDuration: 0.25
+      minDuration: 0.25
+    - name: Play_dx_alveolus_v
+      guid: 241d0474e32213419d6450b4843db8f4
+      id: 1017777351
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Alveolus
+        ObjectType: 4
+        guid: 683508ee97be68489bc5279a19683805
+      - ElementName: Play_dx_alveolus_v
+        ObjectType: 3
+        guid: 241d0474e32213419d6450b4843db8f4
+      Path: Events\DX Events WU\Alveolus\Play_dx_alveolus_v
+      maxAttenuation: 0
+      maxDuration: 0.25
+      minDuration: 0.25
+    - name: Play_dx_alveolus_w
+      guid: 2e04ee11f3472e4a9ff8db04ff35e91b
+      id: 1017777350
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Alveolus
+        ObjectType: 4
+        guid: 683508ee97be68489bc5279a19683805
+      - ElementName: Play_dx_alveolus_w
+        ObjectType: 3
+        guid: 2e04ee11f3472e4a9ff8db04ff35e91b
+      Path: Events\DX Events WU\Alveolus\Play_dx_alveolus_w
+      maxAttenuation: 0
+      maxDuration: 0.25
+      minDuration: 0.25
+    - name: Play_dx_alveolus_x
+      guid: 2337eb2bcd00eb4a99e3b7c2f50181f7
+      id: 1017777353
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Alveolus
+        ObjectType: 4
+        guid: 683508ee97be68489bc5279a19683805
+      - ElementName: Play_dx_alveolus_x
+        ObjectType: 3
+        guid: 2337eb2bcd00eb4a99e3b7c2f50181f7
+      Path: Events\DX Events WU\Alveolus\Play_dx_alveolus_x
+      maxAttenuation: 0
+      maxDuration: 0.12246128
+      minDuration: 0.12246128
+    - name: Play_dx_alveolus_y
+      guid: e4645a556699b8488ea4926492ece7b6
+      id: 1017777352
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Alveolus
+        ObjectType: 4
+        guid: 683508ee97be68489bc5279a19683805
+      - ElementName: Play_dx_alveolus_y
+        ObjectType: 3
+        guid: e4645a556699b8488ea4926492ece7b6
+      Path: Events\DX Events WU\Alveolus\Play_dx_alveolus_y
+      maxAttenuation: 0
+      maxDuration: 0.16460396
+      minDuration: 0.16460396
+    - name: Play_dx_alveolus_z
+      guid: 1d2a7cf2af95c94ab53d5215c026175b
+      id: 1017777355
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Alveolus
+        ObjectType: 4
+        guid: 683508ee97be68489bc5279a19683805
+      - ElementName: Play_dx_alveolus_z
+        ObjectType: 3
+        guid: 1d2a7cf2af95c94ab53d5215c026175b
+      Path: Events\DX Events WU\Alveolus\Play_dx_alveolus_z
+      maxAttenuation: 0
+      maxDuration: 0.25
+      minDuration: 0.25
+    - name: Play_dx_bartender_a
+      guid: 3ae095a62cf0d147b5f20a27b8cef7d7
+      id: 1365280286
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Bartender
+        ObjectType: 4
+        guid: 04ea8b7be1e6854886f3e31e491c961d
+      - ElementName: Play_dx_bartender_a
+        ObjectType: 3
+        guid: 3ae095a62cf0d147b5f20a27b8cef7d7
+      Path: Events\DX Events WU\Bartender\Play_dx_bartender_a
+      maxAttenuation: 0
+      maxDuration: 0.28883818
+      minDuration: 0.21638414
+    - name: Play_dx_bartender_b
+      guid: f8fe588e05ff834b9191130a89cf4bc8
+      id: 1365280285
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Bartender
+        ObjectType: 4
+        guid: 04ea8b7be1e6854886f3e31e491c961d
+      - ElementName: Play_dx_bartender_b
+        ObjectType: 3
+        guid: f8fe588e05ff834b9191130a89cf4bc8
+      Path: Events\DX Events WU\Bartender\Play_dx_bartender_b
+      maxAttenuation: 0
+      maxDuration: 0.28883818
+      minDuration: 0.21638414
+    - name: Play_dx_bartender_c
+      guid: 6d6a3ed2a867f64bb1a0f2a4c1a6338e
+      id: 1365280284
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Bartender
+        ObjectType: 4
+        guid: 04ea8b7be1e6854886f3e31e491c961d
+      - ElementName: Play_dx_bartender_c
+        ObjectType: 3
+        guid: 6d6a3ed2a867f64bb1a0f2a4c1a6338e
+      Path: Events\DX Events WU\Bartender\Play_dx_bartender_c
+      maxAttenuation: 0
+      maxDuration: 0.28883818
+      minDuration: 0.21638414
+    - name: Play_dx_bartender_d
+      guid: cde2667b74f8d54f92308de3486d92b9
+      id: 1365280283
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Bartender
+        ObjectType: 4
+        guid: 04ea8b7be1e6854886f3e31e491c961d
+      - ElementName: Play_dx_bartender_d
+        ObjectType: 3
+        guid: cde2667b74f8d54f92308de3486d92b9
+      Path: Events\DX Events WU\Bartender\Play_dx_bartender_d
+      maxAttenuation: 0
+      maxDuration: 0.28883818
+      minDuration: 0.21638414
+    - name: Play_dx_bartender_e
+      guid: eea61b03da90a541a959437fb81e614f
+      id: 1365280282
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Bartender
+        ObjectType: 4
+        guid: 04ea8b7be1e6854886f3e31e491c961d
+      - ElementName: Play_dx_bartender_e
+        ObjectType: 3
+        guid: eea61b03da90a541a959437fb81e614f
+      Path: Events\DX Events WU\Bartender\Play_dx_bartender_e
+      maxAttenuation: 0
+      maxDuration: 0.28883818
+      minDuration: 0.21638414
+    - name: Play_dx_bartender_f
+      guid: 898314cc0dc72a458d2dc9d24d348c29
+      id: 1365280281
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Bartender
+        ObjectType: 4
+        guid: 04ea8b7be1e6854886f3e31e491c961d
+      - ElementName: Play_dx_bartender_f
+        ObjectType: 3
+        guid: 898314cc0dc72a458d2dc9d24d348c29
+      Path: Events\DX Events WU\Bartender\Play_dx_bartender_f
+      maxAttenuation: 0
+      maxDuration: 0.28883818
+      minDuration: 0.21638414
+    - name: Play_dx_bartender_g
+      guid: d4d3f4a4a15e2e41ac5c55495c2b0d97
+      id: 1365280280
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Bartender
+        ObjectType: 4
+        guid: 04ea8b7be1e6854886f3e31e491c961d
+      - ElementName: Play_dx_bartender_g
+        ObjectType: 3
+        guid: d4d3f4a4a15e2e41ac5c55495c2b0d97
+      Path: Events\DX Events WU\Bartender\Play_dx_bartender_g
+      maxAttenuation: 0
+      maxDuration: 0.28883818
+      minDuration: 0.21638414
+    - name: Play_dx_bartender_h
+      guid: cb09e89ecd13b1488b6e87f97693cad1
+      id: 1365280279
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Bartender
+        ObjectType: 4
+        guid: 04ea8b7be1e6854886f3e31e491c961d
+      - ElementName: Play_dx_bartender_h
+        ObjectType: 3
+        guid: cb09e89ecd13b1488b6e87f97693cad1
+      Path: Events\DX Events WU\Bartender\Play_dx_bartender_h
+      maxAttenuation: 0
+      maxDuration: 0.2409368
+      minDuration: 0.18049866
+    - name: Play_dx_bartender_i
+      guid: 0bb4275b419d2f4aabde7d560bd7e2a7
+      id: 1365280278
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Bartender
+        ObjectType: 4
+        guid: 04ea8b7be1e6854886f3e31e491c961d
+      - ElementName: Play_dx_bartender_i
+        ObjectType: 3
+        guid: 0bb4275b419d2f4aabde7d560bd7e2a7
+      Path: Events\DX Events WU\Bartender\Play_dx_bartender_i
+      maxAttenuation: 0
+      maxDuration: 0.28883818
+      minDuration: 0.21638414
+    - name: Play_dx_bartender_j
+      guid: 64db25f9432a954b9e54806e4c4882c8
+      id: 1365280277
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Bartender
+        ObjectType: 4
+        guid: 04ea8b7be1e6854886f3e31e491c961d
+      - ElementName: Play_dx_bartender_j
+        ObjectType: 3
+        guid: 64db25f9432a954b9e54806e4c4882c8
+      Path: Events\DX Events WU\Bartender\Play_dx_bartender_j
+      maxAttenuation: 0
+      maxDuration: 0.28883818
+      minDuration: 0.21638414
+    - name: Play_dx_bartender_k
+      guid: 2c9a1600c8071e4a9c6d19a6dd5fd3ca
+      id: 1365280276
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Bartender
+        ObjectType: 4
+        guid: 04ea8b7be1e6854886f3e31e491c961d
+      - ElementName: Play_dx_bartender_k
+        ObjectType: 3
+        guid: 2c9a1600c8071e4a9c6d19a6dd5fd3ca
+      Path: Events\DX Events WU\Bartender\Play_dx_bartender_k
+      maxAttenuation: 0
+      maxDuration: 0.28883818
+      minDuration: 0.21638414
+    - name: Play_dx_bartender_l
+      guid: ee0a19c6c283ec42b4cbbc6551882b3f
+      id: 1365280275
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Bartender
+        ObjectType: 4
+        guid: 04ea8b7be1e6854886f3e31e491c961d
+      - ElementName: Play_dx_bartender_l
+        ObjectType: 3
+        guid: ee0a19c6c283ec42b4cbbc6551882b3f
+      Path: Events\DX Events WU\Bartender\Play_dx_bartender_l
+      maxAttenuation: 0
+      maxDuration: 0.28883818
+      minDuration: 0.21638414
+    - name: Play_dx_bartender_m
+      guid: c0b6aca9e3284e418a7c4dbef981b266
+      id: 1365280274
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Bartender
+        ObjectType: 4
+        guid: 04ea8b7be1e6854886f3e31e491c961d
+      - ElementName: Play_dx_bartender_m
+        ObjectType: 3
+        guid: c0b6aca9e3284e418a7c4dbef981b266
+      Path: Events\DX Events WU\Bartender\Play_dx_bartender_m
+      maxAttenuation: 0
+      maxDuration: 0.28883818
+      minDuration: 0.21638414
+    - name: Play_dx_bartender_n
+      guid: 3bd6b8e0e6ec584392b484b02d11538b
+      id: 1365280273
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Bartender
+        ObjectType: 4
+        guid: 04ea8b7be1e6854886f3e31e491c961d
+      - ElementName: Play_dx_bartender_n
+        ObjectType: 3
+        guid: 3bd6b8e0e6ec584392b484b02d11538b
+      Path: Events\DX Events WU\Bartender\Play_dx_bartender_n
+      maxAttenuation: 0
+      maxDuration: 0.2688197
+      minDuration: 0.20138723
+    - name: Play_dx_bartender_o
+      guid: 33c02a78e03c8947b307ca1c7261cfc2
+      id: 1365280272
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Bartender
+        ObjectType: 4
+        guid: 04ea8b7be1e6854886f3e31e491c961d
+      - ElementName: Play_dx_bartender_o
+        ObjectType: 3
+        guid: 33c02a78e03c8947b307ca1c7261cfc2
+      Path: Events\DX Events WU\Bartender\Play_dx_bartender_o
+      maxAttenuation: 0
+      maxDuration: 0.28883818
+      minDuration: 0.21638414
+    - name: Play_dx_bartender_p
+      guid: 198370149651a14aae3cc8f4ba4fc497
+      id: 1365280271
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Bartender
+        ObjectType: 4
+        guid: 04ea8b7be1e6854886f3e31e491c961d
+      - ElementName: Play_dx_bartender_p
+        ObjectType: 3
+        guid: 198370149651a14aae3cc8f4ba4fc497
+      Path: Events\DX Events WU\Bartender\Play_dx_bartender_p
+      maxAttenuation: 0
+      maxDuration: 0.28883818
+      minDuration: 0.21638414
+    - name: Play_dx_bartender_q
+      guid: 8103ef3af91f1448a3eb749a4872f477
+      id: 1365280270
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Bartender
+        ObjectType: 4
+        guid: 04ea8b7be1e6854886f3e31e491c961d
+      - ElementName: Play_dx_bartender_q
+        ObjectType: 3
+        guid: 8103ef3af91f1448a3eb749a4872f477
+      Path: Events\DX Events WU\Bartender\Play_dx_bartender_q
+      maxAttenuation: 0
+      maxDuration: 0.28883818
+      minDuration: 0.21638414
+    - name: Play_dx_bartender_r
+      guid: 377f5d3b55fc654792a4a04bc272bbea
+      id: 1365280269
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Bartender
+        ObjectType: 4
+        guid: 04ea8b7be1e6854886f3e31e491c961d
+      - ElementName: Play_dx_bartender_r
+        ObjectType: 3
+        guid: 377f5d3b55fc654792a4a04bc272bbea
+      Path: Events\DX Events WU\Bartender\Play_dx_bartender_r
+      maxAttenuation: 0
+      maxDuration: 0.28883818
+      minDuration: 0.21638414
+    - name: Play_dx_bartender_s
+      guid: 807a7a240a06ed4dad7e24e2b35387fc
+      id: 1365280268
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Bartender
+        ObjectType: 4
+        guid: 04ea8b7be1e6854886f3e31e491c961d
+      - ElementName: Play_dx_bartender_s
+        ObjectType: 3
+        guid: 807a7a240a06ed4dad7e24e2b35387fc
+      Path: Events\DX Events WU\Bartender\Play_dx_bartender_s
+      maxAttenuation: 0
+      maxDuration: 0.28883818
+      minDuration: 0.21638414
+    - name: Play_dx_bartender_t
+      guid: 2710426b11187645b2e9032b1571c2da
+      id: 1365280267
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Bartender
+        ObjectType: 4
+        guid: 04ea8b7be1e6854886f3e31e491c961d
+      - ElementName: Play_dx_bartender_t
+        ObjectType: 3
+        guid: 2710426b11187645b2e9032b1571c2da
+      Path: Events\DX Events WU\Bartender\Play_dx_bartender_t
+      maxAttenuation: 0
+      maxDuration: 0.28883818
+      minDuration: 0.21638414
+    - name: Play_dx_bartender_u
+      guid: a076bf458effec4689d2b14fc62a80b3
+      id: 1365280266
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Bartender
+        ObjectType: 4
+        guid: 04ea8b7be1e6854886f3e31e491c961d
+      - ElementName: Play_dx_bartender_u
+        ObjectType: 3
+        guid: a076bf458effec4689d2b14fc62a80b3
+      Path: Events\DX Events WU\Bartender\Play_dx_bartender_u
+      maxAttenuation: 0
+      maxDuration: 0.28883818
+      minDuration: 0.21638414
+    - name: Play_dx_bartender_v
+      guid: df416fc3f2dd9c4c9773309e5082bcb7
+      id: 1365280265
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Bartender
+        ObjectType: 4
+        guid: 04ea8b7be1e6854886f3e31e491c961d
+      - ElementName: Play_dx_bartender_v
+        ObjectType: 3
+        guid: df416fc3f2dd9c4c9773309e5082bcb7
+      Path: Events\DX Events WU\Bartender\Play_dx_bartender_v
+      maxAttenuation: 0
+      maxDuration: 0.28883818
+      minDuration: 0.21638414
+    - name: Play_dx_bartender_w
+      guid: f74e79a30674074fa75e53ddd0c4af76
+      id: 1365280264
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Bartender
+        ObjectType: 4
+        guid: 04ea8b7be1e6854886f3e31e491c961d
+      - ElementName: Play_dx_bartender_w
+        ObjectType: 3
+        guid: f74e79a30674074fa75e53ddd0c4af76
+      Path: Events\DX Events WU\Bartender\Play_dx_bartender_w
+      maxAttenuation: 0
+      maxDuration: 0.28883818
+      minDuration: 0.21638414
+    - name: Play_dx_bartender_x
+      guid: e368daa5ef72b743877961c4ac8389c9
+      id: 1365280263
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Bartender
+        ObjectType: 4
+        guid: 04ea8b7be1e6854886f3e31e491c961d
+      - ElementName: Play_dx_bartender_x
+        ObjectType: 3
+        guid: e368daa5ef72b743877961c4ac8389c9
+      Path: Events\DX Events WU\Bartender\Play_dx_bartender_x
+      maxAttenuation: 0
+      maxDuration: 0.28883818
+      minDuration: 0.21638414
+    - name: Play_dx_bartender_y
+      guid: d0de656d25707749b2201f9ca73b9634
+      id: 1365280262
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Bartender
+        ObjectType: 4
+        guid: 04ea8b7be1e6854886f3e31e491c961d
+      - ElementName: Play_dx_bartender_y
+        ObjectType: 3
+        guid: d0de656d25707749b2201f9ca73b9634
+      Path: Events\DX Events WU\Bartender\Play_dx_bartender_y
+      maxAttenuation: 0
+      maxDuration: 0.28883818
+      minDuration: 0.21638414
+    - name: Play_dx_bartender_z
+      guid: 37cd9fc0bdd92c43909a78539c8454e4
+      id: 1365280261
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Bartender
+        ObjectType: 4
+        guid: 04ea8b7be1e6854886f3e31e491c961d
+      - ElementName: Play_dx_bartender_z
+        ObjectType: 3
+        guid: 37cd9fc0bdd92c43909a78539c8454e4
+      Path: Events\DX Events WU\Bartender\Play_dx_bartender_z
+      maxAttenuation: 0
+      maxDuration: 0.28883818
+      minDuration: 0.21638414
+    - name: Play_dx_tami_a
+      guid: e4c32063876e4143bb4bb28fb9524ca9
+      id: 1266389086
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Tami
+        ObjectType: 4
+        guid: 831c05003ff0854091c73fc174479237
+      - ElementName: Play_dx_tami_a
+        ObjectType: 3
+        guid: e4c32063876e4143bb4bb28fb9524ca9
+      Path: Events\DX Events WU\Tami\Play_dx_tami_a
+      maxAttenuation: 0
+      maxDuration: 0.25
+      minDuration: 0.23596856
+    - name: Play_dx_tami_b
+      guid: 011346b4edfe664cb2ca788b7dd5e8d7
+      id: 1266389085
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Tami
+        ObjectType: 4
+        guid: 831c05003ff0854091c73fc174479237
+      - ElementName: Play_dx_tami_b
+        ObjectType: 3
+        guid: 011346b4edfe664cb2ca788b7dd5e8d7
+      Path: Events\DX Events WU\Tami\Play_dx_tami_b
+      maxAttenuation: 0
+      maxDuration: 0.25
+      minDuration: 0.23596856
+    - name: Play_dx_tami_c
+      guid: 8c004910fe37f7448db6820003ab11c3
+      id: 1266389084
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Tami
+        ObjectType: 4
+        guid: 831c05003ff0854091c73fc174479237
+      - ElementName: Play_dx_tami_c
+        ObjectType: 3
+        guid: 8c004910fe37f7448db6820003ab11c3
+      Path: Events\DX Events WU\Tami\Play_dx_tami_c
+      maxAttenuation: 0
+      maxDuration: 0.25
+      minDuration: 0.23596856
+    - name: Play_dx_tami_d
+      guid: ab395dda6e96af45960942cdd93317fb
+      id: 1266389083
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Tami
+        ObjectType: 4
+        guid: 831c05003ff0854091c73fc174479237
+      - ElementName: Play_dx_tami_d
+        ObjectType: 3
+        guid: ab395dda6e96af45960942cdd93317fb
+      Path: Events\DX Events WU\Tami\Play_dx_tami_d
+      maxAttenuation: 0
+      maxDuration: 0.18626237
+      minDuration: 0.17580825
+    - name: Play_dx_tami_e
+      guid: fb30ce7e62ae264db62a55e72914aab3
+      id: 1266389082
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Tami
+        ObjectType: 4
+        guid: 831c05003ff0854091c73fc174479237
+      - ElementName: Play_dx_tami_e
+        ObjectType: 3
+        guid: fb30ce7e62ae264db62a55e72914aab3
+      Path: Events\DX Events WU\Tami\Play_dx_tami_e
+      maxAttenuation: 0
+      maxDuration: 0.25
+      minDuration: 0.23596856
+    - name: Play_dx_tami_f
+      guid: ff40bd5eea363345bfb14aa542fca41a
+      id: 1266389081
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Tami
+        ObjectType: 4
+        guid: 831c05003ff0854091c73fc174479237
+      - ElementName: Play_dx_tami_f
+        ObjectType: 3
+        guid: ff40bd5eea363345bfb14aa542fca41a
+      Path: Events\DX Events WU\Tami\Play_dx_tami_f
+      maxAttenuation: 0
+      maxDuration: 0.25
+      minDuration: 0.23596856
+    - name: Play_dx_tami_g
+      guid: 1066379af67d3349bdc2eaa0a3638b30
+      id: 1266389080
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Tami
+        ObjectType: 4
+        guid: 831c05003ff0854091c73fc174479237
+      - ElementName: Play_dx_tami_g
+        ObjectType: 3
+        guid: 1066379af67d3349bdc2eaa0a3638b30
+      Path: Events\DX Events WU\Tami\Play_dx_tami_g
+      maxAttenuation: 0
+      maxDuration: 0.25
+      minDuration: 0.23596856
+    - name: Play_dx_tami_h
+      guid: 0df12f829936bb438de993c6593bd00d
+      id: 1266389079
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Tami
+        ObjectType: 4
+        guid: 831c05003ff0854091c73fc174479237
+      - ElementName: Play_dx_tami_h
+        ObjectType: 3
+        guid: 0df12f829936bb438de993c6593bd00d
+      Path: Events\DX Events WU\Tami\Play_dx_tami_h
+      maxAttenuation: 0
+      maxDuration: 0.25
+      minDuration: 0.23596856
+    - name: Play_dx_tami_i
+      guid: 796164623c523d40a54fcc989ebf22fe
+      id: 1266389078
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Tami
+        ObjectType: 4
+        guid: 831c05003ff0854091c73fc174479237
+      - ElementName: Play_dx_tami_i
+        ObjectType: 3
+        guid: 796164623c523d40a54fcc989ebf22fe
+      Path: Events\DX Events WU\Tami\Play_dx_tami_i
+      maxAttenuation: 0
+      maxDuration: 0.25
+      minDuration: 0.23596856
+    - name: Play_dx_tami_j
+      guid: 411e9f9301bee545a86c579b4ddd421f
+      id: 1266389077
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Tami
+        ObjectType: 4
+        guid: 831c05003ff0854091c73fc174479237
+      - ElementName: Play_dx_tami_j
+        ObjectType: 3
+        guid: 411e9f9301bee545a86c579b4ddd421f
+      Path: Events\DX Events WU\Tami\Play_dx_tami_j
+      maxAttenuation: 0
+      maxDuration: 0.25
+      minDuration: 0.23596856
+    - name: Play_dx_tami_k
+      guid: f5a2abe4c43fba41850b839eabc0f2da
+      id: 1266389076
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Tami
+        ObjectType: 4
+        guid: 831c05003ff0854091c73fc174479237
+      - ElementName: Play_dx_tami_k
+        ObjectType: 3
+        guid: f5a2abe4c43fba41850b839eabc0f2da
+      Path: Events\DX Events WU\Tami\Play_dx_tami_k
+      maxAttenuation: 0
+      maxDuration: 0.20358911
+      minDuration: 0.19216251
+    - name: Play_dx_tami_l
+      guid: d478de62633cdd4eb1cf4efcb3a99fb8
+      id: 1266389075
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Tami
+        ObjectType: 4
+        guid: 831c05003ff0854091c73fc174479237
+      - ElementName: Play_dx_tami_l
+        ObjectType: 3
+        guid: d478de62633cdd4eb1cf4efcb3a99fb8
+      Path: Events\DX Events WU\Tami\Play_dx_tami_l
+      maxAttenuation: 0
+      maxDuration: 0.25
+      minDuration: 0.23596856
+    - name: Play_dx_tami_m
+      guid: ca357836a983c34baa0a8f68bdb467ad
+      id: 1266389074
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Tami
+        ObjectType: 4
+        guid: 831c05003ff0854091c73fc174479237
+      - ElementName: Play_dx_tami_m
+        ObjectType: 3
+        guid: ca357836a983c34baa0a8f68bdb467ad
+      Path: Events\DX Events WU\Tami\Play_dx_tami_m
+      maxAttenuation: 0
+      maxDuration: 0.23191477
+      minDuration: 0.2188984
+    - name: Play_dx_tami_n
+      guid: 8e6b2497c57b1140a7291053c6cf394b
+      id: 1266389073
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Tami
+        ObjectType: 4
+        guid: 831c05003ff0854091c73fc174479237
+      - ElementName: Play_dx_tami_n
+        ObjectType: 3
+        guid: 8e6b2497c57b1140a7291053c6cf394b
+      Path: Events\DX Events WU\Tami\Play_dx_tami_n
+      maxAttenuation: 0
+      maxDuration: 0.2188984
+      minDuration: 0.20661259
+    - name: Play_dx_tami_o
+      guid: 6ad4f05b271727469c4e71f90cd51e10
+      id: 1266389072
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Tami
+        ObjectType: 4
+        guid: 831c05003ff0854091c73fc174479237
+      - ElementName: Play_dx_tami_o
+        ObjectType: 3
+        guid: 6ad4f05b271727469c4e71f90cd51e10
+      Path: Events\DX Events WU\Tami\Play_dx_tami_o
+      maxAttenuation: 0
+      maxDuration: 0.25
+      minDuration: 0.23596856
+    - name: Play_dx_tami_p
+      guid: 0713449f1df3c84f8e642476ca45b5b8
+      id: 1266389071
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Tami
+        ObjectType: 4
+        guid: 831c05003ff0854091c73fc174479237
+      - ElementName: Play_dx_tami_p
+        ObjectType: 3
+        guid: 0713449f1df3c84f8e642476ca45b5b8
+      Path: Events\DX Events WU\Tami\Play_dx_tami_p
+      maxAttenuation: 0
+      maxDuration: 0.23700495
+      minDuration: 0.22370286
+    - name: Play_dx_tami_q
+      guid: 5b7bb2e416091147b1276247e6b63043
+      id: 1266389070
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Tami
+        ObjectType: 4
+        guid: 831c05003ff0854091c73fc174479237
+      - ElementName: Play_dx_tami_q
+        ObjectType: 3
+        guid: 5b7bb2e416091147b1276247e6b63043
+      Path: Events\DX Events WU\Tami\Play_dx_tami_q
+      maxAttenuation: 0
+      maxDuration: 0.25
+      minDuration: 0.23596856
+    - name: Play_dx_tami_r
+      guid: 75d31b5e87a05a45b4251a102543608e
+      id: 1266389069
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Tami
+        ObjectType: 4
+        guid: 831c05003ff0854091c73fc174479237
+      - ElementName: Play_dx_tami_r
+        ObjectType: 3
+        guid: 75d31b5e87a05a45b4251a102543608e
+      Path: Events\DX Events WU\Tami\Play_dx_tami_r
+      maxAttenuation: 0
+      maxDuration: 0.25
+      minDuration: 0.23596856
+    - name: Play_dx_tami_s
+      guid: c9f7e6dc0ed418458135e9b32a91ea21
+      id: 1266389068
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Tami
+        ObjectType: 4
+        guid: 831c05003ff0854091c73fc174479237
+      - ElementName: Play_dx_tami_s
+        ObjectType: 3
+        guid: c9f7e6dc0ed418458135e9b32a91ea21
+      Path: Events\DX Events WU\Tami\Play_dx_tami_s
+      maxAttenuation: 0
+      maxDuration: 0.25
+      minDuration: 0.23596856
+    - name: Play_dx_tami_t
+      guid: 96aaf55e3d0f9a43bc9e2411a7bc3484
+      id: 1266389067
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Tami
+        ObjectType: 4
+        guid: 831c05003ff0854091c73fc174479237
+      - ElementName: Play_dx_tami_t
+        ObjectType: 3
+        guid: 96aaf55e3d0f9a43bc9e2411a7bc3484
+      Path: Events\DX Events WU\Tami\Play_dx_tami_t
+      maxAttenuation: 0
+      maxDuration: 0.19740099
+      minDuration: 0.1863217
+    - name: Play_dx_tami_u
+      guid: 6763c509ec7d3c4ca301589d28713dfe
+      id: 1266389066
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Tami
+        ObjectType: 4
+        guid: 831c05003ff0854091c73fc174479237
+      - ElementName: Play_dx_tami_u
+        ObjectType: 3
+        guid: 6763c509ec7d3c4ca301589d28713dfe
+      Path: Events\DX Events WU\Tami\Play_dx_tami_u
+      maxAttenuation: 0
+      maxDuration: 0.25
+      minDuration: 0.23596856
+    - name: Play_dx_tami_v
+      guid: 93c23b5bc0586c4cb8dc0d5a8e87dd1f
+      id: 1266389065
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Tami
+        ObjectType: 4
+        guid: 831c05003ff0854091c73fc174479237
+      - ElementName: Play_dx_tami_v
+        ObjectType: 3
+        guid: 93c23b5bc0586c4cb8dc0d5a8e87dd1f
+      Path: Events\DX Events WU\Tami\Play_dx_tami_v
+      maxAttenuation: 0
+      maxDuration: 0.25
+      minDuration: 0.23596856
+    - name: Play_dx_tami_w
+      guid: 5938ce3d9f964742b1ea1de6a907654a
+      id: 1266389064
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Tami
+        ObjectType: 4
+        guid: 831c05003ff0854091c73fc174479237
+      - ElementName: Play_dx_tami_w
+        ObjectType: 3
+        guid: 5938ce3d9f964742b1ea1de6a907654a
+      Path: Events\DX Events WU\Tami\Play_dx_tami_w
+      maxAttenuation: 0
+      maxDuration: 0.25
+      minDuration: 0.23596856
+    - name: Play_dx_tami_x
+      guid: 2b41dd684299b14eabce749f245f3b38
+      id: 1266389063
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Tami
+        ObjectType: 4
+        guid: 831c05003ff0854091c73fc174479237
+      - ElementName: Play_dx_tami_x
+        ObjectType: 3
+        guid: 2b41dd684299b14eabce749f245f3b38
+      Path: Events\DX Events WU\Tami\Play_dx_tami_x
+      maxAttenuation: 0
+      maxDuration: 0.25
+      minDuration: 0.23596856
+    - name: Play_dx_tami_y
+      guid: 522f1e2622d51c46b53c3b99e309f97c
+      id: 1266389062
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Tami
+        ObjectType: 4
+        guid: 831c05003ff0854091c73fc174479237
+      - ElementName: Play_dx_tami_y
+        ObjectType: 3
+        guid: 522f1e2622d51c46b53c3b99e309f97c
+      Path: Events\DX Events WU\Tami\Play_dx_tami_y
+      maxAttenuation: 0
+      maxDuration: 0.25
+      minDuration: 0.23596856
+    - name: Play_dx_tami_z
+      guid: f3b7a86878019f44910fd1baa0804624
+      id: 1266389061
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Tami
+        ObjectType: 4
+        guid: 831c05003ff0854091c73fc174479237
+      - ElementName: Play_dx_tami_z
+        ObjectType: 3
+        guid: f3b7a86878019f44910fd1baa0804624
+      Path: Events\DX Events WU\Tami\Play_dx_tami_z
+      maxAttenuation: 0
+      maxDuration: 0.25
+      minDuration: 0.23596856
+    - name: Tami
+      guid: 831c05003ff0854091c73fc174479237
+      id: 3189969934
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: DX Events WU
+        ObjectType: 12
+        guid: df633d4f36e61a479b2849c528538f61
+      - ElementName: Tami
+        ObjectType: 4
+        guid: 831c05003ff0854091c73fc174479237
+      Path: Events\DX Events WU\Tami
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  - PhysicalPath: Events\Global Events WU.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Global Events WU
+      ObjectType: 12
+      guid: 29cb1531f6b8864b99ad24fc8e657b04
+    ParentPath: Events\Global Events WU
+    guid: 29cb1531f6b8864b99ad24fc8e657b04
+    GuidInternal: 
+    m_lastTime: -8584230003718970135
+    List: []
+  - PhysicalPath: Events\MX Events WU.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: MX Events WU
+      ObjectType: 12
+      guid: 9271e70c48b8a540bd37e01aedaf0608
+    ParentPath: Events\MX Events WU
+    guid: 9271e70c48b8a540bd37e01aedaf0608
+    GuidInternal: 
+    m_lastTime: -8584230003718954463
+    List:
+    - name: Music States
+      guid: d3fd866829a06842bd5d5ead8799632d
+      id: 3944240456
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MX Events WU
+        ObjectType: 12
+        guid: 9271e70c48b8a540bd37e01aedaf0608
+      - ElementName: Music States
+        ObjectType: 4
+        guid: d3fd866829a06842bd5d5ead8799632d
+      Path: Events\MX Events WU\Music States
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: MusicSwitch_Start
+      guid: fb16cf71ddfe3d448dbb9cddbcfc88ce
+      id: 203702919
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MX Events WU
+        ObjectType: 12
+        guid: 9271e70c48b8a540bd37e01aedaf0608
+      - ElementName: MusicSwitch_Start
+        ObjectType: 3
+        guid: fb16cf71ddfe3d448dbb9cddbcfc88ce
+      Path: Events\MX Events WU\MusicSwitch_Start
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: MusicSwitch_Stop
+      guid: 8524db3cbf82f14bb3bf4523c2ffcec2
+      id: 617687853
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MX Events WU
+        ObjectType: 12
+        guid: 9271e70c48b8a540bd37e01aedaf0608
+      - ElementName: MusicSwitch_Stop
+        ObjectType: 3
+        guid: 8524db3cbf82f14bb3bf4523c2ffcec2
+      Path: Events\MX Events WU\MusicSwitch_Stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: MX_State_BAR
+      guid: 7c1502dd8b9c54428e3b86b75113560a
+      id: 749997958
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MX Events WU
+        ObjectType: 12
+        guid: 9271e70c48b8a540bd37e01aedaf0608
+      - ElementName: Music States
+        ObjectType: 4
+        guid: d3fd866829a06842bd5d5ead8799632d
+      - ElementName: MX_State_BAR
+        ObjectType: 3
+        guid: 7c1502dd8b9c54428e3b86b75113560a
+      Path: Events\MX Events WU\Music States\MX_State_BAR
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: MX_State_BOS
+      guid: fbbd64720dc0d34582ec2fb934452121
+      id: 582221893
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MX Events WU
+        ObjectType: 12
+        guid: 9271e70c48b8a540bd37e01aedaf0608
+      - ElementName: Music States
+        ObjectType: 4
+        guid: d3fd866829a06842bd5d5ead8799632d
+      - ElementName: MX_State_BOS
+        ObjectType: 3
+        guid: fbbd64720dc0d34582ec2fb934452121
+      Path: Events\MX Events WU\Music States\MX_State_BOS
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: MX_State_CRD
+      guid: 37b0e277b37b3d48a8b3bba7e63dcab7
+      id: 363965772
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MX Events WU
+        ObjectType: 12
+        guid: 9271e70c48b8a540bd37e01aedaf0608
+      - ElementName: Music States
+        ObjectType: 4
+        guid: d3fd866829a06842bd5d5ead8799632d
+      - ElementName: MX_State_CRD
+        ObjectType: 3
+        guid: 37b0e277b37b3d48a8b3bba7e63dcab7
+      Path: Events\MX Events WU\Music States\MX_State_CRD
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: MX_State_CUT
+      guid: c4b1af3c5d73ba4b89982f0d28ee8d9d
+      id: 481409113
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MX Events WU
+        ObjectType: 12
+        guid: 9271e70c48b8a540bd37e01aedaf0608
+      - ElementName: Music States
+        ObjectType: 4
+        guid: d3fd866829a06842bd5d5ead8799632d
+      - ElementName: MX_State_CUT
+        ObjectType: 3
+        guid: c4b1af3c5d73ba4b89982f0d28ee8d9d
+      Path: Events\MX Events WU\Music States\MX_State_CUT
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: MX_State_MEN
+      guid: 5d60f63f54492745ac0d21296e4ca913
+      id: 4170116433
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MX Events WU
+        ObjectType: 12
+        guid: 9271e70c48b8a540bd37e01aedaf0608
+      - ElementName: Music States
+        ObjectType: 4
+        guid: d3fd866829a06842bd5d5ead8799632d
+      - ElementName: MX_State_MEN
+        ObjectType: 3
+        guid: 5d60f63f54492745ac0d21296e4ca913
+      Path: Events\MX Events WU\Music States\MX_State_MEN
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: MX_State_None
+      guid: d2de3d4edff32741bec16be00c76f7ee
+      id: 3187763393
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MX Events WU
+        ObjectType: 12
+        guid: 9271e70c48b8a540bd37e01aedaf0608
+      - ElementName: Music States
+        ObjectType: 4
+        guid: d3fd866829a06842bd5d5ead8799632d
+      - ElementName: MX_State_None
+        ObjectType: 3
+        guid: d2de3d4edff32741bec16be00c76f7ee
+      Path: Events\MX Events WU\Music States\MX_State_None
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: MX_State_TH_EXT
+      guid: bbf5d6ecb9e0924ea6fc9619ff9c8fe3
+      id: 4111862835
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MX Events WU
+        ObjectType: 12
+        guid: 9271e70c48b8a540bd37e01aedaf0608
+      - ElementName: Music States
+        ObjectType: 4
+        guid: d3fd866829a06842bd5d5ead8799632d
+      - ElementName: MX_State_TH_EXT
+        ObjectType: 3
+        guid: bbf5d6ecb9e0924ea6fc9619ff9c8fe3
+      Path: Events\MX Events WU\Music States\MX_State_TH_EXT
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: MX_State_TH_INT
+      guid: d523828a090d004bbf7f8b837da32212
+      id: 52370649
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: MX Events WU
+        ObjectType: 12
+        guid: 9271e70c48b8a540bd37e01aedaf0608
+      - ElementName: Music States
+        ObjectType: 4
+        guid: d3fd866829a06842bd5d5ead8799632d
+      - ElementName: MX_State_TH_INT
+        ObjectType: 3
+        guid: d523828a090d004bbf7f8b837da32212
+      Path: Events\MX Events WU\Music States\MX_State_TH_INT
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  - PhysicalPath: Events\SFX Events WU.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: SFX Events WU
+      ObjectType: 12
+      guid: ba7dae39e9a9594fa2672fc4cd89799b
+    ParentPath: Events\SFX Events WU
+    guid: ba7dae39e9a9594fa2672fc4cd89799b
+    GuidInternal: 
+    m_lastTime: -8584230003718929304
+    List:
+    - name: Ball
+      guid: 2dcf81cc0b214643aac35e36e5f1e4dd
+      id: 1777984502
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Tami Movement
+        ObjectType: 4
+        guid: d2768ad300f7194ea5f5dbb2be12dbbc
+      - ElementName: Ball
+        ObjectType: 4
+        guid: 2dcf81cc0b214643aac35e36e5f1e4dd
+      Path: Events\SFX Events WU\Tami Movement\Ball
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: BallRoll
+      guid: 4140ad630716d34f842679bde68e62ee
+      id: 970161151
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Tami Movement
+        ObjectType: 4
+        guid: d2768ad300f7194ea5f5dbb2be12dbbc
+      - ElementName: Ball
+        ObjectType: 4
+        guid: 2dcf81cc0b214643aac35e36e5f1e4dd
+      - ElementName: BallRoll
+        ObjectType: 4
+        guid: 4140ad630716d34f842679bde68e62ee
+      Path: Events\SFX Events WU\Tami Movement\Ball\BallRoll
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Boat
+      guid: 1e1001c7a76c2941be06044027522c84
+      id: 1795056175
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Boat
+        ObjectType: 4
+        guid: 1e1001c7a76c2941be06044027522c84
+      Path: Events\SFX Events WU\Boat
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Boss
+      guid: 42916430e178c74a86252e7041521e9a
+      id: 1560169506
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Damage
+        ObjectType: 4
+        guid: 14a68921d0fa1a409afabced0ef0f441
+      - ElementName: Boss
+        ObjectType: 4
+        guid: 42916430e178c74a86252e7041521e9a
+      Path: Events\SFX Events WU\Damage\Boss
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Damage
+      guid: 14a68921d0fa1a409afabced0ef0f441
+      id: 1786804762
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Damage
+        ObjectType: 4
+        guid: 14a68921d0fa1a409afabced0ef0f441
+      Path: Events\SFX Events WU\Damage
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Dough
+      guid: f7d341678d4d0a46a2111d812740bee0
+      id: 1802103062
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Dough
+        ObjectType: 4
+        guid: f7d341678d4d0a46a2111d812740bee0
+      Path: Events\SFX Events WU\Dough
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Goomba
+      guid: e03971442751664f8a2e4bbd92a26c37
+      id: 4285895376
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Damage
+        ObjectType: 4
+        guid: 14a68921d0fa1a409afabced0ef0f441
+      - ElementName: Goomba
+        ObjectType: 4
+        guid: e03971442751664f8a2e4bbd92a26c37
+      Path: Events\SFX Events WU\Damage\Goomba
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Pickups
+      guid: 6f205f338990df4595544fd1464189db
+      id: 488853820
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Pickups
+        ObjectType: 4
+        guid: 6f205f338990df4595544fd1464189db
+      Path: Events\SFX Events WU\Pickups
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_AMB_bar_drink_click
+      guid: 9d59d28563afb04ea1a7be565eddc6c5
+      id: 1039376738
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: UI
+        ObjectType: 4
+        guid: f9f765c1037d9547873881aeb3d5eab6
+      - ElementName: Play_AMB_bar_drink_click
+        ObjectType: 3
+        guid: 9d59d28563afb04ea1a7be565eddc6c5
+      Path: Events\SFX Events WU\UI\Play_AMB_bar_drink_click
+      maxAttenuation: 0
+      maxDuration: 1.420657
+      minDuration: 1.420657
+    - name: Play_SFX_bar_drink_hover
+      guid: 5eae5aa38492dc41b538de4ec5d45064
+      id: 3646404409
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: UI
+        ObjectType: 4
+        guid: f9f765c1037d9547873881aeb3d5eab6
+      - ElementName: Play_SFX_bar_drink_hover
+        ObjectType: 3
+        guid: 5eae5aa38492dc41b538de4ec5d45064
+      Path: Events\SFX Events WU\UI\Play_SFX_bar_drink_hover
+      maxAttenuation: 0
+      maxDuration: 0.2085625
+      minDuration: 0.2085625
+    - name: Play_SFX_blender
+      guid: 48ad9d8ba1c58047ac3c1d7da2e8e05d
+      id: 2671946102
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Play_SFX_blender
+        ObjectType: 3
+        guid: 48ad9d8ba1c58047ac3c1d7da2e8e05d
+      Path: Events\SFX Events WU\Play_SFX_blender
+      maxAttenuation: 40
+      maxDuration: 1.5627291
+      minDuration: 1.5627291
+    - name: Play_SFX_boat_launch
+      guid: 220b28b18ce5504891b357d3fd533fa8
+      id: 618833946
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Boat
+        ObjectType: 4
+        guid: 1e1001c7a76c2941be06044027522c84
+      - ElementName: Play_SFX_boat_launch
+        ObjectType: 3
+        guid: 220b28b18ce5504891b357d3fd533fa8
+      Path: Events\SFX Events WU\Boat\Play_SFX_boat_launch
+      maxAttenuation: 40
+      maxDuration: 1.3154792
+      minDuration: 1.3154792
+    - name: Play_SFX_boat_load
+      guid: adfd0a4b5dd4f34fbe70424a3c27a3dd
+      id: 1967412891
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Boat
+        ObjectType: 4
+        guid: 1e1001c7a76c2941be06044027522c84
+      - ElementName: Play_SFX_boat_load
+        ObjectType: 3
+        guid: adfd0a4b5dd4f34fbe70424a3c27a3dd
+      Path: Events\SFX Events WU\Boat\Play_SFX_boat_load
+      maxAttenuation: 40
+      maxDuration: 0.42585742
+      minDuration: 0.31938344
+    - name: Play_SFX_boat_stop
+      guid: 053146c56dc959468d32764afa56bc0f
+      id: 1399734751
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Boat
+        ObjectType: 4
+        guid: 1e1001c7a76c2941be06044027522c84
+      - ElementName: Play_SFX_boat_stop
+        ObjectType: 3
+        guid: 053146c56dc959468d32764afa56bc0f
+      Path: Events\SFX Events WU\Boat\Play_SFX_boat_stop
+      maxAttenuation: 40
+      maxDuration: 0.7285208
+      minDuration: 0.7285208
+    - name: Play_SFX_boat_unload
+      guid: 75e5e978731c754cbcf3098f3f5a75d9
+      id: 1136698174
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Boat
+        ObjectType: 4
+        guid: 1e1001c7a76c2941be06044027522c84
+      - ElementName: Play_SFX_boat_unload
+        ObjectType: 3
+        guid: 75e5e978731c754cbcf3098f3f5a75d9
+      Path: Events\SFX Events WU\Boat\Play_SFX_boat_unload
+      maxAttenuation: 40
+      maxDuration: 0.33472916
+      minDuration: 0.33472916
+    - name: Play_SFX_boss_attack
+      guid: a2c619940b48574092ec11d0c15572dd
+      id: 833966536
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Damage
+        ObjectType: 4
+        guid: 14a68921d0fa1a409afabced0ef0f441
+      - ElementName: Boss
+        ObjectType: 4
+        guid: 42916430e178c74a86252e7041521e9a
+      - ElementName: Play_SFX_boss_attack
+        ObjectType: 3
+        guid: a2c619940b48574092ec11d0c15572dd
+      Path: Events\SFX Events WU\Damage\Boss\Play_SFX_boss_attack
+      maxAttenuation: 80
+      maxDuration: 0.621875
+      minDuration: 0.621625
+    - name: Play_SFX_boss_puff
+      guid: 4052686ceca8f541ba22fb2f7e1f7ed2
+      id: 874522489
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Damage
+        ObjectType: 4
+        guid: 14a68921d0fa1a409afabced0ef0f441
+      - ElementName: Boss
+        ObjectType: 4
+        guid: 42916430e178c74a86252e7041521e9a
+      - ElementName: Play_SFX_boss_puff
+        ObjectType: 3
+        guid: 4052686ceca8f541ba22fb2f7e1f7ed2
+      Path: Events\SFX Events WU\Damage\Boss\Play_SFX_boss_puff
+      maxAttenuation: 80
+      maxDuration: 2.8299375
+      minDuration: 2.8299375
+    - name: Play_SFX_burn
+      guid: e7c5599773c11440b8242f5db9db8b7b
+      id: 2466609305
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Damage
+        ObjectType: 4
+        guid: 14a68921d0fa1a409afabced0ef0f441
+      - ElementName: Tami
+        ObjectType: 4
+        guid: 169d76e7121c5c4f834b8ae954803966
+      - ElementName: Play_SFX_burn
+        ObjectType: 3
+        guid: e7c5599773c11440b8242f5db9db8b7b
+      Path: Events\SFX Events WU\Damage\Tami\Play_SFX_burn
+      maxAttenuation: 0
+      maxDuration: 1.4567916
+      minDuration: 1.4567916
+    - name: Play_SFX_dough_drag
+      guid: 40e9bda40cd7d94990a96ece15dc71c8
+      id: 3213085276
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Dough
+        ObjectType: 4
+        guid: f7d341678d4d0a46a2111d812740bee0
+      - ElementName: Play_SFX_dough_drag
+        ObjectType: 3
+        guid: 40e9bda40cd7d94990a96ece15dc71c8
+      Path: Events\SFX Events WU\Dough\Play_SFX_dough_drag
+      maxAttenuation: 40
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_SFX_dough_land
+      guid: 9b2d83558a20a0409afebc40fb9bc077
+      id: 1467800657
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Dough
+        ObjectType: 4
+        guid: f7d341678d4d0a46a2111d812740bee0
+      - ElementName: Play_SFX_dough_land
+        ObjectType: 3
+        guid: 9b2d83558a20a0409afebc40fb9bc077
+      Path: Events\SFX Events WU\Dough\Play_SFX_dough_land
+      maxAttenuation: 20
+      maxDuration: 0.33964583
+      minDuration: 0.33964583
+    - name: Play_SFX_dough_mold
+      guid: e5226da7643a7444bd1988ed201c6669
+      id: 2758685314
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Dough
+        ObjectType: 4
+        guid: f7d341678d4d0a46a2111d812740bee0
+      - ElementName: Play_SFX_dough_mold
+        ObjectType: 3
+        guid: e5226da7643a7444bd1988ed201c6669
+      Path: Events\SFX Events WU\Dough\Play_SFX_dough_mold
+      maxAttenuation: 40
+      maxDuration: 1.329
+      minDuration: 1.329
+    - name: Play_SFX_dough_roll
+      guid: 5e6168cfb08ef740b9e3fb685d1604ab
+      id: 1635328471
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Dough
+        ObjectType: 4
+        guid: f7d341678d4d0a46a2111d812740bee0
+      - ElementName: Play_SFX_dough_roll
+        ObjectType: 3
+        guid: 5e6168cfb08ef740b9e3fb685d1604ab
+      Path: Events\SFX Events WU\Dough\Play_SFX_dough_roll
+      maxAttenuation: 40
+      maxDuration: 2.6668959
+      minDuration: 2.6668959
+    - name: Play_SFX_drag_goop
+      guid: 713d9d32e8e29d4aa2698939dde93845
+      id: 321415936
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Pickups
+        ObjectType: 4
+        guid: 6f205f338990df4595544fd1464189db
+      - ElementName: Play_SFX_drag_goop
+        ObjectType: 3
+        guid: 713d9d32e8e29d4aa2698939dde93845
+      Path: Events\SFX Events WU\Pickups\Play_SFX_drag_goop
+      maxAttenuation: 40
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_SFX_drop_filling
+      guid: e63923f5df58a94983ebf9e140def8e0
+      id: 518849949
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Pickups
+        ObjectType: 4
+        guid: 6f205f338990df4595544fd1464189db
+      - ElementName: Play_SFX_drop_filling
+        ObjectType: 3
+        guid: e63923f5df58a94983ebf9e140def8e0
+      Path: Events\SFX Events WU\Pickups\Play_SFX_drop_filling
+      maxAttenuation: 40
+      maxDuration: 0.4720625
+      minDuration: 0.4720625
+    - name: Play_SFX_drop_goop
+      guid: c6385286d00d504ebc22e51e0351d2d1
+      id: 3137520235
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Pickups
+        ObjectType: 4
+        guid: 6f205f338990df4595544fd1464189db
+      - ElementName: Play_SFX_drop_goop
+        ObjectType: 3
+        guid: c6385286d00d504ebc22e51e0351d2d1
+      Path: Events\SFX Events WU\Pickups\Play_SFX_drop_goop
+      maxAttenuation: 40
+      maxDuration: 0.30066666
+      minDuration: 0.30066666
+    - name: Play_SFX_finished_dough
+      guid: 52054856385751449bb4a2d833d9c412
+      id: 2913241088
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Dough
+        ObjectType: 4
+        guid: f7d341678d4d0a46a2111d812740bee0
+      - ElementName: Play_SFX_finished_dough
+        ObjectType: 3
+        guid: 52054856385751449bb4a2d833d9c412
+      Path: Events\SFX Events WU\Dough\Play_SFX_finished_dough
+      maxAttenuation: 40
+      maxDuration: 0.5455602
+      minDuration: 0.5455602
+    - name: Play_SFX_goomba_attack
+      guid: f234c158fdb3aa4eba287f7f95028973
+      id: 406668382
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Damage
+        ObjectType: 4
+        guid: 14a68921d0fa1a409afabced0ef0f441
+      - ElementName: Goomba
+        ObjectType: 4
+        guid: e03971442751664f8a2e4bbd92a26c37
+      - ElementName: Play_SFX_goomba_attack
+        ObjectType: 3
+        guid: f234c158fdb3aa4eba287f7f95028973
+      Path: Events\SFX Events WU\Damage\Goomba\Play_SFX_goomba_attack
+      maxAttenuation: 40
+      maxDuration: 0.3363125
+      minDuration: 0.3363125
+    - name: Play_SFX_goomba_damage
+      guid: 3f97e0cdfb90f14390a842032ad51bf4
+      id: 2127445609
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Damage
+        ObjectType: 4
+        guid: 14a68921d0fa1a409afabced0ef0f441
+      - ElementName: Goomba
+        ObjectType: 4
+        guid: e03971442751664f8a2e4bbd92a26c37
+      - ElementName: Play_SFX_goomba_damage
+        ObjectType: 3
+        guid: 3f97e0cdfb90f14390a842032ad51bf4
+      Path: Events\SFX Events WU\Damage\Goomba\Play_SFX_goomba_damage
+      maxAttenuation: 40
+      maxDuration: 0.38838333
+      minDuration: 0.38838333
+    - name: Play_SFX_mooncake_spawn
+      guid: 6b6aba34f38178408811d824c0e86a6e
+      id: 2670212385
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Dough
+        ObjectType: 4
+        guid: f7d341678d4d0a46a2111d812740bee0
+      - ElementName: Play_SFX_mooncake_spawn
+        ObjectType: 3
+        guid: 6b6aba34f38178408811d824c0e86a6e
+      Path: Events\SFX Events WU\Dough\Play_SFX_mooncake_spawn
+      maxAttenuation: 40
+      maxDuration: 0.5659955
+      minDuration: 0.5659955
+    - name: Play_SFX_oven_done
+      guid: a9228dee81ab5d47a68ca238fe2ac8ef
+      id: 879751311
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Play_SFX_oven_done
+        ObjectType: 3
+        guid: a9228dee81ab5d47a68ca238fe2ac8ef
+      Path: Events\SFX Events WU\Play_SFX_oven_done
+      maxAttenuation: 40
+      maxDuration: 2.1422708
+      minDuration: 2.1422708
+    - name: Play_SFX_oven_start
+      guid: b2609b7d28204f4f9781c6ee8f1bc1a9
+      id: 2417319537
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Play_SFX_oven_start
+        ObjectType: 3
+        guid: b2609b7d28204f4f9781c6ee8f1bc1a9
+      Path: Events\SFX Events WU\Play_SFX_oven_start
+      maxAttenuation: 40
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_SFX_pickup_filling
+      guid: fcc73812b3fe0648bbdd8107d3a74d78
+      id: 629514194
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Pickups
+        ObjectType: 4
+        guid: 6f205f338990df4595544fd1464189db
+      - ElementName: Play_SFX_pickup_filling
+        ObjectType: 3
+        guid: fcc73812b3fe0648bbdd8107d3a74d78
+      Path: Events\SFX Events WU\Pickups\Play_SFX_pickup_filling
+      maxAttenuation: 40
+      maxDuration: 0.4720625
+      minDuration: 0.4720625
+    - name: Play_SFX_pickup_flour
+      guid: fa48654d6c3d23499571e2d9f2dca997
+      id: 208110303
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Pickups
+        ObjectType: 4
+        guid: 6f205f338990df4595544fd1464189db
+      - ElementName: Play_SFX_pickup_flour
+        ObjectType: 3
+        guid: fa48654d6c3d23499571e2d9f2dca997
+      Path: Events\SFX Events WU\Pickups\Play_SFX_pickup_flour
+      maxAttenuation: 40
+      maxDuration: 0.3005353
+      minDuration: 0.3005353
+    - name: Play_SFX_pickup_oil
+      guid: f7bbfc6ead208741a52aa90ea1fe54d3
+      id: 4274223795
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Pickups
+        ObjectType: 4
+        guid: 6f205f338990df4595544fd1464189db
+      - ElementName: Play_SFX_pickup_oil
+        ObjectType: 3
+        guid: f7bbfc6ead208741a52aa90ea1fe54d3
+      Path: Events\SFX Events WU\Pickups\Play_SFX_pickup_oil
+      maxAttenuation: 40
+      maxDuration: 0.33630386
+      minDuration: 0.33630386
+    - name: Play_SFX_pickup_sour
+      guid: 03305aeb1bb48c408eaa7d565c4f93e9
+      id: 634385826
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Pickups
+        ObjectType: 4
+        guid: 6f205f338990df4595544fd1464189db
+      - ElementName: Play_SFX_pickup_sour
+        ObjectType: 3
+        guid: 03305aeb1bb48c408eaa7d565c4f93e9
+      Path: Events\SFX Events WU\Pickups\Play_SFX_pickup_sour
+      maxAttenuation: 0
+      maxDuration: 0.93052083
+      minDuration: 0.93052083
+    - name: Play_SFX_pickup_sweet
+      guid: b61c16e0277bbd40a38892ea75984f4c
+      id: 2140887891
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Pickups
+        ObjectType: 4
+        guid: 6f205f338990df4595544fd1464189db
+      - ElementName: Play_SFX_pickup_sweet
+        ObjectType: 3
+        guid: b61c16e0277bbd40a38892ea75984f4c
+      Path: Events\SFX Events WU\Pickups\Play_SFX_pickup_sweet
+      maxAttenuation: 0
+      maxDuration: 0.915625
+      minDuration: 0.915625
+    - name: Play_SFX_pickup_syrup
+      guid: 0b41e80af875e642a1da25899f765680
+      id: 1865253394
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Pickups
+        ObjectType: 4
+        guid: 6f205f338990df4595544fd1464189db
+      - ElementName: Play_SFX_pickup_syrup
+        ObjectType: 3
+        guid: 0b41e80af875e642a1da25899f765680
+      Path: Events\SFX Events WU\Pickups\Play_SFX_pickup_syrup
+      maxAttenuation: 40
+      maxDuration: 0.60039586
+      minDuration: 0.60039586
+    - name: Play_SFX_pickup_water
+      guid: e29b7e155143994c9964001912b4a41f
+      id: 1341960766
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Pickups
+        ObjectType: 4
+        guid: 6f205f338990df4595544fd1464189db
+      - ElementName: Play_SFX_pickup_water
+        ObjectType: 3
+        guid: e29b7e155143994c9964001912b4a41f
+      Path: Events\SFX Events WU\Pickups\Play_SFX_pickup_water
+      maxAttenuation: 40
+      maxDuration: 0.49063492
+      minDuration: 0.49063492
+    - name: Play_SFX_tami_ball_land
+      guid: 1bb9397f9a096e4582e5269bf0a15dc0
+      id: 1507479957
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Tami Movement
+        ObjectType: 4
+        guid: d2768ad300f7194ea5f5dbb2be12dbbc
+      - ElementName: Ball
+        ObjectType: 4
+        guid: 2dcf81cc0b214643aac35e36e5f1e4dd
+      - ElementName: Play_SFX_tami_ball_land
+        ObjectType: 3
+        guid: 1bb9397f9a096e4582e5269bf0a15dc0
+      Path: Events\SFX Events WU\Tami Movement\Ball\Play_SFX_tami_ball_land
+      maxAttenuation: 0
+      maxDuration: 0.38585034
+      minDuration: 0.38585034
+    - name: Play_SFX_tami_ballcurl
+      guid: aabc999dbcb1334fbbf004a85ef1642a
+      id: 1665269913
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Tami Movement
+        ObjectType: 4
+        guid: d2768ad300f7194ea5f5dbb2be12dbbc
+      - ElementName: Ball
+        ObjectType: 4
+        guid: 2dcf81cc0b214643aac35e36e5f1e4dd
+      - ElementName: Play_SFX_tami_ballcurl
+        ObjectType: 3
+        guid: aabc999dbcb1334fbbf004a85ef1642a
+      Path: Events\SFX Events WU\Tami Movement\Ball\Play_SFX_tami_ballcurl
+      maxAttenuation: 0
+      maxDuration: 0.4405625
+      minDuration: 0.4405625
+    - name: Play_SFX_tami_ballrelease
+      guid: ba7f7255730b2f4f88518dde95cd101f
+      id: 3610297994
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Tami Movement
+        ObjectType: 4
+        guid: d2768ad300f7194ea5f5dbb2be12dbbc
+      - ElementName: Ball
+        ObjectType: 4
+        guid: 2dcf81cc0b214643aac35e36e5f1e4dd
+      - ElementName: Play_SFX_tami_ballrelease
+        ObjectType: 3
+        guid: ba7f7255730b2f4f88518dde95cd101f
+      Path: Events\SFX Events WU\Tami Movement\Ball\Play_SFX_tami_ballrelease
+      maxAttenuation: 0
+      maxDuration: 0.5053125
+      minDuration: 0.5053125
+    - name: Play_SFX_tami_ballroll
+      guid: 61a6afadce264943ba1fe178dec4a395
+      id: 2440939370
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Tami Movement
+        ObjectType: 4
+        guid: d2768ad300f7194ea5f5dbb2be12dbbc
+      - ElementName: Ball
+        ObjectType: 4
+        guid: 2dcf81cc0b214643aac35e36e5f1e4dd
+      - ElementName: BallRoll
+        ObjectType: 4
+        guid: 4140ad630716d34f842679bde68e62ee
+      - ElementName: Play_SFX_tami_ballroll
+        ObjectType: 3
+        guid: 61a6afadce264943ba1fe178dec4a395
+      Path: Events\SFX Events WU\Tami Movement\Ball\BallRoll\Play_SFX_tami_ballroll
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_SFX_tami_damage
+      guid: f8b191bb9006fc42999c8bc1f2f6509b
+      id: 2609742507
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Damage
+        ObjectType: 4
+        guid: 14a68921d0fa1a409afabced0ef0f441
+      - ElementName: Tami
+        ObjectType: 4
+        guid: 169d76e7121c5c4f834b8ae954803966
+      - ElementName: Play_SFX_tami_damage
+        ObjectType: 3
+        guid: f8b191bb9006fc42999c8bc1f2f6509b
+      Path: Events\SFX Events WU\Damage\Tami\Play_SFX_tami_damage
+      maxAttenuation: 0
+      maxDuration: 0.7099375
+      minDuration: 0.20341666
+    - name: Play_SFX_tami_fall_acid
+      guid: 9f9df9b99bcb1145a39cf119ce888510
+      id: 913391681
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Damage
+        ObjectType: 4
+        guid: 14a68921d0fa1a409afabced0ef0f441
+      - ElementName: Tami
+        ObjectType: 4
+        guid: 169d76e7121c5c4f834b8ae954803966
+      - ElementName: Play_SFX_tami_fall_acid
+        ObjectType: 3
+        guid: 9f9df9b99bcb1145a39cf119ce888510
+      Path: Events\SFX Events WU\Damage\Tami\Play_SFX_tami_fall_acid
+      maxAttenuation: 0
+      maxDuration: 1.3127503
+      minDuration: 1.3127503
+    - name: Play_SFX_tami_footsteps
+      guid: 476eb860515b684f9c3e6be2ad7696a6
+      id: 912070213
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Tami Movement
+        ObjectType: 4
+        guid: d2768ad300f7194ea5f5dbb2be12dbbc
+      - ElementName: Play_SFX_tami_footsteps
+        ObjectType: 3
+        guid: 476eb860515b684f9c3e6be2ad7696a6
+      Path: Events\SFX Events WU\Tami Movement\Play_SFX_tami_footsteps
+      maxAttenuation: 0
+      maxDuration: 0.2523669
+      minDuration: 0.15857998
+    - name: Play_SFX_tami_jump
+      guid: 00b49613f6a2c040ae71ba0b3b54d31b
+      id: 1814915300
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Tami Movement
+        ObjectType: 4
+        guid: d2768ad300f7194ea5f5dbb2be12dbbc
+      - ElementName: Play_SFX_tami_jump
+        ObjectType: 3
+        guid: 00b49613f6a2c040ae71ba0b3b54d31b
+      Path: Events\SFX Events WU\Tami Movement\Play_SFX_tami_jump
+      maxAttenuation: 0
+      maxDuration: 0.33804002
+      minDuration: 0.3190673
+    - name: Play_SFX_tami_land
+      guid: 4ab039db31ba4a4ba3b3eb77b038b31a
+      id: 1206898023
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Tami Movement
+        ObjectType: 4
+        guid: d2768ad300f7194ea5f5dbb2be12dbbc
+      - ElementName: Play_SFX_tami_land
+        ObjectType: 3
+        guid: 4ab039db31ba4a4ba3b3eb77b038b31a
+      Path: Events\SFX Events WU\Tami Movement\Play_SFX_tami_land
+      maxAttenuation: 0
+      maxDuration: 0.38585034
+      minDuration: 0.38585034
+    - name: Play_SFX_tami_moveTongue
+      guid: f301d5f169e92343adbb1c8baf27ce8e
+      id: 347798471
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Tami Movement
+        ObjectType: 4
+        guid: d2768ad300f7194ea5f5dbb2be12dbbc
+      - ElementName: Play_SFX_tami_moveTongue
+        ObjectType: 3
+        guid: f301d5f169e92343adbb1c8baf27ce8e
+      Path: Events\SFX Events WU\Tami Movement\Play_SFX_tami_moveTongue
+      maxAttenuation: 0
+      maxDuration: 0.8805909
+      minDuration: 0.8805909
+    - name: Play_SFX_tami_swing_ascend
+      guid: 8af2bba7050ae2418d48e6f3616a4dc4
+      id: 1944267675
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Tami Movement
+        ObjectType: 4
+        guid: d2768ad300f7194ea5f5dbb2be12dbbc
+      - ElementName: Swing
+        ObjectType: 4
+        guid: 1770e79004529246b8e42ce306d1b521
+      - ElementName: Play_SFX_tami_swing_ascend
+        ObjectType: 3
+        guid: 8af2bba7050ae2418d48e6f3616a4dc4
+      Path: Events\SFX Events WU\Tami Movement\Swing\Play_SFX_tami_swing_ascend
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_SFX_tami_swing_attach
+      guid: 256802168a981e4fb7c0656bd650dd1b
+      id: 1172593522
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Tami Movement
+        ObjectType: 4
+        guid: d2768ad300f7194ea5f5dbb2be12dbbc
+      - ElementName: Swing
+        ObjectType: 4
+        guid: 1770e79004529246b8e42ce306d1b521
+      - ElementName: Play_SFX_tami_swing_attach
+        ObjectType: 3
+        guid: 256802168a981e4fb7c0656bd650dd1b
+      Path: Events\SFX Events WU\Tami Movement\Swing\Play_SFX_tami_swing_attach
+      maxAttenuation: 0
+      maxDuration: 0.3800625
+      minDuration: 0.3800625
+    - name: Play_SFX_tami_swing_backward
+      guid: 1f1e14118b72f5449304d10b8b3a42dd
+      id: 1487574826
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Tami Movement
+        ObjectType: 4
+        guid: d2768ad300f7194ea5f5dbb2be12dbbc
+      - ElementName: Swing
+        ObjectType: 4
+        guid: 1770e79004529246b8e42ce306d1b521
+      - ElementName: Play_SFX_tami_swing_backward
+        ObjectType: 3
+        guid: 1f1e14118b72f5449304d10b8b3a42dd
+      Path: Events\SFX Events WU\Tami Movement\Swing\Play_SFX_tami_swing_backward
+      maxAttenuation: 0
+      maxDuration: 0.9093456
+      minDuration: 0.85830796
+    - name: Play_SFX_tami_swing_descend
+      guid: b9f0369fa4347c4984e8bab08844b95c
+      id: 1905326817
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Tami Movement
+        ObjectType: 4
+        guid: d2768ad300f7194ea5f5dbb2be12dbbc
+      - ElementName: Swing
+        ObjectType: 4
+        guid: 1770e79004529246b8e42ce306d1b521
+      - ElementName: Play_SFX_tami_swing_descend
+        ObjectType: 3
+        guid: b9f0369fa4347c4984e8bab08844b95c
+      Path: Events\SFX Events WU\Tami Movement\Swing\Play_SFX_tami_swing_descend
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_SFX_tami_swing_detach
+      guid: f6e6b4e304f8ee4c89f9d948980b8060
+      id: 4121447004
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Tami Movement
+        ObjectType: 4
+        guid: d2768ad300f7194ea5f5dbb2be12dbbc
+      - ElementName: Swing
+        ObjectType: 4
+        guid: 1770e79004529246b8e42ce306d1b521
+      - ElementName: Play_SFX_tami_swing_detach
+        ObjectType: 3
+        guid: f6e6b4e304f8ee4c89f9d948980b8060
+      Path: Events\SFX Events WU\Tami Movement\Swing\Play_SFX_tami_swing_detach
+      maxAttenuation: 0
+      maxDuration: 0.23172916
+      minDuration: 0.23172916
+    - name: Play_SFX_tami_swing_forward
+      guid: 95872d8e466e884697323e1002968c10
+      id: 15887648
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Tami Movement
+        ObjectType: 4
+        guid: d2768ad300f7194ea5f5dbb2be12dbbc
+      - ElementName: Swing
+        ObjectType: 4
+        guid: 1770e79004529246b8e42ce306d1b521
+      - ElementName: Play_SFX_tami_swing_forward
+        ObjectType: 3
+        guid: 95872d8e466e884697323e1002968c10
+      Path: Events\SFX Events WU\Tami Movement\Swing\Play_SFX_tami_swing_forward
+      maxAttenuation: 0
+      maxDuration: 0.7576737
+      minDuration: 0.71514875
+    - name: Play_SFX_tami_swing_max
+      guid: aae3bb3a88ced144b19246ee8cd888eb
+      id: 399175617
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Tami Movement
+        ObjectType: 4
+        guid: d2768ad300f7194ea5f5dbb2be12dbbc
+      - ElementName: Swing
+        ObjectType: 4
+        guid: 1770e79004529246b8e42ce306d1b521
+      - ElementName: Play_SFX_tami_swing_max
+        ObjectType: 3
+        guid: aae3bb3a88ced144b19246ee8cd888eb
+      Path: Events\SFX Events WU\Tami Movement\Swing\Play_SFX_tami_swing_max
+      maxAttenuation: 0
+      maxDuration: 0.2185
+      minDuration: 0.2185
+    - name: Play_SFX_tami_swing_min
+      guid: 0cb7b40101eef04d8ed0600ccc508b88
+      id: 533396543
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Tami Movement
+        ObjectType: 4
+        guid: d2768ad300f7194ea5f5dbb2be12dbbc
+      - ElementName: Swing
+        ObjectType: 4
+        guid: 1770e79004529246b8e42ce306d1b521
+      - ElementName: Play_SFX_tami_swing_min
+        ObjectType: 3
+        guid: 0cb7b40101eef04d8ed0600ccc508b88
+      Path: Events\SFX Events WU\Tami Movement\Swing\Play_SFX_tami_swing_min
+      maxAttenuation: 0
+      maxDuration: 0.1986613
+      minDuration: 0.1986613
+    - name: Play_SFX_tami_swing_swish
+      guid: 87d5295afdf7114c80cfaec934e30832
+      id: 2888170357
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Tami Movement
+        ObjectType: 4
+        guid: d2768ad300f7194ea5f5dbb2be12dbbc
+      - ElementName: Swing
+        ObjectType: 4
+        guid: 1770e79004529246b8e42ce306d1b521
+      - ElementName: Play_SFX_tami_swing_swish
+        ObjectType: 3
+        guid: 87d5295afdf7114c80cfaec934e30832
+      Path: Events\SFX Events WU\Tami Movement\Swing\Play_SFX_tami_swing_swish
+      maxAttenuation: 0
+      maxDuration: 0.9890208
+      minDuration: 0.9890208
+    - name: Play_UI_click
+      guid: 8cefed3bab789e4badc4211ff440bf8e
+      id: 1749424733
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: UI
+        ObjectType: 4
+        guid: f9f765c1037d9547873881aeb3d5eab6
+      - ElementName: Play_UI_click
+        ObjectType: 3
+        guid: 8cefed3bab789e4badc4211ff440bf8e
+      Path: Events\SFX Events WU\UI\Play_UI_click
+      maxAttenuation: 0
+      maxDuration: 0.5005208
+      minDuration: 0.5005208
+    - name: Play_UI_hover
+      guid: ad3be9db8b92104d938aa0904a3ddc3e
+      id: 1339559671
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: UI
+        ObjectType: 4
+        guid: f9f765c1037d9547873881aeb3d5eab6
+      - ElementName: Play_UI_hover
+        ObjectType: 3
+        guid: ad3be9db8b92104d938aa0904a3ddc3e
+      Path: Events\SFX Events WU\UI\Play_UI_hover
+      maxAttenuation: 0
+      maxDuration: 0.31758332
+      minDuration: 0.31758332
+    - name: Play_UI_tap
+      guid: 103f044335f818449e3195fcf47d9590
+      id: 2286464654
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: UI
+        ObjectType: 4
+        guid: f9f765c1037d9547873881aeb3d5eab6
+      - ElementName: Play_UI_tap
+        ObjectType: 3
+        guid: 103f044335f818449e3195fcf47d9590
+      Path: Events\SFX Events WU\UI\Play_UI_tap
+      maxAttenuation: 0
+      maxDuration: 0.17391667
+      minDuration: 0.17391667
+    - name: Play_UI_unhover
+      guid: 6ad4222e83a897429d55de9d0123d235
+      id: 1900432556
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: UI
+        ObjectType: 4
+        guid: f9f765c1037d9547873881aeb3d5eab6
+      - ElementName: Play_UI_unhover
+        ObjectType: 3
+        guid: 6ad4222e83a897429d55de9d0123d235
+      Path: Events\SFX Events WU\UI\Play_UI_unhover
+      maxAttenuation: 0
+      maxDuration: 0.1160625
+      minDuration: 0.1160625
+    - name: Stop_SFX_dough_drag
+      guid: 6099a465948e6d468bc4f0ab73e533be
+      id: 1323673866
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Dough
+        ObjectType: 4
+        guid: f7d341678d4d0a46a2111d812740bee0
+      - ElementName: Stop_SFX_dough_drag
+        ObjectType: 3
+        guid: 6099a465948e6d468bc4f0ab73e533be
+      Path: Events\SFX Events WU\Dough\Stop_SFX_dough_drag
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_SFX_dough_roll
+      guid: 74fea57d2620ea4f83794a038a42d3ed
+      id: 2133897397
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Dough
+        ObjectType: 4
+        guid: f7d341678d4d0a46a2111d812740bee0
+      - ElementName: Stop_SFX_dough_roll
+        ObjectType: 3
+        guid: 74fea57d2620ea4f83794a038a42d3ed
+      Path: Events\SFX Events WU\Dough\Stop_SFX_dough_roll
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_SFX_drag_goop
+      guid: ae46272346faf04794f8417a07136d34
+      id: 3339793614
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Pickups
+        ObjectType: 4
+        guid: 6f205f338990df4595544fd1464189db
+      - ElementName: Stop_SFX_drag_goop
+        ObjectType: 3
+        guid: ae46272346faf04794f8417a07136d34
+      Path: Events\SFX Events WU\Pickups\Stop_SFX_drag_goop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_SFX_tami_ballroll
+      guid: 8eccddf3c1a41c4abbce1968bd39b94f
+      id: 3485395160
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Tami Movement
+        ObjectType: 4
+        guid: d2768ad300f7194ea5f5dbb2be12dbbc
+      - ElementName: Ball
+        ObjectType: 4
+        guid: 2dcf81cc0b214643aac35e36e5f1e4dd
+      - ElementName: BallRoll
+        ObjectType: 4
+        guid: 4140ad630716d34f842679bde68e62ee
+      - ElementName: Stop_SFX_tami_ballroll
+        ObjectType: 3
+        guid: 8eccddf3c1a41c4abbce1968bd39b94f
+      Path: Events\SFX Events WU\Tami Movement\Ball\BallRoll\Stop_SFX_tami_ballroll
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_SFX_tami_swing_vertical
+      guid: 1c003cd609c5624199d5326e79b71eb5
+      id: 2566881809
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Tami Movement
+        ObjectType: 4
+        guid: d2768ad300f7194ea5f5dbb2be12dbbc
+      - ElementName: Swing
+        ObjectType: 4
+        guid: 1770e79004529246b8e42ce306d1b521
+      - ElementName: Stop_SFX_tami_swing_vertical
+        ObjectType: 3
+        guid: 1c003cd609c5624199d5326e79b71eb5
+      Path: Events\SFX Events WU\Tami Movement\Swing\Stop_SFX_tami_swing_vertical
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Swing
+      guid: 1770e79004529246b8e42ce306d1b521
+      id: 2386519981
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Tami Movement
+        ObjectType: 4
+        guid: d2768ad300f7194ea5f5dbb2be12dbbc
+      - ElementName: Swing
+        ObjectType: 4
+        guid: 1770e79004529246b8e42ce306d1b521
+      Path: Events\SFX Events WU\Tami Movement\Swing
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Tami
+      guid: 169d76e7121c5c4f834b8ae954803966
+      id: 3189969934
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Damage
+        ObjectType: 4
+        guid: 14a68921d0fa1a409afabced0ef0f441
+      - ElementName: Tami
+        ObjectType: 4
+        guid: 169d76e7121c5c4f834b8ae954803966
+      Path: Events\SFX Events WU\Damage\Tami
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Tami Movement
+      guid: d2768ad300f7194ea5f5dbb2be12dbbc
+      id: 1529743349
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: Tami Movement
+        ObjectType: 4
+        guid: d2768ad300f7194ea5f5dbb2be12dbbc
+      Path: Events\SFX Events WU\Tami Movement
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: UI
+      guid: f9f765c1037d9547873881aeb3d5eab6
+      id: 1551306167
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX Events WU
+        ObjectType: 12
+        guid: ba7dae39e9a9594fa2672fc4cd89799b
+      - ElementName: UI
+        ObjectType: 4
+        guid: f9f765c1037d9547873881aeb3d5eab6
+      Path: Events\SFX Events WU\UI
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  - PhysicalPath: Events\Test Events WU.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Test Events WU
+      ObjectType: 12
+      guid: 1a35b188f72a6e43a7d5bcb914b785b2
+    ParentPath: Events\Test Events WU
+    guid: 1a35b188f72a6e43a7d5bcb914b785b2
+    GuidInternal: 
+    m_lastTime: -8584230003718904000
+    List:
+    - name: Play_a440_4sec_0dBfs_01
+      guid: bdb0c27daecc4f449986d5ed022cf9f8
+      id: 1257356241
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Test Events WU
+        ObjectType: 12
+        guid: 1a35b188f72a6e43a7d5bcb914b785b2
+      - ElementName: Test Events
+        ObjectType: 4
+        guid: 824ad4d46f1c8840adb2218a3b655c3f
+      - ElementName: Play_a440_4sec_0dBfs_01
+        ObjectType: 3
+        guid: bdb0c27daecc4f449986d5ed022cf9f8
+      Path: Events\Test Events WU\Test Events\Play_a440_4sec_0dBfs_01
+      maxAttenuation: 0
+      maxDuration: 4
+      minDuration: 4
+    - name: Test Events
+      guid: 824ad4d46f1c8840adb2218a3b655c3f
+      id: 3356442328
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Test Events WU
+        ObjectType: 12
+        guid: 1a35b188f72a6e43a7d5bcb914b785b2
+      - ElementName: Test Events
+        ObjectType: 4
+        guid: 824ad4d46f1c8840adb2218a3b655c3f
+      Path: Events\Test Events WU\Test Events
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\AMB SC Parameters WU.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: AMB SC Parameters WU
+      ObjectType: 12
+      guid: 540baa0963523d4cb7928594a0055d34
+    ParentPath: Game Parameters\AMB SC Parameters WU
+    guid: 540baa0963523d4cb7928594a0055d34
+    GuidInternal: 
+    m_lastTime: -8584230003718888701
+    List:
+    - name: SC_AMB_BUS
+      guid: 4b2e43e740b3e040ba7f8e229a9658ef
+      id: 1724999881
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: AMB SC Parameters WU
+        ObjectType: 12
+        guid: 540baa0963523d4cb7928594a0055d34
+      - ElementName: SC_AMB_BUS
+        ObjectType: 13
+        guid: 4b2e43e740b3e040ba7f8e229a9658ef
+      Path: Game Parameters\AMB SC Parameters WU\SC_AMB_BUS
+    - name: SC_breathCycle
+      guid: 58c1d95fb3b2ed48830db92c1f6af067
+      id: 3915534442
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: AMB SC Parameters WU
+        ObjectType: 12
+        guid: 540baa0963523d4cb7928594a0055d34
+      - ElementName: SC_breathCycle
+        ObjectType: 13
+        guid: 58c1d95fb3b2ed48830db92c1f6af067
+      Path: Game Parameters\AMB SC Parameters WU\SC_breathCycle
+    - name: SC_Dragging
+      guid: 587b6e0ff2616a41874b1b1fc7e05ea8
+      id: 3227390961
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: AMB SC Parameters WU
+        ObjectType: 12
+        guid: 540baa0963523d4cb7928594a0055d34
+      - ElementName: SC_Dragging
+        ObjectType: 13
+        guid: 587b6e0ff2616a41874b1b1fc7e05ea8
+      Path: Game Parameters\AMB SC Parameters WU\SC_Dragging
+    - name: SC_Heart_Beat
+      guid: fec5d44ac49a644f81d45530968cb966
+      id: 1434265073
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: AMB SC Parameters WU
+        ObjectType: 12
+        guid: 540baa0963523d4cb7928594a0055d34
+      - ElementName: SC_Heart_Beat
+        ObjectType: 13
+        guid: fec5d44ac49a644f81d45530968cb966
+      Path: Game Parameters\AMB SC Parameters WU\SC_Heart_Beat
+    - name: SC_windZone
+      guid: 2a8379d6a324334bb168e1d2f7eae184
+      id: 397659350
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: AMB SC Parameters WU
+        ObjectType: 12
+        guid: 540baa0963523d4cb7928594a0055d34
+      - ElementName: SC_windZone
+        ObjectType: 13
+        guid: 2a8379d6a324334bb168e1d2f7eae184
+      Path: Game Parameters\AMB SC Parameters WU\SC_windZone
+  - PhysicalPath: Game Parameters\Audio Settings WU.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Audio Settings WU
+      ObjectType: 12
+      guid: a973aeb52e976d45b73218553d16d45b
+    ParentPath: Game Parameters\Audio Settings WU
+    guid: a973aeb52e976d45b73218553d16d45b
+    GuidInternal: 
+    m_lastTime: -8584230003718866873
+    List:
+    - name: DX_Volume
+      guid: 136b8bd292dca04593345895661bc8a1
+      id: 3728565946
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Audio Settings WU
+        ObjectType: 12
+        guid: a973aeb52e976d45b73218553d16d45b
+      - ElementName: DX_Volume
+        ObjectType: 13
+        guid: 136b8bd292dca04593345895661bc8a1
+      Path: Game Parameters\Audio Settings WU\DX_Volume
+    - name: Master_Volume
+      guid: e701fe4a2293f647bb5cf75b1e191ad1
+      id: 4179668880
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Audio Settings WU
+        ObjectType: 12
+        guid: a973aeb52e976d45b73218553d16d45b
+      - ElementName: Master_Volume
+        ObjectType: 13
+        guid: e701fe4a2293f647bb5cf75b1e191ad1
+      Path: Game Parameters\Audio Settings WU\Master_Volume
+    - name: MX_Volume
+      guid: bad0c0ec6a7aa648b5dcc44aa88a23c0
+      id: 1441253587
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Audio Settings WU
+        ObjectType: 12
+        guid: a973aeb52e976d45b73218553d16d45b
+      - ElementName: MX_Volume
+        ObjectType: 13
+        guid: bad0c0ec6a7aa648b5dcc44aa88a23c0
+      Path: Game Parameters\Audio Settings WU\MX_Volume
+    - name: SFX_Volume
+      guid: 5811aeb2b727e44ebb4b26ceadbee874
+      id: 1564184899
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Audio Settings WU
+        ObjectType: 12
+        guid: a973aeb52e976d45b73218553d16d45b
+      - ElementName: SFX_Volume
+        ObjectType: 13
+        guid: 5811aeb2b727e44ebb4b26ceadbee874
+      Path: Game Parameters\Audio Settings WU\SFX_Volume
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 8766e50cdfb74b4f9714ae63ddd59d87
+    ParentPath: Game Parameters\Default Work Unit
+    guid: 8766e50cdfb74b4f9714ae63ddd59d87
+    GuidInternal: 
+    m_lastTime: -8584230003718856331
+    List: []
+  - PhysicalPath: Game Parameters\Movement Parameters WU.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Movement Parameters WU
+      ObjectType: 12
+      guid: c5f0dcbb5131e84abf0738603b84d811
+    ParentPath: Game Parameters\Movement Parameters WU
+    guid: c5f0dcbb5131e84abf0738603b84d811
+    GuidInternal: 
+    m_lastTime: -8584230003718831043
+    List:
+    - name: Velocity_Magnitude
+      guid: e536acb071b7f448936435e867e43b61
+      id: 1110095543
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Movement Parameters WU
+        ObjectType: 12
+        guid: c5f0dcbb5131e84abf0738603b84d811
+      - ElementName: Velocity_Magnitude
+        ObjectType: 13
+        guid: e536acb071b7f448936435e867e43b61
+      Path: Game Parameters\Movement Parameters WU\Velocity_Magnitude
+    - name: Velocity_Magnitude_Peak
+      guid: 43537881c8838b4b85910dbc9b30b860
+      id: 2899052607
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Movement Parameters WU
+        ObjectType: 12
+        guid: c5f0dcbb5131e84abf0738603b84d811
+      - ElementName: Velocity_Magnitude_Peak
+        ObjectType: 13
+        guid: 43537881c8838b4b85910dbc9b30b860
+      Path: Game Parameters\Movement Parameters WU\Velocity_Magnitude_Peak
+    - name: Velocity_X
+      guid: 6133f0c7f243a545b7be371583fca8d8
+      id: 164475293
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Movement Parameters WU
+        ObjectType: 12
+        guid: c5f0dcbb5131e84abf0738603b84d811
+      - ElementName: Velocity_X
+        ObjectType: 13
+        guid: 6133f0c7f243a545b7be371583fca8d8
+      Path: Game Parameters\Movement Parameters WU\Velocity_X
+    - name: Velocity_Y
+      guid: 3b9b570a0c9f0f44bc00c817816f3a11
+      id: 164475292
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Movement Parameters WU
+        ObjectType: 12
+        guid: c5f0dcbb5131e84abf0738603b84d811
+      - ElementName: Velocity_Y
+        ObjectType: 13
+        guid: 3b9b570a0c9f0f44bc00c817816f3a11
+      Path: Game Parameters\Movement Parameters WU\Velocity_Y
+  - PhysicalPath: Game Parameters\SFX SC Parameters WU.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: SFX SC Parameters WU
+      ObjectType: 12
+      guid: d12e05646e16684893a8d1b295b4f4ad
+    ParentPath: Game Parameters\SFX SC Parameters WU
+    guid: d12e05646e16684893a8d1b295b4f4ad
+    GuidInternal: 
+    m_lastTime: -8584230003718820954
+    List:
+    - name: SC_Combat
+      guid: 153987d93712b240a119770dc2d7a767
+      id: 2097802854
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX SC Parameters WU
+        ObjectType: 12
+        guid: d12e05646e16684893a8d1b295b4f4ad
+      - ElementName: SC_Combat
+        ObjectType: 13
+        guid: 153987d93712b240a119770dc2d7a767
+      Path: Game Parameters\SFX SC Parameters WU\SC_Combat
+    - name: SC_Dialogue
+      guid: 39f14db20147da4b8c5ed5ba0d4b87e3
+      id: 3078721972
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX SC Parameters WU
+        ObjectType: 12
+        guid: d12e05646e16684893a8d1b295b4f4ad
+      - ElementName: SC_Dialogue
+        ObjectType: 13
+        guid: 39f14db20147da4b8c5ed5ba0d4b87e3
+      Path: Game Parameters\SFX SC Parameters WU\SC_Dialogue
+    - name: SC_Movement
+      guid: 431cd06d7af0ca438b54da2c7a559cc1
+      id: 803077317
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: SFX SC Parameters WU
+        ObjectType: 12
+        guid: d12e05646e16684893a8d1b295b4f4ad
+      - ElementName: SC_Movement
+        ObjectType: 13
+        guid: 431cd06d7af0ca438b54da2c7a559cc1
+      Path: Game Parameters\SFX SC Parameters WU\SC_Movement
+  - PhysicalPath: Game Parameters\Weather Parameters WU.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Weather Parameters WU
+      ObjectType: 12
+      guid: b9032a8e2f1a054dae693f57ddf984e9
+    ParentPath: Game Parameters\Weather Parameters WU
+    guid: b9032a8e2f1a054dae693f57ddf984e9
+    GuidInternal: 
+    m_lastTime: -8584230003718805792
+    List:
+    - name: windIntensity
+      guid: 47844d56d1e6b542a57ee1b5b56fc247
+      id: 1042517418
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Weather Parameters WU
+        ObjectType: 12
+        guid: b9032a8e2f1a054dae693f57ddf984e9
+      - ElementName: windIntensity
+        ObjectType: 13
+        guid: 47844d56d1e6b542a57ee1b5b56fc247
+      Path: Game Parameters\Weather Parameters WU\windIntensity
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: a4ad52d376766740bf4c538c008c76a3
+    ParentPath: States\Default Work Unit
+    guid: a4ad52d376766740bf4c538c008c76a3
+    GuidInternal: 
+    m_lastTime: -8584230002721200662
+    List:
+    - name: AbilityState
+      guid: d7e0cae70d130f4b9d73d972453724b3
+      id: 4143104860
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a4ad52d376766740bf4c538c008c76a3
+      - ElementName: AbilityState
+        ObjectType: 9
+        guid: d7e0cae70d130f4b9d73d972453724b3
+      Path: States\Default Work Unit\AbilityState
+      values:
+      - name: Ball
+        guid: 0c8080b65a91094a9120dffdf43eb3cf
+        id: 1777984502
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a4ad52d376766740bf4c538c008c76a3
+        - ElementName: AbilityState
+          ObjectType: 9
+          guid: d7e0cae70d130f4b9d73d972453724b3
+        - ElementName: Ball
+          ObjectType: 8
+          guid: 0c8080b65a91094a9120dffdf43eb3cf
+      - name: Default
+        guid: a1d2c0b155ade24e8e1550e18e61707d
+        id: 782826392
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a4ad52d376766740bf4c538c008c76a3
+        - ElementName: AbilityState
+          ObjectType: 9
+          guid: d7e0cae70d130f4b9d73d972453724b3
+        - ElementName: Default
+          ObjectType: 8
+          guid: a1d2c0b155ade24e8e1550e18e61707d
+      - name: None
+        guid: 396764f9bc8efa439ae88806e3c04bf6
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a4ad52d376766740bf4c538c008c76a3
+        - ElementName: AbilityState
+          ObjectType: 9
+          guid: d7e0cae70d130f4b9d73d972453724b3
+        - ElementName: None
+          ObjectType: 8
+          guid: 396764f9bc8efa439ae88806e3c04bf6
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: SceneSwitch
+      guid: b0c48f66c01b2847ac697c3b82b73853
+      id: 711545299
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a4ad52d376766740bf4c538c008c76a3
+      - ElementName: SceneSwitch
+        ObjectType: 9
+        guid: b0c48f66c01b2847ac697c3b82b73853
+      Path: States\Default Work Unit\SceneSwitch
+      values:
+      - name: BellyBar
+        guid: fd3a930e4c9e954aa95fda9e2109bbc0
+        id: 4224142038
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a4ad52d376766740bf4c538c008c76a3
+        - ElementName: SceneSwitch
+          ObjectType: 9
+          guid: b0c48f66c01b2847ac697c3b82b73853
+        - ElementName: BellyBar
+          ObjectType: 8
+          guid: fd3a930e4c9e954aa95fda9e2109bbc0
+      - name: Boss
+        guid: 04ce06f8bbc0d54094f0e0466ec695b0
+        id: 1560169506
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a4ad52d376766740bf4c538c008c76a3
+        - ElementName: SceneSwitch
+          ObjectType: 9
+          guid: b0c48f66c01b2847ac697c3b82b73853
+        - ElementName: Boss
+          ObjectType: 8
+          guid: 04ce06f8bbc0d54094f0e0466ec695b0
+      - name: Credits
+        guid: 2feae0420ae8584bbd2c0f04143a1cdd
+        id: 2201105581
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a4ad52d376766740bf4c538c008c76a3
+        - ElementName: SceneSwitch
+          ObjectType: 9
+          guid: b0c48f66c01b2847ac697c3b82b73853
+        - ElementName: Credits
+          ObjectType: 8
+          guid: 2feae0420ae8584bbd2c0f04143a1cdd
+      - name: Cutscene
+        guid: 841474586c804c4290e7b561abfebe6c
+        id: 1182958561
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a4ad52d376766740bf4c538c008c76a3
+        - ElementName: SceneSwitch
+          ObjectType: 9
+          guid: b0c48f66c01b2847ac697c3b82b73853
+        - ElementName: Cutscene
+          ObjectType: 8
+          guid: 841474586c804c4290e7b561abfebe6c
+      - name: MainMenu
+        guid: 981fa9e37fa2644c9d40387a4564ec72
+        id: 3604647259
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a4ad52d376766740bf4c538c008c76a3
+        - ElementName: SceneSwitch
+          ObjectType: 9
+          guid: b0c48f66c01b2847ac697c3b82b73853
+        - ElementName: MainMenu
+          ObjectType: 8
+          guid: 981fa9e37fa2644c9d40387a4564ec72
+      - name: None
+        guid: a515c4cc2ac8864fad75b4a1e1cecfa6
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a4ad52d376766740bf4c538c008c76a3
+        - ElementName: SceneSwitch
+          ObjectType: 9
+          guid: b0c48f66c01b2847ac697c3b82b73853
+        - ElementName: None
+          ObjectType: 8
+          guid: a515c4cc2ac8864fad75b4a1e1cecfa6
+      - name: Teahouse_EXT
+        guid: a6d9f342a9ce28499f933b5f39f8b30c
+        id: 939458395
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a4ad52d376766740bf4c538c008c76a3
+        - ElementName: SceneSwitch
+          ObjectType: 9
+          guid: b0c48f66c01b2847ac697c3b82b73853
+        - ElementName: Teahouse_EXT
+          ObjectType: 8
+          guid: a6d9f342a9ce28499f933b5f39f8b30c
+      - name: Teahouse_INT
+        guid: eaacdcafc3cc964097c17c1b5ccb2b96
+        id: 635489713
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a4ad52d376766740bf4c538c008c76a3
+        - ElementName: SceneSwitch
+          ObjectType: 9
+          guid: b0c48f66c01b2847ac697c3b82b73853
+        - ElementName: Teahouse_INT
+          ObjectType: 8
+          guid: eaacdcafc3cc964097c17c1b5ccb2b96
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 02280c1741208c428fb3590173143ca6
+    ParentPath: Switches\Default Work Unit
+    guid: 02280c1741208c428fb3590173143ca6
+    GuidInternal: 
+    m_lastTime: -8584230002721175503
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 441de1f3092cd948897a68803b3b376e
+    ParentPath: Triggers\Default Work Unit
+    guid: 441de1f3092cd948897a68803b3b376e
+    GuidInternal: 
+    m_lastTime: -8584230002721145166
+    List: []
+  ExpandedFileSystemItemIds: 0200000004000000050000000600000007000000090000000b0000000c0000000f000000110000001400000015000000210000002200000066000000680000006a0000006b0000006c0000006d000000
+  ExpandedWaapiItemIds: 0500000006000000070000000a0000000b0000000c0000000e0000001100000014000000150000002100000022000000
+  AutoSyncSelection: 0
+  autoPopulateEnabled: 1
+  currentDataSource: 1
+  CurrentPluginConfig: 

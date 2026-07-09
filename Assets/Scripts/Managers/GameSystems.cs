@@ -3,6 +3,8 @@ using UnityEngine;
 public class GameSystems : MonoBehaviour
 {
     public static GameSystems Instance { get; private set; }
+    
+    [SerializeField] private GameObject wwiseGlobalPrefab;
 
     private void Awake()
     {
@@ -16,17 +18,22 @@ public class GameSystems : MonoBehaviour
         {
             Destroy(gameObject); // Destroy duplicate instances
         }
+        
+        LoadWwiseGlobalSafely();
     }
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private void Start()
     {
-        
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void LoadWwiseGlobalSafely()
     {
-        
+        var _wwiseGlobal = FindAnyObjectByType<SoundtrackManager>();
+        if (_wwiseGlobal == null)
+        {
+            Instantiate(wwiseGlobalPrefab);
+        }
     }
 }

@@ -1,4 +1,5 @@
-using Unity.Mathematics;
+using System;
+using Unity.VisualScripting.FullSerializer;
 using UnityEngine;
 
 public class JumpingState : PlayerState
@@ -6,6 +7,7 @@ public class JumpingState : PlayerState
     private GrappleHandler _grappleHandler;
     private SwingHandler _swingHandler;
     private TongueTransformHandler _tongueTransformHandler;
+    private MovementHandlerBase _movementHandler;
 
     private MoveActionSO dynamicMoveAction;
     protected override MoveActionSO MoveActionOverride => dynamicMoveAction;
@@ -22,21 +24,14 @@ public class JumpingState : PlayerState
         Context = controller;
         dynamicMoveAction = move;
         dynamicJumpAction = jump;
+        _movementHandler = MovementHandlerFactory.GetHandler(MovementHandlerType.AIR, controller);
     }
 
     protected override void InitializeGravity()
     {
-        _jumpGravity = Context.CalculateJumpGravity(ActiveMoveAction, ActiveJumpAction);
-        _fastFallGravity = Context.CalculateFastFallGravity(ActiveMoveAction, ActiveJumpAction);
-        Gravity = _jumpGravity; 
-    }
-
-    private void ApplyExternalForces()
-    {
-        Vector3 force = Context.GetTotalExternalForce();
-        float weight = Context.StateMultiplier.Airborne;
-        force *= weight;
-        Context.Velocity += (float2) new Vector2(force.x, force.y) * Time.fixedDeltaTime;
+        _jumpGravity = Context.GravityProfile.CalculateJumpGravity(ActiveMoveAction, ActiveJumpAction);
+        _fastFallGravity = Context.GravityProfile.CalculateFastFallGravity(ActiveMoveAction, ActiveJumpAction);
+        Gravity = _jumpGravity;
     }
 
     private void ApplyJump()
@@ -63,23 +58,8 @@ public class JumpingState : PlayerState
 
     protected override void OnEnter()
     {
-        _initialJumpSpeed = Context.CalculateInitialJumpSpeed(ActiveMoveAction, ActiveJumpAction);
-
-        _grappleHandler = Context.GetComponent<GrappleHandler>();
-        if (_grappleHandler == null)
-        {
-            Debug.LogError("JumpingState :: GrappleHandler component not found on PlayerController.");
-            return;
-        }
-        _grappleHandler.OnGrappleRequested += HandleGrappleRequest;
-
-        _swingHandler = Context.GetComponent<SwingHandler>();
-        if(_swingHandler == null)
-        {
-            Debug.LogError("JumpingState :: SwingHandler component not found on PlayerController.");
-            return;
-        }
-        _swingHandler.OnSwingRequested += HandleSwingRequest;
+        Context.RaiseJumpStarted();
+        _initialJumpSpeed = Context.GravityProfile.CalculateInitialJumpSpeed(ActiveMoveAction, ActiveJumpAction);
 
         _tongueTransformHandler = Context.GetComponent<TongueTransformHandler>();
         if (_tongueTransformHandler == null)
@@ -95,51 +75,40 @@ public class JumpingState : PlayerState
     public override void FixedUpdateState()
     {
         Context.ApplyPhysics();
-        ApplyExternalForces();
-        Context.HandleAirMovementLogic(ActiveMoveAction, Gravity);
+        _movementHandler.Apply(Gravity, ActiveMoveAction);
         Context.UpdateBuffers();
-        // Apply fast fall gravity if jump is not held
+
         if (!Context.IsJumpHeld)
         {
-            Gravity = _fastFallGravity;
+            Context.Velocity.y *= ActiveJumpAction.jumpCutoffMultiplier;
+            Context.TransitionToState(new FallingState(Context, ActiveMoveAction, ActiveJumpAction));
+            return;
         }
-        
-        BaseState state = GetNextState();
 
+        BaseState state = GetNextState();
         if (state != null)
         {
             Context.TransitionToState(state);
         }
-        Context.SimulateStep();
+        Context.ResetFlags();
     }
 
-    protected override void OnExit() 
+    protected override void OnExit()
     {
-        if (_grappleHandler != null)
-        {
-            _grappleHandler.OnGrappleRequested -= HandleGrappleRequest;
-        }
-
-        if(_swingHandler != null)
-        {
-            _swingHandler.OnSwingRequested -= HandleSwingRequest;
-        }
-    }
-
-    private void HandleGrappleRequest(GrappleAbilitySO grappleAbility, Vector3 grapplePoint)
-    {
-        Context.TransitionToState(new GrapplingState(Context, grappleAbility, grapplePoint));
-    }
-
-    private void HandleSwingRequest(SwingAbilitySO swingAbility, Vector3 swingPoint)
-    {
-        Context.TransitionToState(new SwingingState(Context, swingAbility, swingPoint));
     }
 
     private void HandleTransformStateChange(TongueTransformEventArgs args)
     {
-        dynamicMoveAction = args.MoveAction;
-        dynamicJumpAction = args.JumpAction;
+        if (args.IsTransformed)
+        {
+            dynamicMoveAction = args.MoveAction;
+            dynamicJumpAction = args.JumpAction;
+        }
+        else
+        {
+            dynamicMoveAction = null;
+            dynamicJumpAction = null;
+        }
         InitializeGravity();
     }
 

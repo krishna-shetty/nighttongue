@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2daa91e956065124d83f59f460aeff50, type: 3}
+  m_Name: 85D2599D-AF63-4EB0-A1A7-BE565EDDC6C5
+  m_EditorClassIdentifier: 
+  objectName: Play_AMB_bar_drink_click
+  id: 1039376738
+  guid: 85D2599D-AF63-4EB0-A1A7-BE565EDDC6C5
+  IsInUserDefinedSoundBank: 1

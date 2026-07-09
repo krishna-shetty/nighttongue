@@ -1,11 +1,11 @@
 using UnityEngine;
-using Unity.Mathematics;
 
 public class GroundedState : PlayerState
 {
     private GrappleHandler _grappleHandler;
     private SwingHandler _swingHandler;
     private TongueTransformHandler _tongueTransformHandler;
+    private MovementHandlerBase _movementHandler;
 
     private MoveActionSO dynamicMoveAction;
     protected override MoveActionSO MoveActionOverride => dynamicMoveAction;
@@ -13,30 +13,19 @@ public class GroundedState : PlayerState
     private JumpActionSO dynamicJumpAction;
     protected override JumpActionSO JumpActionOverride => dynamicJumpAction;
 
+    private int fallingFrameCounter = 0;    // 1 frame delay before you can go to falling state
+                                            // avoids state thrashing when running on a slope.
+
     public GroundedState(PlayerController controller, MoveActionSO move = null, JumpActionSO jump = null)
     {
         Context = controller;
         dynamicMoveAction = move;
         dynamicJumpAction = jump;
+        _movementHandler = MovementHandlerFactory.GetHandler(MovementHandlerType.GROUNDED, controller);
     }
 
     protected override void OnEnter()
     {
-        _grappleHandler = Context.GetComponent<GrappleHandler>();
-        if (_grappleHandler != null)
-        {
-            _grappleHandler.OnGrappleRequested -= HandleGrappleRequest;
-        }
-        _grappleHandler.OnGrappleRequested += HandleGrappleRequest;
-
-        _swingHandler = Context.GetComponent<SwingHandler>();
-        if (_swingHandler == null)
-        {
-            Debug.LogError("GroundedState :: SwingHandler component not found on PlayerController.");
-            return;
-        }
-        _swingHandler.OnSwingRequested += HandleSwingRequest;
-
         _tongueTransformHandler = Context.GetComponent<TongueTransformHandler>();
         if (_tongueTransformHandler == null)
         {
@@ -44,16 +33,9 @@ public class GroundedState : PlayerState
             return;
         }
         _tongueTransformHandler.OnTransformStateChanged += HandleTransformRequest;
-    }
 
-    private void HandleGrappleRequest(GrappleAbilitySO grappleAbility, Vector3 grapplePoint)
-    {
-        Context.TransitionToState(new GrapplingState(Context, grappleAbility, grapplePoint));
-    }
-
-    private void HandleSwingRequest(SwingAbilitySO swingAbility, Vector3 swingPoint)
-    {
-        Context.TransitionToState(new SwingingState(Context, swingAbility, swingPoint));
+        fallingFrameCounter = 0;
+        Context.RaiseGroundedStart();
     }
 
     public override BaseState GetNextState()
@@ -65,7 +47,13 @@ public class GroundedState : PlayerState
         }
         if (!Context.GroundDetector.IsGrounded)
         {
-            return new FallingState(Context, ActiveMoveAction, ActiveJumpAction);
+            ++fallingFrameCounter;
+            if (fallingFrameCounter > 1)
+                return new FallingState(Context, ActiveMoveAction, ActiveJumpAction);
+        }
+        else
+        {
+            fallingFrameCounter = 0; // reset counter if still grounded
         }
         return null;
     }
@@ -73,40 +61,19 @@ public class GroundedState : PlayerState
     public override void FixedUpdateState()
     {
         Context.ApplyPhysics();
-        Context.HandleGroundedMovementLogic(ActiveMoveAction, Gravity);
-        ApplyExternalForces();
-        Context.UpdateBuffers(); 
+        _movementHandler.Apply(Gravity, ActiveMoveAction);
+        Context.UpdateBuffers();
         BaseState nextState = GetNextState();
         if (nextState != null)
         {
             Context.TransitionToState(nextState);
         }
-        Context.SimulateStep();
-    }
-
-    //2025.9.7ADD
-    public void ApplyExternalForces()
-    {
-        Vector3 windforce = Context.GetTotalExternalForce();
-        float weight = Context.StateMultiplier.Grounded;
-        Vector3 finalForce = windforce * weight;
-        float2 windForce2D = new float2(finalForce.x, finalForce.z);
-        Context.Velocity += windForce2D * Time.fixedDeltaTime;
+        Context.ResetFlags();
     }
 
     protected override void OnExit()
     {
-        if (_grappleHandler != null)
-        {
-            _grappleHandler.OnGrappleRequested -= HandleGrappleRequest;
-        }
-
-        if (_swingHandler != null)
-        {
-            _swingHandler.OnSwingRequested -= HandleSwingRequest;
-        }
-
-        if(_tongueTransformHandler != null)
+        if (_tongueTransformHandler != null)
         {
             _tongueTransformHandler.OnTransformStateChanged -= HandleTransformRequest;
         }
@@ -118,12 +85,26 @@ public class GroundedState : PlayerState
 
     private void HandleTransformRequest(TongueTransformEventArgs args)
     {
-        dynamicMoveAction = args.MoveAction;
-        dynamicJumpAction = args.JumpAction;
+        if (args.IsTransformed)
+        {
+            // entering ball
+            dynamicMoveAction = args.MoveAction;
+            dynamicJumpAction = args.JumpAction;
+        }
+        else
+        {
+            // exiting ball
+            dynamicMoveAction = null;
+            dynamicJumpAction = null;
+        }
         InitializeGravity();
     }
 
-    public override void UpdateState() { }
+    public override void UpdateState()
+    {
+        //_movementHandler.SimulateStep();
+    }
+
     public override void OnTriggerEnter(Collider other) { }
     public override void OnTriggerStay(Collider other) { }
     public override void OnTriggerExit(Collider other) { }

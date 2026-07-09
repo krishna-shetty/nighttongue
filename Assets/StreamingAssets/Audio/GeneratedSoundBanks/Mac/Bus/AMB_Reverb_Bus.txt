@@ -1,0 +1,3 @@
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	2622372973	AMB_Reverb_Bus			\Default Work Unit\Master Audio Bus\SFX Bus\AMB Bus\AMB_Reverb_Bus	
+

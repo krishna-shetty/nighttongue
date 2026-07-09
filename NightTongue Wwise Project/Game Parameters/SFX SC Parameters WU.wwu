@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{64052ED1-166E-4868-93A8-D1B295B4F4AD}" SchemaVersion="123">
+	<GameParameters>
+		<WorkUnit Name="SFX SC Parameters WU" ID="{64052ED1-166E-4868-93A8-D1B295B4F4AD}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="SC_Combat" ID="{D9873915-1237-40B2-A119-770DC2D7A767}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="SC_Movement" ID="{6DD01C43-F07A-43CA-8B54-DA2C7A559CC1}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="SC_Dialogue" ID="{B24DF139-4701-4BDA-8C5E-D5BA0D4B87E3}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

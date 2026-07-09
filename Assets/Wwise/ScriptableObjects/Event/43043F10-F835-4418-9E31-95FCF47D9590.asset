@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2daa91e956065124d83f59f460aeff50, type: 3}
+  m_Name: 43043F10-F835-4418-9E31-95FCF47D9590
+  m_EditorClassIdentifier: 
+  objectName: Play_UI_tap
+  id: 2286464654
+  guid: 43043F10-F835-4418-9E31-95FCF47D9590
+  IsInUserDefinedSoundBank: 1

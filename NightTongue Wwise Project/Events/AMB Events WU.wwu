@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8E7DE722-0BD3-4F16-BEBF-ACDD6B87088F}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="AMB Events WU" ID="{8E7DE722-0BD3-4F16-BEBF-ACDD6B87088F}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="18"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Teahouse" ID="{6A7C9C3A-B41F-4B35-9A2F-9A26EC1EF03B}" ShortID="893474445">
+					<ChildrenList>
+						<Event Name="Play_AMB_wind_zone" ID="{429AC4EE-274B-4E42-B499-EF15DEF6F4AD}">
+							<ChildrenList>
+								<Action Name="" ID="{989F1A52-70F9-4346-81FF-1D5B3B4EDDA6}" ShortID="600715137">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_wind_zone" ID="{0D3F70AA-37CF-41E1-BF30-CCBBC10D4D7E}" WorkUnitID="{C79C2F83-61A6-4F55-A1CA-BA0FB2DA614C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Teahouse_Blend_Container" ID="{F212E845-5035-48FD-A951-C78CD438A64A}">
+							<ChildrenList>
+								<Action Name="" ID="{7F3EAC19-BE69-4691-8084-F43F6F78B8B6}" ShortID="939013267">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Teahouse Blend Container" ID="{934A3F62-879C-4FB5-85B9-384593247345}" WorkUnitID="{104690AA-7EF5-4D8F-868F-17574466DB2A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_AMB_embers" ID="{0768E355-679F-47BC-B005-AC817DE8EB1B}">
+							<ChildrenList>
+								<Action Name="" ID="{47C9499D-DD52-46F8-8A46-7D0F475DFCDA}" ShortID="704281895">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_embers" ID="{883013BF-BDDE-4A88-B779-B9A44F974B9C}" WorkUnitID="{070D2280-4ECA-4BBD-ABC1-B6C64348283D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_AMB_fire" ID="{A8E1583D-6D67-44D3-8A36-7CE7DF0F7F09}">
+							<ChildrenList>
+								<Action Name="" ID="{893FA430-5AD5-4483-B891-5866A7EA764E}" ShortID="614835653">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_fire" ID="{24FBB299-BDBC-4392-A783-2E3036F57AFE}" WorkUnitID="{070D2280-4ECA-4BBD-ABC1-B6C64348283D}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Teahouse_INT_Blend_Container" ID="{EA552C35-C3EE-4DE7-947E-F32E2801880F}">
+							<ChildrenList>
+								<Action Name="" ID="{F0E547B8-357B-4760-A6B0-68CC12C68799}" ShortID="973315658">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Teahouse INT Blend Container" ID="{5E891664-CD63-4151-8A5F-FDFC33F47355}" WorkUnitID="{104690AA-7EF5-4D8F-868F-17574466DB2A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_AMB_plate_conveyor" ID="{98F04737-1361-4E2B-A0B7-28FA03DF76B2}">
+							<ChildrenList>
+								<Action Name="" ID="{33880845-A2C9-4BA3-B929-B52737A1FA16}" ShortID="149773498">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_plate_conveyor" ID="{A5182DEA-BD8E-4DC6-86E3-1A7A60209C7B}" WorkUnitID="{205AE6B8-2C05-446F-A943-92348021D600}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_AMB_cup_conveyor" ID="{A8D10E3B-B72C-4DA1-BCE2-EE5900ED0FFF}">
+							<ChildrenList>
+								<Action Name="" ID="{2C453B11-1214-40B4-9370-212562B6CE2F}" ShortID="242055720">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_cup_conveyor" ID="{FAB440D0-06B0-49DE-BA62-CA29B4832CF1}" WorkUnitID="{205AE6B8-2C05-446F-A943-92348021D600}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_AMB_cup_change_direction" ID="{936DC9C0-042F-4340-94B7-1BDC351DA33E}">
+							<ChildrenList>
+								<Action Name="" ID="{96BCA415-36E6-4340-9A21-0A1B75C9E335}" ShortID="468565632">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_cup_change_direction" ID="{6ADBB8E5-62C8-4369-8B13-F2D55E925B41}" WorkUnitID="{205AE6B8-2C05-446F-A943-92348021D600}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_AMB_utensils" ID="{1B407F22-E294-4791-8559-8E25F71CCB3C}">
+							<ChildrenList>
+								<Action Name="" ID="{D0723674-5ED9-4A3E-A339-5F2A5097D613}" ShortID="349094260">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_utensils" ID="{C1ADDCB7-DC00-46E1-BA14-5505C02D905F}" WorkUnitID="{205AE6B8-2C05-446F-A943-92348021D600}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_AMB_mooncake" ID="{D00E4D73-6487-44F6-BC86-608AC7D0CDB4}">
+							<ChildrenList>
+								<Action Name="" ID="{7347E92A-25AA-4CB7-8A97-97BB281A2F11}" ShortID="934211097">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="AMB_mooncake" ID="{63240D90-C323-4BC1-AD7B-39AB8B8820E9}" WorkUnitID="{BE4E5461-D428-4EDD-8E23-AD8F4A038102}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Play_Belly_Bar_Blend_Container" ID="{54CD3A5B-99DD-473F-AF1A-55B81E431BD1}">
+					<ChildrenList>
+						<Action Name="" ID="{A3253DE2-E60C-4E30-B626-A84390A95669}" ShortID="564473162">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Belly Bar Blend Container" ID="{E4AFFC61-7799-4D89-9471-A1F1255D0FE1}" WorkUnitID="{1DC17423-27AD-4D4A-8758-80ED738F07BC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Belly_Bar_Blend_Container" ID="{B3BB3BB1-3D51-4528-90A4-8D2441AA9BB0}">
+					<ChildrenList>
+						<Action Name="" ID="{7F95DF2E-BFBE-43CD-B638-71F1E0908EA5}" ShortID="762044877">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Belly Bar Blend Container" ID="{E4AFFC61-7799-4D89-9471-A1F1255D0FE1}" WorkUnitID="{1DC17423-27AD-4D4A-8758-80ED738F07BC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Heart_Blend_Container" ID="{061E305C-D192-4F62-80EA-47B9768628D4}">
+					<ChildrenList>
+						<Action Name="" ID="{17986E86-9A7D-43E1-857F-75FD0CDB256C}" ShortID="1004523768">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Heart Blend Container" ID="{6484B0BE-16A0-4A1F-BEDD-66F339757E02}" WorkUnitID="{3F3D8901-05BC-4F44-9963-56D8DC4468C2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Heart_Blend_Container" ID="{D2D6B351-E66D-456C-BD5B-D13E54AF40C4}">
+					<ChildrenList>
+						<Action Name="" ID="{3DC94F35-27DC-4168-B22E-B78C60099103}" ShortID="935961465">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Heart Blend Container" ID="{6484B0BE-16A0-4A1F-BEDD-66F339757E02}" WorkUnitID="{3F3D8901-05BC-4F44-9963-56D8DC4468C2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

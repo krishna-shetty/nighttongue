@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4F3D63DF-E636-471A-9B28-49C528538F61}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="DX Events WU" ID="{4F3D63DF-E636-471A-9B28-49C528538F61}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="22"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Bartender" ID="{7B8BEA04-E6E1-4885-86F3-E31E491C961D}" ShortID="170678993">
+					<ChildrenList>
+						<Event Name="Play_dx_bartender_y" ID="{6D65DED0-7025-4977-B220-1F9CA73B9634}">
+							<ChildrenList>
+								<Action Name="" ID="{CBD3ABE1-DA96-4458-B1BE-3EAFD42EE566}" ShortID="898173550">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_bartender_y" ID="{42B1F6C0-3329-4E69-AEAD-1227AB1CB810}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_bartender_z" ID="{C09FCD37-D9BD-432C-909A-78539C8454E4}">
+							<ChildrenList>
+								<Action Name="" ID="{D789DCF7-CC74-404E-9AC0-0BA9ABBF7FAB}" ShortID="998510243">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_bartender_z" ID="{8138774E-E08A-4460-9911-ED7945E28EDA}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_bartender_u" ID="{45BF76A0-FF8E-46EC-89D2-B14FC62A80B3}">
+							<ChildrenList>
+								<Action Name="" ID="{B08EE79A-A8B0-4ACC-B3A5-D58B3B1D7A64}" ShortID="939835872">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_bartender_u" ID="{3205B7DE-B840-471F-8AA4-584CB49079FA}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_bartender_v" ID="{C36F41DF-DDF2-4C9C-9773-309E5082BCB7}">
+							<ChildrenList>
+								<Action Name="" ID="{B076D972-E30C-449A-ABD5-8D6471847718}" ShortID="271683680">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_bartender_v" ID="{A84FA77A-03C0-42B3-8DFF-0FB4F925EB88}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_bartender_w" ID="{A3794EF7-7406-4F07-A75E-53DDD0C4AF76}">
+							<ChildrenList>
+								<Action Name="" ID="{AAD1A7EA-FF07-4915-85F0-3F3FD201753A}" ShortID="1057578672">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_bartender_w" ID="{4AE580E4-AE35-49C1-9441-53C20918C673}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_bartender_x" ID="{A5DA68E3-72EF-43B7-8779-61C4AC8389C9}">
+							<ChildrenList>
+								<Action Name="" ID="{C876A707-0171-4804-8C27-6B61215F78FB}" ShortID="586997957">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_bartender_x" ID="{405DC53F-0E3A-4EAA-82CF-17A9FD5ABE0A}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_bartender_t" ID="{6B421027-1811-4576-B2E9-032B1571C2DA}">
+							<ChildrenList>
+								<Action Name="" ID="{DA7CA912-0BD5-468D-9183-B52F8E1A2BA8}" ShortID="93002033">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_bartender_t" ID="{34AFF8E4-D2A4-4F20-A4CC-1D815B9AB29B}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_bartender_g" ID="{A4F4D3D4-5EA1-412E-AC5C-55495C2B0D97}">
+							<ChildrenList>
+								<Action Name="" ID="{BD8E9A97-26D0-4D0E-AB76-EBDAFB18A6F9}" ShortID="608557502">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_bartender_g" ID="{79EF971E-FCBD-4E5A-816D-112F456538F0}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_bartender_h" ID="{9EE809CB-13CD-48B1-8B6E-87F97693CAD1}">
+							<ChildrenList>
+								<Action Name="" ID="{4ED4AA0F-FDCE-40D8-B639-140A696B9A86}" ShortID="1070090424">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_bartender_h" ID="{1F436F80-4582-4E8B-84B7-955A70CEE56A}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_bartender_i" ID="{5B27B40B-9D41-4A2F-ABDE-7D560BD7E2A7}">
+							<ChildrenList>
+								<Action Name="" ID="{864EE945-8113-4CB9-A0A6-D6BC01ADD688}" ShortID="670528656">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_bartender_i" ID="{85B82431-1D90-4B85-824A-1CD87DDD5634}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_bartender_j" ID="{F925DB64-2A43-4B95-9E54-806E4C4882C8}">
+							<ChildrenList>
+								<Action Name="" ID="{01BAFDB4-D1B3-4D25-B03F-7DF85C4C6DC2}" ShortID="24181594">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_bartender_j" ID="{C15D360A-AE5D-4C02-86C8-64AA9D0A4700}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_bartender_k" ID="{00169A2C-07C8-4A1E-9C6D-19A6DD5FD3CA}">
+							<ChildrenList>
+								<Action Name="" ID="{A7EFA5C6-9A9D-4069-AA3C-15E10E80E7DC}" ShortID="858132477">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_bartender_k" ID="{92D6F491-A7D0-49E9-B7D2-D99F43C3D7F7}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_bartender_l" ID="{C6190AEE-83C2-42EC-B4CB-BC6551882B3F}">
+							<ChildrenList>
+								<Action Name="" ID="{0644ECBB-3D65-48E8-BDF3-13F4788EF688}" ShortID="428514718">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_bartender_l" ID="{BBD9D37C-25FF-4DD2-A08F-DB295A7385D9}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_bartender_m" ID="{A9ACB6C0-28E3-414E-8A7C-4DBEF981B266}">
+							<ChildrenList>
+								<Action Name="" ID="{F2A8BF24-3001-4F0C-B2AE-EDD56A223310}" ShortID="454321781">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_bartender_m" ID="{762B05FE-4D37-41D6-A93E-7F88BB10B697}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_bartender_n" ID="{E0B8D63B-ECE6-4358-92B4-84B02D11538B}">
+							<ChildrenList>
+								<Action Name="" ID="{833FD537-5E27-4D57-924C-864CEABD39E8}" ShortID="586791594">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_bartender_n" ID="{4D3B17EE-9B20-4077-843B-584D650C5A95}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_bartender_d" ID="{7B66E2CD-F874-4FD5-9230-8DE3486D92B9}">
+							<ChildrenList>
+								<Action Name="" ID="{58571586-A889-4E5B-94C6-23640C0E5128}" ShortID="555466160">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_bartender_d" ID="{D8359D02-93F3-41DC-BB4B-004C770000A6}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_bartender_b" ID="{8E58FEF8-FF05-4B83-9191-130A89CF4BC8}">
+							<ChildrenList>
+								<Action Name="" ID="{97BDCB44-A9D7-4617-9C7B-53D722B2FEA0}" ShortID="646432930">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_bartender_b" ID="{9D72421D-AEE0-4EFC-BF61-01E200E22E25}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_bartender_f" ID="{CC148389-C70D-452A-8D2D-C9D24D348C29}">
+							<ChildrenList>
+								<Action Name="" ID="{839713C4-B588-445E-92E5-52F273D8194E}" ShortID="559529733">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_bartender_f" ID="{4883C1BF-3E3C-44EB-BF8D-B3210E674F29}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_bartender_c" ID="{D23E6A6D-67A8-4BF6-B1A0-F2A4C1A6338E}">
+							<ChildrenList>
+								<Action Name="" ID="{B803F7A2-A6CE-4CE4-B99A-BABA8E62FF7F}" ShortID="81248283">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_bartender_c" ID="{95489555-0FCD-4F0C-B877-910C2353E5D2}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_bartender_a" ID="{A695E03A-F02C-47D1-B5F2-0A27B8CEF7D7}">
+							<ChildrenList>
+								<Action Name="" ID="{F3D34FA6-03EB-4CA8-82C2-35C87F0633DC}" ShortID="734371012">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_bartender_a" ID="{4AA09056-0F30-40EC-8109-AD67FA296762}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_bartender_e" ID="{031BA6EE-90DA-41A5-A959-437FB81E614F}">
+							<ChildrenList>
+								<Action Name="" ID="{2BCC6C1B-E53D-4307-9989-8385496DDD66}" ShortID="753442949">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_bartender_e" ID="{F2889D06-62B8-49E5-A14C-7E039B7F4CCD}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_bartender_o" ID="{782AC033-3CE0-4789-B307-CA1C7261CFC2}">
+							<ChildrenList>
+								<Action Name="" ID="{F3D7C2A4-EFAE-4A71-AB92-55797FF0277E}" ShortID="820791805">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_bartender_o" ID="{6E012BC9-5F2C-4DB8-9B1D-348DC6655618}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_bartender_p" ID="{14708319-5196-4AA1-AE3C-C8F4BA4FC497}">
+							<ChildrenList>
+								<Action Name="" ID="{BC1DCC84-1B24-40F2-A396-6DF1F2B5827D}" ShortID="708145629">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_bartender_p" ID="{894E25DC-CCD7-43E4-85EF-23972D97F995}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_bartender_q" ID="{3AEF0381-1FF9-4814-A3EB-749A4872F477}">
+							<ChildrenList>
+								<Action Name="" ID="{F5C1435A-4216-4875-B680-0EE31B49D6DA}" ShortID="761754509">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_bartender_q" ID="{6B147D51-5C63-46FE-88EB-581D163DB254}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_bartender_r" ID="{3B5D7F37-FC55-4765-92A4-A04BC272BBEA}">
+							<ChildrenList>
+								<Action Name="" ID="{341A2E30-C8EB-455A-966C-DD338978D43C}" ShortID="777054697">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_bartender_r" ID="{DCF5973A-176A-4A0D-B8FF-5852AE1484BD}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_bartender_s" ID="{247A7A80-060A-4DED-AD7E-24E2B35387FC}">
+							<ChildrenList>
+								<Action Name="" ID="{A91B9766-8592-4F83-B96F-87CDEA2453C8}" ShortID="480510804">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_bartender_s" ID="{70E82241-1533-4A11-A556-57E96D877598}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Alveolus" ID="{EE083568-BE97-4868-9BC5-279A19683805}" ShortID="1045608752">
+					<ChildrenList>
+						<Event Name="Play_dx_alveolus_b" ID="{0B658901-5960-451B-8004-3A38BB1CB50D}">
+							<ChildrenList>
+								<Action Name="" ID="{CA9FD8FC-BAF4-4216-B6FC-99980E866A13}" ShortID="97475721">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_alveolus_b" ID="{DAD0A317-E4FE-4E23-9608-4D0117A5C890}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_alveolus_a" ID="{F5AA7AB3-B270-4AF9-9D34-11217417F385}">
+							<ChildrenList>
+								<Action Name="" ID="{B9B9AF55-1313-4006-B32A-5D3ACC8E8A46}" ShortID="602520577">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_alveolus_a" ID="{D76B2E37-3758-4FF2-B534-711BD11C18AB}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_alveolus_c" ID="{C8487D57-392D-46E4-B008-BC364FB3E77C}">
+							<ChildrenList>
+								<Action Name="" ID="{4DB65A6F-A815-49DC-9C56-4A05576B09B3}" ShortID="636057743">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_alveolus_c" ID="{E75677F1-2644-4F31-9E5B-93393E2895B2}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_alveolus_d" ID="{C02E1316-546E-40FD-A1FE-F10BA3C9610A}">
+							<ChildrenList>
+								<Action Name="" ID="{9075FC54-5248-45D7-AFD5-2DA16CAF78E2}" ShortID="623838449">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_alveolus_d" ID="{1739436C-9A0C-41D0-9205-BBBD81655C96}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_alveolus_f" ID="{2A27DC1D-6055-4138-B6D1-943D248D9AE6}">
+							<ChildrenList>
+								<Action Name="" ID="{DD8F7608-9872-4A6B-AED4-3743BAA8E169}" ShortID="837055609">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_alveolus_f" ID="{3CA58A34-30F6-4DE5-9385-4C1B1A976F71}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_alveolus_e" ID="{0F06D6F7-43CA-40C0-B571-3DD3B9B4E86A}">
+							<ChildrenList>
+								<Action Name="" ID="{6EA90431-0CBE-4CC4-97E5-0B538162E097}" ShortID="655918379">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_alveolus_e" ID="{F66660C6-2B11-4C46-B7B8-28F3D8B6885A}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_alveolus_g" ID="{9F61E6F0-6B24-4ADA-9921-EEFE08179557}">
+							<ChildrenList>
+								<Action Name="" ID="{E4AFEAED-5FA3-42E1-AF85-5E43BAAD09CB}" ShortID="817658219">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_alveolus_g" ID="{07CF4236-CB0C-4405-8E3D-6F806D9ABF89}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_alveolus_h" ID="{C977A369-CFA6-4DB6-B52B-419994321C8D}">
+							<ChildrenList>
+								<Action Name="" ID="{B9E92C29-1B6B-4AA9-BBFB-99CEEF8AA0CA}" ShortID="929845855">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_alveolus_h" ID="{674340AC-82D7-43AB-8385-338B6B63E185}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_alveolus_i" ID="{216E7896-DE70-48D0-A27A-3BB7313FF01C}">
+							<ChildrenList>
+								<Action Name="" ID="{373F8EEF-56A7-4DF1-AB08-3F5D58F14568}" ShortID="19194935">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_alveolus_i" ID="{531C02CB-27CD-458D-8D95-92DB60AFE5C1}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_alveolus_j" ID="{9CB31792-563F-45CA-9711-1ACC0F482B03}">
+							<ChildrenList>
+								<Action Name="" ID="{58945372-17BB-45B0-84C8-3317B7168CB0}" ShortID="1004688778">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_alveolus_j" ID="{0D9F6408-31B8-4C9C-9A10-4362B8FD7C77}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_alveolus_k" ID="{950927E3-D4F2-4594-8E20-73D0BEF73C39}">
+							<ChildrenList>
+								<Action Name="" ID="{B8AC9575-4FD7-40B9-9123-C2B8D55D21C1}" ShortID="337933611">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_alveolus_k" ID="{284F7B9F-BCCA-46DD-9CD6-AA278BFAF88D}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_alveolus_l" ID="{7DD90837-2B07-4302-9954-AFE5ED78D879}">
+							<ChildrenList>
+								<Action Name="" ID="{6CD401B7-7DF5-4141-89D9-5709C52229C2}" ShortID="683219434">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_alveolus_l" ID="{37660B7C-AE46-4FE8-ADD0-7766E05BDDC4}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_alveolus_m" ID="{3E97F4CA-3A39-487D-B4D9-4E563035F696}">
+							<ChildrenList>
+								<Action Name="" ID="{9C4D0D9E-2E1A-4D8A-9C7C-F993E779F05D}" ShortID="919929961">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_alveolus_m" ID="{0FC9AE56-86FE-4E37-ACEB-C7DB47B2BFAC}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_alveolus_n" ID="{636E2CEE-7F76-47EC-ACA4-0E2ED9760751}">
+							<ChildrenList>
+								<Action Name="" ID="{A27C95AF-EA43-43A4-AE1A-1782DA769016}" ShortID="334032475">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_alveolus_n" ID="{A4CFC7BB-6F26-4803-9471-799C31ED7785}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_alveolus_o" ID="{A84C22C9-6849-46AD-ABFE-AED8EB35EE88}">
+							<ChildrenList>
+								<Action Name="" ID="{3F97642A-6149-471A-A8E2-3F87FE33B9CC}" ShortID="353050121">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_alveolus_o" ID="{A55D5009-CC2D-4941-9EE8-4100FDC0FEEC}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_alveolus_p" ID="{BF20D01E-1F1A-4132-9317-CF3F2390CE06}">
+							<ChildrenList>
+								<Action Name="" ID="{16163BCF-0C7D-4A80-8D6B-847800AC6F15}" ShortID="158964109">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_alveolus_p" ID="{D8DD1AFA-C41E-4F2A-839E-D1DF1DD89A27}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_alveolus_q" ID="{E5FFF95C-F38B-4432-B66B-87042BFA37A1}">
+							<ChildrenList>
+								<Action Name="" ID="{21B14843-9963-4267-8D58-4E542098605A}" ShortID="192241374">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_alveolus_q" ID="{D475C576-2A37-49DE-B886-DBA06A0EEE02}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_alveolus_r" ID="{37A2DD04-01E3-4EA6-935F-F537B7F6DC3F}">
+							<ChildrenList>
+								<Action Name="" ID="{36368824-A260-40B3-8668-71251287F011}" ShortID="915980979">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_alveolus_r" ID="{BE060D71-4A75-498B-B3B1-CADCE71041DD}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_alveolus_s" ID="{5332A205-99BD-4B08-A6F6-DA4AF8B363EB}">
+							<ChildrenList>
+								<Action Name="" ID="{88B30278-EA54-4189-9E79-3B810930ACA4}" ShortID="262558419">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_alveolus_s" ID="{48759829-4CDA-49E9-B149-AB9F40B6B5F8}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_alveolus_t" ID="{2C224C3F-8749-483E-8003-AF38F6D960B9}">
+							<ChildrenList>
+								<Action Name="" ID="{80C2750C-6C9B-4000-B648-8A8BF699B0DB}" ShortID="407657172">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_alveolus_t" ID="{C7680451-4C7E-4535-B538-CBABB0B8EC5E}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_alveolus_u" ID="{415C30D4-2E47-4C30-A4FF-CBE87A3B69A1}">
+							<ChildrenList>
+								<Action Name="" ID="{48CE6C35-A40A-484D-82A8-B71110CCE168}" ShortID="1058304885">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_alveolus_u" ID="{793FEC2D-1006-4EDA-BB37-3535D27134C3}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_alveolus_v" ID="{74041D24-22E3-4113-9D64-50B4843DB8F4}">
+							<ChildrenList>
+								<Action Name="" ID="{3759FDCE-E574-4CCD-8B45-A5A74C11E9A8}" ShortID="265572267">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_alveolus_v" ID="{AD01BF2D-53C3-4A00-AB2F-D28D20B697B1}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_alveolus_w" ID="{11EE042E-47F3-4A2E-9FF8-DB04FF35E91B}">
+							<ChildrenList>
+								<Action Name="" ID="{EDDB4C14-4DEC-45C4-A3E5-1C707CEEE9B0}" ShortID="676800664">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_alveolus_y" ID="{17697F20-1F16-4C42-AE89-BE59A45FC5A4}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_alveolus_x" ID="{2BEB3723-00CD-4AEB-99E3-B7C2F50181F7}">
+							<ChildrenList>
+								<Action Name="" ID="{F7CE458C-2C9C-49F8-90C4-FEC8FC482BDB}" ShortID="94274119">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_alveolus_x" ID="{B5ADA8E7-AD1E-4CC5-8E93-ED8FBAECC414}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_alveolus_y" ID="{555A64E4-9966-48B8-8EA4-926492ECE7B6}">
+							<ChildrenList>
+								<Action Name="" ID="{BDB3044D-9A79-4560-A89B-6A1EF8CACE8D}" ShortID="849586846">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_alveolus_w" ID="{9F77E615-72D0-4FF0-AE45-130051085C11}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_alveolus_z" ID="{F27C2A1D-95AF-4AC9-B53D-5215C026175B}">
+							<ChildrenList>
+								<Action Name="" ID="{5C953BE3-695B-4F65-82AD-B7BE18E96357}" ShortID="997463252">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_alveolus_z" ID="{9EA0EBFC-A4E5-4874-8D21-72FB4D923FE8}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Tami" ID="{00051C83-F03F-4085-91C7-3FC174479237}" ShortID="543435355">
+					<ChildrenList>
+						<Event Name="Play_dx_tami_r" ID="{5E1BD375-A087-455A-B425-1A102543608E}">
+							<ChildrenList>
+								<Action Name="" ID="{C255601B-6751-4C4D-BE35-10EA1097CCB3}" ShortID="335412585">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_tami_r" ID="{932F4759-FE33-47A2-B2AC-02944A0401FE}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_tami_d" ID="{DA5D39AB-966E-45AF-9609-42CDD93317FB}">
+							<ChildrenList>
+								<Action Name="" ID="{97F97D31-6B5E-4AF1-823B-9622260346A9}" ShortID="352415156">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_tami_d" ID="{DD71A0AD-7E62-4076-94F8-DEB11D3946BE}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_tami_t" ID="{5EF5AA96-0F3D-439A-BC9E-2411A7BC3484}">
+							<ChildrenList>
+								<Action Name="" ID="{02055D16-2B96-410F-AFE0-F90697538955}" ShortID="934569409">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_tami_t" ID="{C40EF6D4-39A4-4466-BD7A-4C9D880852C7}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_tami_u" ID="{09C56367-7DEC-4C3C-A301-589D28713DFE}">
+							<ChildrenList>
+								<Action Name="" ID="{E331596B-B649-429E-BFCF-C1236431FCF3}" ShortID="318571988">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_tami_u" ID="{138D0418-4410-41FC-A932-F4E50691AF9E}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_tami_n" ID="{97246B8E-7BC5-4011-A729-1053C6CF394B}">
+							<ChildrenList>
+								<Action Name="" ID="{0C4E799F-69D2-4EAB-92C4-CAFB0D4305B0}" ShortID="357312202">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_tami_n" ID="{9E665105-B44F-498E-9DD4-45855927FF1D}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_tami_f" ID="{5EBD40FF-36EA-4533-BFB1-4AA542FCA41A}">
+							<ChildrenList>
+								<Action Name="" ID="{10EC5A58-1FAB-494F-B87D-9FA57D41F0F7}" ShortID="827180225">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_tami_f" ID="{B2ABEA67-3683-4605-8871-DDEA0FC07EE5}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_tami_w" ID="{3DCE3859-969F-4247-B1EA-1DE6A907654A}">
+							<ChildrenList>
+								<Action Name="" ID="{708C3712-C073-41E9-A05A-DF9FF9274658}" ShortID="915797043">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_tami_w" ID="{A2F218C1-1D52-4ED3-BA38-A5DAD3146BE7}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_tami_x" ID="{68DD412B-9942-4EB1-ABCE-749F245F3B38}">
+							<ChildrenList>
+								<Action Name="" ID="{AD65B6B4-ABBB-4484-BA37-F6B8F1DDFE80}" ShortID="743868023">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_tami_x" ID="{9C035A41-DC9F-46FB-B230-6FC276499F09}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_tami_y" ID="{261E2F52-D522-461C-B53C-3B99E309F97C}">
+							<ChildrenList>
+								<Action Name="" ID="{56EFBA49-7013-4020-9979-EBF009221652}" ShortID="1024865588">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_tami_y" ID="{333B2E7D-2C9C-4A01-841F-E6E99D7588E2}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_tami_z" ID="{68A8B7F3-0178-449F-910F-D1BAA0804624}">
+							<ChildrenList>
+								<Action Name="" ID="{A70ABF95-17B3-45F7-BE39-E538F302FD24}" ShortID="921511095">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_tami_z" ID="{6BB0D6B3-B739-4A69-A5DB-A9247E786A18}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_tami_e" ID="{7ECE30FB-AE62-4D26-B62A-55E72914AAB3}">
+							<ChildrenList>
+								<Action Name="" ID="{2ADF886E-3F30-4C1D-9124-0843E6E968FC}" ShortID="712121372">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_tami_e" ID="{BA742B9B-5B32-45B1-82BB-3CC6A4CB0228}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_tami_s" ID="{DCE6F7C9-D40E-4518-8135-E9B32A91EA21}">
+							<ChildrenList>
+								<Action Name="" ID="{10AAE41D-D99D-426F-A03A-C002FDB5AA19}" ShortID="805445366">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_tami_s" ID="{90BC3D66-16E1-4B8B-9074-7AC60C2F7A91}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_tami_v" ID="{5B3BC293-58C0-4C6C-B8DC-0D5A8E87DD1F}">
+							<ChildrenList>
+								<Action Name="" ID="{2B928AF1-0FC5-4112-93F1-83993093A1F4}" ShortID="385244250">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_tami_v" ID="{0B78DFA3-0520-42B8-A91B-00CA5E51E46D}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_tami_g" ID="{9A376610-7DF6-4933-BDC2-EAA0A3638B30}">
+							<ChildrenList>
+								<Action Name="" ID="{EF86F0C0-606E-43E1-9BBF-8B529043A1FB}" ShortID="354346248">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_tami_g" ID="{9F939C8E-30BE-4FD5-806C-B67BFBB1E834}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_tami_h" ID="{822FF10D-3699-43BB-8DE9-93C6593BD00D}">
+							<ChildrenList>
+								<Action Name="" ID="{3229154E-27B6-4855-8096-2D55C18FB45F}" ShortID="3505607">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_tami_h" ID="{3FEE6CFC-EAFA-47DF-9ECB-E0FEE13174E3}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_tami_i" ID="{62646179-523C-403D-A54F-CC989EBF22FE}">
+							<ChildrenList>
+								<Action Name="" ID="{B3AE0975-BDBD-47FD-AF45-C67672D19F6B}" ShortID="47427661">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_tami_i" ID="{A19515D3-80D1-4A76-9725-F578E085D7BB}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_tami_j" ID="{939F1E41-BE01-45E5-A86C-579B4DDD421F}">
+							<ChildrenList>
+								<Action Name="" ID="{225DDCA4-D874-4E5B-B532-73A345174265}" ShortID="1003395295">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_tami_j" ID="{117C74D5-FD9C-4C07-8DC6-701E62CC82BA}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_tami_k" ID="{E4ABA2F5-3FC4-41BA-850B-839EABC0F2DA}">
+							<ChildrenList>
+								<Action Name="" ID="{86EBE3D8-BD67-437E-A705-008202DE1793}" ShortID="17795403">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_tami_k" ID="{4EFBE1B9-741B-46D1-816E-D49BFE5FB27F}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_tami_l" ID="{62DE78D4-3C63-4EDD-B1CF-4EFCB3A99FB8}">
+							<ChildrenList>
+								<Action Name="" ID="{1DD6A2C0-D8E9-428B-956C-435184506CD4}" ShortID="523009890">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_tami_l" ID="{87AA5849-4674-4A7D-B6E6-1A9EB5DC17BC}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_tami_m" ID="{367835CA-83A9-4BC3-AA0A-8F68BDB467AD}">
+							<ChildrenList>
+								<Action Name="" ID="{5DA56F3C-982B-4962-85B7-E289076DE1D3}" ShortID="220044108">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_tami_m" ID="{82A4793B-C7FA-4BC1-9167-FA269AB629BE}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_tami_o" ID="{5BF0D46A-1727-4627-9C4E-71F90CD51E10}">
+							<ChildrenList>
+								<Action Name="" ID="{92D463BD-942E-4299-AA56-9D5C7D611CD0}" ShortID="602268486">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_tami_o" ID="{71E6B98B-5726-4D62-BEFD-960B0F238B10}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_tami_p" ID="{9F441307-F31D-4FC8-8E64-2476CA45B5B8}">
+							<ChildrenList>
+								<Action Name="" ID="{E7956DB7-0E1B-4DD2-ABE2-C006C2D151E7}" ShortID="430840547">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_tami_p" ID="{FFFC3D1E-02F9-4710-8306-A30AD4A3E998}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_tami_q" ID="{E4B27B5B-0916-4711-B127-6247E6B63043}">
+							<ChildrenList>
+								<Action Name="" ID="{D63EE7CB-4F7B-4E53-A955-799AE8781233}" ShortID="625614950">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_tami_q" ID="{5EDE12D9-38D1-482D-802C-1EBE58BC9E4B}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_tami_b" ID="{B4461301-FEED-4C66-B2CA-788B7DD5E8D7}">
+							<ChildrenList>
+								<Action Name="" ID="{575F596C-F669-4DAC-BA6A-DE770506AEB0}" ShortID="177545155">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_tami_b" ID="{BCF4F19E-0B94-4373-B602-DAEE4790AAB6}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_tami_c" ID="{1049008C-37FE-44F7-8DB6-820003AB11C3}">
+							<ChildrenList>
+								<Action Name="" ID="{4C1CD0AE-F2B9-404B-8111-0A1A475FA51E}" ShortID="1036151671">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_tami_c" ID="{DB59C771-BD0D-4E5E-A13F-5F4A8ADDDFAC}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_dx_tami_a" ID="{6320C3E4-6E87-4341-BB4B-B28FB9524CA9}">
+							<ChildrenList>
+								<Action Name="" ID="{D44F9ABD-A9A3-47CC-8714-D8DA001F91BA}" ShortID="649310257">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="dx_tami_a" ID="{69D4C7EB-F832-4D65-9C15-C1FD4274FC56}" WorkUnitID="{385C55D0-3149-4830-AD17-BC896386264C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

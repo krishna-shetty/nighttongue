@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{09AA0B54-5263-4C3D-B792-8594A0055D34}" SchemaVersion="123">
+	<GameParameters>
+		<WorkUnit Name="AMB SC Parameters WU" ID="{09AA0B54-5263-4C3D-B792-8594A0055D34}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="SC_windZone" ID="{D679832A-24A3-4B33-B168-E1D2F7EAE184}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="SC_breathCycle" ID="{5FD9C158-B2B3-48ED-830D-B92C1F6AF067}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="SC_Dragging" ID="{0F6E7B58-61F2-416A-874B-1B1FC7E05EA8}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="SC_AMB_BUS" ID="{E7432E4B-B340-40E0-BA7F-8E229A9658EF}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="SC_Heart_Beat" ID="{4AD4C5FE-9AC4-4F64-81D4-5530968CB966}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
